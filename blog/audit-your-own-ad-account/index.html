@@ -13,16 +13,16 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="The twelve checks we run first on every account we take over, in the order we run them. Most of them find something.">
+<meta name="description" content="Run an ad account audit yourself: the twelve checks we work through on every account we take over, in order, and what each one usually turns up.">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Audit your own ad account in an afternoon">
-<meta property="og:description" content="The twelve checks we run first on every account we take over, in the order we run them. Most of them find something.">
+<meta property="og:description" content="Run an ad account audit yourself: the twelve checks we work through on every account we take over, in order, and what each one usually turns up.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/audit-your-own-ad-account/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Audit your own ad account in an afternoon">
-<meta name="twitter:description" content="The twelve checks we run first on every account we take over, in the order we run them. Most of them find something.">
+<meta name="twitter:description" content="Run an ad account audit yourself: the twelve checks we work through on every account we take over, in order, and what each one usually turns up.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <link rel="canonical" href="https://mediapuppies.com/blog/audit-your-own-ad-account/">
 <style>
@@ -50,7 +50,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Audit your own ad account in an afternoon", "description": "The twelve checks we run first on every account we take over, in the order we run them. Most of them find something.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-10", "dateModified": "2026-10-11", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/"}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/audit-your-own-ad-account/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Audit your own ad account in an afternoon", "description": "Run an ad account audit yourself: the twelve checks we work through on every account we take over, in order, and what each one usually turns up.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-10", "dateModified": "2026-10-11", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/"}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/audit-your-own-ad-account/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How often should I audit my ad account?", "acceptedAnswer": {"@type": "Answer", "text": "A full pass each quarter, and a short one whenever something changes sharply. The quarterly pass catches drift; the short one catches whatever just broke."}}, {"@type": "Question", "name": "What is the first thing to check?", "acceptedAnswer": {"@type": "Answer", "text": "Whether conversions are counted correctly. Every other number in the account is derived from that one, so an audit that starts anywhere else is measuring against a figure it has not verified."}}, {"@type": "Question", "name": "Can I audit my own account without being a media buyer?", "acceptedAnswer": {"@type": "Answer", "text": "Most of it, yes. Search terms, placements, geography, duplicated conversions and unfollowed leads are all readable by anyone willing to look. The judgement calls about structure and bidding are where experience starts to matter."}}, {"@type": "Question", "name": "What usually turns up?", "acceptedAnswer": {"@type": "Answer", "text": "Search terms nobody would want, placements nobody chose, conversions counted twice, geography outside the service area, and creative that stopped working months ago and was never switched off."}}]}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediapuppies.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mediapuppies.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Audit your own ad account in an afternoon", "item": "https://mediapuppies.com/blog/audit-your-own-ad-account/"}]}
@@ -102,8 +105,8 @@ article tr:last-child td{border-bottom:none}
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
 
-<p>This is the sequence we work through on a new account, roughly in order of how often it turns something up. None of it requires special tools.</p>
-<h2>Measurement first, always</h2>
+<p>An ad account audit does not need special tools. This is the sequence we work through on every account we take over, roughly in order of how often each check turns something up.</p>
+<h2>Start every ad account audit with measurement</h2>
 <p><strong>1. Compare platform conversions against your own records.</strong> Same window, same dates. If the platforms report more than your back end recorded, something is double-counting. If far fewer, something is being lost. Everything downstream of this is unreliable until it reconciles.</p>
 <p><strong>2. Check which conversion actions are primary.</strong> A phone call, a form fill and a thank-you page view from the same person counted three times makes an account look twice as good as it is.</p>
 <p><strong>3. Look at event match quality.</strong> In Meta's events manager. A Conversions API that is connected but matching poorly shows a reassuring green tick and does very little.</p>
@@ -127,6 +130,9 @@ article tr:last-child td{border-bottom:none}
 <p>Fix measurement before anything else — optimising on bad data is worse than not optimising. Then waste. Then structure, once, with the reasoning written down. Creative last, because it is the slowest to change and the easiest to blame.</p>
 <p>If you want the shorter version to work through first, <a href="/blog/wasted-ad-spend/">ten places budget leaks</a> covers what turns up most often. An audit is also the best possible substitute for a pitch &mdash; <a href="/blog/marketing-agency-rfp/">asking shortlisted agencies for one</a> tells you more than a presentation.</p>
 <p>If you would rather have someone else do this and write it up, the <a href="/free-ad-account-audit/">audit is free</a> and yours to keep whether or not you work with us.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How often should I audit my ad account?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">A full pass each quarter, and a short one whenever something changes sharply. The quarterly pass catches drift; the short one catches whatever just broke.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is the first thing to check?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Whether conversions are counted correctly. Every other number in the account is derived from that one, so an audit that starts anywhere else is measuring against a figure it has not verified.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Can I audit my own account without being a media buyer?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Most of it, yes. Search terms, placements, geography, duplicated conversions and unfollowed leads are all readable by anyone willing to look. The judgement calls about structure and bidding are where experience starts to matter.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What usually turns up?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Search terms nobody would want, placements nobody chose, conversions counted twice, geography outside the service area, and creative that stopped working months ago and was never switched off.</p></details></div>
+
 
     </article>
 
