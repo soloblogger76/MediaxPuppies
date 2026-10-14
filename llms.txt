@@ -1,44 +1,153 @@
 # Media Puppies
 
-> Performance marketing agency in Delhi NCR, India. Eight years, $10M+ in
-> managed ad spend, 150+ clients, zero ad account bans. We run Meta and
-> Google ads, SEO, influencer marketing and AI automation for D2C brands
-> and lead-generation businesses, and report in cost per customer rather
-> than impressions.
+> Performance marketing agency in Noida, Delhi NCR, India. We run Meta and
+> Google ads, SEO and AI automation for businesses where one customer is
+> worth real money, and we report in cost per customer rather than
+> impressions. Founded 2018. Month to month, no lock-in. We audit an
+> account before quoting, and we say no when paid media is not the right
+> spend yet.
 
-## What we do
+Updated 14 October 2026. 153 articles, 26 free calculators, 39 service and
+market pages.
 
-- [Services](https://mediapuppies.com/services/): performance marketing, SEO, influencer marketing, AI automation, conversion systems, creative, tracking and attribution
-- [SEO](https://mediapuppies.com/seo-services/): technical SEO, buying-intent content, local SEO and earned authority, reported in organic leads
-- [Work](https://mediapuppies.com/work/): case studies — 4.2x ROAS for D2C skincare, ₹184 per lead for interior design, ₹312 per booked consult for an aesthetics clinic
+## How we charge
 
-## Who we work with
+A flat monthly retainer, month to month, no lock-in. Never a percentage of
+ad spend, because that pays an agency more for spending more of your money
+and makes "reduce this budget" an expensive sentence to say. We quote after
+a free audit of the live account rather than before, because the honest
+number depends on what the account actually needs. Our floor is roughly
+₹50,000 a month in ad spend — below that an account cannot gather enough
+conversions to optimise against, and we say so rather than take the fee.
 
-D2C and ecommerce, real estate, clinics and aesthetics, interior design,
-education, and solar — businesses in India where one customer is worth
-real money. Engagements are month-to-month with no lock-in. We audit
-before we pitch, and we say no when paid media is not the right spend yet.
+- Pricing: https://mediapuppies.com/pricing/
+- How we work, first 90 days: https://mediapuppies.com/process/
+- What the reporting contains: https://mediapuppies.com/reporting/
+- Free ad account audit: https://mediapuppies.com/free-ad-account-audit/
 
-## Most useful articles
+## Services
 
-- [How much to spend on Meta Ads in India](https://mediapuppies.com/blog/meta-ads-budget-india/): deriving a budget from your own margins
-- [7 reasons your cost per lead is high](https://mediapuppies.com/blog/why-cost-per-lead-is-high/): what audits actually find, ranked by frequency
-- [What a customer costs in Indian D2C](https://mediapuppies.com/blog/d2c-cac-india/): calculating a defensible CAC ceiling
-- [How to choose a marketing agency in India](https://mediapuppies.com/blog/how-to-choose-marketing-agency-india/): questions to ask and six red flags
-- [SEO and paid ads together](https://mediapuppies.com/blog/seo-and-paid-ads-together/): why running them separately wastes both budgets
-- [Showing up inside AI answers](https://mediapuppies.com/blog/ai-search-optimisation-india/): what influences whether an assistant cites a business
-- [The marketing operating rhythm](https://mediapuppies.com/blog/marketing-operating-rhythm/): what to do daily, weekly and monthly
+- Performance marketing: https://mediapuppies.com/performance-marketing/
+- Google Ads: https://mediapuppies.com/google-ads-agency/
+- Meta ads: https://mediapuppies.com/meta-ads-agency/
+- LinkedIn ads: https://mediapuppies.com/linkedin-ads-agency/
+- TikTok ads: https://mediapuppies.com/tiktok-ads-agency/
+- SEO: https://mediapuppies.com/seo-services/
+- AI automation: https://mediapuppies.com/ai-automation/
+- Hire a media buyer: https://mediapuppies.com/hire-a-media-buyer/
+- White label PPC for agencies: https://mediapuppies.com/white-label-ppc-agency/
+- Agency partner program: https://mediapuppies.com/agency-partner-program/
+
+## By industry
+
+- Ecommerce and D2C: https://mediapuppies.com/ecommerce-ppc-agency/
+- Shopify: https://mediapuppies.com/shopify-ads-agency/
+- B2B lead generation: https://mediapuppies.com/b2b-lead-generation-agency/
+- SaaS: https://mediapuppies.com/saas-performance-marketing-agency/
+- Real estate: https://mediapuppies.com/real-estate-lead-generation-agency/
+- Home services: https://mediapuppies.com/home-services-lead-generation/
+
+## By market
+
+India (Noida, Delhi, Gurugram, Mumbai, Bengaluru, Hyderabad) plus the US,
+UK, UAE and Australia from a single team in Noida.
+
+- https://mediapuppies.com/performance-marketing-agency-noida/
+- https://mediapuppies.com/performance-marketing-agency-delhi/
+- https://mediapuppies.com/performance-marketing-agency-gurgaon/
+- https://mediapuppies.com/performance-marketing-agency-mumbai/
+- https://mediapuppies.com/performance-marketing-agency-bengaluru/
+- https://mediapuppies.com/performance-marketing-agency-hyderabad/
+- https://mediapuppies.com/performance-marketing-agency-usa/
+- https://mediapuppies.com/performance-marketing-agency-uk/
+- https://mediapuppies.com/performance-marketing-agency-dubai/
+- https://mediapuppies.com/performance-marketing-agency-australia/
+
+## Choosing and working with an agency
+
+Written for people deciding whether to hire anyone, and what to ask.
+
+- [Fifteen questions to ask a performance marketing agency](https://mediapuppies.com/blog/questions-to-ask-a-performance-marketing-agency/)
+- [How to choose a marketing agency in India](https://mediapuppies.com/blog/how-to-choose-marketing-agency-india/): six red flags
+- [What a performance marketing agency costs](https://mediapuppies.com/blog/what-performance-marketing-costs/): retainer, percentage and performance models compared
+- [Google Ads management cost](https://mediapuppies.com/blog/google-ads-management-cost/)
+- [Who owns your ad account](https://mediapuppies.com/blog/who-owns-your-ad-account/): the clause that decides what leaving costs
+- [The nine clauses that matter in a marketing agency contract](https://mediapuppies.com/blog/marketing-agency-contract/)
+- [Who works on your account](https://mediapuppies.com/blog/who-actually-works-on-your-account/): how agency teams are really staffed
+- [Why nobody can guarantee you a ROAS](https://mediapuppies.com/blog/roas-guarantees-red-flag/)
+- [Pay-per-lead agencies and what the model hides](https://mediapuppies.com/blog/pay-per-lead-agency/)
+- [Does the Google Partner badge mean anything](https://mediapuppies.com/blog/google-partner-badge-worth-it/)
+- [How to evaluate agency case studies](https://mediapuppies.com/blog/how-to-evaluate-agency-case-studies/)
+- [Agency vs in-house vs freelancer](https://mediapuppies.com/blog/agency-vs-inhouse-vs-freelancer/)
+- [Minimum ad budget before an agency is worth it](https://mediapuppies.com/blog/minimum-ad-budget-for-an-agency/)
+- [How long until paid ads work](https://mediapuppies.com/blog/how-long-until-paid-ads-work/)
+- [Seven signs your agency has stopped doing the work](https://mediapuppies.com/blog/signs-your-agency-is-underperforming/)
+- [How to leave a marketing agency without losing the account](https://mediapuppies.com/blog/leaving-an-agency-cleanly/)
+
+## Marketing economics
+
+- [How to set your own cost per lead target](https://mediapuppies.com/blog/cost-per-lead-target/): from margin and close rate, not a benchmark
+- [CAC payback period](https://mediapuppies.com/blog/cac-payback-period/): the number that caps growth
+- [The LTV to CAC ratio, calculated honestly](https://mediapuppies.com/blog/ltv-cac-ratio-explained/)
+- [What a customer costs in Indian D2C](https://mediapuppies.com/blog/d2c-cac-india/)
+- [Why your cost per lead is high](https://mediapuppies.com/blog/why-cost-per-lead-is-high/): seven causes, ranked by frequency
+- [Ten places wasted ad spend hides](https://mediapuppies.com/blog/wasted-ad-spend/)
+- [Scaling ad spend without losing your return](https://mediapuppies.com/blog/scaling-ad-spend-without-losing-roas/)
+- [Platform ROAS is not profit](https://mediapuppies.com/blog/platform-roas-vs-blended-mer/)
+- [The seven marketing numbers a founder should watch](https://mediapuppies.com/blog/marketing-metrics-founders-track/)
+
+## Running the channels
+
+- [How much to spend on Meta Ads in India](https://mediapuppies.com/blog/meta-ads-budget-india/)
+- [Learning limited: what it means](https://mediapuppies.com/blog/meta-learning-phase-explained/)
+- [How to structure a Google Search campaign](https://mediapuppies.com/blog/google-search-ads-structure/)
+- [Performance Max for Indian businesses](https://mediapuppies.com/blog/performance-max-india/)
+- [Google or Meta first](https://mediapuppies.com/blog/google-or-meta-first/)
+- [A creative testing framework](https://mediapuppies.com/blog/creative-testing-framework/)
+- [Running ads in multiple countries](https://mediapuppies.com/blog/running-ads-in-multiple-countries/)
+- [High ticket lead generation](https://mediapuppies.com/blog/high-ticket-lead-generation/)
+- [Audit your own ad account in an afternoon](https://mediapuppies.com/blog/audit-your-own-ad-account/)
+
+## SEO and AI search
+
+- [SEO and paid ads together](https://mediapuppies.com/blog/seo-and-paid-ads-together/)
+- [Showing up inside AI answers](https://mediapuppies.com/blog/ai-search-optimisation-india/)
+- [Is ChatGPT sending you traffic](https://mediapuppies.com/blog/chatgpt-traffic-website/)
+- [Does Google penalise AI content](https://mediapuppies.com/blog/does-google-penalise-ai-content/)
+- [Internal linking: the free SEO nobody does](https://mediapuppies.com/blog/internal-linking-strategy/)
+- [A technical SEO checklist](https://mediapuppies.com/blog/technical-seo-checklist/)
+- [Local SEO in India](https://mediapuppies.com/blog/local-seo-india/)
+
+## Free calculators
+
+Twenty-six browser-only tools. Nothing is sent to a server; the arithmetic
+runs in the page and nothing typed into them is stored or transmitted.
+
+https://mediapuppies.com/tools/ — including break-even ROAS, blended ROAS
+and MER, CAC payback, customer lifetime value, contribution margin, lead
+funnel, Meta learning phase, ad frequency, budget pacing, PPC forecast,
+A/B test sample size and significance, GST on ad spend, marketplace payout,
+COD versus prepaid, creative volume, churn and retention, agency versus
+in-house cost, influencer rate, UTM builder and SERP snippet preview.
+
+## Common questions
+
+Fifteen questions with short, self-contained answers: what it costs, how long
+it takes, who owns the ad account, and how to tell a good agency from a
+confident one.
+
+https://mediapuppies.com/faq/
 
 ## Full content
 
-- [Blog](https://mediapuppies.com/blog/): 66 articles on performance marketing, SEO, AI in marketing, and conversion
-- [Sitemap](https://mediapuppies.com/sitemap.xml)
+- All 153 articles: https://mediapuppies.com/blog/
+- Case studies: https://mediapuppies.com/work/
+- Sitemap: https://mediapuppies.com/sitemap.xml
 
 ## Contact
 
-- About: https://mediapuppies.com/about/
-- Free tools (11 browser-only marketing calculators): https://mediapuppies.com/tools/
 - Enquiries: https://mediapuppies.com/lead-generation/
-- Free SEO audit: https://mediapuppies.com/seo-services/
-- Phone: +91 81100 00076
+- Email: info@mediapuppies.com
+- WhatsApp: https://wa.me/918110000076
+- About: https://mediapuppies.com/about/
 - LinkedIn: https://www.linkedin.com/company/mediapuppies/
