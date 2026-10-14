@@ -14,15 +14,15 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="A founder's guide to Google Search Console — which reports matter, how often to check, and the settings people get wrong.">
+<meta name="description" content="A founder guide to Google Search Console: the four reports that matter, how often to open them, and the settings most people get wrong on day one.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="Search Console: the four reports worth opening">
-<meta property="og:description" content="A founder's guide to Google Search Console — which reports matter, how often to check, and the settings people get wrong.">
+<meta property="og:description" content="A founder guide to Google Search Console: the four reports that matter, how often to open them, and the settings most people get wrong on day one.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Search Console: the four reports worth opening">
-<meta name="twitter:description" content="A founder's guide to Google Search Console — which reports matter, how often to check, and the settings people get wrong.">
+<meta name="twitter:description" content="A founder guide to Google Search Console: the four reports that matter, how often to open them, and the settings most people get wrong on day one.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/google-search-console-guide/">
 <link rel="canonical" href="https://mediapuppies.com/blog/google-search-console-guide/">
@@ -51,7 +51,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Search Console: the four reports worth opening","description":"A founder's guide to Google Search Console \u2014 which reports matter, how often to check, and the settings people get wrong.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-09-15","dateModified":"2026-09-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/google-search-console-guide/"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Search Console: the four reports worth opening","description":"A founder's guide to Google Search Console \u2014 which reports matter, how often to check, and the settings people get wrong.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-09-15","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/google-search-console-guide/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Domain property or URL prefix?", "acceptedAnswer": {"@type": "Answer", "text": "Domain, almost always — it covers every subdomain and both protocols in one place. It needs DNS verification, which is a five-minute job wherever your nameservers live."}}, {"@type": "Question", "name": "Why do Search Console and my analytics disagree?", "acceptedAnswer": {"@type": "Answer", "text": "They measure different events at different points, and Search Console samples. Use each for what it is good at rather than trying to reconcile them."}}, {"@type": "Question", "name": "How often should I open Search Console?", "acceptedAnswer": {"@type": "Answer", "text": "Monthly for most sites, plus after any launch, migration or sudden change in traffic. Checking daily turns normal variance into decisions."}}, {"@type": "Question", "name": "How current is the data?", "acceptedAnswer": {"@type": "Answer", "text": "The Page indexing report typically runs several days to a week behind, so a page you published or fixed this week may still show an old status. URL Inspection with a live test is the way to check one page right now."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -97,7 +100,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">Search Console has dozens of reports. Four of them will tell you almost everything you need.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-09-15">15 September 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-09-15">15 September 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -105,7 +108,7 @@ article tr:last-child td{border-bottom:none}
 <section style="padding:20px 0 0">
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
-<p>Search Console is the only source of honest data about how Google sees your site. It's free, and most businesses set it up and never open it again.</p>
+<p>Google Search Console is the only source of honest data about how Google sees your site. It's free, and most businesses set it up and never open it again.</p>
 <h2>1. Pages (indexing)</h2>
 <p><strong>Check monthly.</strong> How many pages are indexed versus not, and why. If you have 80 pages and 12 are indexed, nothing else on this list matters yet.</p>
 <p>Read the exclusion reasons. <em>Discovered — currently not indexed</em> usually means thin or duplicate content. <em>Crawled — currently not indexed</em> means Google looked and wasn't impressed.</p>
@@ -116,7 +119,7 @@ article tr:last-child td{border-bottom:none}
 <h2>4. Core Web Vitals</h2>
 <p><strong>Check quarterly.</strong> This is <em>field</em> data from real visitors, which is the only speed data worth believing. Lab scores flatter.</p>
 <blockquote><p>If lab tools say 95 and Search Console says poor, believe Search Console. Your customers aren't using your laptop.</p></blockquote>
-<h2>Settings people get wrong</h2>
+<h2>Google Search Console settings people get wrong</h2>
 <ul><li><strong>Using a URL-prefix property</strong> when a domain property would cover http, https, www and subdomains in one place.</li>
 <li><strong>Never submitting the sitemap.</strong> Astonishingly common, and it's the main reason new sites stay uncrawled.</li>
 <li><strong>Requesting indexing for everything.</strong> There's a daily quota. Use it on commercial pages first.</li></ul>
@@ -130,15 +133,14 @@ article tr:last-child td{border-bottom:none}
 <h2>Reading the URL Inspection tool properly</h2>
 <p>When a page will not index, inspect it and read two things. "Crawled as" tells you whether Googlebot saw the mobile or desktop version — if your content only appears on desktop, that is your answer. "View crawled page" shows the HTML Google actually received, which is the honest version of your page. If your content is injected by JavaScript and the crawled HTML is an empty shell, no amount of writing will help until that is fixed.</p>
 <p>Then use "Test live URL" after making a change, and only request indexing once. Repeated requests do not speed anything up and the daily quota is small.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Domain property or URL prefix?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Domain, almost always — it covers every subdomain and both protocols in one place. It needs DNS verification, which is a five-minute job wherever your nameservers live.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why do Search Console and my analytics disagree?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">They measure different events at different points, and Search Console samples. Use each for what it is good at rather than trying to reconcile them.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How often should I open Search Console?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Monthly for most sites, plus after any launch, migration or sudden change in traffic. Checking daily turns normal variance into decisions.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How current is the data?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">The Page indexing report typically runs several days to a week behind, so a page you published or fixed this week may still show an old status. URL Inspection with a live test is the way to check one page right now.</p></details></div>
+
 <h2>What Search Console will not tell you</h2>
 <ul><li><strong>Anything about competitors.</strong> It is your data only.</li>
 <li><strong>Complete query data.</strong> Long-tail and rare queries are withheld for privacy, so the totals in Performance will never match the totals elsewhere. This is expected, not a bug.</li>
 <li><strong>Revenue.</strong> It stops at the click. Pair it with your own analytics to see what the click did next.</li>
 <li><strong>Real-time anything.</strong> Data lags two to three days. Do not diagnose yesterday.</li></ul>
-<h2>Common questions</h2>
-<p><strong>Domain property or URL prefix?</strong> Domain, almost always — it covers every subdomain and both protocols in one place. It needs DNS verification, which is a five-minute job wherever your nameservers live.</p>
-<p><strong>Why do impressions and clicks disagree with my analytics?</strong> They measure different events at different points, and Search Console samples. Use each for what it is good at rather than reconciling them.</p>
-<p><strong>How often should I actually log in?</strong> Monthly for most sites, plus after any launch, migration or sudden traffic change.</p>
 </article>
 
 <aside data-reveal="0" style="max-width:720px;margin:44px auto 0;padding:0 24px">

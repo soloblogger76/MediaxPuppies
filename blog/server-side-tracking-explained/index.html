@@ -14,15 +14,15 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="What server-side tracking and the Conversions API actually do, why browser tracking loses conversions, and whether it's worth setting up for a small business.">
+<meta name="description" content="Server-side tracking and the Conversions API explained: why browser tracking loses conversions, what it fixes, and whether a small business needs it.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="Server-side tracking, explained without the jargon">
-<meta property="og:description" content="What server-side tracking and the Conversions API actually do, why browser tracking loses conversions, and whether it's worth setting up for a small business.">
+<meta property="og:description" content="Server-side tracking and the Conversions API explained: why browser tracking loses conversions, what it fixes, and whether a small business needs it.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Server-side tracking, explained without the jargon">
-<meta name="twitter:description" content="What server-side tracking and the Conversions API actually do, why browser tracking loses conversions, and whether it's worth setting up for a small business.">
+<meta name="twitter:description" content="Server-side tracking and the Conversions API explained: why browser tracking loses conversions, what it fixes, and whether a small business needs it.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/server-side-tracking-explained/">
 <link rel="canonical" href="https://mediapuppies.com/blog/server-side-tracking-explained/">
@@ -51,7 +51,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Server-side tracking, explained without the jargon","description":"What server-side tracking and the Conversions API actually do, why browser tracking loses conversions, and whether it's worth setting up for a small business.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-07-18","dateModified":"2026-07-18","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/server-side-tracking-explained/"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Server-side tracking, explained without the jargon","description":"Server-side tracking and the Conversions API explained: why browser tracking loses conversions, what it fixes, and whether a small business needs it.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-07-18","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/server-side-tracking-explained/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is server-side tracking?", "acceptedAnswer": {"@type": "Answer", "text": "Sending conversion events to the ad platforms from your own server rather than from the visitor’s browser. Because it does not depend on the browser allowing a script or a cookie, it recovers events that browser-only tracking loses."}}, {"@type": "Question", "name": "Is server-side tracking the same as the Conversions API?", "acceptedAnswer": {"@type": "Answer", "text": "The Conversions API is Meta’s implementation of it; Google has an equivalent in enhanced conversions and its own server-side tagging. The idea is the same: a server-to-server event alongside or instead of the browser one."}}, {"@type": "Question", "name": "Does a small business need it?", "acceptedAnswer": {"@type": "Answer", "text": "It matters once the missing conversions are enough to mislead the bidding, which usually means a reasonable volume of sales. Below that, fixing the conversion definition and the landing page returns more for the effort."}}, {"@type": "Question", "name": "Will it inflate my conversion numbers?", "acceptedAnswer": {"@type": "Answer", "text": "It should recover real conversions, not create new ones. If numbers jump sharply, check de-duplication first — sending the same event from the browser and the server without a shared event ID counts it twice."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -97,7 +100,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">Your ad platform is missing conversions that genuinely happened. Here's why, and what fixes it.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-07-18">18 July 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-07-18">18 July 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -105,7 +108,7 @@ article tr:last-child td{border-bottom:none}
 <section style="padding:20px 0 0">
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
-<p>If your ad platform reports fewer conversions than your order system shows, you're not imagining it. Browser-based tracking loses events, and the gap has widened every year.</p>
+<p>Server-side tracking exists because of one visible symptom: your ad platform reports fewer conversions than your order system shows, and you are not imagining it. Browser-based tracking loses events, and the gap has widened every year.</p>
 
 <h2>What breaks with browser-only tracking</h2>
 <p>The classic setup is a pixel in the page that fires from the visitor's browser. That message has to survive:</p>
@@ -128,7 +131,7 @@ article tr:last-child td{border-bottom:none}
 <p>The obvious benefit is accurate numbers. The bigger one is that ad platforms <em>learn</em> from conversion data. Feed them 70% of your conversions and they optimise on 70% of the signal — finding fewer of the right people, at a higher cost.</p>
 <p>This is why accounts often improve after a server-side setup even though nothing about the campaigns changed.</p>
 
-<h2>Do you need it?</h2>
+<h2>Do you need server-side tracking?</h2>
 <table>
 <tr><th>Situation</th><th>Worth it?</th></tr>
 <tr><td>Under ₹50k/month ad spend</td><td>Nice to have</td></tr>
@@ -150,6 +153,9 @@ article tr:last-child td{border-bottom:none}
 
 <p style="margin:26px 0 0;color:rgba(24,28,79,.62);font-size:.95rem">The structural side of this — consolidation, signal quality, account safety — is covered on our <a href="/meta-ads-agency/">Meta ads page</a>.</p>
 <p>Want this set up correctly? <a href="/services/#tracking-attribution">That's part of how we run tracking.</a></p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is server-side tracking?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Sending conversion events to the ad platforms from your own server rather than from the visitor’s browser. Because it does not depend on the browser allowing a script or a cookie, it recovers events that browser-only tracking loses.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Is server-side tracking the same as the Conversions API?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">The Conversions API is Meta’s implementation of it; Google has an equivalent in enhanced conversions and its own server-side tagging. The idea is the same: a server-to-server event alongside or instead of the browser one.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Does a small business need it?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">It matters once the missing conversions are enough to mislead the bidding, which usually means a reasonable volume of sales. Below that, fixing the conversion definition and the landing page returns more for the effort.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Will it inflate my conversion numbers?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">It should recover real conversions, not create new ones. If numbers jump sharply, check de-duplication first — sending the same event from the browser and the server without a shared event ID counts it twice.</p></details></div>
+
     </article>
 
 <aside data-reveal="0" style="max-width:720px;margin:44px auto 0;padding:0 24px">

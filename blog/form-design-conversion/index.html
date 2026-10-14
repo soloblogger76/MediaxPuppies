@@ -14,15 +14,15 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="How to design a lead form that gets completed — field count, input types, error handling, and the mobile failures that produce zero-conversion pages.">
+<meta name="description" content="Lead form design that gets completed: how many fields, which input types, error handling, and the mobile failures that produce zero-conversion pages.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="Form design: every field costs you completions">
-<meta property="og:description" content="How to design a lead form that gets completed — field count, input types, error handling, and the mobile failures that produce zero-conversion pages.">
+<meta property="og:description" content="Lead form design that gets completed: how many fields, which input types, error handling, and the mobile failures that produce zero-conversion pages.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Form design: every field costs you completions">
-<meta name="twitter:description" content="How to design a lead form that gets completed — field count, input types, error handling, and the mobile failures that produce zero-conversion pages.">
+<meta name="twitter:description" content="Lead form design that gets completed: how many fields, which input types, error handling, and the mobile failures that produce zero-conversion pages.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/form-design-conversion/">
 <link rel="canonical" href="https://mediapuppies.com/blog/form-design-conversion/">
@@ -51,7 +51,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Form design: every field costs you completions","description":"How to design a lead form that gets completed \u2014 field count, input types, error handling, and the mobile failures that produce zero-conversion pages.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-09-20","dateModified":"2026-09-20","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/form-design-conversion/"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Form design: every field costs you completions","description":"How to design a lead form that gets completed \u2014 field count, input types, error handling, and the mobile failures that produce zero-conversion pages.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-09-20","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/form-design-conversion/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many fields should a lead form have?", "acceptedAnswer": {"@type": "Answer", "text": "As few as the next conversation needs. Every field costs completions, and every qualifying field trades volume for quality. Which trade is right depends on whether your sales team is short of leads or short of time."}}, {"@type": "Question", "name": "What are the most common mobile form failures?", "acceptedAnswer": {"@type": "Answer", "text": "The wrong keyboard for the field, a submit button hidden behind the keyboard, errors that clear what was typed, and a page that scrolls the form out of view on focus. Each one produces a page that converts at close to zero and looks fine on a desktop."}}, {"@type": "Question", "name": "Does a two-step form work better?", "acceptedAnswer": {"@type": "Answer", "text": "Often, because the first step asks for something easy and the second arrives after the person has committed. It is not universal — for short forms the extra step adds friction without the benefit."}}, {"@type": "Question", "name": "What should happen after submit?", "acceptedAnswer": {"@type": "Answer", "text": "A clear confirmation that says what happens next and when, not a blank page or a generic thank you. It is also where a tracking event should fire, and where a WhatsApp link earns its place."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -97,7 +100,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">The form is where you find out whether everything before it was worth doing. Most are built without anyone testing them on a phone.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-09-20">20 September 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-09-20">20 September 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -105,8 +108,8 @@ article tr:last-child td{border-bottom:none}
 <section style="padding:20px 0 0">
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
-<p>A form is a negotiation. Every field asks for something in exchange for a promise you made earlier on the page. Ask for more than the promise is worth and people leave.</p>
-<h2>Field count</h2>
+<p>Lead form design is a negotiation. Every field asks for something in exchange for a promise you made earlier on the page. Ask for more than the promise is worth and people leave.</p>
+<h2>Lead form design starts with field count</h2>
 <p>Ask only what you need to make the first contact useful. For most Indian lead-gen that's name, phone, and one qualifying question. Everything else can be asked on the call, when they're already talking to you.</p>
 <p>The exception is deliberate qualification — a budget field that filters. That field costs you completions on purpose, and it's worth it.</p>
 <h2>Mobile failures that produce zeros</h2>
@@ -136,12 +139,9 @@ article tr:last-child td{border-bottom:none}
 <li><strong>Say what is wrong and how to fix it.</strong> "Enter a 10-digit mobile number" beats "Invalid input".</li></ul>
 <h2>Test it the way a visitor experiences it</h2>
 <p>Fill in your own form, on your own phone, on mobile data rather than office wifi, and then wait to see what actually arrives. Most owners have never done this. It routinely uncovers a broken submit button on iOS, a notification email going to a mailbox nobody opens, or a thank-you page that never loads.</p>
-<h2>Common questions</h2>
-<p><strong>How many fields is too many?</strong> There is no universal number — there is a ratio. The form can ask for as much as the offer above it is worth. A free guide earns one field; a detailed quote earns five.</p>
-<p><strong>Should email be required?</strong> In India, usually not for lead generation. Phone and WhatsApp are where the conversation actually happens, and a required email field costs real completions.</p>
-<p><strong>Is a captcha worth it?</strong> Only once you have a genuine spam problem, and then use an invisible one. A visible puzzle costs more real leads than the spam it prevents.</p>
-
 <p style="margin:26px 0 0;color:rgba(24,28,79,.62);font-size:.95rem">See what tightening each stage does to the numbers with the <a href="/tools/lead-funnel-calculator/">lead funnel calculator</a>.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How many fields should a lead form have?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">As few as the next conversation needs. Every field costs completions, and every qualifying field trades volume for quality. Which trade is right depends on whether your sales team is short of leads or short of time.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What are the most common mobile form failures?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">The wrong keyboard for the field, a submit button hidden behind the keyboard, errors that clear what was typed, and a page that scrolls the form out of view on focus. Each one produces a page that converts at close to zero and looks fine on a desktop.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Does a two-step form work better?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Often, because the first step asks for something easy and the second arrives after the person has committed. It is not universal — for short forms the extra step adds friction without the benefit.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What should happen after submit?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">A clear confirmation that says what happens next and when, not a blank page or a generic thank you. It is also where a tracking event should fire, and where a WhatsApp link earns its place.</p></details></div>
 <p><a href="/lead-generation/">Want us to look at your form?</a></p>
     </article>
 

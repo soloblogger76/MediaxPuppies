@@ -14,15 +14,15 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="A minimal, practical GA4 setup for small businesses — the events, conversions and reports that matter, and the configuration everyone gets wrong.">
+<meta name="description" content="A minimal GA4 setup for a small business: the key events, the configuration everyone gets wrong, and the three reports worth building instead of forty.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="GA4 without the overwhelm: the 8 things worth setting up">
-<meta property="og:description" content="A minimal, practical GA4 setup for small businesses — the events, conversions and reports that matter, and the configuration everyone gets wrong.">
+<meta property="og:description" content="A minimal GA4 setup for a small business: the key events, the configuration everyone gets wrong, and the three reports worth building instead of forty.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="GA4 without the overwhelm: the 8 things worth setting up">
-<meta name="twitter:description" content="A minimal, practical GA4 setup for small businesses — the events, conversions and reports that matter, and the configuration everyone gets wrong.">
+<meta name="twitter:description" content="A minimal GA4 setup for a small business: the key events, the configuration everyone gets wrong, and the three reports worth building instead of forty.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/ga4-setup-essentials/">
 <link rel="canonical" href="https://mediapuppies.com/blog/ga4-setup-essentials/">
@@ -51,7 +51,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"GA4 without the overwhelm: the 8 things worth setting up","description":"A minimal, practical GA4 setup for small businesses \u2014 the events, conversions and reports that matter, and the configuration everyone gets wrong.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-07-17","dateModified":"2026-07-17","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/ga4-setup-essentials/"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"GA4 without the overwhelm: the 8 things worth setting up","description":"A minimal, practical GA4 setup for small businesses \u2014 the events, conversions and reports that matter, and the configuration everyone gets wrong.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-07-17","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/ga4-setup-essentials/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the minimum GA4 setup worth doing?", "acceptedAnswer": {"@type": "Answer", "text": "Mark the right events as key events, filter out your own traffic, set data retention to 14 months, link Google Ads and Search Console, and keep UTM tagging consistent. Those five take an afternoon and cover most of what a small business needs."}}, {"@type": "Question", "name": "Why does GA4 show different numbers from my ad platform?", "acceptedAnswer": {"@type": "Answer", "text": "They measure different events, at different moments, under different attribution rules, and GA4 samples large datasets. The gap is expected. Use each for what it is good at rather than trying to reconcile them."}}, {"@type": "Question", "name": "Does data retention really need changing?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. GA4 defaults to a short retention window, so year-on-year comparison quietly becomes impossible. Setting it to 14 months is a single toggle and it cannot be applied retrospectively, which is why it is worth doing on day one."}}, {"@type": "Question", "name": "Should I filter my own traffic?", "acceptedAnswer": {"@type": "Answer", "text": "Always. On a low-traffic site, the team’s own visits can be a noticeable share of sessions and will distort every conversion rate you look at."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -97,7 +100,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">GA4 can do a hundred things. Eight of them matter for a business under ₹10 crore, and the default install does none of them properly.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-07-17">17 July 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-07-17">17 July 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -105,7 +108,7 @@ article tr:last-child td{border-bottom:none}
 <section style="padding:20px 0 0">
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
-<p>Most GA4 properties we inherit are installed and untouched. Data flows in, nobody trusts it, and the reports get opened once a quarter to confirm a suspicion.</p>
+<p>Most GA4 setups we inherit are installed and untouched. Data flows in, nobody trusts it, and the reports get opened once a quarter to confirm a suspicion.</p>
 <p>Here's the minimum that makes it useful.</p>
 
 <h2>1. Mark the right events as key events</h2>
@@ -139,7 +142,7 @@ article tr:last-child td{border-bottom:none}
 
 <blockquote><p>GA4 is not a source of truth about revenue. Your bank account is. GA4 is for understanding behaviour between the click and the sale.</p></blockquote>
 
-<h2>What to stop worrying about</h2>
+<h2>What to leave out of a GA4 setup</h2>
 <ul>
 <li><strong>GA4 not matching platform numbers.</strong> It never will — different windows, different models. <a href="/blog/attribution-models-explained/">Here's why.</a></li>
 <li><strong>Bounce rate.</strong> GA4 measures engagement instead, and it's more useful.</li>
@@ -147,6 +150,8 @@ article tr:last-child td{border-bottom:none}
 </ul>
 
 <p style="margin:26px 0 0;color:rgba(24,28,79,.62);font-size:.95rem">To see how much the platforms are over-claiming on your account, use the <a href="/tools/blended-roas-calculator/">blended ROAS and MER calculator</a>.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is the minimum GA4 setup worth doing?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Mark the right events as key events, filter out your own traffic, set data retention to 14 months, link Google Ads and Search Console, and keep UTM tagging consistent. Those five take an afternoon and cover most of what a small business needs.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why does GA4 show different numbers from my ad platform?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">They measure different events, at different moments, under different attribution rules, and GA4 samples large datasets. The gap is expected. Use each for what it is good at rather than trying to reconcile them.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Does data retention really need changing?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Yes. GA4 defaults to a short retention window, so year-on-year comparison quietly becomes impossible. Setting it to 14 months is a single toggle and it cannot be applied retrospectively, which is why it is worth doing on day one.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Should I filter my own traffic?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Always. On a low-traffic site, the team’s own visits can be a noticeable share of sessions and will distort every conversion rate you look at.</p></details></div>
 <p>Want this set up once, properly? <a href="/lead-generation/">Tell us what you're running.</a></p>
     </article>
 
