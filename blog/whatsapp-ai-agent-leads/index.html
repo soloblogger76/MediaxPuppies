@@ -14,15 +14,15 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="How to use an AI agent on WhatsApp to respond instantly and qualify leads — what to automate, what must stay human">
+<meta name="description" content="Building a WhatsApp AI agent that replies instantly and qualifies leads: what to automate, what must stay human, and the 24-hour window rule.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="Building a WhatsApp AI agent that qualifies leads without annoying them">
-<meta property="og:description" content="How to use an AI agent on WhatsApp to respond instantly and qualify leads — what to automate, what must stay human">
+<meta property="og:description" content="Building a WhatsApp AI agent that replies instantly and qualifies leads: what to automate, what must stay human, and the 24-hour window rule.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Building a WhatsApp AI agent that qualifies leads without annoying them">
-<meta name="twitter:description" content="How to use an AI agent on WhatsApp to respond instantly and qualify leads — what to automate, what must stay human">
+<meta name="twitter:description" content="Building a WhatsApp AI agent that replies instantly and qualifies leads: what to automate, what must stay human, and the 24-hour window rule.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/whatsapp-ai-agent-leads/">
 <link rel="canonical" href="https://mediapuppies.com/blog/whatsapp-ai-agent-leads/">
@@ -51,7 +51,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Building a WhatsApp AI agent that qualifies leads without annoying them","description":"How to use an AI agent on WhatsApp to respond instantly and qualify leads \u2014 what to automate, what must stay human, and the line Indian customers notice immediately.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-08-20","dateModified":"2026-08-20","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/whatsapp-ai-agent-leads/"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Building a WhatsApp AI agent that qualifies leads without annoying them","description":"How to use an AI agent on WhatsApp to respond instantly and qualify leads \u2014 what to automate, what must stay human, and the line Indian customers notice immediately.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-08-20","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/whatsapp-ai-agent-leads/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What should a WhatsApp AI agent do?", "acceptedAnswer": {"@type": "Answer", "text": "Reply within seconds, acknowledge what the person enquired about, ask one or two qualifying questions, and hand to a human with context attached. Speed and qualification are the jobs; closing is not."}}, {"@type": "Question", "name": "What should it never do?", "acceptedAnswer": {"@type": "Answer", "text": "Pretend to be a person, quote prices it cannot stand behind, negotiate, or keep someone in a loop when they ask for a human. Each of those turns a working lead into a complaint."}}, {"@type": "Question", "name": "What is the 24-hour window?", "acceptedAnswer": {"@type": "Answer", "text": "WhatsApp only allows free-form business replies for 24 hours after the customer’s last message. Outside it you need an approved template, which is why an agent that responds instantly is worth more than one that responds eventually."}}, {"@type": "Question", "name": "What should I measure?", "acceptedAnswer": {"@type": "Answer", "text": "Time to first reply, the share of conversations that reach a qualified state, and how many are handed to a human. A bot that holds every conversation to the end is optimising the wrong thing."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -97,7 +100,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">An instant reply is worth more than a clever one. Here is how to build the automation without making your business feel like a bot farm.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-08-20">20 August 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-08-20">20 August 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -105,7 +108,7 @@ article tr:last-child td{border-bottom:none}
 <section style="padding:20px 0 0">
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
-<p>In India, WhatsApp is where a lead actually becomes a conversation. Which means the gap between a form submission and the first WhatsApp message is where most businesses quietly lose money — a lead answered in five minutes and one answered in five hours are not the same asset.</p>
+<p>A WhatsApp AI agent earns its place because in India, WhatsApp is where a lead actually becomes a conversation. Which means the gap between a form submission and the first WhatsApp message is where most businesses quietly lose money — a lead answered in five minutes and one answered in five hours are not the same asset.</p>
 <p>An AI agent closes that gap. It can also destroy trust in three messages if you build it badly. Here is the line.</p>
 
 <h2>What the agent should do</h2>
@@ -124,7 +127,7 @@ article tr:last-child td{border-bottom:none}
 <h3>4. Hand over cleanly</h3>
 <p>The moment intent is real, a human takes it — with the conversation summarised so they are not asking questions the customer already answered. Being asked your budget twice is the fastest way to feel like a ticket.</p>
 
-<h2>What it must never do</h2>
+<h2>What a WhatsApp AI agent must never do</h2>
 <ul>
 <li><strong>Pretend to be a person.</strong> Indian buyers work this out fast, and the discovery poisons everything after it. Say it is an assistant. Nobody minds an assistant; everyone minds being fooled.</li>
 <li><strong>Negotiate or quote final prices.</strong> Ranges are fine. Commitments are not.</li>
@@ -156,6 +159,8 @@ article tr:last-child td{border-bottom:none}
 </ul>
 
 <p style="margin:26px 0 0;color:rgba(24,28,79,.62);font-size:.95rem">For subscription businesses the measurement problem is different again — see <a href="/saas-performance-marketing-agency/">SaaS performance marketing</a>.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What should a WhatsApp AI agent do?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Reply within seconds, acknowledge what the person enquired about, ask one or two qualifying questions, and hand to a human with context attached. Speed and qualification are the jobs; closing is not.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What should it never do?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Pretend to be a person, quote prices it cannot stand behind, negotiate, or keep someone in a loop when they ask for a human. Each of those turns a working lead into a complaint.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is the 24-hour window?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">WhatsApp only allows free-form business replies for 24 hours after the customer’s last message. Outside it you need an approved template, which is why an agent that responds instantly is worth more than one that responds eventually.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What should I measure?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Time to first reply, the share of conversations that reach a qualified state, and how many are handed to a human. A bot that holds every conversation to the end is optimising the wrong thing.</p></details></div>
 <p>Want us to map where your follow-up currently leaks? <a href="/lead-generation/">Tell us how it works today.</a></p>
     </article>
 
