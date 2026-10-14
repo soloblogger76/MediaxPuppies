@@ -14,15 +14,15 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="What attribution models actually do, why every platform claims your sales, and the practical approach small businesses should use instead of arguing about">
+<meta name="description" content="Attribution models explained in plain English: what they actually do, why every platform claims your sales, and what a small business should do instead.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="Attribution models in plain English, and which one to trust">
-<meta property="og:description" content="What attribution models actually do, why every platform claims your sales, and the practical approach small businesses should use instead of arguing about">
+<meta property="og:description" content="Attribution models explained in plain English: what they actually do, why every platform claims your sales, and what a small business should do instead.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Attribution models in plain English, and which one to trust">
-<meta name="twitter:description" content="What attribution models actually do, why every platform claims your sales, and the practical approach small businesses should use instead of arguing about">
+<meta name="twitter:description" content="Attribution models explained in plain English: what they actually do, why every platform claims your sales, and what a small business should do instead.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/attribution-models-explained/">
 <link rel="canonical" href="https://mediapuppies.com/blog/attribution-models-explained/">
@@ -51,7 +51,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Attribution models in plain English, and which one to trust","description":"What attribution models actually do, why every platform claims your sales, and the practical approach small businesses should use instead of arguing about models.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-08-08","dateModified":"2026-08-08","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/attribution-models-explained/"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Attribution models in plain English, and which one to trust","description":"Attribution models explained in plain English: what they actually do, why every platform claims your sales, and what a small business should do instead. models.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-08-08","dateModified":"2026-10-14","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/attribution-models-explained/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is an attribution model?", "acceptedAnswer": {"@type": "Answer", "text": "A rule for deciding which touchpoint gets credit for a sale. Last-click gives it all to the final interaction, first-click to the first, and data-driven models split it across the path. None of them is true — each is a different way of dividing the same conversion."}}, {"@type": "Question", "name": "Why do my platforms report more sales than I made?", "acceptedAnswer": {"@type": "Answer", "text": "Because each one claims any conversion it can connect to, using its own rules, without knowing about the others. Two platforms touching the same customer will both count that customer. The overlap is normal and grows as you add channels."}}, {"@type": "Question", "name": "Which attribution model should a small business use?", "acceptedAnswer": {"@type": "Answer", "text": "Spend less time choosing one and more time on a blended number: total revenue or total leads against total spend. It cannot be gamed by any platform and it matches what the bank account did."}}, {"@type": "Question", "name": "How do I settle an argument about attribution?", "acceptedAnswer": {"@type": "Answer", "text": "Turn a channel off for a defined period and watch what happens to total business, not to the platform’s own number. An incrementality test answers in a fortnight what a model debate will not answer at all."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -97,7 +100,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">Every platform reports more conversions than you had. Here is why, and what to do about it without a data team.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-08-08">8 August 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-08-08">8 August 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-14">14 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -105,10 +108,10 @@ article tr:last-child td{border-bottom:none}
 <section style="padding:20px 0 0">
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
-<p>Add up the conversions your platforms report and you will usually find they sold more than you did. This is not fraud. It is what happens when several systems each claim credit for the same customer.</p>
+<p>Attribution models exist because of one awkward fact: add up the conversions your platforms report and you will usually find they sold more than you did. This is not fraud. It is what happens when several systems each claim credit for the same customer.</p>
 <p>Understanding why takes ten minutes and saves a lot of bad decisions.</p>
 
-<h2>What an attribution model actually is</h2>
+<h2>What attribution models actually do</h2>
 <p>A rule for assigning credit when a customer touched several things before buying. Someone sees an Instagram ad, reads a blog post, searches your brand, clicks a Google ad, then buys. Who gets the sale?</p>
 <ul>
 <li><strong>Last click:</strong> all credit to the final touch. Systematically overrates brand search and retargeting.</li>
@@ -151,6 +154,8 @@ article tr:last-child td{border-bottom:none}
 <p>Blended for how much to spend. Platform numbers for what to do inside a platform. A survey question for what the numbers miss. A holdout when it really matters. That is a complete attribution stack for a business without a data team.</p>
 
 <p style="margin:26px 0 0;color:rgba(24,28,79,.62);font-size:.95rem">To see how much the platforms are over-claiming on your account, use the <a href="/tools/blended-roas-calculator/">blended ROAS and MER calculator</a>.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is an attribution model?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">A rule for deciding which touchpoint gets credit for a sale. Last-click gives it all to the final interaction, first-click to the first, and data-driven models split it across the path. None of them is true — each is a different way of dividing the same conversion.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why do my platforms report more sales than I made?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Because each one claims any conversion it can connect to, using its own rules, without knowing about the others. Two platforms touching the same customer will both count that customer. The overlap is normal and grows as you add channels.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Which attribution model should a small business use?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Spend less time choosing one and more time on a blended number: total revenue or total leads against total spend. It cannot be gamed by any platform and it matches what the bank account did.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How do I settle an argument about attribution?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Turn a channel off for a defined period and watch what happens to total business, not to the platform’s own number. An incrementality test answers in a fortnight what a model debate will not answer at all.</p></details></div>
 <p>Want help setting it up? <a href="/lead-generation/">Tell us what you are running.</a></p>
     </article>
 
