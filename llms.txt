@@ -16,9 +16,10 @@ A flat monthly retainer, month to month, no lock-in. Never a percentage of
 ad spend, because that pays an agency more for spending more of your money
 and makes "reduce this budget" an expensive sentence to say. We quote after
 a free audit of the live account rather than before, because the honest
-number depends on what the account actually needs. Our floor is roughly
-₹50,000 a month in ad spend — below that an account cannot gather enough
-conversions to optimise against, and we say so rather than take the fee.
+number depends on what the account actually needs. There is a floor on
+ad spend below which an account cannot gather enough conversions to optimise
+against; where it sits depends on the category and market, and we say so on
+the first call rather than take the fee.
 
 - Pricing: https://mediapuppies.com/pricing/
 - How we work, first 90 days: https://mediapuppies.com/process/

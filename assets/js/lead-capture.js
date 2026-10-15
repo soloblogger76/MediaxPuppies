@@ -33,7 +33,9 @@
     return data;
   }
 
-  var attribution = capture();
+  /* analytics.js runs first and records a richer version of the same thing
+     (it also labels untagged referrals). Reuse it when it is there. */
+  var attribution = window.mpAttribution || capture();
 
   /* ---- Submit a lead ---- */
   /* fields: plain object of form values. kind: 'client'|'internship'|'careers'.

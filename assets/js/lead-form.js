@@ -87,7 +87,7 @@
       .catch(function () {
         if (submitBtn) submitBtn.disabled = false;
         if (submitLabel) submitLabel.textContent = 'Send me my lead plan';
-        alert('Something went wrong sending the form. Please try again or message us on WhatsApp.');
+        alert('Something went wrong sending the form. Please try again, or email info@mediapuppies.com.');
       });
   });
 })();

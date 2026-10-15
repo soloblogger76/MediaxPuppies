@@ -152,7 +152,7 @@
       .catch(function () {
         btn.disabled = false;
         if (btnLabel) btnLabel.textContent = 'Send me the audit';
-        show(err2, 'That didn’t send. Try again, or message us on WhatsApp.');
+        show(err2, 'That didn’t send. Try again, or email info@mediapuppies.com.');
       });
   });
 

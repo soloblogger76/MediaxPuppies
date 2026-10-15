@@ -46,7 +46,7 @@
       .catch(function () {
         if (submitBtn) submitBtn.disabled = false;
         if (submitLabel) submitLabel.textContent = 'Send me the audit';
-        alert('Something went wrong. Please try again, or WhatsApp us on +91 81100 00076.');
+        alert('Something went wrong. Please try again, or email info@mediapuppies.com.');
       });
   });
 })();
