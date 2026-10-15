@@ -18,37 +18,84 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
 <style>
 *{box-sizing:border-box}
-html{overflow-x:hidden}
-body{margin:0;background:#F6F5EF;color:#181C4F;font-family:'Satoshi',system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:#3038D8;text-decoration:none}
+:root{--navy:#181C4F;--blue:#3038D8;--amber:#FFAC1C;--cream:#F6F5EF;--ease:cubic-bezier(.2,.7,.2,1);--out:cubic-bezier(.16,1,.3,1)}
+html{overflow-x:hidden;scrollbar-width:thin;scrollbar-color:rgba(24,28,79,.28) transparent}
+body{margin:0;background:var(--cream);color:var(--navy);font-family:'Satoshi',system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:-20% -10% auto;height:70vh;pointer-events:none;z-index:0;background:radial-gradient(720px 420px at 85% 0%,rgba(48,56,216,.07),transparent 65%),radial-gradient(520px 360px at 5% 10%,rgba(255,172,28,.10),transparent 60%)}
+#app,#login,#setup{position:relative;z-index:1}
+a{color:var(--blue);text-decoration:none;transition:color .2s}
 h1,h2,h3{font-family:'Clash Display',sans-serif;letter-spacing:-.02em;margin:0}
 .wrap{max-width:1280px;margin:0 auto;padding:0 20px}
-.card{background:#FFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07)}
-input,select,textarea,button{font-family:inherit;font-size:.95rem;color:#181C4F}
-input,select,textarea{background:#FFF;border:1.5px solid rgba(24,28,79,.16);border-radius:10px;padding:11px 13px;width:100%;transition:border-color .15s}
-input:focus,select:focus,textarea:focus{outline:none;border-color:#3038D8;box-shadow:0 0 0 3px rgba(48,56,216,.12)}
+.card{background:#FFF;border:1px solid rgba(24,28,79,.1);border-radius:18px;box-shadow:0 10px 30px rgba(24,28,79,.06);transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .3s}
+@media(hover:hover){.card.lift:hover{transform:translateY(-3px);box-shadow:0 22px 48px rgba(24,28,79,.12);border-color:rgba(48,56,216,.18)}}
+input,select,textarea,button{font-family:inherit;font-size:.95rem;color:var(--navy)}
+input,select,textarea{background:#FFF;border:1.5px solid rgba(24,28,79,.16);border-radius:10px;padding:11px 13px;width:100%;transition:border-color .2s,box-shadow .25s,background-color .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(48,56,216,.13)}
+:focus-visible{outline:3px solid rgba(48,56,216,.5);outline-offset:2px;border-radius:8px}
 label{display:block;font-size:.8rem;font-weight:700;margin-bottom:6px;color:rgba(24,28,79,.7)}
-.btn{cursor:pointer;border:none;font-weight:700;padding:11px 20px;border-radius:999px;background:linear-gradient(180deg,#3A43E8,#3038D8);color:#FFF;box-shadow:0 8px 22px rgba(48,56,216,.28)}
-.btn:disabled{opacity:.55;cursor:not-allowed}
-.btn.ghost{background:#FFF;color:#181C4F;border:1.5px solid rgba(24,28,79,.16);box-shadow:none}
-.tab{cursor:pointer;border:none;background:none;font-weight:700;font-size:.9rem;padding:9px 16px;border-radius:999px;color:rgba(24,28,79,.78)}
-.tab[aria-selected="true"]{background:#181C4F;color:#FFF}
+.btn{cursor:pointer;border:none;font-weight:700;padding:11px 20px;border-radius:999px;background:linear-gradient(180deg,#3A43E8,#3038D8);color:#FFF;box-shadow:0 8px 22px rgba(48,56,216,.28);transition:transform .35s var(--ease),box-shadow .35s var(--ease),filter .2s,background-color .2s,border-color .2s}
+@media(hover:hover){.btn:hover{transform:translateY(-1px);box-shadow:0 12px 28px rgba(48,56,216,.34)}}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.btn.ghost{background:#FFF;color:var(--navy);border:1.5px solid rgba(24,28,79,.16);box-shadow:none}
+@media(hover:hover){.btn.ghost:hover{border-color:var(--blue);color:var(--blue);box-shadow:0 8px 18px rgba(24,28,79,.08)}}
+.tab{cursor:pointer;border:none;background:none;font-weight:700;font-size:.9rem;padding:9px 16px;border-radius:999px;color:rgba(24,28,79,.78);transition:background-color .25s,color .2s,transform .3s var(--ease)}
+.tab:hover{color:var(--blue)}
+.tab[aria-selected="true"]{background:var(--navy);color:#FFF}
 table{width:100%;border-collapse:collapse;font-size:.9rem}
-th{text-align:left;font-size:.7rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:rgba(24,28,79,.5);padding:12px 14px;border-bottom:1px solid rgba(24,28,79,.12);white-space:nowrap}
-td{padding:13px 14px;border-bottom:1px solid rgba(24,28,79,.08);vertical-align:top}
-tr.row:hover{background:rgba(48,56,216,.03)}
+th{text-align:left;font-size:.7rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:rgba(24,28,79,.5);padding:12px 14px;border-bottom:1px solid rgba(24,28,79,.12);white-space:nowrap;position:sticky;top:64px;background:#FFF;z-index:2}
+td{padding:13px 14px;border-bottom:1px solid rgba(24,28,79,.08);vertical-align:top;transition:background-color .2s}
+tr.row{transition:background-color .2s}
+tr.row:hover{background:rgba(48,56,216,.035)}
+tr.row.is-picked{background:rgba(255,172,28,.10)}
 .pill{display:inline-block;font-size:.72rem;font-weight:700;padding:4px 11px;border-radius:999px;white-space:nowrap}
 .muted{color:rgba(24,28,79,.55)}
 .hide{display:none!important}
-select.status{padding:6px 10px;font-size:.78rem;font-weight:700;border-radius:999px;width:auto;min-width:112px}
+select.status{padding:6px 10px;font-size:.78rem;font-weight:700;border-radius:999px;width:auto;min-width:112px;cursor:pointer}
 textarea{min-height:92px;resize:vertical;line-height:1.5}
-th.sortable{cursor:pointer;user-select:none}
-th.sortable:hover{color:#3038D8}
-th.sortable[aria-sort="ascending"]::after{content:" \2191";color:#3038D8}
-th.sortable[aria-sort="descending"]::after{content:" \2193";color:#3038D8}
+th.sortable{cursor:pointer;user-select:none;transition:color .2s}
+th.sortable:hover{color:var(--blue)}
+th.sortable[aria-sort="ascending"]::after{content:" \2191";color:var(--blue)}
+th.sortable[aria-sort="descending"]::after{content:" \2193";color:var(--blue)}
 code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.86em}
+kbd{font:700 .72rem/1 'Satoshi',system-ui,sans-serif;color:rgba(24,28,79,.6);border:1px solid rgba(24,28,79,.18);border-bottom-width:2px;border-radius:6px;padding:3px 6px;background:#FFF}
 #drawer label{margin-top:0}
-@media(max-width:800px){.tablewrap{overflow-x:auto}table{min-width:760px}}
+/* header */
+#app>header{background:rgba(255,255,255,.82);-webkit-backdrop-filter:saturate(170%) blur(14px);backdrop-filter:saturate(170%) blur(14px);border-bottom:1px solid rgba(24,28,79,.1);position:sticky;top:0;z-index:20}
+/* stat tiles count up and glow */
+.tile{position:relative;overflow:hidden}
+.tile::after{content:"";position:absolute;inset:auto -30% -60% auto;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(48,56,216,.08),transparent 65%);pointer-events:none}
+.tile .num{font-family:'Clash Display',sans-serif;font-weight:700;font-size:1.85rem;line-height:1.1;font-variant-numeric:tabular-nums}
+/* bars grow in */
+.bar{height:7px;background:rgba(24,28,79,.08);border-radius:999px;overflow:hidden}
+.bar>i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,#3038D8,#FFAC1C);transform-origin:left;animation:grow .9s var(--out) both}
+@keyframes grow{from{transform:scaleX(0)}}
+#chart>div,#tChart>div{transform-origin:bottom;animation:rise .7s var(--out) both;transition:filter .2s}
+#chart>div:hover,#tChart>div:hover{filter:brightness(1.15)}
+@keyframes rise{from{transform:scaleY(0)}}
+/* skeletons while loading */
+.skel{position:relative;overflow:hidden;background:rgba(24,28,79,.06);border-radius:10px;min-height:1em}
+.skel::after{content:"";position:absolute;inset:0;transform:translateX(-100%);background:linear-gradient(90deg,transparent,rgba(255,255,255,.75),transparent);animation:shimmer 1.3s infinite}
+@keyframes shimmer{to{transform:translateX(100%)}}
+body.is-loading #stats,body.is-loading #trafficTiles,body.is-loading #sources{opacity:.55;filter:saturate(.6);transition:opacity .3s,filter .3s}
+/* drawer and scrim */
+#scrim{opacity:0;transition:opacity .35s ease}
+#scrim.is-open{opacity:1}
+#drawer{transform:translateX(104%);transition:transform .5s var(--out),box-shadow .5s}
+#drawer.is-open{transform:none}
+#drawer .kv{animation:fadeup .4s var(--out) both}
+@keyframes fadeup{from{opacity:0;transform:translateY(6px)}}
+/* toasts */
+#toasts>div{animation:toastin .45s var(--out) both}
+#toasts>div.out{animation:toastout .3s ease both}
+@keyframes toastin{from{opacity:0;transform:translateY(14px) scale(.96)}}
+@keyframes toastout{to{opacity:0;transform:translateY(10px)}}
+/* rows appear */
+#rows tr{animation:fadeup .35s var(--out) both}
+#rows tr:nth-child(n+16){animation:none}
+.hint{font-size:.78rem;color:rgba(24,28,79,.5);display:inline-flex;align-items:center;gap:6px}
+@media(max-width:800px){.tablewrap{overflow-x:auto}table{min-width:760px}th{position:static}.hint{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 </style>
 <script src="/assets/js/supabase-config.js?v=20260926a"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.min.js"></script>
@@ -59,7 +106,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
 <div id="setup" class="hide" style="padding:60px 0">
   <div class="wrap" style="max-width:720px">
     <div class="card" style="padding:38px 32px">
-      <img src="/assets/img/logo-mark-sm.webp" alt="" style="height:40px;margin-bottom:20px" width="160" height="169">
+      <img src="/assets/img/logo-mark-sm.webp" alt="" style="height:40px;width:auto;margin-bottom:20px" width="160" height="169">
       <h1 style="font-size:1.7rem;font-weight:700;margin-bottom:10px">Admin panel isn't connected yet</h1>
       <p class="muted" style="margin:0 0 26px">Three steps, about twenty minutes. Nothing here works until they're done.</p>
       <ol style="padding-left:20px;margin:0;display:flex;flex-direction:column;gap:16px;font-size:.98rem">
@@ -79,7 +126,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
 <div id="login" class="hide" style="padding:80px 0">
   <div class="wrap" style="max-width:420px">
     <div class="card" style="padding:36px 30px">
-      <img src="/assets/img/logo-mark-sm.webp" alt="" style="height:40px;margin-bottom:18px" width="160" height="169">
+      <img src="/assets/img/logo-mark-sm.webp" alt="" style="height:40px;width:auto;margin-bottom:18px" width="160" height="169">
       <h1 style="font-size:1.55rem;font-weight:700;margin-bottom:6px">Admin sign in</h1>
       <p class="muted" style="margin:0 0 24px;font-size:.93rem">Leads are only readable after you sign in.</p>
       <form id="loginForm">
@@ -98,7 +145,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
   <header style="background:#FFF;border-bottom:1px solid rgba(24,28,79,.12);position:sticky;top:0;z-index:20">
     <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px">
       <div style="display:flex;align-items:center;gap:10px">
-        <img src="/assets/img/logo-mark-sm.webp" alt="" style="height:32px" width="160" height="169">
+        <img src="/assets/img/logo-mark-sm.webp" alt="" style="height:32px;width:auto" width="160" height="169">
         <strong style="font-family:'Clash Display',sans-serif;font-size:1.05rem">Admin</strong>
       </div>
       <div style="display:flex;align-items:center;gap:14px">
@@ -110,6 +157,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
   </header>
 
   <main class="wrap" style="padding:28px 20px 80px">
+    <div style="height:3px;border-radius:3px;background:rgba(24,28,79,.08);overflow:hidden;margin:-10px 0 16px"><i id="loadbar" style="display:block;height:100%;width:0;background:linear-gradient(90deg,#3038D8,#FFAC1C);transition:width .4s ease"></i></div>
 
     <!-- PERIOD -->
     <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px">
@@ -127,6 +175,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
           <option value="365">Last 12 months</option>
         </select>
         <span id="loading" class="muted hide" style="font-size:.85rem;font-weight:700">Loading…</span>
+        <span id="updatedAt" class="muted" style="font-size:.8rem"></span>
       </div>
     </div>
 
@@ -213,7 +262,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
         <option value="won">Won</option>
         <option value="lost">Lost</option>
       </select>
-      <input id="search" type="search" placeholder="Search name, phone, email, campaign…" style="width:auto;flex:1;min-width:210px">
+      <input id="search" type="search" placeholder="Search name, phone, email, campaign…  ( / )" style="width:auto;flex:1;min-width:210px">
       <button id="csv" class="btn ghost" style="padding:10px 18px;font-size:.87rem">Export CSV</button>
       <button id="copyEmails" class="btn ghost" style="padding:10px 18px;font-size:.87rem">Copy emails</button>
     </div>
@@ -252,7 +301,8 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
         <p class="muted" style="margin:0;font-size:.98rem">Nothing here yet.</p>
       </div>
     </div>
-    <p class="muted" style="margin:12px 0 0;font-size:.82rem">Leads cannot be deleted from this panel. The database refuses deletes from the browser on purpose, so nothing here can be lost by a mis-click. Mark a junk enquiry <strong>Lost</strong> instead.</p>
+    <p class="hint" style="margin:12px 0 0"><kbd>/</kbd> search &nbsp; <kbd>j</kbd><kbd>k</kbd> move &nbsp; <kbd>Enter</kbd> open &nbsp; <kbd>Esc</kbd> close &nbsp; <kbd>r</kbd> refresh</p>
+    <p class="muted" style="margin:8px 0 0;font-size:.82rem">Leads cannot be deleted from this panel. The database refuses deletes from the browser on purpose, so nothing here can be lost by a mis-click. Mark a junk enquiry <strong>Lost</strong> instead.</p>
   </main>
 </div>
 
@@ -293,6 +343,21 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
     lost:      ['rgba(24,28,79,.09)', 'rgba(24,28,79,.55)']
   };
 
+  /* Links and paths arrive from the public insert endpoint, so anyone can
+     write them. Only ever render them as http(s) or site-relative URLs;
+     anything else (javascript:, data:) is shown as text, never as a href. */
+  function safeUrl(u) {
+    var v = String(u == null ? '' : u).trim();
+    if (/^https?:\/\//i.test(v)) return v;
+    if (/^\/(?!\/)/.test(v)) return v;
+    return '';
+  }
+  /* A spreadsheet treats a cell starting with = + - @ as a formula. */
+  function csvCell(v) {
+    var t = String(v == null ? '' : v);
+    if (/^[=+\-@\t\r]/.test(t)) t = "'" + t;
+    return '"' + t.replace(/"/g, '""') + '"';
+  }
   function esc(v) {
     return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) {
       return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
@@ -326,11 +391,12 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
   function toast(msg, bad) {
     var el = document.createElement('div');
     el.textContent = msg;
+    el.setAttribute('role', 'status');
     el.style.cssText = 'pointer-events:auto;max-width:min(520px,92vw);padding:12px 18px;border-radius:999px;' +
       'font-size:.89rem;font-weight:700;box-shadow:0 14px 34px rgba(24,28,79,.24);' +
       (bad ? 'background:#C0392B;color:#FFF' : 'background:#181C4F;color:#FFF');
     $('toasts').appendChild(el);
-    setTimeout(function () { el.remove(); }, bad ? 7000 : 3200);
+    setTimeout(function () { el.classList.add('out'); setTimeout(function () { el.remove(); }, 320); }, bad ? 7000 : 3200);
   }
   /* An expired token makes every query fail the same way. Say so once and
      send them back to the login form instead of showing an empty dashboard. */
@@ -400,6 +466,8 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
   function load() {
     var since = windowStart().toISOString();
     $('loading').classList.remove('hide');
+    document.body.classList.add('is-loading');
+    $('loadbar').style.width = '35%';
     $('periodNote').textContent = 'Charts and traffic show ' + periodLabel() + '. The leads inbox below always shows every lead.';
     /* referrer, country, tz and lang are requested with a fallback below:
        asking for a column the table does not have yet fails the whole query. */
@@ -414,6 +482,10 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
       pv(cols).then(function (r) { return r.error ? pv(base) : r; })
     ]).then(function (res) {
       $('loading').classList.add('hide');
+      document.body.classList.remove('is-loading');
+      $('loadbar').style.width = '100%';
+      setTimeout(function () { $('loadbar').style.transition = 'none'; $('loadbar').style.width = '0'; setTimeout(function () { $('loadbar').style.transition = ''; }, 50); }, 500);
+      $('updatedAt').textContent = 'Updated ' + new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
       if (res[0].error) { fail('Could not load leads', res[0].error); return; }
       all = res[0].data || [];
       hasNotes = all.length ? ('notes' in all[0]) : true;
@@ -426,6 +498,8 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
       renderStats(); renderChart(); renderSources(); renderTabs(); renderRows(); renderTraffic();
     }).catch(function (ex) {
       $('loading').classList.add('hide');
+      document.body.classList.remove('is-loading');
+      $('loadbar').style.width = '0';
       fail('Could not load', ex);
     });
   }
@@ -466,8 +540,8 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
       ['Win rate', rate + '%', '#181C4F']
     ];
     $('stats').innerHTML = tiles.map(function (t) {
-      return '<div class="card" style="padding:20px 18px">' +
-        '<div style="font-family:\'Clash Display\',sans-serif;font-weight:700;font-size:1.85rem;line-height:1.1;color:' + t[2] + '">' + t[1] + '</div>' +
+      return '<div class="card tile lift" style="padding:20px 18px">' +
+        '<div class="num" style="color:' + t[2] + '">' + t[1] + '</div>' +
         '<div class="muted" style="font-size:.76rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;margin-top:4px">' + t[0] + '</div></div>';
     }).join('');
   }
@@ -507,8 +581,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
     $('sources').innerHTML = rows.map(function (k) {
       return '<div><div style="display:flex;justify-content:space-between;gap:10px;font-size:.88rem;font-weight:700;margin-bottom:6px">' +
         '<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + esc(k) + '</span><span class="muted">' + by[k] + '</span></div>' +
-        '<div style="height:7px;background:rgba(24,28,79,.08);border-radius:999px;overflow:hidden">' +
-        '<div style="height:100%;width:' + (by[k] / max * 100) + '%;background:linear-gradient(90deg,#3038D8,#FFAC1C);border-radius:999px"></div></div></div>';
+        '<div class="bar"><i style="width:' + (by[k] / max * 100) + '%"></i></div></div>';
     }).join('');
   }
 
@@ -534,7 +607,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
     } else {
       if (l.role) out.push('<strong>' + esc(l.role) + '</strong>');
       if (l.college) out.push(esc(l.college));
-      if (l.link) out.push('<a href="' + esc(l.link) + '" target="_blank" rel="noopener noreferrer nofollow">link</a>');
+      if (l.link) out.push(safeUrl(l.link) ? '<a href="' + esc(safeUrl(l.link)) + '" target="_blank" rel="noopener noreferrer nofollow">link</a>' : esc(l.link));
     }
     return out;
   }
@@ -556,7 +629,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
       var srcSub = [l.utm_medium, l.utm_content].filter(Boolean).join(' · ');
       var wa = waNumber(l.phone);
 
-      return '<tr class="row" data-id="' + esc(l.id) + '">' +
+      return '<tr class="row' + (sel[l.id] ? ' is-picked' : '') + '" data-id="' + esc(l.id) + '">' +
         '<td><input type="checkbox" class="pick" data-id="' + esc(l.id) + '"' + (sel[l.id] ? ' checked' : '') +
           ' style="width:auto;padding:0;margin:0;vertical-align:middle" aria-label="Select this lead"></td>' +
         '<td>' + fmtDate(l.created_at) + '</td>' +
@@ -647,12 +720,13 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
   var openId = null;
   function closeDrawer() {
     openId = null;
-    $('drawer').classList.add('hide');
-    $('scrim').classList.add('hide');
+    var d = $('drawer'), sc = $('scrim');
+    d.classList.remove('is-open'); sc.classList.remove('is-open');
+    setTimeout(function () { if (!d.classList.contains('is-open')) { d.classList.add('hide'); sc.classList.add('hide'); } }, 480);
   }
   function kv(label, val, raw) {
     if (val == null || val === '') return '';
-    return '<div style="display:flex;gap:12px;padding:9px 0;border-bottom:1px solid rgba(24,28,79,.08)">' +
+    return '<div class="kv" style="display:flex;gap:12px;padding:9px 0;border-bottom:1px solid rgba(24,28,79,.08)">' +
       '<span class="muted" style="flex:0 0 118px;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase">' + esc(label) + '</span>' +
       '<span style="flex:1;font-size:.92rem;word-break:break-word">' + (raw ? val : esc(val)) + '</span></div>';
   }
@@ -681,7 +755,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
       kv('Business', l.business_type) + kv('Company', l.company) +
       kv('Budget', l.budget) + kv('City', l.city) +
       kv('Role', l.role) + kv('College', l.college) +
-      (l.link ? kv('Link', '<a href="' + esc(l.link) + '" target="_blank" rel="noopener noreferrer nofollow">' + esc(l.link) + '</a>', true) : '') +
+      (l.link ? (safeUrl(l.link) ? kv('Link', '<a href="' + esc(safeUrl(l.link)) + '" target="_blank" rel="noopener noreferrer nofollow">' + esc(l.link) + '</a>', true) : kv('Link', l.link)) : '') +
       kv('Message', l.message) +
       kv('Landing page', l.landing_page) + kv('Form page', l.source_page) +
       kv('Referrer', l.referrer) +
@@ -700,6 +774,8 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
 
     $('drawer').classList.remove('hide');
     $('scrim').classList.remove('hide');
+    requestAnimationFrame(function () { $('drawer').classList.add('is-open'); $('scrim').classList.add('is-open'); });
+    $('drawer').scrollTop = 0;
 
     $('dStatus').addEventListener('change', function () {
       setStatus([openId], this.value, this);
@@ -734,7 +810,25 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
   }
   $('drawerClose').addEventListener('click', closeDrawer);
   $('scrim').addEventListener('click', closeDrawer);
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeDrawer(); });
+  /* Keyboard: / search, j/k move through the inbox, Enter opens, Esc closes, r refreshes. */
+  var cursor = -1;
+  function focusRow(i) {
+    var rows = $('rows').querySelectorAll('tr.row');
+    if (!rows.length) return;
+    cursor = Math.max(0, Math.min(rows.length - 1, i));
+    Array.prototype.forEach.call(rows, function (r, k) { r.style.outline = k === cursor ? '2px solid rgba(48,56,216,.55)' : ''; r.style.outlineOffset = '-2px'; });
+    rows[cursor].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }
+  document.addEventListener('keydown', function (e) {
+    var typing = /INPUT|TEXTAREA|SELECT/.test((e.target.tagName || '').toUpperCase());
+    if (e.key === 'Escape') { if (typing) e.target.blur(); else closeDrawer(); return; }
+    if (typing || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === '/') { e.preventDefault(); $('search').focus(); $('search').select(); }
+    else if (e.key === 'j') focusRow(cursor + 1);
+    else if (e.key === 'k') focusRow(cursor - 1);
+    else if (e.key === 'Enter' && cursor > -1) { var r = $('rows').querySelectorAll('tr.row')[cursor]; if (r) openDrawer(r.dataset.id); }
+    else if (e.key === 'r') load();
+  });
 
   /* ---------- clipboard ---------- */
   function copy(text, okMsg) {
@@ -782,8 +876,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
         '<div style="display:flex;justify-content:space-between;gap:12px;font-size:.88rem;margin-bottom:5px">' +
         '<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + esc(r[0]) + '</span>' +
         '<strong style="flex:none">' + r[1] + '<span class="muted" style="font-weight:400"> · ' + pct + '%</span></strong></div>' +
-        '<div style="height:7px;border-radius:999px;background:rgba(24,28,79,.09);overflow:hidden">' +
-        '<i style="display:block;height:100%;width:' + pct + '%;background:linear-gradient(90deg,#3038D8,#FFAC1C)"></i></div></div>';
+        '<div class="bar"><i style="width:' + pct + '%"></i></div></div>';
     }).join('');
   }
 
@@ -822,8 +915,8 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
       ['On mobile', mobilePct + '%', '#181C4F']
     ];
     t.innerHTML = tiles.map(function (x) {
-      return '<div class="card" style="padding:20px 18px">' +
-        '<div style="font-family:\'Clash Display\',sans-serif;font-weight:700;font-size:1.85rem;line-height:1.1;color:' + x[2] + '">' + x[1] + '</div>' +
+      return '<div class="card tile lift" style="padding:20px 18px">' +
+        '<div class="num" style="color:' + x[2] + '">' + x[1] + '</div>' +
         '<div class="muted" style="font-size:.76rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;margin-top:4px">' + x[0] + '</div></div>';
     }).join('');
 
@@ -842,8 +935,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
       return '<div style="margin-bottom:13px"><div style="display:flex;justify-content:space-between;gap:10px;font-size:.88rem;font-weight:700;margin-bottom:6px">' +
         '<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + esc(k) + '</span>' +
         '<span class="muted" style="white-space:nowrap">' + n + ' views · ' + sc + ' sessions</span></div>' +
-        '<div style="height:7px;background:rgba(24,28,79,.08);border-radius:999px;overflow:hidden">' +
-        '<div style="height:100%;width:' + (n / maxHits * 100) + '%;background:linear-gradient(90deg,#3038D8,#FFAC1C);border-radius:999px"></div></div></div>';
+        '<div class="bar"><i style="width:' + (n / maxHits * 100) + '%"></i></div></div>';
     }).join('');
 
     /* --- campaign: sessions vs the leads they produced --- */
@@ -927,7 +1019,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
       var src = v.utm_campaign || v.utm_source || refHost(v.referrer) || 'Direct';
       return '<tr>' +
         '<td class="muted" style="white-space:nowrap">' + esc(when) + '</td>' +
-        '<td><a href="' + esc(v.path || '/') + '" target="_blank" rel="noopener">' + esc(v.path || '/') + '</a></td>' +
+        '<td>' + (safeUrl(v.path || '/') ? '<a href="' + esc(safeUrl(v.path || '/')) + '" target="_blank" rel="noopener">' + esc(v.path || '/') + '</a>' : esc(v.path || '')) + '</td>' +
         '<td>' + esc(v.country || '—') + '</td>' +
         '<td style="overflow:hidden;text-overflow:ellipsis;max-width:150px">' + esc(src) + '</td>' +
         '<td class="muted">' + esc(v.device || '') + '</td></tr>';
@@ -955,7 +1047,7 @@ code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.
     if (!list.length) { toast('Nothing to export with these filters.', true); return; }
     var cols = ['created_at','kind','name','phone','email','business_type','budget','city','company','role','college','link','message','notes','status','utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid','landing_page','source_page','referrer'];
     var csv = [cols.join(',')].concat(list.map(function (l) {
-      return cols.map(function (c) { return '"' + String(l[c] == null ? '' : l[c]).replace(/"/g, '""') + '"'; }).join(',');
+      return cols.map(function (c) { return csvCell(l[c]); }).join(',');
     })).join('\r\n');
     var url = URL.createObjectURL(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' }));
     var a = document.createElement('a');
