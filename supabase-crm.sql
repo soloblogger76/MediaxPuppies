@@ -3,6 +3,7 @@
 -- Run once in Supabase → SQL Editor → New query → Run, then hit Refresh in /admin/.
 
 alter table public.leads add column if not exists follow_up_at timestamptz;
+alter table public.leads add column if not exists last_contacted_at timestamptz;
 alter table public.leads add column if not exists priority     text not null default 'normal'
   check (priority in ('low','normal','high'));
 alter table public.leads add column if not exists tags         text[] not null default '{}';

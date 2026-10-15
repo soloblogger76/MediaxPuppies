@@ -449,7 +449,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
 
   var sb = window.supabase.createClient(MP_SUPABASE_URL, MP_SUPABASE_ANON_KEY);
   var all = [], views = [], kind = '', pipeKind = '', onlyDue = false, shown = 60;
-  var cols = { notes: true, follow_up_at: false, tags: false, priority: false, activity: false };
+  var cols = { notes: true, follow_up_at: false, tags: false, priority: false, activity: false, last_contacted_at: false };
   var sort = { col: 'created_at', dir: -1 };
   var sel = Object.create(null);
   var STATUSES = ['new', 'contacted', 'qualified', 'won', 'lost'];
@@ -547,6 +547,19 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
     return d;
   }
   function srcOf(l) { return l.utm_campaign || l.utm_source || (l.referrer ? 'referral' : 'direct'); }
+  /* First-message templates for the WhatsApp button. No prices, no promises. */
+  function waText(l) {
+    var first = String(l.name || '').trim().split(/\s+/)[0] || 'there';
+    if (l.kind === 'client') return 'Hi ' + first + ', this is Media Puppies. Thanks for your enquiry' + (l.business_type ? ' about ' + l.business_type : '') + '. When is a good time for a 15-minute call, today or tomorrow?';
+    if (l.kind === 'careers') return 'Hi ' + first + ', Media Puppies here. Thanks for applying' + (l.role ? ' for the ' + l.role + ' role' : '') + '. Could you share a time this week for a short call?';
+    return 'Hi ' + first + ', Media Puppies here. Thanks for applying for the content writing internship. We will send a short writing task next; is this the right number to use?';
+  }
+  function markContacted(id) {
+    var l = byId(id); if (!l || l.status !== 'new') return;
+    var obj = { status: 'contacted' };
+    if (cols.last_contacted_at) obj.last_contacted_at = new Date().toISOString();
+    patch(id, obj, logEntry('status', 'First message sent on WhatsApp'), 'Marked contacted.');
+  }
   function statusPill(s) {
     var t = TONE[s] || TONE.new;
     return '<span class="pill" style="background:' + t[0] + ';color:' + t[1] + '">' + cap(s) + '</span>';
@@ -697,7 +710,11 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
   }
   function setStatus(ids, val, ctrl) {
     if (!val || !ids.length) return;
-    if (ids.length === 1) { patch(ids[0], { status: val }, logEntry('status', 'Marked ' + val), 'Marked ' + val + '.', ctrl); return; }
+    if (ids.length === 1) {
+      var obj = { status: val };
+      if (val === 'contacted' && cols.last_contacted_at) obj.last_contacted_at = new Date().toISOString();
+      patch(ids[0], obj, logEntry('status', 'Marked ' + val), 'Marked ' + val + '.', ctrl); return;
+    }
     if (ctrl) ctrl.disabled = true;
     sb.from('leads').update({ status: val }).in('id', ids).then(function (r) {
       if (ctrl) ctrl.disabled = false;
@@ -850,7 +867,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
         '<td><input type="checkbox" class="pick" data-id="' + esc(l.id) + '"' + (sel[l.id] ? ' checked' : '') + ' style="width:auto;padding:0;margin:0;vertical-align:middle" aria-label="Select this lead"></td>' +
         '<td>' + fmtDate(l.created_at) + '</td>' +
         '<td><strong style="display:flex;align-items:center;gap:6px">' + (cols.priority ? '<span class="dot" style="background:' + (PRIO[l.priority] || PRIO.normal) + '" title="' + esc(l.priority || 'normal') + ' priority"></span>' : '') + esc(l.name || '—') + '</strong>' +
-          '<div class="muted" style="font-size:.74rem;text-transform:capitalize">' + esc(l.kind) + '</div></td>' +
+          '<div class="muted" style="font-size:.74rem;text-transform:capitalize">' + esc(l.kind) + '</div>' + (l.last_contacted_at ? '<div class="muted" style="font-size:.72rem">contacted ' + ago(l.last_contacted_at) + '</div>' : '') + '</td>' +
         '<td>' + (l.phone ? '<a href="tel:' + esc(telNum(l.phone)) + '">' + esc(l.phone) + '</a>' + (wa ? ' <a href="https://wa.me/' + esc(wa) + '" target="_blank" rel="noopener" title="Open WhatsApp" style="font-weight:700;color:#1F8A3B">WA</a>' : '') + '<br>' : '') +
           (l.email ? '<a href="mailto:' + esc(l.email) + '" style="font-size:.82rem">' + esc(l.email) + '</a>' : '') + '</td>' +
         '<td>' + (details.join(' · ') || '<span class="muted">—</span>') + (flags.length ? '<div style="margin-top:5px">' + flags.join(' ') + '</div>' : '') + '</td>' +
@@ -994,7 +1011,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
     var wa = waNumber(l.phone);
     var actions = [];
     if (l.phone) actions.push('<a class="btn ghost sm" href="tel:' + esc(telNum(l.phone)) + '">Call</a>');
-    if (wa) actions.push('<a class="btn ghost sm" target="_blank" rel="noopener" href="https://wa.me/' + esc(wa) + '">WhatsApp</a>');
+    if (wa) actions.push('<a class="btn ghost sm" id="dWa" target="_blank" rel="noopener" title="Opens WhatsApp with a first message typed in; marks the lead contacted" href="https://wa.me/' + esc(wa) + '?text=' + encodeURIComponent(waText(l)) + '">WhatsApp ' + (l.status === 'new' ? '<span class="muted" style="font-weight:400">&middot; marks contacted</span>' : '') + '</a>');
     if (l.email) actions.push('<a class="btn ghost sm" href="mailto:' + esc(l.email) + '">Email</a>');
     actions.push('<button type="button" id="dCopy" class="btn ghost sm">Copy details</button>');
     $('dPill').innerHTML = statusPill(l.status);
@@ -1029,6 +1046,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
       '<div style="margin-bottom:6px"><label for="dStatus">Status</label>' + statusSelect(l.id, l.status, 'id="dStatus"') + '</div>' +
       crm +
       '<div class="block"><h4>Details</h4>' +
+      (cols.last_contacted_at ? kv('Last contacted', l.last_contacted_at ? fmtFull(l.last_contacted_at) + ' (' + ago(l.last_contacted_at) + ')' : 'Never') : '') +
       kv('Phone', l.phone) + kv('Email', l.email) +
       kv('Business', l.business_type) + kv('Company', l.company) +
       kv('Budget', l.budget) + kv('City', l.city) +
@@ -1054,6 +1072,8 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
     if (!(keepScroll && wasOpen)) $('drawer').scrollTop = 0;
 
     $('dStatus').addEventListener('change', function () { setStatus([openId], this.value, this); });
+    var dwa = $('dWa');
+    if (dwa) dwa.addEventListener('click', function () { markContacted(openId); });
     $('dCopy').addEventListener('click', function () {
       var lines = [l.name, l.phone, l.email, l.company, l.business_type, l.budget, l.city, l.role, l.college, l.message, 'Landing: ' + (l.landing_page || '—'), 'Source: ' + srcOf(l)].filter(Boolean);
       copy(lines.join('\n'), 'Lead details copied.');
@@ -1232,7 +1252,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
     var ids = Object.keys(sel);
     var list = ids.length ? all.filter(function (l) { return sel[l.id]; }) : visible();
     if (!list.length) { toast('Nothing to export with these filters.', true); return; }
-    var c = ['created_at','kind','name','phone','email','business_type','budget','city','company','role','college','link','message','notes','status','priority','tags','follow_up_at','utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid','landing_page','source_page','referrer'];
+    var c = ['created_at','kind','name','phone','email','business_type','budget','city','company','role','college','link','message','notes','status','priority','tags','follow_up_at','last_contacted_at','utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid','landing_page','source_page','referrer'];
     var csv = [c.join(',')].concat(list.map(function (l) { return c.map(function (k) { return csvCell(l[k]); }).join(','); })).join('\r\n');
     var url = URL.createObjectURL(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' }));
     var a = document.createElement('a');
