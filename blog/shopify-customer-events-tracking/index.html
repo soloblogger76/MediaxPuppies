@@ -13,16 +13,16 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="Customer Events, double-counted purchases, Markets currency mismatches and weak CAPI matching. The faults that make a Shopify account report fiction.">
+<meta name="description" content="Customer Events, double-counted purchases, Markets currency mismatches and weak CAPI matching: the Shopify tracking faults that make reports fiction.">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Shopify tracking: four ways it quietly goes wrong">
-<meta property="og:description" content="Customer Events, double-counted purchases, Markets currency mismatches and weak CAPI matching. The faults that make a Shopify account report fiction.">
+<meta property="og:description" content="Customer Events, double-counted purchases, Markets currency mismatches and weak CAPI matching: the Shopify tracking faults that make reports fiction.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/shopify-customer-events-tracking/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Shopify tracking: four ways it quietly goes wrong">
-<meta name="twitter:description" content="Customer Events, double-counted purchases, Markets currency mismatches and weak CAPI matching. The faults that make a Shopify account report fiction.">
+<meta name="twitter:description" content="Customer Events, double-counted purchases, Markets currency mismatches and weak CAPI matching: the Shopify tracking faults that make reports fiction.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <link rel="canonical" href="https://mediapuppies.com/blog/shopify-customer-events-tracking/">
 <style>
@@ -50,7 +50,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Shopify tracking: four ways it quietly goes wrong", "description": "Customer Events, double-counted purchases, Markets currency mismatches and weak CAPI matching. The faults that make a Shopify account report fiction.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-09", "dateModified": "2026-10-09", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/"}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/shopify-customer-events-tracking/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Shopify tracking: four ways it quietly goes wrong", "description": "Customer Events, double-counted purchases, Markets currency mismatches and weak CAPI matching: the Shopify tracking faults that make reports fiction.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-09", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/"}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/shopify-customer-events-tracking/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why do Shopify and Meta report different purchase numbers?", "acceptedAnswer": {"@type": "Answer", "text": "Some difference is normal, because the two attribute across different windows. A large, persistent gap usually means purchases are counted more than once, or a pixel is firing in a sandboxed Customer Events block where it cannot see the order."}}, {"@type": "Question", "name": "What causes double-counted purchases?", "acceptedAnswer": {"@type": "Answer", "text": "A pixel installed both through the Shopify app integration and again in the theme or in Customer Events. The order fires twice, reported revenue inflates, and the optimisation is trained on a number that does not exist."}}, {"@type": "Question", "name": "How does Shopify Markets break tracking?", "acceptedAnswer": {"@type": "Answer", "text": "Multi-currency stores can send the local currency value with the wrong currency code, or send a converted figure the platform converts again. Reported revenue then looks plausible and is wrong by the exchange rate."}}, {"@type": "Question", "name": "What makes Conversions API effective?", "acceptedAnswer": {"@type": "Answer", "text": "Match quality. Sending the event without hashed email, phone, click identifier and the rest leaves the platform unable to tie it to a person, so the event adds little. Check the match quality score rather than assuming the integration is enough."}}]}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediapuppies.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mediapuppies.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Shopify tracking: four ways it quietly goes wrong", "item": "https://mediapuppies.com/blog/shopify-customer-events-tracking/"}]}
@@ -94,7 +97,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">Shopify makes tracking look easy, which is exactly the problem. Two clicks turn a pixel green and nobody checks again.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> &middot; <time datetime="2026-10-09">9 October 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> &middot; <time datetime="2026-10-09">9 October 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -103,7 +106,7 @@ article tr:last-child td{border-bottom:none}
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
 
-<p>Half the Shopify accounts we audit are optimising against numbers that are wrong. Not slightly wrong — wrong in a direction that changes decisions. The store reports one figure, the ad platform reports another, and somebody is scaling on the wrong one.</p>
+<p>Shopify tracking is broken in half the accounts we audit, and they are optimising against those numbers anyway. Not slightly wrong — wrong in a direction that changes decisions. The store reports one figure, the ad platform reports another, and somebody is scaling on the wrong one.</p>
 <p>These are the four faults we find most often.</p>
 <h2>1. Customer Events and the sandbox</h2>
 <p>Shopify moved custom tracking into Customer Events, running pixels in a sandboxed context rather than letting arbitrary script onto the checkout. Hand-installed tracking from the older approach silently stopped working in places.</p>
@@ -118,7 +121,7 @@ article tr:last-child td{border-bottom:none}
 <h2>4. Conversions API with nothing to match on</h2>
 <p>Server-side events matter more on Shopify than on most platforms, because so much buying happens in-app and on Safari where browser tracking is weakest.</p>
 <p>But a CAPI sending events with no matchable customer information is doing very little. Look at event match quality rather than whether CAPI is "on". A connection that is live and matching poorly produces a reassuring green tick and thin data.</p>
-<h2>How to audit this in an afternoon</h2>
+<h2>How to audit Shopify tracking in an afternoon</h2>
 <ol><li>Take yesterday’s order count from Shopify.</li>
 <li>Compare it with purchases reported in Meta and in Google for the same window.</li>
 <li>If the platforms report more, you have a deduplication problem.</li>
@@ -128,6 +131,9 @@ article tr:last-child td{border-bottom:none}
 <p>That sequence finds the large majority of Shopify tracking faults without any specialist tooling.</p>
 <h2>Then stop trusting platform ROAS anyway</h2>
 <p>Even with perfect tracking, two platforms will both claim the same sale. Hold a blended view at business level — total revenue against total ad spend — which no amount of attribution generosity can inflate. The <a href="/tools/blended-roas-calculator/">blended ROAS and MER calculator</a> gives you that, and the <a href="/shopify-ads-agency/">Shopify page</a> covers the rest of the setup.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why do Shopify and Meta report different purchase numbers?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Some difference is normal, because the two attribute across different windows. A large, persistent gap usually means purchases are counted more than once, or a pixel is firing in a sandboxed Customer Events block where it cannot see the order.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What causes double-counted purchases?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">A pixel installed both through the Shopify app integration and again in the theme or in Customer Events. The order fires twice, reported revenue inflates, and the optimisation is trained on a number that does not exist.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How does Shopify Markets break tracking?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Multi-currency stores can send the local currency value with the wrong currency code, or send a converted figure the platform converts again. Reported revenue then looks plausible and is wrong by the exchange rate.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What makes Conversions API effective?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Match quality. Sending the event without hashed email, phone, click identifier and the rest leaves the platform unable to tie it to a person, so the event adds little. Check the match quality score rather than assuming the integration is enough.</p></details></div>
+
 
     </article>
 
