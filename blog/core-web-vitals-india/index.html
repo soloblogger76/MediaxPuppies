@@ -14,15 +14,15 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="Practical page speed work for Indian websites: what Core Web Vitals measure, why lab scores mislead, and which fixes move the numbers.">
+<meta name="description" content="Core Web Vitals for Indian websites: what the three metrics measure, why lab scores mislead on 4G, and which fixes actually move the numbers.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="Core Web Vitals when your customers are on 4G">
-<meta property="og:description" content="Practical page speed work for Indian websites: what Core Web Vitals measure, why lab scores mislead, and which fixes move the numbers.">
+<meta property="og:description" content="Core Web Vitals for Indian websites: what the three metrics measure, why lab scores mislead on 4G, and which fixes actually move the numbers.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Core Web Vitals when your customers are on 4G">
-<meta name="twitter:description" content="Practical page speed work for Indian websites: what Core Web Vitals measure, why lab scores mislead, and which fixes move the numbers.">
+<meta name="twitter:description" content="Core Web Vitals for Indian websites: what the three metrics measure, why lab scores mislead on 4G, and which fixes actually move the numbers.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/core-web-vitals-india/">
 <link rel="canonical" href="https://mediapuppies.com/blog/core-web-vitals-india/">
@@ -51,7 +51,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Core Web Vitals when your customers are on 4G","description":"Practical page speed work for Indian websites \u2014 what Core Web Vitals measure, why lab scores mislead, and the fixes that matter most on mid-range Android phones.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-08-15","dateModified":"2026-08-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/core-web-vitals-india/"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Core Web Vitals when your customers are on 4G","description":"Practical page speed work for Indian websites \u2014 what Core Web Vitals measure, why lab scores mislead, and the fixes that matter most on mid-range Android phones.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-08-15","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/core-web-vitals-india/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the three Core Web Vitals?", "acceptedAnswer": {"@type": "Answer", "text": "Largest Contentful Paint, which measures how long the main content takes to appear; Interaction to Next Paint, which measures how quickly the page responds when someone taps; and Cumulative Layout Shift, which measures how much the page jumps around while loading."}}, {"@type": "Question", "name": "Why does my PageSpeed score differ from Search Console?", "acceptedAnswer": {"@type": "Answer", "text": "They measure different things. PageSpeed Insights runs a simulated test on a fixed device and connection; Search Console reports field data from real visitors over 28 days. The field data is the one Google uses, and on Indian traffic it is usually the harsher of the two."}}, {"@type": "Question", "name": "Which fixes move the numbers most?", "acceptedAnswer": {"@type": "Answer", "text": "Serving properly sized and modern-format images, removing render-blocking scripts and unused third-party tags, and reserving space for anything that loads late — images, ads, embeds. Those three account for most of the gap on a typical site."}}, {"@type": "Question", "name": "Do Core Web Vitals really affect rankings?", "acceptedAnswer": {"@type": "Answer", "text": "They are a genuine but small ranking factor, and they almost never outrank relevance. The stronger argument is commercial: a page that takes too long on a 4G connection loses visitors you have already paid to bring there."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -98,7 +101,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">Your site is fast on your laptop. Your customer is on a mid-range Android in a lift. Only one of those is the benchmark.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-08-15">15 August 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-08-15">15 August 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -106,9 +109,9 @@ article tr:last-child td{border-bottom:none}
 <section style="padding:20px 0 0">
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
-<p>Page speed is a ranking factor, but that is the smaller reason to care. The larger one is that a slow page loses people before they see anything you paid to show them — and in India, the device and the connection make that far more punishing than most dashboards suggest.</p>
+<p>Core Web Vitals are a ranking factor, but that is the smaller reason to care. The larger one is that a slow page loses people before they see anything you paid to show them — and in India, the device and the connection make that far more punishing than most dashboards suggest.</p>
 
-<h2>What the three metrics actually mean</h2>
+<h2>What the three Core Web Vitals actually mean</h2>
 <ul>
 <li><strong>LCP</strong> — how long until the biggest thing on screen appears. Usually your hero image or headline. Aim under 2.5 seconds.</li>
 <li><strong>INP</strong> — how quickly the page responds when someone taps. This is where cheap phones struggle, because it is about processing, not bandwidth.</li>
@@ -153,6 +156,9 @@ article tr:last-child td{border-bottom:none}
 </ol>
 <p>The third one takes two minutes and tells you more than either report. It is also the only test that shows you what a customer arriving from an ad actually experiences before deciding whether to wait.</p>
 <p>Want us to check your site properly? <a href="/seo-services/">Get a free audit.</a></p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What are the three Core Web Vitals?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Largest Contentful Paint, which measures how long the main content takes to appear; Interaction to Next Paint, which measures how quickly the page responds when someone taps; and Cumulative Layout Shift, which measures how much the page jumps around while loading.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why does my PageSpeed score differ from Search Console?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">They measure different things. PageSpeed Insights runs a simulated test on a fixed device and connection; Search Console reports field data from real visitors over 28 days. The field data is the one Google uses, and on Indian traffic it is usually the harsher of the two.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Which fixes move the numbers most?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Serving properly sized and modern-format images, removing render-blocking scripts and unused third-party tags, and reserving space for anything that loads late — images, ads, embeds. Those three account for most of the gap on a typical site.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Do Core Web Vitals really affect rankings?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">They are a genuine but small ranking factor, and they almost never outrank relevance. The stronger argument is commercial: a page that takes too long on a 4G connection loses visitors you have already paid to bring there.</p></details></div>
+
     </article>
 
 <aside data-reveal="0" style="max-width:720px;margin:44px auto 0;padding:0 24px">
