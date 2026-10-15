@@ -19,7 +19,7 @@
   /* Don't count ourselves, headless browsers, or obvious crawlers */
   if (location.pathname.indexOf('/admin') === 0) return;
   if (navigator.webdriver) return;
-  if (/bot|crawler|spider|crawling|headless|lighthouse|pagespeed/i.test(navigator.userAgent)) return;
+  if (/bot|crawler|spider|crawling|headless|lighthouse|pagespeed|chatgpt-user|gptbot|oai-search|perplexity|claude|anthropic|bytespider|petalbot|semrush|ahrefs|facebookexternalhit|preview|slurp|duckduck|yandex/i.test(navigator.userAgent)) return;
 
   /* ---- first-touch attribution, shared with lead-capture.js ---- */
   function attribution() {
