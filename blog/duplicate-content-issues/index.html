@@ -14,15 +14,15 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="Where duplicate content comes from on Indian business sites, why it dilutes rankings, and the canonical and parameter fixes that resolve it.">
+<meta name="description" content="Where duplicate content comes from on Indian business sites, why it splits your ranking signals, and the canonical and parameter fixes that work.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="Duplicate content: what actually causes it">
-<meta property="og:description" content="Where duplicate content comes from on Indian business sites, why it dilutes rankings, and the canonical and parameter fixes that resolve it.">
+<meta property="og:description" content="Where duplicate content comes from on Indian business sites, why it splits your ranking signals, and the canonical and parameter fixes that work.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Duplicate content: what actually causes it">
-<meta name="twitter:description" content="Where duplicate content comes from on Indian business sites, why it dilutes rankings, and the canonical and parameter fixes that resolve it.">
+<meta name="twitter:description" content="Where duplicate content comes from on Indian business sites, why it splits your ranking signals, and the canonical and parameter fixes that work.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/duplicate-content-issues/">
 <link rel="canonical" href="https://mediapuppies.com/blog/duplicate-content-issues/">
@@ -51,7 +51,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Duplicate content: what actually causes it","description":"Where duplicate content comes from on Indian business sites, why it dilutes rankings, and the canonical and parameter fixes that resolve it.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-09-16","dateModified":"2026-09-16","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/duplicate-content-issues/"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Duplicate content: what actually causes it","description":"Where duplicate content comes from on Indian business sites, why it splits your ranking signals, and the canonical and parameter fixes that work.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-09-16","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/"},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/duplicate-content-issues/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is there a duplicate content penalty?", "acceptedAnswer": {"@type": "Answer", "text": "No. There is no manual action for ordinary duplication. What happens instead is that your signals split across several URLs and Google picks one to show, often not the version you would have chosen, and the rest earn nothing."}}, {"@type": "Question", "name": "What causes duplicate content most often?", "acceptedAnswer": {"@type": "Answer", "text": "The same page reachable with and without a trailing slash, with and without www, over http and https, with tracking parameters attached, and through both a category path and a direct path. Printer views and paginated archives add more."}}, {"@type": "Question", "name": "How do I fix it?", "acceptedAnswer": {"@type": "Answer", "text": "Put a self-referencing canonical on every page, redirect the variants to one chosen form, and make sure internal links all point at that form. For parameters, canonicalise to the clean URL rather than trying to block them in robots.txt."}}, {"@type": "Question", "name": "Is duplicated product copy a problem?", "acceptedAnswer": {"@type": "Answer", "text": "Manufacturer descriptions repeated across hundreds of retailers rarely rank for anyone. It is not a penalty, it just means nothing on the page is yours. A few original lines of specification or use per product is usually enough to separate you."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -98,7 +101,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">Nobody sets out to duplicate content. It arrives through URL parameters, filters and a forgotten staging site.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-09-16">16 September 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> · <time datetime="2026-09-16">16 September 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -106,8 +109,8 @@ article tr:last-child td{border-bottom:none}
 <section style="padding:20px 0 0">
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
-<p>There is no duplicate content penalty in the way people imagine. What happens is subtler and still costly: your signals split across several URLs, and Google picks one version — often not the one you'd choose.</p>
-<h2>Where it comes from</h2>
+<p>Duplicate content carries no penalty, not in the way people imagine. What happens is subtler and still costly: your signals split across several URLs, and Google picks one version — often not the one you'd choose.</p>
+<h2>Where duplicate content comes from</h2>
 <ol><li><strong>Multiple URL versions.</strong> http and https, www and non-www, with and without trailing slash. Pick one, redirect the rest.</li>
 <li><strong>Filter and sort parameters.</strong> Faceted navigation can generate hundreds of near-identical URLs.</li>
 <li><strong>Manufacturer product descriptions.</strong> Five stores with identical text. Google keeps one.</li>
@@ -135,10 +138,9 @@ article tr:last-child td{border-bottom:none}
 <h2>When duplication is the right answer</h2>
 <p>Not every repeat is a mistake. Shipping policy, return terms, warranty text and contact details are supposed to be identical across pages, and no amount of rewriting improves them. Manufacturer specification tables are the same — nobody wants a creatively reworded dimension.</p>
 <p>The test is whether the duplicated block is the <em>reason</em> the page exists. A product page whose only content is the manufacturer's description has nothing of its own. The same description sitting beneath four paragraphs of your own sizing advice and photographs is fine.</p>
-<h2>Common questions</h2>
-<p><strong>Will duplicate content get my site penalised?</strong> No. Manual penalties for duplication are reserved for deliberate scraping and doorway networks. What ordinary duplication costs you is consolidation: your links and relevance split across versions instead of stacking on one.</p>
-<p><strong>Should I noindex duplicate pages?</strong> Usually not. A canonical passes signals to the chosen version; noindex throws them away. Reserve noindex for pages that genuinely should never appear, like internal search results.</p>
-<p><strong>What about the same article on my site and on LinkedIn or Medium?</strong> Publish on your own domain first, let it get indexed, then republish elsewhere with a canonical pointing home if the platform supports one. If it does not, republish an edited excerpt rather than the whole piece.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Is there a duplicate content penalty?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">No. There is no manual action for ordinary duplication. What happens instead is that your signals split across several URLs and Google picks one to show, often not the version you would have chosen, and the rest earn nothing.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What causes duplicate content most often?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">The same page reachable with and without a trailing slash, with and without www, over http and https, with tracking parameters attached, and through both a category path and a direct path. Printer views and paginated archives add more.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How do I fix it?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Put a self-referencing canonical on every page, redirect the variants to one chosen form, and make sure internal links all point at that form. For parameters, canonicalise to the clean URL rather than trying to block them in robots.txt.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Is duplicated product copy a problem?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Manufacturer descriptions repeated across hundreds of retailers rarely rank for anyone. It is not a penalty, it just means nothing on the page is yours. A few original lines of specification or use per product is usually enough to separate you.</p></details></div>
+
 </article>
 
 <aside data-reveal="0" style="max-width:720px;margin:44px auto 0;padding:0 24px">
