@@ -13,16 +13,16 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="UK cookie consent is governed by PECR, and how your banner is wired decides how much conversion data reaches Meta and Google. How to diagnose a sudden drop.">
+<meta name="description" content="UK cookie consent is governed by PECR, and how consent mode is wired decides how much data reaches Meta and Google. How to diagnose a sudden drop.">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PECR, consent mode, and the UK conversions you stopped seeing">
-<meta property="og:description" content="UK cookie consent is governed by PECR, and how your banner is wired decides how much conversion data reaches Meta and Google. How to diagnose a sudden drop.">
+<meta property="og:description" content="UK cookie consent is governed by PECR, and how consent mode is wired decides how much data reaches Meta and Google. How to diagnose a sudden drop.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/blog/uk-consent-mode-conversion-loss/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="PECR, consent mode, and the UK conversions you stopped seeing">
-<meta name="twitter:description" content="UK cookie consent is governed by PECR, and how your banner is wired decides how much conversion data reaches Meta and Google. How to diagnose a sudden drop.">
+<meta name="twitter:description" content="UK cookie consent is governed by PECR, and how consent mode is wired decides how much data reaches Meta and Google. How to diagnose a sudden drop.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <link rel="canonical" href="https://mediapuppies.com/blog/uk-consent-mode-conversion-loss/">
 <style>
@@ -50,7 +50,10 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "PECR, consent mode, and the UK conversions you stopped seeing", "description": "UK cookie consent is governed by PECR, and how your banner is wired decides how much conversion data reaches Meta and Google. How to diagnose a sudden drop.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-09", "dateModified": "2026-10-09", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/"}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/uk-consent-mode-conversion-loss/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "PECR, consent mode, and the UK conversions you stopped seeing", "description": "UK cookie consent is governed by PECR, and how consent mode is wired decides how much data reaches Meta and Google. How to diagnose a sudden drop.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-09", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/"}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/uk-consent-mode-conversion-loss/"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why did my UK conversions drop without any change?", "acceptedAnswer": {"@type": "Answer", "text": "Usually a consent banner was installed or reconfigured, and tags now wait for permission that a large share of visitors do not give. Sales are unaffected; what fell is the number of conversions your platforms can see and attribute."}}, {"@type": "Question", "name": "What is consent mode?", "acceptedAnswer": {"@type": "Answer", "text": "A way of telling Google tags whether a visitor consented, so that they either run fully or send limited, cookieless signals that can be modelled. It is a wiring job between your banner and your tags, not a setting you switch on."}}, {"@type": "Question", "name": "How do I diagnose it?", "acceptedAnswer": {"@type": "Answer", "text": "Compare orders in your own back office with reported conversions over the same period, check when the banner was last changed, and inspect what the tags send before and after consent. If back-office revenue is flat, the problem is measurement."}}, {"@type": "Question", "name": "What actually helps?", "acceptedAnswer": {"@type": "Answer", "text": "Server-side tagging and the Conversions API with good match data, consent mode wired properly so modelling can work, and a banner design that earns genuine consent. Beyond that, judge performance on your own revenue rather than platform-reported numbers."}}]}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediapuppies.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mediapuppies.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "PECR, consent mode, and the UK conversions you stopped seeing", "item": "https://mediapuppies.com/blog/uk-consent-mode-conversion-loss/"}]}
@@ -94,7 +97,7 @@ article tr:last-child td{border-bottom:none}
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">A consent banner update is invisible to everybody except your bidding algorithm, which immediately gets worse at its job.</p>
     <div data-reveal="260" style="margin-top:26px;padding-top:22px;border-top:1px solid rgba(24,28,79,.12);display:flex;align-items:center;gap:12px">
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
-      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> &middot; <time datetime="2026-10-09">9 October 2026</time></span>
+      <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><strong style="color:#181C4F">Media Puppies</strong> &middot; <time datetime="2026-10-09">9 October 2026</time> &middot; <span style="color:rgba(24,28,79,.55)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
   </div>
 </header>
@@ -103,8 +106,8 @@ article tr:last-child td{border-bottom:none}
   <div style="max-width:760px;margin:0 auto;padding:0 24px">
     <article>
 
-<p>The call usually opens the same way: conversions are down thirty percent, nothing changed, and the business says sales are fine. The cause is nearly always a consent change that the marketing team found out about afterwards.</p>
-<h2>What governs this in the UK</h2>
+<p>Consent mode problems arrive as a phone call that opens the same way: conversions are down thirty percent, nothing changed, and the business says sales are fine. The cause is nearly always a consent change that the marketing team found out about afterwards.</p>
+<h2>What governs consent mode in the UK</h2>
 <p>Cookies and similar technologies fall under PECR — the Privacy and Electronic Communications Regulations — alongside UK GDPR. Non-essential cookies, which includes advertising and analytics, require consent before they are set. Not implied consent, not continued browsing.</p>
 <p>That means a meaningful share of your UK visitors are, correctly, not being tracked. The question is not how to avoid that. It is how to measure accurately within it.</p>
 <h2>Consent mode is not a checkbox</h2>
@@ -126,6 +129,9 @@ article tr:last-child td{border-bottom:none}
 <p>Hold a blended view at business level: total revenue against total ad spend. Consent cannot touch it, platform double-counting cannot inflate it, and it reconciles with your accounts. Our <a href="/tools/blended-roas-calculator/">blended ROAS and MER calculator</a> does it in one screen.</p>
 <p>Use platform figures for choosing between ad sets. Use blended figures for deciding budgets. Most of the confusion in this area comes from using the first for the second.</p>
 <p>One more habit worth forming: annotate consent and tracking changes in your reporting on the day they happen. Six months later nobody remembers, and that annotation is the difference between a five-minute diagnosis and a fortnight of investigating the wrong thing.</p>
+<h2>Questions people ask</h2>
+<div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why did my UK conversions drop without any change?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Usually a consent banner was installed or reconfigured, and tags now wait for permission that a large share of visitors do not give. Sales are unaffected; what fell is the number of conversions your platforms can see and attribute.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is consent mode?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">A way of telling Google tags whether a visitor consented, so that they either run fully or send limited, cookieless signals that can be modelled. It is a wiring job between your banner and your tags, not a setting you switch on.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How do I diagnose it?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Compare orders in your own back office with reported conversions over the same period, check when the banner was last changed, and inspect what the tags send before and after consent. If back-office revenue is flat, the problem is measurement.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What actually helps?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Server-side tagging and the Conversions API with good match data, consent mode wired properly so modelling can work, and a banner design that earns genuine consent. Beyond that, judge performance on your own revenue rather than platform-reported numbers.</p></details></div>
+
 
     </article>
 
