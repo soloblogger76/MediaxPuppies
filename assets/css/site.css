@@ -1,0 +1,208 @@
+/* Media Puppies — shared presentation layer.
+   ─────────────────────────────────────────────────────────────────────
+   Every page carries its own inline styles, so this file only adds what
+   inline styles cannot express: hover and focus states, pseudo-elements,
+   transitions, and the handful of rules that main.js toggles by class.
+   Inline declarations always win over a stylesheet, which is the reason
+   the few !important rules below exist. Keep it that way. */
+
+:root {
+  --mp-navy: #181C4F;
+  --mp-blue: #3038D8;
+  --mp-amber: #FFAC1C;
+  --mp-cream: #F6F5EF;
+  --mp-ease: cubic-bezier(.2, .7, .2, 1);
+  --mp-ease-out: cubic-bezier(.16, 1, .3, 1);
+}
+
+html { scroll-padding-top: 88px; }
+body { text-rendering: optimizeLegibility; }
+
+::selection { background: var(--mp-amber); color: var(--mp-navy); }
+
+/* ---- Focus: visible for keyboards, invisible for the mouse ---- */
+:focus { outline: none; }
+:focus-visible {
+  outline: 3px solid rgba(48, 56, 216, .55);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ---- Global motion defaults ---- */
+a, button, summary, input, select, textarea, [data-tilt], [data-magnet] {
+  transition:
+    color .2s ease,
+    background-color .25s ease,
+    border-color .2s ease,
+    opacity .25s ease,
+    box-shadow .35s var(--mp-ease),
+    transform .45s var(--mp-ease);
+}
+
+/* ---- Navigation: glass once the page has scrolled, slides away on the
+        way down and returns on the way up (main.js toggles the classes) ---- */
+nav[data-nav] {
+  transition:
+    transform .5s var(--mp-ease),
+    background-color .35s ease,
+    box-shadow .35s ease,
+    border-color .35s ease,
+    backdrop-filter .35s ease;
+  will-change: transform;
+}
+nav[data-nav].is-scrolled {
+  background: rgba(246, 245, 239, .78) !important;
+  border-bottom-color: rgba(24, 28, 79, .08) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(16px);
+  backdrop-filter: saturate(170%) blur(16px);
+}
+nav[data-nav].is-hidden { transform: translateY(-100%); }
+nav[data-nav] a[data-desktop-link] { position: relative; }
+nav[data-nav] a[data-desktop-link]::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -6px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--mp-blue);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .35s var(--mp-ease);
+}
+nav[data-nav] a[data-desktop-link]:hover::after,
+nav[data-nav] a[data-desktop-link][aria-current="page"]::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* ---- Cards with depth ----
+   main.js drives the tilt and sets --mx / --my as the cursor moves. The
+   sheen that follows the cursor and the lifted shadow live here. */
+[data-tilt] {
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  isolation: isolate;
+}
+[data-tilt]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%),
+      rgba(255, 255, 255, .42), rgba(255, 255, 255, 0) 60%);
+  transition: opacity .35s ease;
+  z-index: 1;
+}
+[data-tilt]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  box-shadow: inset 0 0 0 1px rgba(48, 56, 216, .18);
+  transition: opacity .35s ease;
+  z-index: 1;
+}
+@media (hover: hover) and (pointer: fine) {
+  [data-tilt]:hover::after, [data-tilt]:hover::before { opacity: 1; }
+}
+
+/* ---- Buttons ---- */
+[data-magnet] { will-change: transform; }
+@media (hover: hover) and (pointer: fine) {
+  a[data-magnet]:hover, button[data-magnet]:hover { filter: brightness(1.04); }
+}
+a[data-magnet]:active, button[data-magnet]:active { filter: brightness(.96); }
+button:not([disabled]) { cursor: pointer; }
+
+/* ---- Article typography and links ---- */
+article a:not([data-magnet]):not(.btn) {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  transition: background-size .25s var(--mp-ease), color .2s ease;
+}
+@media (hover: hover) {
+  article a:not([data-magnet]):not(.btn):hover { background-size: 100% 2px; }
+}
+article h2, article h3 { scroll-margin-top: 96px; }
+article img { max-width: 100%; height: auto; border-radius: 16px; }
+article table { width: 100%; border-collapse: collapse; font-size: .95rem; margin: 18px 0; }
+article th, article td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(24, 28, 79, .1); }
+article th { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: rgba(24, 28, 79, .6); }
+
+/* ---- FAQ accordions ----
+   The <details> blocks are inline-styled cards; this adds the chevron and
+   lets main.js animate the open and close. */
+details > summary { position: relative; padding-right: 34px; }
+details > summary::-webkit-details-marker { display: none; }
+details > summary::after {
+  content: "";
+  position: absolute;
+  right: 4px; top: 50%;
+  width: 9px; height: 9px;
+  border-right: 2px solid var(--mp-blue);
+  border-bottom: 2px solid var(--mp-blue);
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform .35s var(--mp-ease);
+}
+details[open] > summary::after { transform: translateY(-30%) rotate(225deg); }
+details > summary:hover { color: var(--mp-blue); }
+details.is-animating { overflow: hidden; }
+
+/* ---- Reveal safety net: nothing stays hidden if the observer never fires ---- */
+html.mp-ready [data-reveal][data-reveal-stuck] {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+/* ---- Forms ---- */
+input, select, textarea { transition: border-color .2s ease, box-shadow .25s ease, background-color .2s ease; }
+input:focus, select:focus, textarea:focus {
+  border-color: var(--mp-blue) !important;
+  box-shadow: 0 0 0 4px rgba(48, 56, 216, .14);
+}
+
+/* ---- Hero cursor glow (home only; main.js inserts the element) ---- */
+.mp-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(560px circle at var(--gx, 50%) var(--gy, 40%),
+      rgba(48, 56, 216, .10), rgba(48, 56, 216, 0) 62%);
+  transition: opacity .6s ease;
+  z-index: 0;
+}
+@media (hover: hover) and (pointer: fine) {
+  header#top:hover .mp-glow { opacity: 1; }
+}
+
+/* ---- Scrollbar: quieter, on the browsers that allow it ---- */
+@supports (scrollbar-width: thin) {
+  html { scrollbar-width: thin; scrollbar-color: rgba(24, 28, 79, .28) transparent; }
+}
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: rgba(24, 28, 79, .22); border-radius: 999px; border: 3px solid var(--mp-cream); }
+::-webkit-scrollbar-thumb:hover { background: rgba(24, 28, 79, .4); }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* ---- Blog index filter chips, tool cards ---- */
+.chip { transition: background-color .25s ease, color .2s ease, transform .3s var(--mp-ease), box-shadow .3s ease; }
+@media (hover: hover) {
+  .chip:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(24, 28, 79, .1); }
+}
+
+/* ---- Respect the visitor ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+  nav[data-nav].is-hidden { transform: none; }
+}
