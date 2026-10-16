@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#F6F5EF">
 <title>Media Puppies — Performance Marketing Agency, Delhi NCR</title>
-<link rel="preload" as="image" href="/assets/img/puppy-hero.webp" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/img/puppy-hero-560.webp" imagesrcset="/assets/img/puppy-hero-400.webp 400w, /assets/img/puppy-hero-560.webp 560w, /assets/img/puppy-hero.webp 800w" imagesizes="(max-width:720px) 72vw, 460px" fetchpriority="high">
 <link rel="preconnect" href="https://api.fontshare.com">
 <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
 <link rel="dns-prefetch" href="https://connect.facebook.net">
@@ -26,11 +26,23 @@
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta name="description" content="Media Puppies — performance marketing agency. Paid acquisition for D2C brands and growth businesses. 8 years, $10M+ managed, 150+ clients.">
 <style>
-html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
-body{margin:0;background:#F6F5EF;color:#181C4F;font-family:'Satoshi',system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%;position:relative}
+/* Layout: one column of pinned chapters, each a full screen the scroll position drives; the auction report is the single 3D moment. */
+:root{--navy:#181C4F;--blue:#3038D8;--amber:#FFAC1C;--cream:#F6F5EF;--paper:#FFFFFF;--ink:rgba(24,28,79,.66);--line:rgba(24,28,79,.12);--font-display:'Clash Display','Satoshi',system-ui,sans-serif;--font-body:'Satoshi',system-ui,-apple-system,sans-serif;--pin:280vh;--out:cubic-bezier(.16,1,.3,1)}
+html{scroll-behavior:smooth;overflow-x:clip;width:100%}
+body{margin:0;background:var(--cream);color:var(--navy);font-family:var(--font-body);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip;width:100%;position:relative}
 section,header,footer,nav{max-width:100vw}
-a{color:#181C4F;text-decoration:none}
-a:hover{color:#3038D8}
+a{color:var(--navy);text-decoration:none}
+a:hover{color:var(--blue)}
+.wrap{max-width:1140px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px));box-sizing:border-box}
+.d{font-family:var(--font-display);letter-spacing:-.02em}
+h1,h2,h3{text-wrap:balance}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.h2{font-family:'Clash Display',sans-serif;font-weight:600;font-size:clamp(1.8rem,3.8vw,2.7rem);line-height:1.08;letter-spacing:-.025em;margin:0}
+.lead{font-size:1.08rem;color:var(--ink);max-width:52ch}
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:1.02rem;white-space:nowrap;border-radius:999px;padding:16px 30px;color:#FFF;background:linear-gradient(180deg,#3A43E8,#3038D8);box-shadow:0 12px 30px rgba(48,56,216,.32),inset 0 1px 0 rgba(255,255,255,.25);position:relative;overflow:hidden}
+.btn.ghost{color:var(--navy);background:#FFF;border:1.5px solid rgba(24,28,79,.16);box-shadow:0 6px 18px rgba(24,28,79,.07)}
+.btn.amber{color:var(--navy);background:linear-gradient(180deg,#FFC65C,#FFAC1C);box-shadow:0 14px 34px rgba(0,0,0,.3)}
+.card{background:#FFF;border:1px solid rgba(24,28,79,.12);border-radius:22px;box-shadow:0 12px 32px rgba(24,28,79,.07)}
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
 @keyframes floaty2{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(-2deg)}}
 @keyframes drawline{to{stroke-dashoffset:0}}
@@ -39,7 +51,71 @@ a:hover{color:#3038D8}
 @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 [data-sticky-cta]{display:none}
 @media (max-width:720px){[data-sticky-cta]{display:flex}[data-desktop-link]{display:none!important}}
-@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* ---------- scroll-driven stage ---------- */
+[data-pin]{position:relative;height:var(--pin);--p:0}
+[data-pin]>.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:flex;align-items:center}
+[data-view]{--v:0}
+.hero{position:relative;overflow:hidden;padding:calc(68px + clamp(40px,7vw,80px)) 0 40px;min-height:88vh;display:flex;align-items:center}
+.hero .stage3d{position:relative;height:clamp(380px,56vw,480px);perspective:1200px;transform-style:preserve-3d;max-width:100%;transform:translateY(calc(var(--v) * -40px)) scale(calc(1 - var(--v) * .06));transform-origin:50% 30%}
+.hero .copy{transform:translateY(calc(var(--v) * -24px));opacity:calc(1 - var(--v) * .9)}
+.hero img.pup{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);width:min(400px,92%);pointer-events:none;-webkit-mask-image:radial-gradient(95% 95% at 50% 50%,#000 62%,transparent 98%);mask-image:radial-gradient(95% 95% at 50% 50%,#000 62%,transparent 98%);animation:floaty 7s 1s ease-in-out infinite}
+.chip{position:absolute;background:#FFF;border:1px solid rgba(24,28,79,.1);border-radius:18px;padding:16px 20px;box-shadow:0 30px 60px rgba(24,28,79,.16),0 4px 12px rgba(24,28,79,.06)}
+.chip .k{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin-bottom:4px}
+.chip .n{font-family:'Clash Display',sans-serif;font-weight:700;font-size:1.6rem;letter-spacing:-.02em;line-height:1.1}
+/* word-by-word statement */
+.statement{font-family:'Clash Display',sans-serif;font-weight:600;font-size:clamp(1.9rem,4.6vw,3.6rem);line-height:1.12;letter-spacing:-.025em;margin:0;max-width:22ch}
+.statement .w{display:inline-block;margin-right:.28em;opacity:calc(.16 + .84 * clamp(0, var(--p) * var(--n) * 1.25 - var(--i), 1));transform:translateY(calc((1 - clamp(0, var(--p) * var(--n) * 1.25 - var(--i), 1)) * 6px));color:#FFF}
+.statement .w.b{color:var(--amber)}
+.numrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));gap:18px;margin-top:clamp(28px,5vw,48px);opacity:clamp(0, (var(--p) - .62) * 4, 1);transform:translateY(calc((1 - clamp(0, (var(--p) - .62) * 4, 1)) * 28px))}
+.numrow b{display:block;font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(2rem,4vw,2.9rem);letter-spacing:-.03em;line-height:1;color:#FFF}
+.numrow b{white-space:nowrap}
+.numrow b span{display:inline;font:inherit;color:inherit;letter-spacing:inherit;margin:0;text-transform:none}
+.numrow>div>span{display:block;font-size:.76rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(246,245,239,.6);margin-top:8px}
+/* services rail */
+.rail{display:flex;gap:18px;width:max-content;transform:translateX(calc(var(--p) * (-1 * var(--rail, 1600px))));will-change:transform}
+.rail .svc{width:min(360px,78vw);flex:none;padding:30px 28px;transition:border-color .3s;display:block;color:var(--navy)}
+.svc svg{margin-bottom:18px}
+.svc h3{font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.25rem;margin:0 0 8px;letter-spacing:-.015em}
+.svc p{margin:0;color:var(--ink);font-size:.98rem}
+.svc .go{display:inline-block;margin-top:16px;font-weight:700;color:var(--blue);font-size:.9rem}
+/* report reveal */
+.report-wrap{perspective:1600px;width:min(760px,100%);margin:0 auto}
+.report{background:linear-gradient(160deg,#1D2260,#181C4F 60%,#141838);color:var(--cream);border-radius:26px;padding:clamp(22px,4vw,34px);box-shadow:0 50px 120px rgba(24,28,79,.4);transform:rotateX(calc((1 - var(--p)) * 40deg)) scale(calc(.86 + var(--p) * .14)) translateY(calc((1 - var(--p)) * 60px));transform-origin:50% 100%;opacity:clamp(.35, var(--p) * 2, 1);position:relative;overflow:hidden}
+.report .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));gap:14px;margin-top:18px}
+.report .cell{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px 16px 14px}
+.report .cell small{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(246,245,239,.55)}
+.report .cell b{display:block;font-family:'Clash Display',sans-serif;font-weight:700;font-size:1.5rem;letter-spacing:-.02em;margin-top:6px}
+.report .bars{display:flex;align-items:flex-end;gap:5px;height:72px;margin-top:18px}
+.report .bars i{flex:1;border-radius:4px 4px 0 0;background:linear-gradient(180deg,#5a63ff,#3038D8);transform-origin:bottom;transform:scaleY(clamp(0, (var(--p) - .3) * 1.6, 1))}
+.report .bars i:nth-child(odd){background:linear-gradient(180deg,#FFC65C,#FFAC1C)}
+.float{position:absolute;background:#FFF;color:var(--navy);border-radius:14px;padding:12px 16px;box-shadow:0 20px 50px rgba(24,28,79,.2);font-weight:700;font-size:.88rem;opacity:clamp(0, (var(--p) - .55) * 3, 1);transform:translateY(calc((1 - clamp(0, (var(--p) - .55) * 3, 1)) * 20px))}
+/* steps */
+.steps{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:clamp(28px,6vw,80px);align-items:center;width:100%}
+.steps .big{font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(5rem,16vw,12rem);line-height:.9;letter-spacing:-.05em;color:var(--blue);position:relative;height:1em}
+.steps .big span{position:absolute;left:0;top:0;opacity:calc(1 - min(1, abs(var(--p) * 3 - var(--i)) * 1.6));transform:translateY(calc((var(--p) * 3 - var(--i)) * -20px))}
+.step{padding:22px 0;border-top:1px solid rgba(24,28,79,.12);opacity:calc(.28 + .72 * (1 - min(1, abs(var(--p) * 3 - var(--i)) * 1.3)));transform:translateX(calc(min(1, abs(var(--p) * 3 - var(--i))) * 10px))}
+.step h3{font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.3rem;margin:0 0 6px;letter-spacing:-.015em}
+.step p{margin:0;color:var(--ink);font-size:.98rem}
+.step:first-child{border-top:0}
+/* results */
+.res{padding:30px 28px;transform:translateY(calc((1 - var(--v)) * 40px)) scale(calc(.94 + var(--v) * .06));opacity:calc(.2 + var(--v) * .8)}
+@media (max-width:860px){
+  :root{--pin:220vh}
+  .steps{grid-template-columns:1fr;gap:18px}
+  .steps .big{font-size:clamp(4rem,20vw,6rem);height:.95em}
+  [data-pin].norail{height:auto}
+  [data-pin].norail>.stage{position:static;height:auto;overflow:visible;display:block}
+  .rail{width:auto;flex-direction:column;transform:none}
+  .rail .svc{width:auto}
+  .float{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  [data-pin]{height:auto}[data-pin]>.stage{position:static;height:auto;overflow:visible;display:block}
+  .statement .w,.numrow,.rail,.report,.float,.steps .big span,.step,.res,.hero .copy,.hero .stage3d{opacity:1!important;transform:none!important}
+  .steps .big span{position:static;display:inline}
+}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
 <meta property="og:url" content="https://mediapuppies.com/">
@@ -66,10 +142,10 @@ a:hover{color:#3038D8}
 
 <!-- NAV -->
 <nav data-nav style="position:fixed;top:0;left:0;right:0;z-index:50;transform:translateZ(0);background:rgba(246,245,239,.96);border-bottom:1px solid rgba(24,28,79,.12);transition:box-shadow .3s ease">
-  <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:68px">
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;height:68px">
     <a href="/" style="display:flex;align-items:center;gap:10px;color:#181C4F">
       <img src="/assets/img/logo-mark-sm.webp" alt="Media Puppies" style="height:38px;width:auto;display:block" width="160" height="169" decoding="async">
-      <span style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(1.05rem,3.5vw,1.3rem);letter-spacing:-.02em">Media Puppies</span>
+      <span class="d" style="font-weight:700;font-size:clamp(1.05rem,3.5vw,1.3rem)">Media Puppies</span>
     </a>
     <div style="display:flex;align-items:center;gap:28px">
       <a data-desktop-link href="/services/" style="font-weight:700;font-size:.92rem">Services</a>
@@ -82,145 +158,174 @@ a:hover{color:#3038D8}
 </nav>
 
 <!-- HERO -->
-<header id="top" data-screen-label="Home hero" style="position:relative;overflow:hidden;padding:calc(68px + clamp(48px,8vw,96px)) 0 64px">
-  <div data-para="0.06" style="position:absolute;inset:-10% 0;pointer-events:none;background:radial-gradient(700px 420px at 82% 18%, rgba(48,56,216,.08), transparent 65%), radial-gradient(520px 360px at 8% 90%, rgba(255,172,28,.12), transparent 60%)"></div>
-  <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));gap:48px;align-items:center;position:relative">
-    <div style="min-width:0">
-      <span data-reveal="0" style="display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#3038D8;border:1px solid rgba(24,28,79,.14);background:#FFFFFF;padding:8px 16px;border-radius:999px;margin-bottom:24px;box-shadow:0 4px 14px rgba(24,28,79,.06)">
-        <span style="width:7px;height:7px;border-radius:50%;background:#FFAC1C;animation:pulseDot 2s ease infinite"></span>
-        Performance Marketing
-      </span>
-      <h1 data-reveal="90" style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(2.8rem,5.6vw,4.8rem);line-height:1;letter-spacing:-.025em;margin:0;max-width:13ch">We buy customers. <span style="position:relative;display:inline-block;color:#3038D8">Profitably.<svg viewBox="0 0 200 30" aria-hidden="true" style="position:absolute;left:0;bottom:-.12em;width:100%;height:.3em;overflow:visible;display:block"><path d="M4 22 Q 100 4 196 18" style="fill:none;stroke:#FFAC1C;stroke-width:7;stroke-linecap:round;stroke-dasharray:320;stroke-dashoffset:320;animation:drawline 1s .7s ease forwards"></path></svg></span></h1>
-      <p data-reveal="200" style="margin:24px 0 0;font-size:1.18rem;color:rgba(24,28,79,.66);max-width:48ch"><strong>Media Puppies is a performance marketing agency in Noida, Delhi NCR.</strong> We run Meta and Google ads, SEO and AI automation for D2C brands and growth businesses across India — and every rupee is accountable to an enquiry.</p>
+<header id="top" class="hero" data-view data-screen-label="Home hero">
+  <div data-para="0.06" style="position:absolute;inset:-10% 0;pointer-events:none;background:radial-gradient(700px 420px at 82% 18%,rgba(48,56,216,.08),transparent 65%),radial-gradient(520px 360px at 8% 90%,rgba(255,172,28,.12),transparent 60%)"></div>
+  <div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));gap:48px;align-items:center;position:relative;width:100%">
+    <div class="copy" style="min-width:0">
+      <span class="eyebrow" data-reveal="0" style="color:#3038D8;border:1px solid rgba(24,28,79,.14);background:#FFF;padding:8px 16px;border-radius:999px;margin-bottom:24px;box-shadow:0 4px 14px rgba(24,28,79,.06)"><span style="width:7px;height:7px;border-radius:50%;background:#FFAC1C;animation:pulseDot 2s ease infinite"></span>Performance Marketing</span>
+      <h1 class="d" data-reveal="90" style="font-weight:700;font-size:clamp(2.9rem,6vw,5.2rem);line-height:.98;margin:0;max-width:12ch">We buy customers. <span style="position:relative;display:inline-block;color:#3038D8">Profitably.<svg viewBox="0 0 200 30" aria-hidden="true" style="position:absolute;left:0;bottom:-.12em;width:100%;height:.3em;overflow:visible;display:block"><path d="M4 22 Q 100 4 196 18" style="fill:none;stroke:#FFAC1C;stroke-width:7;stroke-linecap:round;stroke-dasharray:320;stroke-dashoffset:320;animation:drawline 1s .7s ease forwards"></path></svg></span></h1>
+      <p class="lead" data-reveal="200" style="margin:26px 0 0;font-size:1.18rem;max-width:48ch"><strong>Media Puppies is a performance marketing agency in Noida, Delhi NCR.</strong> We run Meta and Google ads, SEO and AI automation for D2C brands and growth businesses across India. Every rupee is accountable to an enquiry.</p>
       <div data-reveal="320" style="margin-top:36px;display:flex;gap:14px;flex-wrap:wrap">
-        <a data-magnet href="/lead-generation/" style="display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:1.02rem;white-space:nowrap;color:#FFFFFF;background:linear-gradient(180deg,#3A43E8,#3038D8);padding:16px 30px;border-radius:999px;box-shadow:0 12px 30px rgba(48,56,216,.32), inset 0 1px 0 rgba(255,255,255,.25);position:relative;overflow:hidden" style-hover="box-shadow:0 18px 40px rgba(48,56,216,.42), inset 0 1px 0 rgba(255,255,255,.25);color:#FFFFFF">
-          <span style="position:absolute;top:0;bottom:0;left:0;width:50px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);animation:sheen 3.5s 1.5s ease infinite"></span>
-          Start a project
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <a data-magnet href="/work/" style="display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:1.02rem;white-space:nowrap;color:#181C4F;background:#FFFFFF;border:1.5px solid rgba(24,28,79,.16);padding:16px 30px;border-radius:999px;box-shadow:0 6px 18px rgba(24,28,79,.07);transition:border-color .15s ease" style-hover="border-color:#3038D8;color:#3038D8">See the work</a>
+        <a class="btn" data-magnet href="/lead-generation/" style-hover="box-shadow:0 18px 40px rgba(48,56,216,.42),inset 0 1px 0 rgba(255,255,255,.25);color:#FFFFFF"><span style="position:absolute;top:0;bottom:0;left:0;width:50px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);animation:sheen 3.5s 1.5s ease infinite"></span>Start a project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn ghost" data-magnet href="/work/" style-hover="border-color:#3038D8;color:#3038D8">See the work</a>
       </div>
-      <div data-reveal="440" style="margin-top:46px;overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)">
-        <div style="display:flex;gap:36px;width:max-content;animation:marquee 20s linear infinite;font-size:.84rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:rgba(24,28,79,.78)">
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#FFAC1C"></span>Meta</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>Google</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#FFAC1C"></span>SEO</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>Influencer</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#FFAC1C"></span>AI Automation</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>Landing Pages</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>WhatsApp Funnels</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#FFAC1C"></span>Creative Testing</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>Attribution</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#FFAC1C"></span>Meta</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>Google</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#FFAC1C"></span>SEO</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>Influencer</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#FFAC1C"></span>AI Automation</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>Landing Pages</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>WhatsApp Funnels</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#FFAC1C"></span>Creative Testing</span>
-          <span style="display:flex;align-items:center;gap:8px"><span style="width:6px;height:6px;border-radius:50%;background:#3038D8;opacity:.5"></span>Attribution</span>
+      <div data-reveal="440" style="margin-top:44px;overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)">
+        <div style="display:flex;gap:36px;width:max-content;animation:marquee 22s linear infinite;font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:rgba(24,28,79,.78)">
+          <span>Meta</span><span>Google</span><span>SEO</span><span>Influencer</span><span>AI Automation</span><span>Landing Pages</span><span>WhatsApp Funnels</span><span>Creative Testing</span><span>Attribution</span>
+          <span>Meta</span><span>Google</span><span>SEO</span><span>Influencer</span><span>AI Automation</span><span>Landing Pages</span><span>WhatsApp Funnels</span><span>Creative Testing</span><span>Attribution</span>
         </div>
       </div>
     </div>
 
-    <div data-hero3d style="position:relative;height:clamp(400px,60vw,480px);perspective:1100px;transform-style:preserve-3d;max-width:100%">
-      <img src="/assets/img/puppy-hero.webp" alt="" style="position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);width:min(400px,92%);pointer-events:none;-webkit-mask-image:radial-gradient(95% 95% at 50% 50%, #000 62%, transparent 98%);mask-image:radial-gradient(95% 95% at 50% 50%, #000 62%, transparent 98%);animation:floaty 7s 1s ease-in-out infinite" width="800" height="800" fetchpriority="high">
+    <div class="stage3d" data-hero3d>
+      <img class="pup" src="/assets/img/puppy-hero-560.webp" srcset="/assets/img/puppy-hero-400.webp 400w, /assets/img/puppy-hero-560.webp 560w, /assets/img/puppy-hero.webp 800w" sizes="(max-width:720px) 72vw, 460px" alt="" width="800" height="800" fetchpriority="high">
       <div data-layer style="position:absolute;inset:0;transform-style:preserve-3d;will-change:transform">
-        <div data-float data-rev="right" data-reveal="200" style="position:absolute;right:0;top:48px;width:min(270px,78%);background:#FFFFFF;border:1px solid rgba(24,28,79,.1);border-radius:18px;padding:16px 20px;box-shadow:0 30px 60px rgba(24,28,79,.16), 0 4px 12px rgba(24,28,79,.06);animation:floaty 6s ease-in-out infinite">
-          <div style="font-size:.74rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8;margin-bottom:4px">D2C · This month</div>
-          <div style="display:flex;align-items:baseline;gap:8px"><span style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:1.7rem;letter-spacing:-.02em"><span data-count="4">4</span>.2x ROAS</span><span style="font-size:.82rem;color:#1F8A3B;font-weight:700">▲</span></div>
+        <div class="chip" data-float data-rev="right" data-reveal="200" style="right:0;top:40px;width:min(270px,78%);animation:floaty 6s ease-in-out infinite">
+          <div class="k">D2C · This month</div>
+          <div class="n"><span data-count="4">4</span>.2x ROAS <span style="font-size:.82rem;color:#1F8A3B">▲</span></div>
         </div>
-        <div data-float data-rev="left" data-reveal="360" style="position:absolute;left:0;top:44%;width:min(270px,78%);background:#FFFFFF;border:1px solid rgba(24,28,79,.1);border-radius:18px;padding:16px 20px;box-shadow:0 30px 60px rgba(24,28,79,.16), 0 4px 12px rgba(24,28,79,.06);animation:floaty2 7s .8s ease-in-out infinite">
+        <div class="chip" data-float data-rev="left" data-reveal="360" style="left:0;top:44%;width:min(270px,78%);animation:floaty2 7s .8s ease-in-out infinite">
           <div style="display:flex;align-items:center;gap:12px">
             <div style="width:38px;height:38px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;flex:none"><svg viewBox="0 0 32 32" width="22" height="22" style="fill:#fff;display:block"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.3 7L4 29l7.2-2.3c1.9 1 4 1.6 6.3 1.6h.5c6.6 0 12-5.4 12-12S22.6 3 16 3zm5.9 17c-.3.8-1.7 1.6-2.4 1.7-.6.1-1.4.1-2.2-.1-.5-.2-1.2-.4-2-.8-3.6-1.5-5.9-5.1-6.1-5.4-.2-.2-1.4-1.9-1.4-3.6s.9-2.6 1.2-2.9c.3-.3.7-.4 1-.4h.7c.2 0 .5-.1.8.6.3.8 1 2.7 1.1 2.9.1.2.2.4 0 .7-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.8 1.7 3.2 1.9.4.2.6.2.9-.1.2-.3 1-1.2 1.3-1.6.3-.4.6-.3.9-.2.4.1 2.4 1.1 2.8 1.3.4.2.7.3.8.5.1.2.1 1-.2 1.7z"/></svg></div>
-            <div style="flex:1;min-width:0">
-              <div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline"><strong style="font-size:.92rem">New lead</strong><span style="font-size:.72rem;color:rgba(24,28,79,.5);font-weight:700">now</span></div>
-              <div style="font-size:.84rem;color:rgba(24,28,79,.66)">Qualified · budget confirmed</div>
-            </div>
+            <div style="flex:1;min-width:0"><div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline"><strong style="font-size:.92rem">New lead</strong><span style="font-size:.72rem;color:rgba(24,28,79,.5);font-weight:700">now</span></div><div style="font-size:.84rem;color:rgba(24,28,79,.66)">Qualified · budget confirmed</div></div>
           </div>
         </div>
-        <div data-float data-rev="zoom" data-reveal="520" style="position:absolute;right:24px;bottom:0;width:min(250px,70%);background:#181C4F;color:#F6F5EF;border-radius:18px;padding:16px 20px;box-shadow:0 34px 70px rgba(24,28,79,.32);animation:floaty 6.5s 1.4s ease-in-out infinite;overflow:hidden">
+        <div class="chip" data-float data-rev="zoom" data-reveal="520" style="right:24px;bottom:0;width:min(250px,70%);background:#181C4F;color:#F6F5EF;border-color:transparent;box-shadow:0 34px 70px rgba(24,28,79,.32);animation:floaty 6.5s 1.4s ease-in-out infinite;overflow:hidden">
           <div style="position:absolute;top:0;bottom:0;left:0;width:60px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.14),transparent);animation:sheen 4.5s 2s ease infinite"></div>
-          <div style="font-size:.74rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#FFAC1C;margin-bottom:4px">Account health</div>
-          <div style="display:flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span><span style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:1.3rem;letter-spacing:-.02em">0 bans · 8 years</span></div>
+          <div class="k" style="color:#FFAC1C">Account health</div>
+          <div class="n" style="font-size:1.3rem;display:flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>0 bans · 8 years</div>
         </div>
       </div>
     </div>
   </div>
 </header>
 
-<!-- STATS -->
-<section style="padding:8px 0 0">
-  <div style="max-width:1140px;margin:0 auto;padding:0 24px">
-    <div data-rev="zoom" data-reveal="0" style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:24px;box-shadow:0 20px 50px rgba(24,28,79,.09);padding:36px 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:28px;text-align:center">
-      <div style="display:flex;flex-direction:column;gap:6px">
-        <span style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(2.2rem,4vw,3rem);letter-spacing:-.02em;line-height:1;color:#3038D8">$<span data-count="10">10</span>M+</span>
-        <span style="font-size:.9rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(24,28,79,.78)">Ad Spend Managed</span>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:6px">
-        <span style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(2.2rem,4vw,3rem);letter-spacing:-.02em;line-height:1;color:#3038D8"><span data-count="150">150</span>+</span>
-        <span style="font-size:.9rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(24,28,79,.78)">Clients</span>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:6px">
-        <span style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(2.2rem,4vw,3rem);letter-spacing:-.02em;line-height:1;color:#3038D8"><span data-count="8">8</span> Yrs</span>
-        <span style="font-size:.9rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(24,28,79,.78)">Zero Account Bans</span>
+<!-- STATEMENT (pinned, word by word) -->
+<section data-pin data-screen-label="Statement" style="--pin:240vh">
+  <div class="stage" style="background:linear-gradient(160deg,#1D2260 0%,#181C4F 55%,#141838 100%);color:#F6F5EF">
+    <div data-para="-0.03" style="position:absolute;inset:-20% 0;pointer-events:none;background:radial-gradient(700px 360px at 85% 10%,rgba(48,56,216,.45),transparent 60%),radial-gradient(460px 300px at 8% 92%,rgba(255,172,28,.14),transparent 60%)"></div>
+    <div class="wrap" style="position:relative;width:100%">
+      <div class="eyebrow" style="color:#FFAC1C;margin-bottom:22px">Why we exist</div>
+      <p class="statement" style="--n:18">
+        <span class="w" style="--i:0">Most</span><span class="w" style="--i:1">agencies</span><span class="w" style="--i:2">sell</span><span class="w" style="--i:3">you</span><span class="w" style="--i:4">impressions.</span>
+        <span class="w b" style="--i:5">We</span><span class="w b" style="--i:6">buy</span><span class="w b" style="--i:7">you</span><span class="w b" style="--i:8">customers,</span>
+        <span class="w" style="--i:9">and</span><span class="w" style="--i:10">tell</span><span class="w" style="--i:11">you</span><span class="w" style="--i:12">exactly</span><span class="w" style="--i:13">what</span><span class="w" style="--i:14">each</span><span class="w" style="--i:15">one</span><span class="w" style="--i:16">cost</span><span class="w" style="--i:17">you.</span>
+      </p>
+      <div class="numrow">
+        <div><b>$<span data-count="10">10</span>M+</b><span>Ad spend managed</span></div>
+        <div><b><span data-count="150">150</span>+</b><span>Clients</span></div>
+        <div><b><span data-count="8">8</span> yrs</b><span>In the auction</span></div>
+        <div><b>0</b><span>Account bans</span></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SERVICES -->
-<section id="services" data-screen-label="Services" style="padding:clamp(56px,8vw,84px) 0">
-  <div style="max-width:1140px;margin:0 auto;padding:0 24px">
-    <div data-reveal="0" style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:48px">
-      <h2 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:clamp(1.7rem,3.6vw,2.5rem);line-height:1.12;letter-spacing:-.02em;margin:0;max-width:18ch">One job: spend in, customers out.</h2>
+<!-- SERVICES (pinned horizontal rail) -->
+<section id="services" data-pin class="norail" data-screen-label="Services" style="--pin:300vh">
+  <div class="stage" style="flex-direction:column;justify-content:center;gap:clamp(24px,4vw,40px)">
+    <div class="wrap" style="width:100%;display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap">
+      <div><div class="eyebrow" style="color:#3038D8;margin-bottom:12px">Services</div><h2 class="h2" style="max-width:18ch">One job: spend in, customers out.</h2></div>
       <a href="/services/" style="font-weight:700;font-size:.95rem;color:#3038D8;white-space:nowrap">All services →</a>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:20px;perspective:1400px">
-      <a href="/performance-marketing/" data-tilt data-rev="left" data-reveal="0" style="display:block;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform;color:#181C4F">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2" style="margin-bottom:18px"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.25rem;margin:0 0 8px">Performance Marketing</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.98rem">Meta and Google, managed daily. Creative testing at volume, budgets scaled only on proof.</p>
-      </a>
-      <a href="/seo-services/" data-tilt data-rev="up" data-reveal="100" style="display:block;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform;color:#181C4F">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2" style="margin-bottom:18px"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.25rem;margin:0 0 8px">SEO</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.98rem">Technical fixes, buying-intent content and local search — compounding under your paid spend.</p>
-      </a>
-      <a href="/services/#influencer-marketing" data-tilt data-rev="right" data-reveal="200" style="display:block;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform;color:#181C4F">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2" style="margin-bottom:18px"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.25rem;margin:0 0 8px">Influencer Marketing</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.98rem">Creators sourced, briefed and negotiated. The content that works gets whitelisted into paid.</p>
-      </a>
-      <a href="/ai-automation/" data-tilt data-rev="left" data-reveal="300" style="display:block;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform;color:#181C4F">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2" style="margin-bottom:18px"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 7V3M8 13h.01M16 13h.01"/></svg>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.25rem;margin:0 0 8px">AI Automation</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.98rem">Instant WhatsApp replies, lead routing, CRM sync and reporting that runs without you.</p>
-      </a>
-      <a href="/services/#conversion-systems" data-tilt data-rev="up" data-reveal="400" style="display:block;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform;color:#181C4F">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2" style="margin-bottom:18px"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.25rem;margin:0 0 8px">Conversion Systems</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.98rem">Landing pages and WhatsApp funnels built around the offer — engineered to convert paid traffic.</p>
-      </a>
-      <a href="/services/#tracking-attribution" data-tilt data-rev="right" data-reveal="500" style="display:block;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform;color:#181C4F">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2" style="margin-bottom:18px"><path d="M12 22a10 10 0 1 0-10-10M12 6v6l4 2"/></svg>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.25rem;margin:0 0 8px">Tracking &amp; Attribution</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.98rem">Pixels, conversion events and reporting done right. You always know what a customer costs.</p>
-      </a>
+    <div style="width:100%;overflow:hidden;padding:12px 0 24px">
+      <div class="rail" data-rail style="padding-left:max(24px,calc((100vw - 1140px)/2 + 24px))">
+        <a href="/performance-marketing/" class="card svc" data-tilt><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"/></svg><h3>Performance Marketing</h3><p>Meta and Google, managed daily. Creative testing at volume, budgets scaled only on proof.</p><span class="go">Full details →</span></a>
+        <a href="/seo-services/" class="card svc" data-tilt><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><h3>SEO</h3><p>Technical fixes, buying-intent content and local search, compounding under your paid spend.</p><span class="go">Full details →</span></a>
+        <a href="/services/#influencer-marketing" class="card svc" data-tilt><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg><h3>Influencer Marketing</h3><p>Creators sourced, briefed and negotiated. The content that works gets whitelisted into paid.</p><span class="go">Full details →</span></a>
+        <a href="/ai-automation/" class="card svc" data-tilt><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 7V3M8 13h.01M16 13h.01"/></svg><h3>AI Automation</h3><p>Instant WhatsApp replies, lead routing, CRM sync and reporting that runs without you.</p><span class="go">Full details →</span></a>
+        <a href="/services/#conversion-systems" class="card svc" data-tilt><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg><h3>Conversion Systems</h3><p>Landing pages and WhatsApp funnels built around the offer, engineered to convert paid traffic.</p><span class="go">Full details →</span></a>
+        <a href="/services/#tracking-attribution" class="card svc" data-tilt><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3038D8" stroke-width="2"><path d="M12 22a10 10 0 1 0-10-10M12 6v6l4 2"/></svg><h3>Tracking &amp; Attribution</h3><p>Pixels, conversion events and reporting done right. You always know what a customer costs.</p><span class="go">Full details →</span></a>
+        <div style="width:max(24px,calc((100vw - 1140px)/2));flex:none"></div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- WHO (dark) -->
-<section data-screen-label="Who we work with" style="padding:0 0 84px">
+<!-- REPORT (3D reveal) -->
+<section data-pin data-screen-label="Weekly report" style="--pin:260vh">
+  <div class="stage" style="flex-direction:column;justify-content:center;gap:clamp(22px,4vw,36px)">
+    <div class="wrap" style="text-align:center;width:100%">
+      <div class="eyebrow" style="color:#3038D8;margin-bottom:12px;justify-content:center">What you get every week</div>
+      <h2 class="h2" style="margin:0 auto;max-width:20ch">One page. Spend, results, cost per customer, next move.</h2>
+    </div>
+    <div class="wrap" style="width:100%;position:relative">
+      <div class="report-wrap">
+        <div class="report">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+            <div><div class="eyebrow" style="color:#FFAC1C">Weekly report · sample layout</div><div class="d" style="font-weight:700;font-size:1.25rem;margin-top:4px">Week 14 · scaling phase</div></div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:.82rem;font-weight:700;color:#25D366"><span style="width:8px;height:8px;border-radius:50%;background:#25D366"></span>Account healthy</div>
+          </div>
+          <div class="row">
+            <div class="cell"><small>Blended ROAS</small><b>4.2x</b></div>
+            <div class="cell"><small>Cost per customer</small><b style="color:#FFAC1C">▼ 37%</b></div>
+            <div class="cell"><small>Spend scaled</small><b>8x</b></div>
+            <div class="cell"><small>Next move</small><b style="font-size:1.05rem;line-height:1.3">Move 20% of budget to the winning hook; hold CPM bids</b></div>
+          </div>
+          <div class="bars" aria-label="Twelve weeks of spend, rising as the account scales" role="img"><i style="height:30%"></i><i style="height:38%"></i><i style="height:34%"></i><i style="height:48%"></i><i style="height:44%"></i><i style="height:58%"></i><i style="height:62%"></i><i style="height:70%"></i><i style="height:66%"></i><i style="height:80%"></i><i style="height:86%"></i><i style="height:100%"></i></div>
+        </div>
+        <div class="float" style="left:-6px;top:28%"><span style="color:#25D366">●</span> 62 exclusive leads this month</div>
+        <div class="float" style="right:-6px;bottom:18%"><span style="color:#3038D8">●</span> 28 consults booked · 4x return</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results" data-screen-label="Results" style="padding:clamp(40px,7vw,80px) 0">
+  <div class="wrap">
+    <div data-reveal="0" style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:36px">
+      <div><div class="eyebrow" style="color:#3038D8;margin-bottom:12px">Live numbers</div><h2 class="h2">Results we can show you on a call.</h2></div>
+      <a href="/work/" style="font-weight:700;font-size:.95rem;color:#3038D8;white-space:nowrap">All case studies →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:20px;perspective:1400px">
+      <div class="card res" data-view data-tilt>
+        <div class="eyebrow" style="color:#3038D8;margin-bottom:16px">D2C Skincare</div>
+        <div class="d" style="font-weight:700;font-size:2.6rem;line-height:1"><span data-count="4">4</span>.2x <span style="font-size:1.1rem;font-weight:600;color:rgba(24,28,79,.78)">ROAS</span></div>
+        <p style="margin:14px 0 0;font-size:.95rem;color:var(--ink)">Spend scaled 8x in six months. Cost per customer down 37% while scaling.</p>
+      </div>
+      <div class="card res" data-view data-tilt>
+        <div class="eyebrow" style="color:#3038D8;margin-bottom:16px">Interior Design</div>
+        <div class="d" style="font-weight:700;font-size:2.6rem;line-height:1"><span data-count="62">62</span> <span style="font-size:1.1rem;font-weight:600;color:rgba(24,28,79,.78)">leads/mo</span></div>
+        <p style="margin:14px 0 0;font-size:.95rem;color:var(--ink)">Exclusive, never resold. 9 site visits in month one.</p>
+      </div>
+      <div class="card res" data-view data-tilt>
+        <div class="eyebrow" style="color:#3038D8;margin-bottom:16px">Aesthetics Clinic</div>
+        <div class="d" style="font-weight:700;font-size:2.6rem;line-height:1"><span data-count="28">28</span> <span style="font-size:1.1rem;font-weight:600;color:rgba(24,28,79,.78)">consults/mo</span></div>
+        <p style="margin:14px 0 0;font-size:.95rem;color:var(--ink)">Booked, not enquired. 4x return on ad spend.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW WE WORK (pinned stepper) -->
+<section id="process" data-pin data-screen-label="How we work" style="--pin:300vh">
+  <div class="stage">
+    <div class="wrap steps">
+      <div>
+        <div class="eyebrow" style="color:#3038D8;margin-bottom:14px">How we actually work</div>
+        <div class="big" aria-hidden="true"><span style="--i:0">01</span><span style="--i:1">02</span><span style="--i:2">03</span><span style="--i:3">04</span></div>
+        <p class="lead" style="margin:18px 0 0;max-width:30ch">Same four steps whatever the budget. Only the zeros change.</p>
+      </div>
+      <div>
+        <div class="step" style="--i:0"><h3>Audit before we pitch</h3><p>We look at your account, your offer and your numbers first. If paid won't work for you yet, that's the call you get.</p></div>
+        <div class="step" style="--i:1"><h3>Build the system</h3><p>Campaigns, landing page, tracking and follow-up automation go live together. A funnel with a hole in it doesn't scale.</p></div>
+        <div class="step" style="--i:2"><h3>Test at volume</h3><p>Hooks, angles, audiences. Most die. The two that work get the budget. Decided on data, not on taste. <a href="/blog/what-a-media-buyer-does/" style="color:#3038D8;font-weight:700">What that looks like day to day →</a></p></div>
+        <div class="step" style="--i:3"><h3>Report in plain words</h3><p>Spend, results, cost per customer, next move. Every week. No 40-slide deck nobody reads.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO + TESTIMONIAL -->
+<section data-screen-label="Who we work with" style="padding:0 0 clamp(48px,7vw,84px)">
   <div style="max-width:1164px;margin:0 auto;padding:0 12px">
     <div data-rev="zoom" data-reveal="0" style="background:linear-gradient(160deg,#1D2260 0%,#181C4F 55%,#141838 100%);color:#F6F5EF;border-radius:32px;box-shadow:0 40px 90px rgba(24,28,79,.28);position:relative;overflow:hidden">
-      <div data-para="-0.04" style="position:absolute;inset:-20% 0;pointer-events:none;background:radial-gradient(600px 300px at 85% 10%, rgba(48,56,216,.4), transparent 60%), radial-gradient(400px 260px at 10% 90%, rgba(255,172,28,.12), transparent 60%)"></div>
+      <div data-para="-0.04" style="position:absolute;inset:-20% 0;pointer-events:none;background:radial-gradient(600px 300px at 85% 10%,rgba(48,56,216,.4),transparent 60%),radial-gradient(400px 260px at 10% 90%,rgba(255,172,28,.12),transparent 60%)"></div>
       <div style="max-width:1116px;margin:0 auto;padding:clamp(44px,7vw,72px) clamp(20px,4vw,36px);position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));gap:40px;align-items:center">
         <div>
-          <div style="font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#FFAC1C;margin-bottom:12px">Who we work with</div>
-          <h2 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:clamp(1.7rem,3.6vw,2.5rem);line-height:1.12;letter-spacing:-.02em;margin:0">D2C brands ready to scale. Businesses where one customer is worth real money.</h2>
+          <div class="eyebrow" style="color:#FFAC1C;margin-bottom:12px">Who we work with</div>
+          <h2 class="h2">D2C brands ready to scale. Businesses where one customer is worth real money.</h2>
           <p style="margin:16px 0 0;color:rgba(246,245,239,.7);font-size:1.05rem">If that's not you yet, we'll say so on the first call.</p>
         </div>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:12px">
@@ -236,98 +341,45 @@ a:hover{color:#3038D8}
   </div>
 </section>
 
-<!-- RESULTS -->
-<section id="results" data-screen-label="Results" style="padding:0 0 84px">
-  <div style="max-width:1140px;margin:0 auto;padding:0 24px">
-    <div data-reveal="0" style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:48px">
-      <h2 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:clamp(1.7rem,3.6vw,2.5rem);line-height:1.12;letter-spacing:-.02em;margin:0">Live numbers.</h2>
-      <a href="/work/" style="font-weight:700;font-size:.95rem;color:#3038D8;white-space:nowrap">All case studies →</a>
-    </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:20px;perspective:1400px">
-      <div data-tilt data-rev="left" data-reveal="0" style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform">
-        <div style="font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8;margin-bottom:16px">D2C Skincare</div>
-        <div style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:2.6rem;letter-spacing:-.02em;line-height:1"><span data-count="4">4</span>.2x <span style="font-size:1.1rem;font-weight:600;color:rgba(24,28,79,.78)">ROAS</span></div>
-        <p style="margin:14px 0 0;font-size:.95rem;color:rgba(24,28,79,.66)">₹1L → ₹8L/month spend. CAC down 37% while scaling.</p>
-      </div>
-      <div data-tilt data-rev="up" data-reveal="140" style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform">
-        <div style="font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8;margin-bottom:16px">Interior Design</div>
-        <div style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:2.6rem;letter-spacing:-.02em;line-height:1">₹<span data-count="184">184</span> <span style="font-size:1.1rem;font-weight:600;color:rgba(24,28,79,.78)">per lead</span></div>
-        <p style="margin:14px 0 0;font-size:.95rem;color:rgba(24,28,79,.66)">62 exclusive leads/month. 9 site visits in month one.</p>
-      </div>
-      <div data-tilt data-rev="right" data-reveal="280" style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:32px 28px;box-shadow:0 12px 32px rgba(24,28,79,.07);will-change:transform">
-        <div style="font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8;margin-bottom:16px">Aesthetics Clinic</div>
-        <div style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:2.6rem;letter-spacing:-.02em;line-height:1"><span data-count="28">28</span> <span style="font-size:1.1rem;font-weight:600;color:rgba(24,28,79,.78)">consults/mo</span></div>
-        <p style="margin:14px 0 0;font-size:.95rem;color:rgba(24,28,79,.66)">₹312 per booked consult. 4x return on spend.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- HOW WE WORK -->
-<section id="process" data-screen-label="How we work" style="padding:0 0 84px">
-  <div style="max-width:1140px;margin:0 auto;padding:0 24px">
-    <div data-reveal="0" style="margin-bottom:44px">
-      <h2 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:clamp(1.7rem,3.6vw,2.5rem);line-height:1.12;letter-spacing:-.02em;margin:0 0 12px">How we actually work.</h2>
-      <p style="margin:0;font-size:1.05rem;color:rgba(24,28,79,.66);max-width:52ch">Same four steps for a ₹50k month and a ₹50L month. Only the zeros change.</p>
-    </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:20px">
-      <div data-rev="up" data-reveal="0" style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:28px 24px;box-shadow:0 12px 32px rgba(24,28,79,.07)">
-        <div style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:.85rem;color:#3038D8;margin-bottom:10px">01</div>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;margin:0 0 7px">Audit before we pitch</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.94rem">We look at your account, your offer and your numbers first. If paid won't work for you yet, that's the call you get.</p>
-      </div>
-      <div data-rev="up" data-reveal="100" style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:28px 24px;box-shadow:0 12px 32px rgba(24,28,79,.07)">
-        <div style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:.85rem;color:#3038D8;margin-bottom:10px">02</div>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;margin:0 0 7px">Build the system</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.94rem">Campaigns, landing page, tracking and follow-up automation go live together. A funnel with a hole in it doesn't scale.</p>
-      </div>
-      <div data-rev="up" data-reveal="200" style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:28px 24px;box-shadow:0 12px 32px rgba(24,28,79,.07)">
-        <div style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:.85rem;color:#3038D8;margin-bottom:10px">03</div>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;margin:0 0 7px">Test at volume</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.94rem">Hooks, angles, audiences. Most die. The two that work get the budget — decided on data, not on taste. <a href="/blog/what-a-media-buyer-does/" style="color:#3038D8;font-weight:700">What that looks like day to day &rarr;</a></p>
-      </div>
-      <div data-rev="up" data-reveal="300" style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:28px 24px;box-shadow:0 12px 32px rgba(24,28,79,.07)">
-        <div style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:.85rem;color:#3038D8;margin-bottom:10px">04</div>
-        <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;margin:0 0 7px">Report in plain words</h3>
-        <p style="margin:0;color:rgba(24,28,79,.66);font-size:.94rem">Spend, results, cost per customer, next move. Every week. No 40-slide deck nobody reads.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIAL (single, confident) -->
-<section data-screen-label="Testimonial" style="padding:0 0 84px">
+<section data-screen-label="Testimonial" style="padding:0 0 clamp(48px,7vw,84px)">
   <div style="max-width:900px;margin:0 auto;padding:0 24px;text-align:center">
     <svg data-reveal="0" width="34" height="34" viewBox="0 0 24 24" fill="#FFAC1C" aria-hidden="true" style="margin-bottom:20px"><path d="M10 7H6a3 3 0 0 0-3 3v4a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-7a3 3 0 0 0-1-2zM21 7h-4a3 3 0 0 0-3 3v4a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-7a3 3 0 0 0-1-2z" opacity=".9"/></svg>
-    <p data-reveal="100" style="margin:0;font-family:'Clash Display',sans-serif;font-weight:500;font-size:clamp(1.3rem,2.8vw,1.9rem);line-height:1.3;letter-spacing:-.01em">"They told me on the first call what was realistic for my budget — and what wasn't. The numbers came in better than they promised."</p>
+    <p class="d" data-reveal="100" style="margin:0;font-weight:500;font-size:clamp(1.3rem,2.8vw,1.9rem);line-height:1.3">"They told me on the first call what was realistic for my budget, and what wasn't. The numbers came in better than they promised."</p>
     <div data-reveal="200" style="margin-top:24px;display:flex;align-items:center;justify-content:center;gap:12px">
       <img src="/assets/img/testimonial-ankit.webp" alt="Ankit T." style="width:44px;height:44px;border-radius:50%;object-fit:cover" width="200" height="200" decoding="async" loading="lazy">
-      <span style="font-size:.95rem;color:rgba(24,28,79,.66)"><strong style="color:#181C4F">Ankit T.</strong> · Solar, Noida</span>
+      <span style="font-size:.95rem;color:var(--ink)"><strong style="color:#181C4F">Ankit T.</strong> · Solar, Noida</span>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
-<section data-screen-label="CTA" style="padding:0 0 84px">
+<section data-screen-label="CTA" style="padding:0 0 clamp(48px,7vw,84px)">
   <div style="max-width:1164px;margin:0 auto;padding:0 12px">
-    <div data-rev="zoom" data-reveal="0" style="background:linear-gradient(160deg,#3A43E8 0%,#3038D8 60%,#232A9E 100%);border-radius:32px;color:#FFFFFF;box-shadow:0 40px 90px rgba(48,56,216,.35);position:relative;overflow:hidden;text-align:center">
-      <div data-para="-0.03" style="position:absolute;inset:-20% 0;pointer-events:none;background:radial-gradient(600px 340px at 50% 0%, rgba(255,255,255,.10), transparent 60%)"></div>
-      <div style="max-width:720px;margin:0 auto;padding:clamp(56px,8vw,88px) clamp(20px,4vw,36px);position:relative">
-        <h2 data-reveal="0" style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.06;letter-spacing:-.02em;margin:0;color:#FFFFFF">Let's talk numbers.</h2>
-        <p data-reveal="100" style="margin:16px auto 0;color:rgba(255,255,255,.78);font-size:1.1rem;max-width:42ch">Two minutes. We'll tell you what's realistic — including if the answer is no.</p>
-        <div data-reveal="200" style="margin-top:36px;display:flex;justify-content:center">
-          <a data-magnet href="/lead-generation/" style="display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:1.08rem;white-space:nowrap;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:18px 38px;border-radius:999px;box-shadow:0 14px 34px rgba(0,0,0,.3)" style-hover="color:#181C4F;box-shadow:0 20px 44px rgba(0,0,0,.4)">Start a project
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
+    <div data-rev="zoom" data-reveal="0" style="background:var(--navy);border-radius:32px;color:#F6F5EF;box-shadow:0 40px 90px rgba(24,28,79,.3);position:relative;overflow:hidden">
+      <div data-para="-0.03" style="position:absolute;inset:-20% 0;pointer-events:none;background:radial-gradient(640px 360px at 90% 0%,rgba(48,56,216,.5),transparent 60%)"></div>
+      <div style="position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(360px,100%),1fr));gap:clamp(28px,5vw,64px);align-items:center;padding:clamp(48px,7vw,80px) clamp(20px,4vw,48px)">
+        <div>
+          <div class="eyebrow" style="color:#FFAC1C;margin-bottom:14px">The first call</div>
+          <h2 class="d" data-reveal="0" style="font-weight:700;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.02;margin:0;color:#FFF">Let's talk numbers.</h2>
+          <p data-reveal="100" style="margin:16px 0 0;color:rgba(246,245,239,.72);font-size:1.08rem;max-width:40ch">Two minutes. We'll tell you what's realistic, including if the answer is no.</p>
+          <div data-reveal="200" style="margin-top:30px;display:flex;gap:14px;flex-wrap:wrap;align-items:center">
+            <a class="btn amber" data-magnet href="/lead-generation/" style="padding:18px 34px;font-size:1.06rem" style-hover="color:#181C4F;box-shadow:0 20px 44px rgba(0,0,0,.4)">Start a project <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="mailto:info@mediapuppies.com" style="color:#F6F5EF;font-weight:700;border-bottom:1px solid rgba(246,245,239,.4)">info@mediapuppies.com</a>
+          </div>
         </div>
+        <ol style="list-style:none;margin:0;padding:0;display:grid;gap:12px">
+          <li data-reveal="120" style="display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:16px 18px"><span class="d" style="font-weight:700;color:#FFAC1C;font-size:.9rem;flex:none;margin-top:2px">01</span><div><strong style="display:block;font-size:1rem">We look at your account first</strong><span style="color:rgba(246,245,239,.68);font-size:.92rem">Spend, conversion events, learning phase, what the auction is charging you today.</span></div></li>
+          <li data-reveal="220" style="display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:16px 18px"><span class="d" style="font-weight:700;color:#FFAC1C;font-size:.9rem;flex:none;margin-top:2px">02</span><div><strong style="display:block;font-size:1rem">You get a cost-per-customer target</strong><span style="color:rgba(246,245,239,.68);font-size:.92rem">Built from your margin and customer value, not from a slide.</span></div></li>
+          <li data-reveal="320" style="display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:16px 18px"><span class="d" style="font-weight:700;color:#FFAC1C;font-size:.9rem;flex:none;margin-top:2px">03</span><div><strong style="display:block;font-size:1rem">A yes, a no, or a "not yet"</strong><span style="color:rgba(246,245,239,.68);font-size:.92rem">If paid will not work for you yet, we say so and tell you what to fix first.</span></div></li>
+        </ol>
       </div>
     </div>
   </div>
 </section>
 
 <!-- FOOTER -->
-<footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
-  <div data-reveal="0" style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">
+<footer style="padding:8px 0 100px;font-size:.88rem;color:var(--ink)">
+  <div class="wrap" data-reveal="0" style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">
     <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">
       <img src="/assets/img/logo-full-sm.webp" alt="Media Puppies" style="height:48px;width:auto;display:block" width="420" height="180" decoding="async" loading="lazy">
       <span>Noida, Delhi NCR · India</span>
@@ -357,11 +409,49 @@ a:hover{color:#3038D8}
 
 <!-- MOBILE STICKY CTA -->
 <div data-sticky-cta style="position:fixed;left:0;right:0;bottom:0;z-index:60;transform:translateZ(0);padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:#F6F5EF;border-top:1px solid rgba(24,28,79,.12);box-shadow:0 -10px 30px rgba(24,28,79,.12)">
-  <a href="/lead-generation/" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;box-sizing:border-box;font-weight:700;font-size:1.02rem;color:#FFFFFF;background:linear-gradient(180deg,#3A43E8,#3038D8);padding:15px 24px;border-radius:999px;box-shadow:0 10px 26px rgba(48,56,216,.32), inset 0 1px 0 rgba(255,255,255,.25)" style-hover="color:#FFFFFF">Start a project
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-  </a>
+  <a href="/lead-generation/" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;box-sizing:border-box;font-weight:700;font-size:1.02rem;color:#FFFFFF;background:linear-gradient(180deg,#3A43E8,#3038D8);padding:15px 24px;border-radius:999px;box-shadow:0 10px 26px rgba(48,56,216,.32),inset 0 1px 0 rgba(255,255,255,.25)" style-hover="color:#FFFFFF">Start a project <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </div>
-<script src="/assets/js/main.js?v=20261016b" defer></script>
 
+<script>
+/* Scroll progress for the pinned chapters (--p, 0→1 while the chapter is pinned)
+   and view progress for cards (--v, 0→1 as they rise through the viewport).
+   Pure CSS consumes the variables, so a throttled or missing frame only delays a step. */
+(function () {
+  'use strict';
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var pins = [].slice.call(document.querySelectorAll('[data-pin]'));
+  var views = [].slice.call(document.querySelectorAll('[data-view]'));
+  var rail = document.querySelector('[data-rail]');
+  var ticking = false, vh = innerHeight, narrow = innerWidth <= 860;
+  function clamp(x) { return x < 0 ? 0 : x > 1 ? 1 : x; }
+  function measure() {
+    vh = innerHeight; narrow = innerWidth <= 860;
+    if (rail) rail.parentNode.parentNode.style.setProperty('--rail', Math.max(0, rail.scrollWidth - innerWidth) + 'px');
+  }
+  function frame() {
+    for (var i = 0; i < pins.length; i++) {
+      var r = pins[i].getBoundingClientRect(), total = r.height - vh;
+      var p = total > 40 ? clamp(-r.top / total) : (r.top < vh * .5 ? 1 : 0);
+      if (narrow && pins[i].classList.contains('norail')) p = 1;
+      pins[i].style.setProperty('--p', p.toFixed(4));
+    }
+    for (var j = 0; j < views.length; j++) {
+      var b = views[j].getBoundingClientRect();
+      var v = b.top <= 0 ? clamp(-b.top / Math.max(1, b.height * .9)) : clamp((vh - b.top) / (vh * .55));
+      if (views[j].tagName === 'HEADER') v = clamp(-b.top / Math.max(1, b.height * .8)); /* hero: only on the way out */
+      views[j].style.setProperty('--v', v.toFixed(4));
+    }
+  }
+  /* Compute on the scroll event itself: rAF is throttled in background tabs and a
+     one-frame delay is visible on sticky stages. The flag just coalesces bursts. */
+  function request() { if (!ticking) { ticking = true; frame(); requestAnimationFrame(function () { ticking = false; }); } }
+  addEventListener('scroll', request, { passive: true });
+  addEventListener('resize', function () { measure(); request(); });
+  addEventListener('load', function () { measure(); frame(); });
+  measure(); frame();
+  setTimeout(frame, 600);
+})();
+</script>
+<script src="/assets/js/main.js?v=20261016b" defer></script>
 </body>
 </html>
