@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#F6F5EF">
+<title>ROAS Calculator: Return on Ad Spend | Media Puppies</title>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link rel="preload" as="style" href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all';this.onload=null">
+<noscript><link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet"></noscript>
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
+<meta name="description" content="Free ROAS calculator: enter ad spend and revenue to get return on ad spend, then add your margin to see break-even ROAS and profit after ads.">
+<meta property="og:site_name" content="Media Puppies">
+<meta property="og:title" content="ROAS calculator">
+<meta property="og:description" content="Enter ad spend and revenue to get return on ad spend, then add your margin to see break-even ROAS and profit after ads.">
+<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:url" content="https://mediapuppies.com/tools/roas-calculator/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ROAS calculator">
+<meta name="twitter:description" content="Enter ad spend and revenue to get return on ad spend, then add your margin to see break-even ROAS and profit after ads.">
+<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<link rel="canonical" href="https://mediapuppies.com/tools/roas-calculator/">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebApplication",
+   "@id": "https://mediapuppies.com/tools/roas-calculator/#app",
+   "name": "ROAS calculator",
+   "url": "https://mediapuppies.com/tools/roas-calculator/",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Any",
+   "description": "Calculates return on ad spend from ad spend and revenue, and, with a gross margin, the break-even ROAS, profit after ad spend and the revenue needed to hit a target ROAS.",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+   },
+   "publisher": {
+    "@id": "https://mediapuppies.com/#organization"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://mediapuppies.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Free tools",
+     "item": "https://mediapuppies.com/tools/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "ROAS calculator",
+     "item": "https://mediapuppies.com/tools/roas-calculator/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How do you calculate ROAS?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Divide the revenue that came from ads by what you spent on those ads. Revenue of 4 lakh from 1 lakh of spend is a ROAS of 4, often written 4x or 400%."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is a good ROAS?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There is no universal number. A good ROAS is one above your break-even ROAS, which is 1 divided by your gross margin. A 50% margin breaks even at 2x; a 25% margin needs 4x before ads make any money."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the difference between ROAS and ROI?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ROAS compares revenue with ad spend. ROI compares profit with the total investment. A campaign can show a healthy ROAS and still lose money once product cost, shipping and fees are taken out."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Should I use the ROAS shown in Meta or Google Ads?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Use platform ROAS to compare campaigns and ad sets inside one platform. For budget decisions, check it against total revenue from your store or accounts, because platforms count some of the same sales twice."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is ROAS useful for lead generation?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Only once leads have a value. Most lead-gen accounts work with cost per lead and cost per sale instead, and switch to ROAS when closed revenue is fed back to the ad platform."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:#F6F5EF;color:#181C4F;font-family:'Satoshi',system-ui,-apple-system,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:'Clash Display',sans-serif;letter-spacing:-.02em;margin:0}
+h1{font-weight:700;font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.08}
+h2{font-weight:600;font-size:clamp(1.35rem,3vw,1.8rem);margin:36px 0 12px}
+h3{font-weight:600;font-size:1.05rem;margin:20px 0 6px}
+p{margin:0 0 14px}
+a{color:#3038D8}
+code{background:rgba(24,28,79,.07);padding:1px 5px;border-radius:5px;font-size:.92em}
+.card{background:#fff;border:1px solid rgba(24,28,79,.12);border-radius:20px;padding:26px 24px;box-shadow:0 14px 36px rgba(24,28,79,.08)}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:16px}
+label{display:block;font-weight:700;font-size:.85rem;margin-bottom:6px}
+input,select,textarea{width:100%;padding:12px 13px;border:1.5px solid rgba(24,28,79,.16);border-radius:10px;font-family:inherit;font-size:1rem;background:#F6F5EF;color:#181C4F}
+textarea{min-height:110px;resize:vertical;line-height:1.5}
+input:focus,select:focus,textarea:focus{outline:2px solid #3038D8;outline-offset:1px;border-color:#3038D8}
+.hint{font-size:.8rem;color:rgba(24,28,79,.6);margin:6px 0 0}
+.field{margin-bottom:4px}
+.out{background:linear-gradient(160deg,#1D2260,#181C4F);color:#F6F5EF;border-radius:18px;padding:24px 22px;margin-top:22px}
+.out .row{gap:20px}
+.metric{min-width:0}
+.metric .k{font-size:.74rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:#FFAC1C;margin-bottom:5px}
+.metric .v{font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(1.5rem,4.2vw,2.1rem);line-height:1.05;word-break:break-word}
+.metric .s{font-size:.84rem;color:rgba(246,245,239,.66);margin-top:4px}
+.verdict{margin-top:18px;padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.08);font-size:.95rem;color:rgba(246,245,239,.92)}
+.warn{border-left:3px solid #FFAC1C}
+.good{border-left:3px solid #4ADE80}
+.bad{border-left:3px solid #FF8A7A}
+.copy{display:inline-flex;align-items:center;gap:8px;border:none;cursor:pointer;font-family:inherit;font-weight:700;font-size:.9rem;color:#181C4F;background:#FFAC1C;padding:11px 18px;border-radius:999px;margin-top:12px}
+.outurl{word-break:break-all;background:rgba(0,0,0,.22);padding:12px 14px;border-radius:10px;font-size:.92rem;line-height:1.5}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.95rem}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid rgba(24,28,79,.12)}
+th{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(24,28,79,.62)}
+details{border-top:1px solid rgba(24,28,79,.12)}
+details summary{cursor:pointer;font-weight:700;padding:15px 0;list-style:none;display:flex;justify-content:space-between;gap:14px}
+details summary::-webkit-details-marker{display:none}
+details[open] .plus{transform:rotate(45deg)}
+.plus{font-family:'Clash Display',sans-serif;font-size:1.25rem;color:#3038D8;transition:transform .2s ease;flex:none;line-height:1}
+.bar{height:10px;border-radius:999px;background:rgba(24,28,79,.1);overflow:hidden}
+.bar>i{display:block;height:100%;background:linear-gradient(90deg,#3038D8,#FFAC1C)}
+.serp{background:#fff;border:1px solid rgba(24,28,79,.12);border-radius:12px;padding:16px 18px;font-family:Arial,sans-serif}
+.serp .u{color:#202124;font-size:.82rem}
+.serp .t{color:#1a0dab;font-size:1.25rem;line-height:1.3;margin:2px 0 3px}
+.serp .d{color:#4d5156;font-size:.88rem;line-height:1.45}
+.pill{display:inline-flex;align-items:center;gap:7px;font-size:.74rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8;background:#fff;border:1px solid rgba(24,28,79,.14);padding:6px 14px;border-radius:999px}
+.note{font-size:.84rem;color:rgba(24,28,79,.62);margin-top:14px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+</style>
+<link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<script src="/assets/js/pixel.js?v=20260926a" defer></script>
+<script src="/assets/js/supabase-config.js?v=20260926a" defer></script>
+<script src="/assets/js/analytics.js?v=20261016a" defer></script>
+<script src="/assets/js/tool-currency.js?v=20260926a" defer></script>
+<script src="/assets/js/ga.js?v=20261015a" defer></script>
+</head>
+<body>
+
+<div style="background:rgba(246,245,239,.97);border-bottom:1px solid rgba(24,28,79,.1)">
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;height:60px;gap:14px">
+    <a href="/" style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:1.05rem;display:flex;align-items:center;gap:9px;color:#181C4F;text-decoration:none">
+      <img src="/assets/img/logo-mark-sm.webp" alt="Media Puppies" width="32" height="32" style="height:32px;width:auto;display:block" decoding="async">
+      Media Puppies
+    </a>
+    <a href="/tools/" style="font-size:.86rem;font-weight:700;white-space:nowrap">All free tools</a>
+  </div>
+</div>
+
+<main class="wrap" style="padding:34px 20px 10px">
+  <span class="pill">Paid media</span>
+  <h1 style="margin:16px 0 0">ROAS calculator</h1>
+  <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Return on ad spend is revenue from ads divided by what those ads cost. Put in your spend and revenue for the ROAS. Add your gross margin and it also shows whether that ROAS is actually making money.</p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.55)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+
+  <div class="card" style="margin-top:26px">
+    <div class="row"><div class="field"><label for="spend">Ad spend (₹)</label><input id="spend" type="number" inputmode="decimal" step="any" min="0" value="100000"><p class="hint">For one campaign, one channel or the whole account. Keep revenue to the same scope.</p></div><div class="field"><label for="rev">Revenue from those ads (₹)</label><input id="rev" type="number" inputmode="decimal" step="any" min="0" value="380000"><p class="hint">From the ad platform or your store's attribution. The verdict below explains the difference.</p></div><div class="field"><label for="margin">Gross margin (%)</label><input id="margin" type="number" inputmode="decimal" step="any" min="0" max="100" value="40"><p class="hint">Price minus product cost, shipping, payment fees and returns, as a share of price. Leave blank to skip the profit view.</p></div><div class="field"><label for="target">Target ROAS (x)</label><input id="target" type="number" inputmode="decimal" step="any" min="0" value="3"><p class="hint">Optional. The ROAS you are aiming for.</p></div></div>
+    <div class="out">
+      <div class="row"><div class="metric"><div class="k">ROAS</div><div class="v" id="o_roas">—</div><div class="s" id="o_roas-s">revenue / ad spend</div></div><div class="metric"><div class="k">As a percentage</div><div class="v" id="o_pct">—</div><div class="s" id="o_pct-s"></div></div><div class="metric"><div class="k">Ad cost of sale</div><div class="v" id="o_acos">—</div><div class="s" id="o_acos-s">spend as % of revenue</div></div></div><div class="row" style="margin-top:18px"><div class="metric"><div class="k">Break-even ROAS</div><div class="v" id="o_be">—</div><div class="s" id="o_be-s">1 / gross margin</div></div><div class="metric"><div class="k">Profit after ad spend</div><div class="v" id="o_profit">—</div><div class="s" id="o_profit-s">revenue × margin − spend</div></div><div class="metric"><div class="k">Revenue needed at target</div><div class="v" id="o_need">—</div><div class="s" id="o_need-s"></div></div></div>
+      <div id="o_verdict" class="verdict"></div>
+    </div>
+    <p class="note">Runs entirely in your browser. Nothing you type is sent to us or stored anywhere.</p>
+  </div>
+
+<h2>How to calculate ROAS</h2>
+<p>The ROAS formula is one line: <code>ROAS = revenue from ads ÷ ad spend</code>. If a campaign costs 1 lakh and brings in 3.8 lakh of sales, ROAS is 3.8. People write the same number three ways: 3.8, 3.8x, or 380%. They all mean every rupee of spend returned 3.8 rupees of revenue.</p>
+<p>The two inputs must cover the same thing. Use the same campaigns, the same dates and the same attribution window for both. Revenue from all channels divided by Meta spend alone is not ROAS. That is a different and much more flattering number.</p>
+
+<h2>What is a good ROAS?</h2>
+<p>There is no industry-wide good ROAS, because ROAS ignores costs. The number that matters is your <strong>break-even ROAS</strong>, which comes from your margin:</p>
+<p><code>break-even ROAS = 1 ÷ gross margin</code></p>
+<table><thead><tr><th>Gross margin</th><th>Break-even ROAS</th><th>What it means</th></tr></thead><tbody>
+<tr><td>70%</td><td>1.43x</td><td>Ads pay for themselves early; there is room to scale.</td></tr>
+<tr><td>50%</td><td>2.0x</td><td>Anything above 2x adds profit on the first order.</td></tr>
+<tr><td>35%</td><td>2.86x</td><td>A 3x campaign is only just profitable.</td></tr>
+<tr><td>25%</td><td>4.0x</td><td>A 3.5x campaign loses money on every sale.</td></tr>
+</tbody></table>
+<p>So 3x can be excellent for one brand and a loss for another. Work out your own line first. The <a href="/tools/break-even-roas-calculator/">break-even ROAS calculator</a> does it in more detail, with shipping, returns and payment fees as separate inputs.</p>
+
+<h2>ROAS vs ROI vs MER</h2>
+<table><thead><tr><th>Metric</th><th>Formula</th><th>Best used for</th></tr></thead><tbody>
+<tr><td>ROAS</td><td>Ad revenue ÷ ad spend</td><td>Comparing campaigns, ad sets and creatives inside one platform</td></tr>
+<tr><td>ROI</td><td>(Profit − investment) ÷ investment</td><td>Deciding whether the whole activity is worth doing</td></tr>
+<tr><td>MER</td><td>Total revenue ÷ total ad spend</td><td>Setting the overall budget, because no platform can inflate it</td></tr>
+</tbody></table>
+<p>Use ROAS for decisions inside an account and MER for decisions about the account. The <a href="/tools/blended-roas-calculator/">blended ROAS and MER calculator</a> puts the two side by side.</p>
+
+<h2>Why the ROAS in Ads Manager is usually higher</h2>
+<ul><li><strong>Shared credit.</strong> A buyer who clicked a Meta ad and later a Google ad is counted as a sale by both.</li>
+<li><strong>View-through conversions.</strong> Someone who only saw an ad and bought days later can still be credited to it.</li>
+<li><strong>Sales you would have had anyway.</strong> Branded search and retargeting pick up buyers who were already coming.</li></ul>
+<p>None of this makes platform ROAS useless. It stays the best signal for which ad set to back. It just should not be the only number behind a decision to double the budget.</p>
+
+<h2>Raising ROAS without cutting reach</h2>
+<p>ROAS rises when revenue per click goes up or cost per click comes down. In practice the biggest levers are a landing page that converts better, a higher average order value through bundles, and creative that attracts buyers rather than browsers. Cutting spend to the best-performing retargeting audience also lifts ROAS, but it usually shrinks total profit. Watch profit after ad spend in the calculator above, not ROAS alone.</p>
+<p class="note">Running Meta or Google for an ecommerce brand? Our <a href="/performance-marketing/">performance marketing</a> team sets ROAS targets from your margin before the first campaign goes live.</p>
+
+  <h2>Questions</h2>
+  <div><details><summary>How do you calculate ROAS?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Divide the revenue that came from ads by what you spent on those ads. Revenue of 4 lakh from 1 lakh of spend is a ROAS of 4, often written 4x or 400%.</p></details><details><summary>What is a good ROAS?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">There is no universal number. A good ROAS is one above your break-even ROAS, which is 1 divided by your gross margin. A 50% margin breaks even at 2x; a 25% margin needs 4x before ads make any money.</p></details><details><summary>What is the difference between ROAS and ROI?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">ROAS compares revenue with ad spend. ROI compares profit with the total investment. A campaign can show a healthy ROAS and still lose money once product cost, shipping and fees are taken out.</p></details><details><summary>Should I use the ROAS shown in Meta or Google Ads?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Use platform ROAS to compare campaigns and ad sets inside one platform. For budget decisions, check it against total revenue from your store or accounts, because platforms count some of the same sales twice.</p></details><details><summary>Is ROAS useful for lead generation?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Only once leads have a value. Most lead-gen accounts work with cost per lead and cost per sale instead, and switch to ROAS when closed revenue is fed back to the ad platform.</p></details></div>
+
+  <h2>Other free tools</h2>
+  <ul style="padding-left:20px;line-height:2"><li><a href="/tools/break-even-roas-calculator/">Break-even ROAS calculator</a></li><li><a href="/tools/blended-roas-calculator/">Blended ROAS and MER calculator</a></li><li><a href="/tools/contribution-margin-calculator/">Contribution margin calculator</a></li><li><a href="/cac-calculator/">CAC ceiling calculator</a></li></ul>
+
+  <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
+    <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for businesses where one customer is worth real money. You will get a straight answer on whether paid works for you &mdash; including &ldquo;not yet&rdquo;.</p>
+    <a href="/lead-generation/" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free lead plan &rarr;</a>
+  </div>
+</main>
+
+<footer style="padding:34px 0 40px;font-size:.84rem;color:rgba(24,28,79,.64)">
+  <div class="wrap" style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;border-top:1px solid rgba(24,28,79,.12);padding-top:20px">
+    <a href="/" style="color:rgba(24,28,79,.78);font-weight:700">Home</a>
+    <a href="/services/" style="color:rgba(24,28,79,.78);font-weight:700">Services</a>
+    <a href="/blog/" style="color:rgba(24,28,79,.78);font-weight:700">Blog</a>
+    <a href="/tools/" style="color:rgba(24,28,79,.78);font-weight:700">Free tools</a>
+    <a href="/faq/" style="color:rgba(24,28,79,.78);font-weight:700">FAQ</a>
+    <a href="mailto:info@mediapuppies.com" style="color:rgba(24,28,79,.78);font-weight:700">info@mediapuppies.com</a>
+    <a href="/privacy-policy/" style="color:rgba(24,28,79,.64);text-decoration:underline">Privacy &amp; Terms</a>
+    <span>© 2026 Media Puppies</span>
+  </div>
+</footer>
+
+<script>
+
+function calc(){
+  var spend=+v('spend')||0, rev=+v('rev')||0, mg=+v('margin')||0, tg=+v('target')||0;
+  var el=document.getElementById('o_verdict');
+  var ids=['o_roas','o_pct','o_acos','o_be','o_profit','o_need'];
+  if(spend<=0){ids.forEach(function(i){set(i,'—');});
+    el.className='verdict warn'; el.textContent='Enter what you spent on ads.'; return;}
+  var roas=rev/spend;
+  set('o_roas', roas.toFixed(2)+'x');
+  set('o_pct', (roas*100).toFixed(0)+'%');
+  document.getElementById('o_pct-s').textContent = 'revenue per '+MP.sym+'1 spent: '+MP.sym+roas.toFixed(2);
+  set('o_acos', rev>0 ? (spend/rev*100).toFixed(1)+'%' : '—');
+  var m=[];
+  var be=0, profit=null;
+  if(mg>0&&mg<=100){
+    be=100/mg; profit=rev*mg/100-spend;
+    set('o_be', be.toFixed(2)+'x');
+    set('o_profit', (profit<0?'−':'')+MP.fmt(Math.abs(profit)));
+  } else { set('o_be','—'); set('o_profit','—'); }
+  if(tg>0){
+    set('o_need', MP.fmt(spend*tg));
+    document.getElementById('o_need-s').textContent = 'for '+tg+'x on this spend';
+  } else { set('o_need','—'); document.getElementById('o_need-s').textContent=''; }
+  m.push('A ROAS of '+roas.toFixed(2)+'x means '+MP.fmt(spend)+' of ads brought in '+MP.fmt(rev)+' of revenue.');
+  var cls='good';
+  if(be>0){
+    if(roas<be){ cls='bad'; m.push('With a '+mg+'% margin you need '+be.toFixed(2)+'x just to cover the ads, so this spend is losing '+MP.fmt(Math.abs(profit))+' before any other cost. Fix margin, order value or conversion rate before adding budget.'); }
+    else if(roas<be*1.25){ cls='warn'; m.push('This is only just above break-even ('+be.toFixed(2)+'x). It leaves '+MP.fmt(profit)+' after ad spend, which overheads, discounts or a few returns can wipe out.'); }
+    else { m.push('That is comfortably above your break-even of '+be.toFixed(2)+'x and leaves '+MP.fmt(profit)+' after ad spend. Check it against total revenue in your store before scaling, since platforms tend to over-count.'); }
+  } else {
+    cls='warn'; m.push('Add your gross margin to see whether this ROAS is profitable. The same ROAS can be a win at one margin and a loss at another.');
+  }
+  if(tg>0&&rev>0&&roas<tg) m.push('To reach '+tg+'x on this spend, revenue has to grow to '+MP.fmt(spend*tg)+', or spend has to fall to '+MP.fmt(rev/tg)+' at today’s revenue.');
+  el.className='verdict '+cls;
+  el.textContent=m.join(' ');
+}
+
+function v(id){var e=document.getElementById(id);return e?e.value:'';}
+function set(id,val){var e=document.getElementById(id);if(e)e.textContent=val;}
+document.addEventListener('DOMContentLoaded',function(){
+  document.querySelectorAll('input,select,textarea').forEach(function(el){
+    el.addEventListener('input',calc); el.addEventListener('change',calc);
+  });
+  calc();
+  if(window.mpTrack)window.mpTrack('ViewContent',{content_category:'tool',content_name:document.title});
+});
+window.calc=calc;
+</script>
+</body>
+</html>
