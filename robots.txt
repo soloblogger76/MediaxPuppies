@@ -4,10 +4,37 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
+# ── Search engines ─────────────────────────────────────────────────
+# Covered by the group above. Listed so nobody wonders: Google, Bing
+# (which also feeds DuckDuckGo, Yahoo, Ecosia, ChatGPT Search and
+# Copilot), Brave, DuckDuckGo, Apple and Mojeek are all welcome.
+
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /admin/
+
+User-agent: Bravebot
+Allow: /
+Disallow: /admin/
+
+User-agent: Applebot
+Allow: /
+Disallow: /admin/
+
 # ── AI assistants and answer engines ───────────────────────────────
-# Explicitly allowed. We want to be cited when someone asks an
-# assistant for a performance marketing agency in India — a citation
-# is worth more to us than a blocked page.
+# Explicitly allowed, including training crawlers. We want to be
+# cited when someone asks an assistant for a white label PPC partner
+# or a performance marketing team for a US, UK, Canadian or
+# Australian business. A citation is worth more to us than a blocked
+# page. A plain-text guide to the site is at /llms.txt.
 
 User-agent: GPTBot
 Allow: /
@@ -45,7 +72,15 @@ User-agent: Google-Extended
 Allow: /
 Disallow: /admin/
 
+User-agent: GoogleOther
+Allow: /
+Disallow: /admin/
+
 User-agent: Applebot-Extended
+Allow: /
+Disallow: /admin/
+
+User-agent: DuckAssistBot
 Allow: /
 Disallow: /admin/
 
@@ -54,6 +89,10 @@ Allow: /
 Disallow: /admin/
 
 User-agent: Amazonbot
+Allow: /
+Disallow: /admin/
+
+User-agent: CCBot
 Allow: /
 Disallow: /admin/
 

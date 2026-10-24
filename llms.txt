@@ -1,153 +1,135 @@
 # Media Puppies
 
-> Performance marketing agency in Noida, Delhi NCR, India. We run Meta and
-> Google ads, SEO and AI automation for businesses where one customer is
-> worth real money, and we report in cost per customer rather than
-> impressions. Founded 2018. Month to month, no lock-in. We audit an
-> account before quoting, and we say no when paid media is not the right
-> spend yet.
+> Paid media team for agencies and businesses in the United States, United Kingdom, Canada and Australia.
+> We run Google Ads and Meta (Facebook and Instagram) ads as a white label partner for marketing agencies,
+> and as a dedicated media buyer for brands. The team is based in Noida, India, so account work and
+> reporting happen while US and UK clients sleep. Month to month, no lock-in, never a percentage of ad spend.
 
-Updated 14 October 2026. 153 articles, 26 free calculators, 39 service and
-market pages.
+Updated 2026-10-24. 215 articles, 28 free calculators, 69 service and market pages.
 
-## How we charge
+## Key facts
 
-A flat monthly retainer, month to month, no lock-in. Never a percentage of
-ad spend, because that pays an agency more for spending more of your money
-and makes "reduce this budget" an expensive sentence to say. We quote after
-a free audit of the live account rather than before, because the honest
-number depends on what the account actually needs. There is a floor on
-ad spend below which an account cannot gather enough conversions to optimise
-against; where it sits depends on the category and market, and we say so on
-the first call rather than take the fee.
+- Services: white label PPC and paid social for agencies; dedicated media buyer; Google Ads; Meta ads; LinkedIn ads; SEO; AI automation.
+- Markets served: United States, United Kingdom, Canada, Australia, United Arab Emirates and India.
+- Team location: Noida, Delhi NCR, India. Invoiced to clients in their own currency.
+- Pricing model: a fixed monthly fee per account, month to month. Never a percentage of ad spend. The fee depends on the account and is given on the first call, after an audit.
+- White label terms: mutual NDA and non-solicit before access; the end client's ad accounts stay in the client's name; reporting in the agency's own template.
+- First step for a new account: a written audit within two working days of access.
+- Contact: info@mediapuppies.com
 
-- Pricing: https://mediapuppies.com/pricing/
-- How we work, first 90 days: https://mediapuppies.com/process/
-- What the reporting contains: https://mediapuppies.com/reporting/
-- Free ad account audit: https://mediapuppies.com/free-ad-account-audit/
+## For agencies (white label)
 
-## Services
+- [White Label PPC Agency: Google & Meta Ads](https://mediapuppies.com/white-label-ppc-agency/): White label PPC for agencies in the US, UK and Australia: Google Ads and Facebook ads run under your brand, reported in your template. Start with one account.
+- [Agency Partner Program](https://mediapuppies.com/agency-partner-program/): Two ways for agencies to work with us: refer paid media for a commission, or white label it and keep the client. Mutual NDA, no exclusivity.
 
-- Performance marketing: https://mediapuppies.com/performance-marketing/
-- Google Ads: https://mediapuppies.com/google-ads-agency/
-- Meta ads: https://mediapuppies.com/meta-ads-agency/
-- LinkedIn ads: https://mediapuppies.com/linkedin-ads-agency/
-- TikTok ads: https://mediapuppies.com/tiktok-ads-agency/
-- SEO: https://mediapuppies.com/seo-services/
-- AI automation: https://mediapuppies.com/ai-automation/
-- Hire a media buyer: https://mediapuppies.com/hire-a-media-buyer/
-- White label PPC for agencies: https://mediapuppies.com/white-label-ppc-agency/
-- Agency partner program: https://mediapuppies.com/agency-partner-program/
+## For businesses
 
-## By industry
-
-- Ecommerce and D2C: https://mediapuppies.com/ecommerce-ppc-agency/
-- Shopify: https://mediapuppies.com/shopify-ads-agency/
-- B2B lead generation: https://mediapuppies.com/b2b-lead-generation-agency/
-- SaaS: https://mediapuppies.com/saas-performance-marketing-agency/
-- Real estate: https://mediapuppies.com/real-estate-lead-generation-agency/
-- Home services: https://mediapuppies.com/home-services-lead-generation/
+- [Hire a Dedicated Media Buyer](https://mediapuppies.com/hire-a-media-buyer/): A named, senior Meta and Google media buyer working inside your team and your Slack, on a monthly fee. No recruitment, no payroll, no notice period.
+- [Google Ads Agency](https://mediapuppies.com/google-ads-agency/): Google Ads management across search, Shopping, Performance Max and YouTube. Search term waste removed, brand split from non-brand, feeds treated as strategy.
+- [Meta Ads Agency](https://mediapuppies.com/meta-ads-agency/): Facebook and Instagram advertising managed daily. Advantage+, Conversions API, creative testing and zero account bans in eight years.
+- [LinkedIn Ads Agency](https://mediapuppies.com/linkedin-ads-agency/): LinkedIn advertising for B2B brands with high contract values. Account-based targeting, Conversions API, and when LinkedIn is too expensive.
+- [Ecommerce PPC Agency](https://mediapuppies.com/ecommerce-ppc-agency/): Meta and Google Shopping management for ecommerce brands, reported on contribution margin and blended MER rather than platform-reported ROAS.
+- [SaaS Performance Marketing Agency](https://mediapuppies.com/saas-performance-marketing-agency/): Paid acquisition for B2B and product-led SaaS. Optimised to qualified pipeline and payback period using offline conversion import, not to form fills.
+- [B2B Lead Generation Agency](https://mediapuppies.com/b2b-lead-generation-agency/): B2B paid media that is judged on qualified pipeline, not form fills. Google search, LinkedIn and Meta, with CRM outcomes fed back into the bidding.
+- [Home Services Lead Generation](https://mediapuppies.com/home-services-lead-generation/): Paid media for home services: HVAC, roofing, plumbing, solar, remodelling. Call tracking, service-area structure and Local Services Ads, judged on booked jobs.
+- [Performance Marketing Agency in India](https://mediapuppies.com/performance-marketing/): Performance marketing agency in India running Meta and Google ads for D2C brands and lead-gen businesses, reported in cost per customer. Month to month.
 
 ## By market
 
-India (Noida, Delhi, Gurugram, Mumbai, Bengaluru, Hyderabad) plus the US,
-UK, UAE and Australia from a single team in Noida.
+- [Performance Marketing Agency for US Brands](https://mediapuppies.com/performance-marketing-agency-usa/): An India-based media buying team running Meta and Google ads for US and Canadian brands. Working US hours, invoiced in dollars, reported in cost per customer.
+- [Performance Marketing Agency for UK Brands](https://mediapuppies.com/performance-marketing-agency-uk/): An India-based media buying team running Meta and Google ads for UK brands. Full working-day overlap with London, invoiced in pounds, CAP Code aware.
+- [Performance Marketing Agency for Australian Brands](https://mediapuppies.com/performance-marketing-agency-australia/): Meta and Google ads for Australian brands, run from India with a morning overlap to Sydney. TGA and ACL aware, invoiced in Australian dollars.
+- [Performance Marketing Agency for Dubai & UAE](https://mediapuppies.com/performance-marketing-agency-dubai/): Meta and Google ads for Dubai and Abu Dhabi businesses. Trakheesi-aware real estate campaigns, Arabic and English creative, invoiced in dirhams.
 
-- https://mediapuppies.com/performance-marketing-agency-noida/
-- https://mediapuppies.com/performance-marketing-agency-delhi/
-- https://mediapuppies.com/performance-marketing-agency-gurgaon/
-- https://mediapuppies.com/performance-marketing-agency-mumbai/
-- https://mediapuppies.com/performance-marketing-agency-bengaluru/
-- https://mediapuppies.com/performance-marketing-agency-hyderabad/
-- https://mediapuppies.com/performance-marketing-agency-usa/
-- https://mediapuppies.com/performance-marketing-agency-uk/
-- https://mediapuppies.com/performance-marketing-agency-dubai/
-- https://mediapuppies.com/performance-marketing-agency-australia/
+## Reading for US, UK, Canadian and Australian buyers
+
+- [White label PPC: how it actually works, and where it goes wrong](https://mediapuppies.com/blog/white-label-ppc-how-it-works/): How white label PPC works: what an agency gets when it outsources media buying, what stays with it, and the four questions worth asking a partner first.
+- [White label Facebook ads: how agencies resell Meta ads without the headaches](https://mediapuppies.com/blog/white-label-facebook-ads/): White label Facebook ads let an agency sell Meta advertising under its own brand while a partner runs the accounts. How it works, pricing models and the risks.
+- [Eight questions to ask a white label partner before you send an account](https://mediapuppies.com/blog/white-label-partner-questions/): Eight questions for a white label partner before you send the first account: staffing, scope, reporting, pricing, and what they will refuse to do.
+- [White label PPC pricing: how partners bill and where the margin goes](https://mediapuppies.com/blog/white-label-ppc-pricing/): White label PPC pricing comes in three shapes, each changing who carries the risk. How partners bill, what is excluded, and how to price it on to clients.
+- [White label reporting: what the client should and should not see](https://mediapuppies.com/blog/white-label-reporting/): White label reporting decides whether a partnership feels seamless or exposed. What belongs in the client report, what stays private, and where it leaks.
+- [Outsource PPC management: when it makes sense and how to do it safely](https://mediapuppies.com/blog/outsource-ppc-management/): When to outsource PPC, what an outsourced PPC team should handle, how to compare agencies, freelancers and offshore teams, and how to keep control.
+- [How to outsource digital marketing without losing control of it](https://mediapuppies.com/blog/outsource-digital-marketing/): How to outsource digital marketing: which parts to hand over, which to keep in-house, how to choose a partner, and how to run it so results stay visible.
+- [Building an offshore marketing team: agency, dedicated hire or staff augmentation](https://mediapuppies.com/blog/offshore-marketing-team/): An offshore marketing team adds senior skills at a different cost base. The three ways to build one, roles to start with, and managing across time zones.
+- [Working with an offshore media buyer: the only number that matters](https://mediapuppies.com/blog/offshore-media-buyer-overlap/): Hiring an offshore media buyer: the overlap hours that decide whether it works, what each band feels like, and what to ask before you commit.
+- [When an agency should outsource media buying instead of hiring](https://mediapuppies.com/blog/when-to-outsource-media-buying/): When to outsource media buying rather than hire: the arithmetic that decides it, the four signals you have already waited too long, and the option nobody takes.
+- [Hiring an Indian marketing agency from the US: what changes](https://mediapuppies.com/blog/indian-marketing-agency-us/): What a US business should settle before hiring an Indian marketing agency: the overlap problem, special ad categories, privacy law, contracts and payment.
+- [Hiring an Indian marketing agency from the UK: how it actually works](https://mediapuppies.com/blog/indian-marketing-agency-uk/): What changes when a UK business hires an Indian marketing agency — overlap hours, contracts, payment, data protection, and the regulatory knowledge to test for.
+- [Paying an Indian agency from overseas: invoices, FX and tax](https://mediapuppies.com/blog/paying-an-indian-agency/): The mechanics of paying an Indian agency from abroad: invoicing currency, GST on exported services, transfer routes, and who absorbs the bank fees.
+- [Planning for Q4 in the US: what actually happens to costs](https://mediapuppies.com/blog/us-q4-ad-costs-planning/): Q4 ad costs in the US climb from October, peak around Black Friday and Cyber Monday, and fall in January. How to budget for it rather than react.
+- [Why your US conversions fell and nobody changed anything](https://mediapuppies.com/blog/us-state-privacy-consent-conversions/): US state privacy laws, Global Privacy Control and consent mode quietly cut the conversion data reaching Meta and Google. How to tell if it is you.
+- [Lead forms that will actually be followed up: US consent wording](https://mediapuppies.com/blog/us-lead-form-consent-language/): If your US leads will be called or texted, the lead form consent wording next to the submit button matters. What belongs on it, and who writes it.
+- [Special Ad Categories: why your US targeting disappeared](https://mediapuppies.com/blog/meta-special-ad-categories-us/): Housing, employment, credit and social issues strip most Meta targeting in the US. What special ad categories remove, what stays, and how to adapt.
+- [Local Services Ads: the US listing above your search ads](https://mediapuppies.com/blog/google-local-services-ads-us/): How Google Local Services Ads work for US home services firms, what verification involves, and why the lead dispute process is where the value sits.
+- [PECR, consent mode, and the UK conversions you stopped seeing](https://mediapuppies.com/blog/uk-consent-mode-conversion-loss/): UK cookie consent is governed by PECR, and how consent mode is wired decides how much data reaches Meta and Google. How to diagnose a sudden drop.
+- [The UK retail calendar: planning around Black Friday and Boxing Day](https://mediapuppies.com/blog/uk-retail-seasonality-planning/): UK retail seasonality has two peaks rather than one, and January behaves differently here than elsewhere. How to budget for the real shape of the year.
+- [Financial promotions in the UK: the rule that stops campaigns dead](https://mediapuppies.com/blog/fca-financial-promotions-paid-media/): Promoting an investment, credit product or crypto to UK consumers means the financial promotions rules apply. What that does to a paid media plan.
+- [Advertising in Canada: what Indian export brands should know](https://mediapuppies.com/blog/advertising-in-canada/): Advertising in Canada looks like the US and is not. Bilingual requirements, anti-spam law, provincial privacy rules and a thinner auction all change the plan.
+- [Why 30 June is Australia’s biggest month and your calendar missed it](https://mediapuppies.com/blog/australia-eofy-marketing/): EOFY marketing in Australia: why the run-up to 30 June is a real demand spike for anything a business can expense, and how to plan ads around it.
 
 ## Choosing and working with an agency
 
-Written for people deciding whether to hire anyone, and what to ask.
-
 - [Fifteen questions to ask a performance marketing agency](https://mediapuppies.com/blog/questions-to-ask-a-performance-marketing-agency/)
-- [How to choose a marketing agency in India](https://mediapuppies.com/blog/how-to-choose-marketing-agency-india/): six red flags
-- [What a performance marketing agency costs](https://mediapuppies.com/blog/what-performance-marketing-costs/): retainer, percentage and performance models compared
-- [Google Ads management cost](https://mediapuppies.com/blog/google-ads-management-cost/)
-- [Who owns your ad account](https://mediapuppies.com/blog/who-owns-your-ad-account/): the clause that decides what leaving costs
+- [Who owns your ad account, really](https://mediapuppies.com/blog/who-owns-your-ad-account/)
 - [The nine clauses that matter in a marketing agency contract](https://mediapuppies.com/blog/marketing-agency-contract/)
-- [Who works on your account](https://mediapuppies.com/blog/who-actually-works-on-your-account/): how agency teams are really staffed
+- [Who works on your account when you hire an agency](https://mediapuppies.com/blog/who-actually-works-on-your-account/)
 - [Why nobody can guarantee you a ROAS](https://mediapuppies.com/blog/roas-guarantees-red-flag/)
-- [Pay-per-lead agencies and what the model hides](https://mediapuppies.com/blog/pay-per-lead-agency/)
-- [Does the Google Partner badge mean anything](https://mediapuppies.com/blog/google-partner-badge-worth-it/)
-- [How to evaluate agency case studies](https://mediapuppies.com/blog/how-to-evaluate-agency-case-studies/)
-- [Agency vs in-house vs freelancer](https://mediapuppies.com/blog/agency-vs-inhouse-vs-freelancer/)
-- [Minimum ad budget before an agency is worth it](https://mediapuppies.com/blog/minimum-ad-budget-for-an-agency/)
-- [How long until paid ads work](https://mediapuppies.com/blog/how-long-until-paid-ads-work/)
+- [How to evaluate agency case studies properly](https://mediapuppies.com/blog/how-to-evaluate-agency-case-studies/)
+- [Agency, in-house or freelancer: which one at which stage](https://mediapuppies.com/blog/agency-vs-inhouse-vs-freelancer/)
+- [How long until paid ads work, realistically](https://mediapuppies.com/blog/how-long-until-paid-ads-work/)
 - [Seven signs your agency has stopped doing the work](https://mediapuppies.com/blog/signs-your-agency-is-underperforming/)
 - [How to leave a marketing agency without losing the account](https://mediapuppies.com/blog/leaving-an-agency-cleanly/)
 
 ## Marketing economics
 
-- [How to set your own cost per lead target](https://mediapuppies.com/blog/cost-per-lead-target/): from margin and close rate, not a benchmark
-- [CAC payback period](https://mediapuppies.com/blog/cac-payback-period/): the number that caps growth
+- [What is ROAS? The formula, a worked example and what counts as good](https://mediapuppies.com/blog/what-is-roas/)
+- [Break-even ROAS: the number to work out before you launch](https://mediapuppies.com/blog/break-even-roas/)
+- [Cost per acquisition: how to set a target CPA from your margins](https://mediapuppies.com/blog/cost-per-acquisition-target/)
+- [Customer acquisition cost in Indian D2C: what a customer should cost you](https://mediapuppies.com/blog/d2c-cac-india/)
+- [Customer lifetime value: the formula, a worked example, and how not to fool yourself](https://mediapuppies.com/blog/customer-lifetime-value/)
+- [Contribution margin for D2C brands: the number to scale on, not ROAS](https://mediapuppies.com/blog/contribution-margin-d2c/)
+- [CAC payback period and why it caps your growth](https://mediapuppies.com/blog/cac-payback-period/)
 - [The LTV to CAC ratio, calculated honestly](https://mediapuppies.com/blog/ltv-cac-ratio-explained/)
-- [What a customer costs in Indian D2C](https://mediapuppies.com/blog/d2c-cac-india/)
-- [Why your cost per lead is high](https://mediapuppies.com/blog/why-cost-per-lead-is-high/): seven causes, ranked by frequency
-- [Ten places wasted ad spend hides](https://mediapuppies.com/blog/wasted-ad-spend/)
+- [Platform ROAS is not profit, and it is not even revenue](https://mediapuppies.com/blog/platform-roas-vs-blended-mer/)
 - [Scaling ad spend without losing your return](https://mediapuppies.com/blog/scaling-ad-spend-without-losing-roas/)
-- [Platform ROAS is not profit](https://mediapuppies.com/blog/platform-roas-vs-blended-mer/)
-- [The seven marketing numbers a founder should watch](https://mediapuppies.com/blog/marketing-metrics-founders-track/)
+- [Ten places wasted ad spend hides](https://mediapuppies.com/blog/wasted-ad-spend/)
 
 ## Running the channels
 
-- [How much to spend on Meta Ads in India](https://mediapuppies.com/blog/meta-ads-budget-india/)
-- [Learning limited: what it means](https://mediapuppies.com/blog/meta-learning-phase-explained/)
-- [How to structure a Google Search campaign](https://mediapuppies.com/blog/google-search-ads-structure/)
-- [Performance Max for Indian businesses](https://mediapuppies.com/blog/performance-max-india/)
-- [Google or Meta first](https://mediapuppies.com/blog/google-or-meta-first/)
-- [A creative testing framework](https://mediapuppies.com/blog/creative-testing-framework/)
-- [Running ads in multiple countries](https://mediapuppies.com/blog/running-ads-in-multiple-countries/)
-- [High ticket lead generation](https://mediapuppies.com/blog/high-ticket-lead-generation/)
-- [Audit your own ad account in an afternoon](https://mediapuppies.com/blog/audit-your-own-ad-account/)
-
-## SEO and AI search
-
-- [SEO and paid ads together](https://mediapuppies.com/blog/seo-and-paid-ads-together/)
-- [Showing up inside AI answers](https://mediapuppies.com/blog/ai-search-optimisation-india/)
-- [Is ChatGPT sending you traffic](https://mediapuppies.com/blog/chatgpt-traffic-website/)
-- [Does Google penalise AI content](https://mediapuppies.com/blog/does-google-penalise-ai-content/)
-- [Internal linking: the free SEO nobody does](https://mediapuppies.com/blog/internal-linking-strategy/)
-- [A technical SEO checklist](https://mediapuppies.com/blog/technical-seo-checklist/)
-- [Local SEO in India](https://mediapuppies.com/blog/local-seo-india/)
+- [What is performance marketing? How it works and when it fits](https://mediapuppies.com/blog/what-is-performance-marketing/)
+- [Advantage+ : when to let Meta drive, and when to take the wheel](https://mediapuppies.com/blog/meta-advantage-plus-guide/)
+- [Learning limited: what it means and why splitting budgets causes it](https://mediapuppies.com/blog/meta-learning-phase-explained/)
+- [](https://mediapuppies.com/blog/learning-limited-meta/)
+- [Using Meta's Conversions API to optimise for qualified leads, not form fills](https://mediapuppies.com/blog/meta-conversions-api-for-leads/)
+- [How to structure a Google Search campaign that stays profitable](https://mediapuppies.com/blog/google-search-ads-structure/)
+- [Reading the Google Ads search terms report: a weekly routine that stops wasted spend](https://mediapuppies.com/blog/google-ads-search-terms-report/)
+- [A ten-minute check that your Google Ads conversion tracking counts the right things](https://mediapuppies.com/blog/check-google-ads-conversion-tracking/)
+- [A creative testing framework you can run on ₹50,000](https://mediapuppies.com/blog/creative-testing-framework/)
+- [UGC ads: what converts, what looks fake, and how to brief them](https://mediapuppies.com/blog/ugc-ads-india/)
+- [Attribution models explained: what each attribution model does and which to trust](https://mediapuppies.com/blog/attribution-models-explained/)
+- [Running ads in multiple countries without doubling the work](https://mediapuppies.com/blog/running-ads-in-multiple-countries/)
 
 ## Free calculators
 
-Twenty-six browser-only tools. Nothing is sent to a server; the arithmetic
-runs in the page and nothing typed into them is stored or transmitted.
+28 browser-only tools. The arithmetic runs in the page; nothing typed into them is sent or stored.
 
-https://mediapuppies.com/tools/ — including break-even ROAS, blended ROAS
-and MER, CAC payback, customer lifetime value, contribution margin, lead
-funnel, Meta learning phase, ad frequency, budget pacing, PPC forecast,
-A/B test sample size and significance, GST on ad spend, marketplace payout,
-COD versus prepaid, creative volume, churn and retention, agency versus
-in-house cost, influencer rate, UTM builder and SERP snippet preview.
+- All tools: https://mediapuppies.com/tools/
+- [ROAS calculator](https://mediapuppies.com/tools/roas-calculator/)
+- [Break-even ROAS calculator](https://mediapuppies.com/tools/break-even-roas-calculator/)
+- [Blended ROAS and MER calculator](https://mediapuppies.com/tools/blended-roas-calculator/)
+- [Free CAC Calculator — What Can You Actually Pay for a Customer?](https://mediapuppies.com/cac-calculator/)
+- [Customer lifetime value calculator](https://mediapuppies.com/tools/ltv-calculator/)
+- [Agency vs in-house cost calculator](https://mediapuppies.com/tools/agency-vs-inhouse-calculator/)
+- [Time zone overlap calculator](https://mediapuppies.com/tools/timezone-overlap-calculator/)
 
-## Common questions
+## More
 
-Fifteen questions with short, self-contained answers: what it costs, how long
-it takes, who owns the ad account, and how to tell a good agency from a
-confident one.
-
-https://mediapuppies.com/faq/
-
-## Full content
-
-- All 153 articles: https://mediapuppies.com/blog/
-- Case studies: https://mediapuppies.com/work/
-- Sitemap: https://mediapuppies.com/sitemap.xml
-
-## Contact
-
-- Enquiries: https://mediapuppies.com/lead-generation/
-- Email: info@mediapuppies.com
+- Every page with a one-line summary: https://mediapuppies.com/llms-full.txt
+- Frequently asked questions: https://mediapuppies.com/faq/
+- All articles: https://mediapuppies.com/blog/
+- How we work: https://mediapuppies.com/process/
+- What the reporting contains: https://mediapuppies.com/reporting/
+- Free ad account audit: https://mediapuppies.com/free-ad-account-audit/
 - About: https://mediapuppies.com/about/
+- Sitemap: https://mediapuppies.com/sitemap.xml
 - LinkedIn: https://www.linkedin.com/company/mediapuppies/
