@@ -673,6 +673,8 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
       $('updatedAt').textContent = 'Updated ' + new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
       if (res[0].error) { fail('Could not load leads', res[0].error); return; }
       all = res[0].data || [];
+      /* Until a linkedin column exists, the forms fold it into message as "linkedin: <url>". */
+      all.forEach(function (l) { if (!l.linkedin && l.message) { var m = String(l.message).match(/(?:^|\n| \| )linkedin: (\S+)/i); if (m) l.linkedin = m[1]; } });
       if (all.length) Object.keys(cols).forEach(function (c) { cols[c] = c in all[0]; });
       views = res[1].error ? [] : (res[1].data || []);
       Object.keys(sel).forEach(function (id) { if (!byId(id)) delete sel[id]; });
@@ -810,7 +812,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
       if (s && l.status !== s) return false;
       if (onlyDue && !(dueState(l) === 'overdue' || dueState(l) === 'today')) return false;
       if (!q) return true;
-      return ['name','email','phone','city','company','college','role','business_type','budget','utm_campaign','utm_source','message','notes','tags']
+      return ['name','email','phone','city','company','college','role','linkedin','business_type','budget','utm_campaign','utm_source','message','notes','tags']
         .some(function (f) { var v = l[f]; if (Array.isArray(v)) v = v.join(' '); return String(v || '').toLowerCase().indexOf(q) > -1; });
     });
     var c = sort.col, dir = sort.dir;
@@ -842,6 +844,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
     } else {
       if (l.role) out.push('<strong>' + esc(l.role) + '</strong>');
       if (l.college) out.push(esc(l.college));
+      if (l.linkedin && safeUrl(l.linkedin)) out.push('<a href="' + esc(safeUrl(l.linkedin)) + '" target="_blank" rel="noopener noreferrer nofollow">LinkedIn</a>');
       if (l.link) out.push(safeUrl(l.link) ? '<a href="' + esc(safeUrl(l.link)) + '" target="_blank" rel="noopener noreferrer nofollow">link</a>' : esc(l.link));
     }
     return out;
@@ -1051,6 +1054,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
       kv('Business', l.business_type) + kv('Company', l.company) +
       kv('Budget', l.budget) + kv('City', l.city) +
       kv('Role', l.role) + kv('College', l.college) +
+      (l.linkedin ? (safeUrl(l.linkedin) ? kv('LinkedIn', '<a href="' + esc(safeUrl(l.linkedin)) + '" target="_blank" rel="noopener noreferrer nofollow">' + esc(l.linkedin) + '</a>', true) : kv('LinkedIn', l.linkedin)) : '') +
       (l.link ? (safeUrl(l.link) ? kv('Link', '<a href="' + esc(safeUrl(l.link)) + '" target="_blank" rel="noopener noreferrer nofollow">' + esc(l.link) + '</a>', true) : kv('Link', l.link)) : '') +
       kv('Message', l.message) + '</div>' +
       '<div class="block"><h4>Your notes</h4>' +
@@ -1252,7 +1256,7 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
     var ids = Object.keys(sel);
     var list = ids.length ? all.filter(function (l) { return sel[l.id]; }) : visible();
     if (!list.length) { toast('Nothing to export with these filters.', true); return; }
-    var c = ['created_at','kind','name','phone','email','business_type','budget','city','company','role','college','link','message','notes','status','priority','tags','follow_up_at','last_contacted_at','utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid','landing_page','source_page','referrer'];
+    var c = ['created_at','kind','name','phone','email','business_type','budget','city','company','role','college','linkedin','link','message','notes','status','priority','tags','follow_up_at','last_contacted_at','utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid','landing_page','source_page','referrer'];
     var csv = [c.join(',')].concat(list.map(function (l) { return c.map(function (k) { return csvCell(l[k]); }).join(','); })).join('\r\n');
     var url = URL.createObjectURL(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' }));
     var a = document.createElement('a');
