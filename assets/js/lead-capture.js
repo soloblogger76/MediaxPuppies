@@ -52,7 +52,7 @@
   };
   var COLUMNS = [
     'kind','name','email','phone','business_type','budget','city','company',
-    'role','college','link','message','source_page','referrer','landing_page',
+    'role','college','link','linkedin','message','source_page','referrer','landing_page',
     'utm_source','utm_medium','utm_campaign','utm_content','utm_term','fbclid','gclid'
   ];
 
