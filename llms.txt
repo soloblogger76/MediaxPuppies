@@ -5,7 +5,7 @@
 > and as a dedicated media buyer for brands. The team is based in Noida, India, so account work and
 > reporting happen while US and UK clients sleep. Month to month, no lock-in, never a percentage of ad spend.
 
-Updated 2026-10-24. 215 articles, 28 free calculators, 69 service and market pages.
+Updated 2026-10-25. 215 articles, 28 free calculators, 70 service and market pages.
 
 ## Key facts
 
@@ -24,6 +24,7 @@ Updated 2026-10-24. 215 articles, 28 free calculators, 69 service and market pag
 
 ## For businesses
 
+- [PPC Management Services: Google, Meta & LinkedIn Ads](https://mediapuppies.com/ppc-management/): PPC management services for US, UK and Australian businesses: Google Ads, Meta and LinkedIn managed daily and reported in cost per customer. Month to month.
 - [Hire a Dedicated Media Buyer](https://mediapuppies.com/hire-a-media-buyer/): A named, senior Meta and Google media buyer working inside your team and your Slack, on a monthly fee. No recruitment, no payroll, no notice period.
 - [Google Ads Agency](https://mediapuppies.com/google-ads-agency/): Google Ads management across search, Shopping, Performance Max and YouTube. Search term waste removed, brand split from non-brand, feeds treated as strategy.
 - [Meta Ads Agency](https://mediapuppies.com/meta-ads-agency/): Facebook and Instagram advertising managed daily. Advantage+, Conversions API, creative testing and zero account bans in eight years.
