@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-10-25.
+Updated 2026-10-27.
 
 ## Service, market and company pages
 
@@ -151,6 +151,7 @@ Updated 2026-10-25.
 - [Festive season ads in India: what to do in the six weeks before](https://mediapuppies.com/blog/festive-season-ads-india/): A six-week plan for festive season ads in India — when to start, how budgets and auction costs move, and the preparation that decides the outcome.
 - [What a good first 90 days with an agency actually looks like](https://mediapuppies.com/blog/first-90-days-with-an-agency/): What should happen in the first 90 days with an agency, month by month, and what it means when the milestones quietly fail to arrive on time.
 - [Furniture ads that sell online: a playbook for D2C furniture brands](https://mediapuppies.com/blog/furniture-d2c-ads/): Furniture ads have to sell a big, slow purchase to people who cannot touch the product. How to structure campaigns, creative and follow-up so they convert.
+- [Google Ads audit checklist: eight steps to find the waste in an account](https://mediapuppies.com/blog/google-ads-audit-checklist/): A step-by-step Google Ads audit checklist: tracking, settings, structure, search terms, bidding, Performance Max, assets and landing pages, and what each costs.
 - [Quality Score: what it actually rewards](https://mediapuppies.com/blog/google-ads-quality-score/): How Google Ads Quality Score works in practice, which of its three parts you can influence, and what a low score is really telling you about the account.
 - [Reading the Google Ads search terms report: a weekly routine that stops wasted spend](https://mediapuppies.com/blog/google-ads-search-terms-report/): The search terms report shows what people actually typed before clicking your ad. A weekly routine for what to add, what to exclude and what to leave alone.
 - [Local Services Ads: the US listing above your search ads](https://mediapuppies.com/blog/google-local-services-ads-us/): How Google Local Services Ads work for US home services firms, what verification involves, and why the lead dispute process is where the value sits.
@@ -232,9 +233,12 @@ Updated 2026-10-25.
 
 ## Articles: Lead generation
 
+- [B2B PPC: how to run Google and LinkedIn ads that build qualified pipeline](https://mediapuppies.com/blog/b2b-ppc/): B2B PPC explained: Google Search and LinkedIn for long sales cycles, account-based lists, offline conversion import, and judging spend on qualified pipeline.
+- [Dental PPC: how to run Google Ads that bring in new patients](https://mediapuppies.com/blog/dental-ppc/): Dental PPC for practices in the US, UK and Australia: implant and Invisalign campaigns, healthcare ad policies, call tracking and cost per new patient.
 - [Gym marketing in India: a trial-to-membership funnel that fills classes](https://mediapuppies.com/blog/gym-marketing-india/): Gym marketing works when every channel pushes one thing: a trial visit. The local targeting, offers, follow-up and reviews that turn enquiries into memberships.
 - [High-ticket lead generation and why volume is the wrong goal](https://mediapuppies.com/blog/high-ticket-lead-generation/): High ticket lead generation breaks the usual playbook: too few conversions to optimise against. What changes about forms, targeting and measurement.
 - [How to choose a lead generation agency that sends leads you can close](https://mediapuppies.com/blog/how-to-choose-lead-generation-agency/): A lead generation agency can send hundreds of leads nobody can close. How to choose one that sends buyers, with the questions and red flags.
+- [HVAC PPC: how to run Google Ads and Local Services Ads for an HVAC company](https://mediapuppies.com/blog/hvac-ppc/): HVAC PPC for US contractors: Google Ads and Local Services Ads, seasonal budgets, emergency vs replacement keywords, call tracking and cost per booked job.
 - [Local business marketing: the order that actually works](https://mediapuppies.com/blog/local-business-marketing/): Local business marketing fails when it starts with ads. The order that works for clinics, showrooms and service businesses, and what to do first.
 - [Property portal vs real estate broker in Dubai: where developers should spend](https://mediapuppies.com/blog/property-portal-vs-broker-dubai/): Property portal or broker network? How Dubai developers should split spend between portals, brokers and their own ads, and what each channel is good and bad at.
 - [Real estate digital marketing in India: the full funnel, from portal to site visit](https://mediapuppies.com/blog/real-estate-digital-marketing-india/): Real estate digital marketing in India covers portals, Google, Meta, SEO, WhatsApp and the CRM. How the pieces fit, and the numbers that show if it works.
