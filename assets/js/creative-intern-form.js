@@ -52,7 +52,7 @@
     window.mpSubmitLead('internship', fields, WEB3FORMS_KEY, 'New Internship Application — Creative Strategist')
       .then(function () {
         if (window.mpTrack) {
-          window.mpTrack('Lead', { content_name: 'Creative Strategist Internship', content_category: 'internship' });
+          if (window.mpTrackCustom) window.mpTrackCustom('Application', { content_name: 'Creative Strategist Internship', content_category: 'internship' });
         }
         if (notSubmitted) notSubmitted.style.display = 'none';
         if (submitted) {

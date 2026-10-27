@@ -43,7 +43,7 @@
 
     window.mpSubmitLead('careers', fields, WEB3FORMS_KEY, 'New Application \u2014 Media Puppies Careers')
       .then(function () {
-        if (window.mpTrack) window.mpTrack('Lead', { content_category: 'careers' });
+        if (window.mpTrackCustom) window.mpTrackCustom('Application', { content_category: 'careers' });
         if (notSubmitted) notSubmitted.style.display = 'none';
         if (submitted) {
           submitted.style.display = 'block';

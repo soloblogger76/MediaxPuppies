@@ -57,10 +57,14 @@
   ];
 
   window.mpSubmitLead = function (kind, fields, web3formsKey, subject) {
+    /* Honeypot: the hidden website_url field is empty for people and filled by bots.
+       A filled one is dropped silently, so the bot still sees a success message. */
+    if (fields && fields.website_url) return Promise.resolve(['dropped']);
     var merged = Object.assign({}, fields, attribution, {
       kind: kind,
       source_page: window.location.pathname
     });
+    delete merged.website_url;
 
     /* apply aliases */
     Object.keys(ALIASES).forEach(function (from) {
@@ -123,6 +127,15 @@
     return Promise.allSettled(jobs).then(function (results) {
       var ok = results.filter(function (r) { return r.status === 'fulfilled'; });
       if (!ok.length) throw new Error('all destinations failed');
+      /* GA4 gets the same event the pixel gets: generate_lead for client enquiries,
+         application_submitted for careers and internship forms. */
+      if (typeof window.gtag === 'function') {
+        try {
+          window.gtag('event', kind === 'client' ? 'generate_lead' : 'application_submitted', {
+            lead_kind: kind, source_page: window.location.pathname
+          });
+        } catch (err) {}
+      }
       return ok.map(function (r) { return r.value; });
     });
   };

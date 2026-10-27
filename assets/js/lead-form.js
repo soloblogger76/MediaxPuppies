@@ -73,7 +73,10 @@
 
     window.mpSubmitLead('client', fields, WEB3FORMS_KEY, 'New Lead \u2014 Media Puppies Website')
       .then(function () {
-        if (window.mpTrack) window.mpTrack('Lead', {
+        var lowBudget = /not qualified/i.test(fields.monthly_budget || '');
+        if (lowBudget) {
+          if (window.mpTrackCustom) window.mpTrackCustom('LeadUnqualified', { budget: fields.monthly_budget || '' });
+        } else if (window.mpTrack) window.mpTrack('Lead', {
           content_category: 'client_enquiry',
           content_name: fields.service_interest || '',
           predicted_ltv: fields.monthly_budget || ''
