@@ -61,9 +61,9 @@ article tr:last-child td{border-bottom:none}
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does GA4 track ChatGPT traffic by default?", "acceptedAnswer": {"@type": "Answer", "text": "Not as its own channel. Referrals from assistant hostnames land under Referral alongside everything else, and sessions opened from a native app often arrive with no referrer at all and are filed as Direct."}}, {"@type": "Question", "name": "How do I separate AI traffic in GA4?", "acceptedAnswer": {"@type": "Answer", "text": "Create a custom channel group in Admin, Data display, Channel groups. Add a channel above Referral that matches the source against assistant hostnames — chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com, claude.ai — using contains or regex rather than exact match."}}, {"@type": "Question", "name": "Why do some assistant visits show as Direct?", "acceptedAnswer": {"@type": "Answer", "text": "Because the link opened in an in-app browser that passed no referrer. Those sessions cannot be recovered afterwards, so treat any assistant number as a floor rather than a complete count."}}, {"@type": "Question", "name": "What should I measure once it is separated?", "acceptedAnswer": {"@type": "Answer", "text": "Which pages assistants send people to, how engagement compares with organic search, and conversion rate over quarters rather than months. Volume is the least useful of the four because it is small and noisy for most businesses."}}]}
 </script>
 <script src="/assets/js/consent.js?v=20261027a" defer></script>
-<script src="/assets/js/pixel.js?v=20261027a" defer></script>
+<script src="/assets/js/pixel.js?v=20261027b" defer></script>
 <script src="/assets/js/supabase-config.js?v=20260926a" defer></script>
-<script src="/assets/js/analytics.js?v=20261016a" defer></script>
+<script src="/assets/js/analytics.js?v=20261027b" defer></script>
 <script src="/assets/js/ga.js?v=20261015a" defer></script>
 </head>
 <body>
@@ -94,7 +94,7 @@ article tr:last-child td{border-bottom:none}
     <div data-reveal="60" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8;margin-bottom:14px">
       <span>AI</span>
       <span style="width:4px;height:4px;border-radius:50%;background:rgba(24,28,79,.3)"></span>
-      <span style="color:rgba(24,28,79,.5)">3 min read</span>
+      <span style="color:rgba(24,28,79,.64)">3 min read</span>
     </div>
     <h1 data-reveal="120" style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(2.1rem,4.4vw,3.2rem);line-height:1.08;letter-spacing:-.025em;margin:0">How to track AI assistant traffic in GA4</h1>
     <p data-reveal="200" style="margin:20px 0 0;font-size:1.14rem;color:rgba(24,28,79,.66)">Out of the box, GA4 files assistant traffic under referral alongside everything else. Twenty minutes of setup turns it into a channel you can actually watch.</p>

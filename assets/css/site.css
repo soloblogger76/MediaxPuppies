@@ -157,11 +157,6 @@ details > summary:hover { color: var(--mp-blue); }
 details.is-animating { overflow: hidden; }
 
 /* ---- Reveal safety net: nothing stays hidden if the observer never fires ---- */
-html.mp-ready [data-reveal][data-reveal-stuck] {
-  opacity: 1 !important;
-  transform: none !important;
-  filter: none !important;
-}
 
 /* ---- Forms ---- */
 input, select, textarea { transition: border-color .2s ease, box-shadow .25s ease, background-color .2s ease; }

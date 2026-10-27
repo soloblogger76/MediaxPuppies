@@ -163,10 +163,10 @@ details[open] .plus{transform:rotate(45deg)}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
 <script src="/assets/js/consent.js?v=20261027a" defer></script>
-<script src="/assets/js/pixel.js?v=20261027a" defer></script>
+<script src="/assets/js/pixel.js?v=20261027b" defer></script>
 <script src="/assets/js/supabase-config.js?v=20260926a" defer></script>
-<script src="/assets/js/analytics.js?v=20261016a" defer></script>
-<script src="/assets/js/tool-currency.js?v=20260926a" defer></script>
+<script src="/assets/js/analytics.js?v=20261027b" defer></script>
+<script src="/assets/js/tool-currency.js?v=20261027b" defer></script>
 <script src="/assets/js/ga.js?v=20261015a" defer></script>
 </head>
 <body>
@@ -185,7 +185,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Planning</span>
   <h1 style="margin:16px 0 0">Lead funnel calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Most budgets are set by guessing. This starts from how many customers you actually want and works backwards through every stage.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.55)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="sales">Customers you want per month</label><input id="sales" type="number" inputmode="decimal" step="1" min="0" value="12"></div><div class="field"><label for="close">Close rate on qualified leads (%)</label><input id="close" type="number" inputmode="decimal" step="any" min="0" value="25"></div><div class="field"><label for="qual">Leads that turn out qualified (%)</label><input id="qual" type="number" inputmode="decimal" step="any" min="0" value="40"><p class="hint">Be honest. This is usually far lower than people think.</p></div></div><div class="row"><div class="field"><label for="lpcr">Landing page conversion rate (%)</label><input id="lpcr" type="number" inputmode="decimal" step="any" min="0" value="8"><p class="hint">Visitors who become a lead.</p></div><div class="field"><label for="cpc">Cost per click (₹)</label><input id="cpc" type="number" inputmode="decimal" step="any" min="0" value="18"></div><div class="field"><label for="value">Average customer value (₹)</label><input id="value" type="number" inputmode="decimal" step="any" min="0" value="40000"><p class="hint">Gross profit per customer, not revenue.</p></div></div>

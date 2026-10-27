@@ -171,10 +171,10 @@ details[open] .plus{transform:rotate(45deg)}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
 <script src="/assets/js/consent.js?v=20261027a" defer></script>
-<script src="/assets/js/pixel.js?v=20261027a" defer></script>
+<script src="/assets/js/pixel.js?v=20261027b" defer></script>
 <script src="/assets/js/supabase-config.js?v=20260926a" defer></script>
-<script src="/assets/js/analytics.js?v=20261016a" defer></script>
-<script src="/assets/js/tool-currency.js?v=20260926a" defer></script>
+<script src="/assets/js/analytics.js?v=20261027b" defer></script>
+<script src="/assets/js/tool-currency.js?v=20261027b" defer></script>
 <script src="/assets/js/ga.js?v=20261015a" defer></script>
 </head>
 <body>
@@ -193,7 +193,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Paid media</span>
   <h1 style="margin:16px 0 0">ROAS calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Return on ad spend is revenue from ads divided by what those ads cost. Put in your spend and revenue for the ROAS. Add your gross margin and it also shows whether that ROAS is actually making money.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.55)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="spend">Ad spend (₹)</label><input id="spend" type="number" inputmode="decimal" step="any" min="0" value="100000"><p class="hint">For one campaign, one channel or the whole account. Keep revenue to the same scope.</p></div><div class="field"><label for="rev">Revenue from those ads (₹)</label><input id="rev" type="number" inputmode="decimal" step="any" min="0" value="380000"><p class="hint">From the ad platform or your store's attribution. The verdict below explains the difference.</p></div><div class="field"><label for="margin">Gross margin (%)</label><input id="margin" type="number" inputmode="decimal" step="any" min="0" max="100" value="40"><p class="hint">Price minus product cost, shipping, payment fees and returns, as a share of price. Leave blank to skip the profit view.</p></div><div class="field"><label for="target">Target ROAS (x)</label><input id="target" type="number" inputmode="decimal" step="any" min="0" value="3"><p class="hint">Optional. The ROAS you are aiming for.</p></div></div>

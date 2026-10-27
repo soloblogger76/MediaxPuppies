@@ -163,10 +163,10 @@ details[open] .plus{transform:rotate(45deg)}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
 <script src="/assets/js/consent.js?v=20261027a" defer></script>
-<script src="/assets/js/pixel.js?v=20261027a" defer></script>
+<script src="/assets/js/pixel.js?v=20261027b" defer></script>
 <script src="/assets/js/supabase-config.js?v=20260926a" defer></script>
-<script src="/assets/js/analytics.js?v=20261016a" defer></script>
-<script src="/assets/js/tool-currency.js?v=20260926a" defer></script>
+<script src="/assets/js/analytics.js?v=20261027b" defer></script>
+<script src="/assets/js/tool-currency.js?v=20261027b" defer></script>
 <script src="/assets/js/ga.js?v=20261015a" defer></script>
 </head>
 <body>
@@ -185,7 +185,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Experimentation</span>
   <h1 style="margin:16px 0 0">A/B test sample size calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Decide the sample size before the test, not after. This tells you whether the difference you are hoping for is even detectable at your traffic.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.55)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="base">Current conversion rate (%)</label><input id="base" type="number" inputmode="decimal" step="any" min="0" value="3.2"></div><div class="field"><label for="mde">Smallest lift worth detecting (%)</label><input id="mde" type="number" inputmode="decimal" step="any" min="0" value="20"><p class="hint">Relative. A 20% lift on 3.2% means getting to 3.84%.</p></div><div class="field"><label for="traffic">Visitors per day (both variants combined)</label><input id="traffic" type="number" inputmode="decimal" step="1" min="0" value="800"></div><div class="field"><label for="conf">Confidence level (%)</label><input id="conf" type="number" inputmode="decimal" step="any" min="0" value="95"><p class="hint">95% is the convention. 90% is defensible for low-risk changes.</p></div><div class="field"><label for="power">Statistical power (%)</label><input id="power" type="number" inputmode="decimal" step="any" min="0" value="80"><p class="hint">The chance of spotting a real effect. 80% is standard.</p></div><div class="field"><label for="vars">Number of variants</label><input id="vars" type="number" inputmode="decimal" step="1" min="2" value="2"><p class="hint">Including the control.</p></div></div>

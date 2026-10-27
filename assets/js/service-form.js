@@ -16,7 +16,10 @@
   /* Name the service from the URL so the lead says which page it came from */
   var service = (location.pathname.replace(/\//g, '') || 'service')
     .replace(/-/g, ' ')
-    .replace(/\b\w/g, function (ch) { return ch.toUpperCase(); });
+    .replace(/\b\w/g, function (ch) { return ch.toUpperCase(); })
+    .replace(/\b(Ppc|Seo|B2b|Saas|Usa|Uk|Ai|Tiktok|Linkedin)\b/g, function (w) {
+      return { Ppc: 'PPC', Seo: 'SEO', B2b: 'B2B', Saas: 'SaaS', Usa: 'USA', Uk: 'UK', Ai: 'AI', Tiktok: 'TikTok', Linkedin: 'LinkedIn' }[w];
+    });
 
   if (window.mpTrack) {
     window.mpTrack('ViewContent', { content_name: service, content_category: 'service' });

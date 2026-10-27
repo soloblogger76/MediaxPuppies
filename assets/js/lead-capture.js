@@ -82,61 +82,70 @@
     });
     if (extras.length) row.message = [row.message, extras.join(' | ')].filter(Boolean).join('\n');
 
-    var jobs = [];
-
-    /* 1. Supabase — the record you can search, filter and report on */
-    if (typeof MP_SUPABASE_READY !== 'undefined' && MP_SUPABASE_READY) {
-      jobs.push(
-        fetch(MP_SUPABASE_URL + '/rest/v1/leads', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'apikey': MP_SUPABASE_ANON_KEY,
-            'Authorization': 'Bearer ' + MP_SUPABASE_ANON_KEY,
-            'Prefer': 'return=minimal'
-          },
-          body: JSON.stringify(row)
-        }).then(function (r) {
-          if (!r.ok) throw new Error('supabase ' + r.status);
-          return 'supabase';
-        })
-      );
+    /* 1. Supabase first — the record you can search, filter and report on.
+       It runs before the email so the email can say when the CRM copy failed
+       (otherwise a rejected row would vanish behind a success message). */
+    function saveToSupabase() {
+      if (!(typeof MP_SUPABASE_READY !== 'undefined' && MP_SUPABASE_READY)) return Promise.resolve(null);
+      var ctl = typeof AbortController === 'function' ? new AbortController() : null;
+      var timer = ctl ? setTimeout(function () { ctl.abort(); }, 5000) : null;
+      return fetch(MP_SUPABASE_URL + '/rest/v1/leads', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': MP_SUPABASE_ANON_KEY,
+          'Authorization': 'Bearer ' + MP_SUPABASE_ANON_KEY,
+          'Prefer': 'return=minimal'
+        },
+        body: JSON.stringify(row),
+        signal: ctl ? ctl.signal : undefined
+      }).then(function (r) {
+        if (timer) clearTimeout(timer);
+        return r.ok ? { ok: true } : { ok: false, why: 'supabase ' + r.status };
+      }, function (err) {
+        if (timer) clearTimeout(timer);
+        return { ok: false, why: err && err.name === 'AbortError' ? 'supabase timeout' : 'supabase network' };
+      });
     }
 
     /* 2. Web3Forms — the email notification, so nothing is missed */
-    if (web3formsKey) {
+    function sendEmail(crm) {
+      if (!web3formsKey) return Promise.resolve(null);
       var fd = new FormData();
       Object.keys(merged).forEach(function (k) {
         if (merged[k] !== null && merged[k] !== undefined && merged[k] !== '') fd.append(k, merged[k]);
       });
+      if (crm && !crm.ok) fd.append('crm_saved', 'no (' + crm.why + ') - add this lead in /admin/ by hand');
       fd.append('access_key', web3formsKey);
       fd.append('subject', subject || 'New submission — Media Puppies');
-      jobs.push(
-        fetch('https://api.web3forms.com/submit', { method: 'POST', body: fd })
-          .then(function (r) { return r.json(); })
-          .then(function (d) {
-            if (!d.success) throw new Error(d.message || 'web3forms failed');
-            return 'web3forms';
-          })
-      );
+      return fetch('https://api.web3forms.com/submit', { method: 'POST', body: fd })
+        .then(function (r) { return r.json(); })
+        .then(function (d) { return d.success ? { ok: true } : { ok: false, why: d.message || 'web3forms failed' }; },
+              function () { return { ok: false, why: 'web3forms network' }; });
     }
 
-    if (!jobs.length) return Promise.reject(new Error('no destination configured'));
+    var configured = (typeof MP_SUPABASE_READY !== 'undefined' && MP_SUPABASE_READY) || web3formsKey;
+    if (!configured) return Promise.reject(new Error('no destination configured'));
 
     /* Succeed if at least one destination accepted it */
-    return Promise.allSettled(jobs).then(function (results) {
-      var ok = results.filter(function (r) { return r.status === 'fulfilled'; });
-      if (!ok.length) throw new Error('all destinations failed');
-      /* GA4 gets the same event the pixel gets: generate_lead for client enquiries,
-         application_submitted for careers and internship forms. */
-      if (typeof window.gtag === 'function') {
-        try {
-          window.gtag('event', kind === 'client' ? 'generate_lead' : 'application_submitted', {
-            lead_kind: kind, source_page: window.location.pathname
-          });
-        } catch (err) {}
-      }
-      return ok.map(function (r) { return r.value; });
+    return saveToSupabase().then(function (crm) {
+      return sendEmail(crm).then(function (mail) {
+        var ok = [];
+        if (crm && crm.ok) ok.push('supabase');
+        if (mail && mail.ok) ok.push('web3forms');
+        if (!ok.length) throw new Error('all destinations failed');
+        if (crm && !crm.ok && window.console) console.warn('Lead saved by email only:', crm.why);
+        /* GA4 gets the same event the pixel gets: generate_lead for client enquiries,
+           application_submitted for careers and internship forms. */
+        if (typeof window.gtag === 'function') {
+          try {
+            window.gtag('event', kind === 'client' ? 'generate_lead' : 'application_submitted', {
+              lead_kind: kind, source_page: window.location.pathname
+            });
+          } catch (err) {}
+        }
+        return ok;
+      });
     });
   };
 

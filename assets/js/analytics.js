@@ -128,9 +128,8 @@
     send(row);
   }
 
-  fetch('/cdn-cgi/trace', { cache: 'no-store' })
-    .then(function (r) { return r.ok ? r.text() : Promise.reject(); })
-    .then(function (t) {
+  (window.__mpTrace = window.__mpTrace || fetch('/cdn-cgi/trace', { cache: 'no-store' }).then(function (r) { return r.ok ? r.text() : Promise.reject(); }))
+        .then(function (t) {
       var m = /(?:^|\n)loc=([A-Z]{2})/.exec(t);
       fire(m ? m[1] : null);
     })

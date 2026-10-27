@@ -53,7 +53,7 @@
       .catch(function () {
         if (submitBtn) submitBtn.disabled = false;
         if (submitLabel) submitLabel.textContent = 'Send application';
-        alert('Something went wrong sending your application. Please try again, or email us directly.');
+        alert('Something went wrong sending your application. Please try again, or email info@mediapuppies.com.');
       });
   });
 })();

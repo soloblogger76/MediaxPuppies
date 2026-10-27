@@ -26,12 +26,6 @@ var MP_PIXEL_ID = '1062533193322093';
     window.fbq('init', MP_PIXEL_ID);
     window.fbq('track', 'PageView');
 
-    /* <noscript> fallback pixel, injected so the ID lives in one file only */
-    var ns = document.createElement('noscript');
-    ns.innerHTML = '<img height="1" width="1" style="display:none" alt="" ' +
-      'src="https://www.facebook.com/tr?id=' + encodeURIComponent(MP_PIXEL_ID) +
-      '&ev=PageView&noscript=1">';
-    document.head.appendChild(ns);
   }
 
   /* Safe tracking helpers — these never throw, with or without a pixel.

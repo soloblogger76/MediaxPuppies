@@ -49,7 +49,8 @@
     el.addEventListener('change', function () { show(err1, ''); show(err2, ''); });
   });
 
-  form.querySelector('[data-next]').addEventListener('click', function () {
+  var nextBtn = form.querySelector('[data-next]');
+  if (nextBtn) nextBtn.addEventListener('click', function () {
     if (!biz.value)    { show(err1, 'Pick what you sell.'); biz.focus(); return; }
     if (!budget.value) { show(err1, 'Pick a monthly ad budget.'); budget.focus(); return; }
     if (!status.value) { show(err1, 'Let us know where you are with ads.'); status.focus(); return; }

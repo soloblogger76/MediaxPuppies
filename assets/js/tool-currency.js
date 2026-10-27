@@ -155,9 +155,8 @@
     var pick = saved();
     if (pick && MARKETS[pick]) { apply(pick, true); return; }
     apply(fromTimezone() || 'INR', true);
-    fetch('/cdn-cgi/trace', { cache: 'no-store' })
-      .then(function (r) { return r.ok ? r.text() : Promise.reject(); })
-      .then(function (t) {
+    (window.__mpTrace = window.__mpTrace || fetch('/cdn-cgi/trace', { cache: 'no-store' }).then(function (r) { return r.ok ? r.text() : Promise.reject(); }))
+            .then(function (t) {
         var m = /(?:^|\n)loc=([A-Z]{2})/.exec(t);
         var c = m && forCountry(m[1]);
         if (c && MARKETS[c] && !saved() && c !== code) apply(c, true);

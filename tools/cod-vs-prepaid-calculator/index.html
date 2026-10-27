@@ -163,10 +163,10 @@ details[open] .plus{transform:rotate(45deg)}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
 <script src="/assets/js/consent.js?v=20261027a" defer></script>
-<script src="/assets/js/pixel.js?v=20261027a" defer></script>
+<script src="/assets/js/pixel.js?v=20261027b" defer></script>
 <script src="/assets/js/supabase-config.js?v=20260926a" defer></script>
-<script src="/assets/js/analytics.js?v=20261016a" defer></script>
-<script src="/assets/js/tool-currency.js?v=20260926a" defer></script>
+<script src="/assets/js/analytics.js?v=20261027b" defer></script>
+<script src="/assets/js/tool-currency.js?v=20261027b" defer></script>
 <script src="/assets/js/ga.js?v=20261015a" defer></script>
 </head>
 <body>
@@ -185,7 +185,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Indian D2C</span>
   <h1 style="margin:16px 0 0">COD vs prepaid profit calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">COD looks like more orders. Once return-to-origin is priced in it is often the least profitable thing you run. This puts a number on it.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.55)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="price">Average order value (₹)</label><input id="price" type="number" inputmode="decimal" step="any" min="0" value="1500"></div><div class="field"><label for="cogs">Cost of goods per order (₹)</label><input id="cogs" type="number" inputmode="decimal" step="any" min="0" value="600"></div><div class="field"><label for="ship">Forward shipping per order (₹)</label><input id="ship" type="number" inputmode="decimal" step="any" min="0" value="80"></div><div class="field"><label for="codfee">COD collection fee (₹)</label><input id="codfee" type="number" inputmode="decimal" step="any" min="0" value="25"><p class="hint">A flat courier charge, typically ₹20–40.</p></div><div class="field"><label for="rtocod">RTO rate on COD (%)</label><input id="rtocod" type="number" inputmode="decimal" step="any" min="0" value="28"><p class="hint">Ask your courier for your own figure.</p></div><div class="field"><label for="rtopre">RTO rate on prepaid (%)</label><input id="rtopre" type="number" inputmode="decimal" step="any" min="0" value="4"></div><div class="field"><label for="splitcod">Share of orders that are COD (%)</label><input id="splitcod" type="number" inputmode="decimal" step="any" min="0" value="65"></div><div class="field"><label for="disc">Prepaid discount you would offer (%)</label><input id="disc" type="number" inputmode="decimal" step="any" min="0" value="5"></div><div class="field"><label for="shift">COD buyers who would switch (%)</label><input id="shift" type="number" inputmode="decimal" step="any" min="0" value="30"></div></div>

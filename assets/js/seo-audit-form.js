@@ -64,7 +64,8 @@
     return /^[a-z0-9-]+(\.[a-z0-9-]+)*\.[a-z]{2,}(\/.*)?$/i.test(s);
   }
 
-  form.querySelector('[data-next]').addEventListener('click', function () {
+  var nextBtn = form.querySelector('[data-next]');
+  if (nextBtn) nextBtn.addEventListener('click', function () {
     var s = tidySite(site.value);
     if (!s)                   { show(err1, 'We need a website to audit.'); site.focus(); return; }
     if (!looksLikeDomain(s))  { show(err1, 'That does not look like a website address.'); site.focus(); return; }
