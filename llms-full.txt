@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-10-27.
+Updated 2026-10-28.
 
 ## Service, market and company pages
 
@@ -47,6 +47,7 @@ Updated 2026-10-27.
 - [Performance Marketing FAQ — Straight Answers](https://mediapuppies.com/faq/): Straight answers on what performance marketing costs, how long paid ads take, who owns your ad account, and telling a good agency from a confident one.
 - [Creative Strategist Internship, Remote and Paid](https://mediapuppies.com/creative-strategist-internship/): Paid, remote creative strategist internship. Make hooks, Reels scripts and static ads for live Meta campaigns. Two months, stipend and certificate.
 - [PPC Management Services: Google, Meta & LinkedIn Ads](https://mediapuppies.com/ppc-management/): PPC management services for US, UK and Australian businesses: Google Ads, Meta and LinkedIn managed daily and reported in cost per customer. Month to month.
+- [Media Puppies team: author profile](https://mediapuppies.com/author/media-puppies/): The Media Puppies team writes about Google Ads, Meta ads, LinkedIn ads and lead generation from what we see in live ad accounts. Profile and articles.
 
 ## Free calculators
 
