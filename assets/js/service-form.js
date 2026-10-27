@@ -9,6 +9,7 @@
 
   var submitBtn = form.querySelector('[data-submit-btn]');
   var submitLabel = form.querySelector('[data-submit-label]');
+  var submitLabel0 = submitLabel ? submitLabel.textContent : 'Send';
   var notSubmitted = document.querySelector('[data-if="notSubmitted"]');
   var submitted = document.querySelector('[data-if="submitted"]');
 
@@ -50,7 +51,7 @@
       })
       .catch(function () {
         if (submitBtn) submitBtn.disabled = false;
-        if (submitLabel) submitLabel.textContent = form.dataset.btnLabel || 'Send';
+        if (submitLabel) submitLabel.textContent = form.dataset.btnLabel || submitLabel0;
         alert('Something went wrong. Please try again, or email info@mediapuppies.com.');
       });
   });
