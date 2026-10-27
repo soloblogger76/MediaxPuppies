@@ -66,7 +66,7 @@ Updated 2026-10-27.
 - [Creative volume calculator](https://mediapuppies.com/tools/creative-volume-calculator/): How many new ad concepts a month your spend level actually needs, based on how fast creative fatigues at your audience size and frequency.
 - [GST on ad spend calculator](https://mediapuppies.com/tools/gst-on-ads-calculator/): What 18% GST does to your real marketing cost, including reverse charge on Meta and Google invoices and what changes if you are not registered.
 - [Influencer rate calculator](https://mediapuppies.com/tools/influencer-rate-calculator/): Check whether an influencer’s quote is reasonable: cost per engaged follower, cost per thousand reached, and what you would need to sell to break even.
-- [Lakh and crore converter](https://mediapuppies.com/tools/lakh-crore-converter/): Convert between plain numbers and lakh or crore, with Indian digit grouping and the international equivalent. Works both ways.
+- [Lakh and crore converter](https://mediapuppies.com/tools/lakh-crore-converter/): 1 lakh = 100,000 and 1 crore = 10 million. Convert any number to lakh or crore and back, with Indian digit grouping and the international equivalent.
 - [Lead funnel calculator](https://mediapuppies.com/tools/lead-funnel-calculator/): Start from the number of customers you want and work backwards to the leads, clicks and ad budget you need. Shows where the funnel leaks.
 - [Meta learning phase calculator](https://mediapuppies.com/tools/learning-phase-calculator/): Work out the budget an ad set needs to reach roughly 50 conversions a week and leave the learning phase, and what happens if you split the budget instead.
 - [Customer lifetime value calculator](https://mediapuppies.com/tools/ltv-calculator/): Work out customer lifetime value on gross profit, compare it against what you pay to acquire a customer, and see your LTV to CAC ratio.
@@ -321,3 +321,11 @@ Updated 2026-10-27.
 
 - [How to choose an influencer marketing agency, and when to skip one](https://mediapuppies.com/blog/how-to-choose-influencer-marketing-agency/): What an influencer marketing agency actually does, the ways they charge, the red flags to watch for, and when a brand is better off running creators in-house.
 - [Influencer marketing for D2C brands: what actually drives sales](https://mediapuppies.com/blog/influencer-marketing-d2c-india/): Why most influencer marketing in India produces reach and no revenue — and the whitelisting model that turns creator content into a real channel.
+
+## Articles: Other
+
+- [Moved](https://mediapuppies.com/blog/agency-contract-what-to-check/): This page has moved to /blog/marketing-agency-contract/
+- [Moved](https://mediapuppies.com/blog/paid-media-rfp/): This page has moved to /blog/marketing-agency-rfp/
+- [Moved](https://mediapuppies.com/blog/pay-per-lead-agencies-the-catch/): This page has moved to /blog/pay-per-lead-agency/
+- [Moved](https://mediapuppies.com/blog/set-your-own-cpl-target/): This page has moved to /blog/cost-per-lead-target/
+- [Moved](https://mediapuppies.com/blog/where-ad-budget-leaks/): This page has moved to /blog/wasted-ad-spend/
