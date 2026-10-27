@@ -321,11 +321,3 @@ Updated 2026-10-27.
 
 - [How to choose an influencer marketing agency, and when to skip one](https://mediapuppies.com/blog/how-to-choose-influencer-marketing-agency/): What an influencer marketing agency actually does, the ways they charge, the red flags to watch for, and when a brand is better off running creators in-house.
 - [Influencer marketing for D2C brands: what actually drives sales](https://mediapuppies.com/blog/influencer-marketing-d2c-india/): Why most influencer marketing in India produces reach and no revenue — and the whitelisting model that turns creator content into a real channel.
-
-## Articles: Other
-
-- [Moved](https://mediapuppies.com/blog/agency-contract-what-to-check/): This page has moved to /blog/marketing-agency-contract/
-- [Moved](https://mediapuppies.com/blog/paid-media-rfp/): This page has moved to /blog/marketing-agency-rfp/
-- [Moved](https://mediapuppies.com/blog/pay-per-lead-agencies-the-catch/): This page has moved to /blog/pay-per-lead-agency/
-- [Moved](https://mediapuppies.com/blog/set-your-own-cpl-target/): This page has moved to /blog/cost-per-lead-target/
-- [Moved](https://mediapuppies.com/blog/where-ad-budget-leaks/): This page has moved to /blog/wasted-ad-spend/
