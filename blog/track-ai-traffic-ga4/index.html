@@ -60,7 +60,8 @@ article tr:last-child td{border-bottom:none}
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does GA4 track ChatGPT traffic by default?", "acceptedAnswer": {"@type": "Answer", "text": "Not as its own channel. Referrals from assistant hostnames land under Referral alongside everything else, and sessions opened from a native app often arrive with no referrer at all and are filed as Direct."}}, {"@type": "Question", "name": "How do I separate AI traffic in GA4?", "acceptedAnswer": {"@type": "Answer", "text": "Create a custom channel group in Admin, Data display, Channel groups. Add a channel above Referral that matches the source against assistant hostnames — chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com, claude.ai — using contains or regex rather than exact match."}}, {"@type": "Question", "name": "Why do some assistant visits show as Direct?", "acceptedAnswer": {"@type": "Answer", "text": "Because the link opened in an in-app browser that passed no referrer. Those sessions cannot be recovered afterwards, so treat any assistant number as a floor rather than a complete count."}}, {"@type": "Question", "name": "What should I measure once it is separated?", "acceptedAnswer": {"@type": "Answer", "text": "Which pages assistants send people to, how engagement compares with organic search, and conversion rate over quarters rather than months. Volume is the least useful of the four because it is small and noisy for most businesses."}}]}
 </script>
-<script src="/assets/js/pixel.js?v=20260926a" defer></script>
+<script src="/assets/js/consent.js?v=20261027a" defer></script>
+<script src="/assets/js/pixel.js?v=20261027a" defer></script>
 <script src="/assets/js/supabase-config.js?v=20260926a" defer></script>
 <script src="/assets/js/analytics.js?v=20261016a" defer></script>
 <script src="/assets/js/ga.js?v=20261015a" defer></script>

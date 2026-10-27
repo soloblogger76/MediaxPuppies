@@ -20,6 +20,9 @@ var MP_PIXEL_ID = '1062533193322093';
       s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
     }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
 
+    /* consent.js (loaded first) sets MP_CONSENT. When it is "denied" (UK/EU visitor
+       who has not accepted), the pixel queues nothing until fbq('consent','grant'). */
+    if (window.MP_CONSENT === 'denied') window.fbq('consent', 'revoke');
     window.fbq('init', MP_PIXEL_ID);
     window.fbq('track', 'PageView');
 
