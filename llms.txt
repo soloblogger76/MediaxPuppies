@@ -100,7 +100,7 @@ Updated 2026-10-27. 219 articles, 28 free calculators, 70 service and market pag
 - [What is performance marketing? How it works and when it fits](https://mediapuppies.com/blog/what-is-performance-marketing/)
 - [Advantage+ : when to let Meta drive, and when to take the wheel](https://mediapuppies.com/blog/meta-advantage-plus-guide/)
 - [Learning limited: what it means and why splitting budgets causes it](https://mediapuppies.com/blog/meta-learning-phase-explained/)
-- [](https://mediapuppies.com/blog/learning-limited-meta/)
+- ["Learning limited" on Meta: what it means and how to fix it](https://mediapuppies.com/blog/learning-limited-meta/)
 - [Using Meta's Conversions API to optimise for qualified leads, not form fills](https://mediapuppies.com/blog/meta-conversions-api-for-leads/)
 - [How to structure a Google Search campaign that stays profitable](https://mediapuppies.com/blog/google-search-ads-structure/)
 - [Reading the Google Ads search terms report: a weekly routine that stops wasted spend](https://mediapuppies.com/blog/google-ads-search-terms-report/)

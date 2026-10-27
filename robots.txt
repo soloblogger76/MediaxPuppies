@@ -3,6 +3,7 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 # ── Search engines ─────────────────────────────────────────────────
 # Covered by the group above. Listed so nobody wonders: Google, Bing
@@ -12,22 +13,27 @@ Disallow: /admin/
 User-agent: Googlebot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Bingbot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: DuckDuckBot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Bravebot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Applebot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 # ── AI assistants and answer engines ───────────────────────────────
 # Explicitly allowed, including training crawlers. We want to be
@@ -39,66 +45,82 @@ Disallow: /admin/
 User-agent: GPTBot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Claude-User
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Claude-SearchBot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Perplexity-User
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: GoogleOther
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: DuckAssistBot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: meta-externalagent
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: Amazonbot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: CCBot
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 User-agent: cohere-ai
 Allow: /
 Disallow: /admin/
+Disallow: /brand/
 
 Sitemap: https://mediapuppies.com/sitemap.xml
 Sitemap: https://mediapuppies.com/sitemap-pages.xml
