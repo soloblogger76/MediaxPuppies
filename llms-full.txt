@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-10-28.
+Updated 2026-10-29.
 
 ## Service, market and company pages
 
@@ -45,9 +45,9 @@ Updated 2026-10-28.
 - [Reporting](https://mediapuppies.com/reporting/): What Media Puppies reporting actually looks like: a weekly written note with the decisions in it, a monthly call, and a dashboard you can open any time.
 - [Real Estate Lead Generation Agency](https://mediapuppies.com/real-estate-lead-generation-agency/): A real estate lead generation agency measured on site visits, not enquiries. Budget-qualified leads, RERA-compliant creative, follow-up that gets there first.
 - [Performance Marketing FAQ — Straight Answers](https://mediapuppies.com/faq/): Straight answers on what performance marketing costs, how long paid ads take, who owns your ad account, and telling a good agency from a confident one.
-- [Creative Strategist Internship, Remote and Paid](https://mediapuppies.com/creative-strategist-internship/): Paid, remote creative strategist internship. Make hooks, Reels scripts and static ads for live Meta campaigns. Two months, stipend and certificate.
 - [PPC Management Services: Google, Meta & LinkedIn Ads](https://mediapuppies.com/ppc-management/): PPC management services for US, UK and Australian businesses: Google Ads, Meta and LinkedIn managed daily and reported in cost per customer. Month to month.
 - [Media Puppies team: author profile](https://mediapuppies.com/author/media-puppies/): The Media Puppies team writes about Google Ads, Meta ads, LinkedIn ads and lead generation from what we see in live ad accounts. Profile and articles.
+- [Meta Ads Creative Designer (Remote, Full-time)](https://mediapuppies.com/meta-ads-creative-designer/): Join Media Puppies as a Meta Ads Creative Designer: make static, video and UGC-style ads for Facebook and Instagram, and see which ones sell. Remote, full-time.
 
 ## Free calculators
 
