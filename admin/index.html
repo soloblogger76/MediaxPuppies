@@ -657,20 +657,44 @@ body.is-loading .tile,body.is-loading .chart,body.is-loading .list{opacity:.5;fi
   function inPeriod(l) { return new Date(l.created_at).getTime() >= windowStart().getTime(); }
   function inPrevPeriod(l) { var t = new Date(l.created_at).getTime(); return t >= windowStart(true).getTime() && t < windowStart().getTime(); }
 
+  /* Supabase returns at most 1000 rows per request whatever .limit() asks for,
+     so read in 1000-row pages until a short page (or the cap) is reached. */
+  function fetchAll(build, cap, onPage) {
+    var PAGE = 1000, rows = [];
+    function next(from) {
+      return build().range(from, from + PAGE - 1).then(function (r) {
+        if (r.error) return { data: rows, error: r.error, capped: false };
+        var got = r.data || [];
+        rows = rows.concat(got);
+        if (onPage) onPage(rows.length);
+        if (rows.length >= cap) return { data: rows.slice(0, cap), error: null, capped: true };
+        if (got.length < PAGE) return { data: rows, error: null, capped: false };
+        return next(from + PAGE);
+      });
+    }
+    return next(0);
+  }
+
   function load() {
     var since = windowStart().toISOString();
     document.body.classList.add('is-loading');
     bar(30);
     var full = 'session_id,path,referrer,utm_source,utm_campaign,device,created_at,country,tz,lang';
     var base = 'session_id,path,referrer,utm_source,utm_campaign,device,created_at';
-    function pv(s) { return sb.from('page_views').select(s).gte('created_at', since).order('created_at', { ascending: false }).limit(20000); }
+    var VIEW_CAP = 100000;
+    function pv(s) {
+      return fetchAll(function () {
+        return sb.from('page_views').select(s).gte('created_at', since).order('created_at', { ascending: false });
+      }, VIEW_CAP, function (n) { bar(Math.min(90, 30 + Math.round(n / 500))); });
+    }
     Promise.all([
-      sb.from('leads').select('*').order('created_at', { ascending: false }).limit(5000),
+      fetchAll(function () { return sb.from('leads').select('*').order('created_at', { ascending: false }); }, 20000),
       pv(full).then(function (r) { return r.error ? pv(base) : r; })
     ]).then(function (res) {
       document.body.classList.remove('is-loading');
       bar(100);
-      $('updatedAt').textContent = 'Updated ' + new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
+      $('updatedAt').textContent = 'Updated ' + new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }) +
+        (res[1].capped ? ' · showing the latest ' + res[1].data.length.toLocaleString('en-IN') + ' views' : '');
       if (res[0].error) { fail('Could not load leads', res[0].error); return; }
       all = res[0].data || [];
       /* Until a linkedin column exists, the forms fold it into message as "linkedin: <url>". */
