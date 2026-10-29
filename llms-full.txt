@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-10-29.
+Updated 2026-10-30.
 
 ## Service, market and company pages
 
@@ -153,6 +153,7 @@ Updated 2026-10-29.
 - [What a good first 90 days with an agency actually looks like](https://mediapuppies.com/blog/first-90-days-with-an-agency/): What should happen in the first 90 days with an agency, month by month, and what it means when the milestones quietly fail to arrive on time.
 - [Furniture ads that sell online: a playbook for D2C furniture brands](https://mediapuppies.com/blog/furniture-d2c-ads/): Furniture ads have to sell a big, slow purchase to people who cannot touch the product. How to structure campaigns, creative and follow-up so they convert.
 - [Google Ads audit checklist: eight steps to find the waste in an account](https://mediapuppies.com/blog/google-ads-audit-checklist/): A step-by-step Google Ads audit checklist: tracking, settings, structure, search terms, bidding, Performance Max, assets and landing pages, and what each costs.
+- [Google Ads for small business: does it work, and how to start small](https://mediapuppies.com/blog/google-ads-for-small-business/): Google Ads for small business: when it works, how to set a starting budget, which campaign types to avoid first, and how to judge the first 90 days.
 - [Quality Score: what it actually rewards](https://mediapuppies.com/blog/google-ads-quality-score/): How Google Ads Quality Score works in practice, which of its three parts you can influence, and what a low score is really telling you about the account.
 - [Reading the Google Ads search terms report: a weekly routine that stops wasted spend](https://mediapuppies.com/blog/google-ads-search-terms-report/): The search terms report shows what people actually typed before clicking your ad. A weekly routine for what to add, what to exclude and what to leave alone.
 - [Local Services Ads: the US listing above your search ads](https://mediapuppies.com/blog/google-local-services-ads-us/): How Google Local Services Ads work for US home services firms, what verification involves, and why the lead dispute process is where the value sits.
@@ -195,6 +196,7 @@ Updated 2026-10-29.
 - [Performance Max is not a black box. It is a box people stopped opening.](https://mediapuppies.com/blog/performance-max-brand-exclusions/): Performance Max brand exclusions, asset groups and honest reporting: how to stop PMax absorbing branded search and claiming it as new business.
 - [Performance Max for Indian businesses: how not to waste the budget](https://mediapuppies.com/blog/performance-max-india/): Where Performance Max earns its place for Indian advertisers, what control you still have over it, and the launch sequence that avoids the usual waste.
 - [Platform ROAS is not profit, and it is not even revenue](https://mediapuppies.com/blog/platform-roas-vs-blended-mer/): Platform ROAS versus blended ROAS and MER: why the platforms always claim more than the business took, and which number belongs in which decision.
+- [PPC campaign management: what it involves day to day, weekly and monthly](https://mediapuppies.com/blog/ppc-campaign-management/): PPC campaign management explained: the daily, weekly, monthly and quarterly tasks, who should do them, and what a good management report should show.
 - [Product photos that work in ads (not the ones from your shoot)](https://mediapuppies.com/blog/product-photography-for-ads/): Why catalogue shoots underperform in paid social, what product photography for ads looks like in Indian feeds, and how to produce it cheaply.
 - [Reading an agency media plan line by line](https://mediapuppies.com/blog/reading-a-media-plan/): A media plan is easy to approve and hard to read. What each line commits you to, the assumptions buried in the forecast, and five questions to ask first.
 - [Real estate ad creative: what gets site visits, not just enquiries](https://mediapuppies.com/blog/real-estate-ad-creative/): Real estate ad creative in India mostly produces cheap, cold leads. The formats, hooks and offers that bring buyers who actually visit the site.
@@ -241,9 +243,11 @@ Updated 2026-10-29.
 - [How to choose a lead generation agency that sends leads you can close](https://mediapuppies.com/blog/how-to-choose-lead-generation-agency/): A lead generation agency can send hundreds of leads nobody can close. How to choose one that sends buyers, with the questions and red flags.
 - [HVAC PPC: how to run Google Ads and Local Services Ads for an HVAC company](https://mediapuppies.com/blog/hvac-ppc/): HVAC PPC for US contractors: Google Ads and Local Services Ads, seasonal budgets, emergency vs replacement keywords, call tracking and cost per booked job.
 - [Local business marketing: the order that actually works](https://mediapuppies.com/blog/local-business-marketing/): Local business marketing fails when it starts with ads. The order that works for clinics, showrooms and service businesses, and what to do first.
+- [Plumbing PPC: how to run Google Ads and Local Services Ads for plumbers](https://mediapuppies.com/blog/plumbing-ppc/): Plumbing PPC for plumbers in the US, UK and Australia: emergency keywords, call assets, Local Services Ads, negative keywords for DIY searches and booked jobs.
 - [Property portal vs real estate broker in Dubai: where developers should spend](https://mediapuppies.com/blog/property-portal-vs-broker-dubai/): Property portal or broker network? How Dubai developers should split spend between portals, brokers and their own ads, and what each channel is good and bad at.
 - [Real estate digital marketing in India: the full funnel, from portal to site visit](https://mediapuppies.com/blog/real-estate-digital-marketing-india/): Real estate digital marketing in India covers portals, Google, Meta, SEO, WhatsApp and the CRM. How the pieces fit, and the numbers that show if it works.
 - [Restaurant marketing in India: what actually fills tables on slow nights](https://mediapuppies.com/blog/restaurant-marketing-india/): Restaurant marketing in India runs on local search, reviews and short video, with paid ads aimed at specific slow slots. A practical plan.
+- [Roofing ads: how to run Google and Facebook ads for a roofing company](https://mediapuppies.com/blog/roofing-ads/): Roofing ads that bring signed jobs: Google Search, Local Services Ads and Facebook roofing ads, storm vs replacement demand, creative, lead forms and calls.
 - [What is lead generation? Meaning, types, channels and how to judge lead quality](https://mediapuppies.com/blog/what-is-lead-generation/): What is lead generation? A plain definition, the types of leads, the main channels, a worked funnel example and how to judge lead quality beyond cost per lead.
 
 ## Articles: SEO
