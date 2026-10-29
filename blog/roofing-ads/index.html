@@ -55,12 +55,12 @@ article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
 <style>
-.post-wrap{max-width:760px;margin:0 auto;padding:0 24px}
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
 .post-main{min-width:0}
 article h2{scroll-margin-top:92px}
 .post-hero{margin:28px 0 0}
 .post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
-.post-toc{margin:0 0 8px}
+.post-toc{margin:20px 0 0}
 .post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
 .post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
 .post-toc ol{list-style:none;margin:12px 0 0;padding:0}
@@ -70,8 +70,9 @@ article h2{scroll-margin-top:92px}
 .post-toc li:has(a.on){border-left-color:#3038D8}
 @media (min-width:1100px){
 .post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
-.post-head,.post-main{grid-column:1;grid-row:1}
-.post-toc{grid-column:2;grid-row:1;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
 .post-toc summary{pointer-events:none;padding-right:0}
 .post-toc summary::after{display:none}
 }
@@ -109,8 +110,8 @@ article h2{scroll-margin-top:92px}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div class="post-wrap"><div class="post-head">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -127,14 +128,10 @@ article h2{scroll-margin-top:92px}
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-30">30 October 2026</time></span>
     </div>
     <figure class="post-hero"><picture><source srcset="/blog/roofing-ads/cover.webp" type="image/webp"><img src="/blog/roofing-ads/cover.jpg" alt="Roofing ads: Google and Facebook for roofers: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
-  </div></div>
 </header>
-
-<section style="padding:20px 0 0">
-  <div class="post-wrap">
 <nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#how-roofing-ads-work-on-google-and-facebook">How roofing ads work on Google and Facebook</a></li><li><a href="#storm-replacement-and-repair-three-kinds-of-roofing-demand">Storm, replacement and repair: three kinds of roofing demand</a></li><li><a href="#google-ads-for-roofing-campaigns-keywords-and-local-services">Google ads for roofing: campaigns, keywords and Local Services Ads</a></li><li><a href="#roofing-facebook-ads-targeting-offers-and-creative-that-work">Roofing Facebook ads: targeting, offers and creative that works</a></li><li><a href="#lead-forms-vs-calls-vs-landing-pages-for-roofing-leads">Lead forms vs calls vs landing pages for roofing leads</a></li><li><a href="#tracking-roofing-ads-by-inspections-and-signed-jobs">Tracking roofing ads by inspections and signed jobs</a></li><li><a href="#a-worked-example-what-a-roofing-lead-is-really-worth">A worked example: what a roofing lead is really worth</a></li><li><a href="#roofing-ads-after-a-storm-moving-fast-without-breaking-rules">Roofing ads after a storm: moving fast without breaking rules</a></li><li><a href="#common-roofing-ads-mistakes">Common roofing ads mistakes</a></li><li><a href="#roofing-ads-in-canada-the-uk-and-australia">Roofing ads in Canada, the UK and Australia</a></li><li><a href="#running-roofing-ads-yourself-or-with-an-agency">Running roofing ads yourself or with an agency</a></li><li><a href="#questions-people-ask-before-hiring">FAQs</a></li></ol></details></nav>
 <script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
-  <div class="post-main">
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>Roofing ads are paid ads that put a roofing company in front of homeowners who need a repair, a full replacement or a storm inspection. In practice that means Google Search ads and Local Services Ads for people already looking for a roofer, and Facebook and Instagram ads for homeowners who have not started searching yet. Roofing ads work when each platform does the job it is good at and every lead is followed through to a signed contract.</p>
@@ -283,9 +280,8 @@ document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">Plumbing PPC: how to run Google Ads and Local Services Ads for plumbers</h3>
       </a>
     </div>
-  </div>
-  </div>
 </section>
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">
