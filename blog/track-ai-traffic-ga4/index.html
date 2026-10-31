@@ -19,12 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="How to track AI assistant traffic in GA4">
 <meta property="og:description" content="AI assistant traffic from ChatGPT, Perplexity and Gemini lands in GA4 as referral noise. How to build a channel group that separates it, and what it then shows.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/track-ai-traffic-ga4/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="How to track AI assistant traffic in GA4: cover illustration">
 <meta property="og:url" content="https://mediapuppies.com/blog/track-ai-traffic-ga4/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="How to track AI assistant traffic in GA4">
 <meta name="twitter:description" content="AI assistant traffic from ChatGPT, Perplexity and Gemini lands in GA4 as referral noise. How to build a channel group that separates it, and what it then shows.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/track-ai-traffic-ga4/cover.jpg">
 <link rel="canonical" href="https://mediapuppies.com/blog/track-ai-traffic-ga4/">
 <style>
 html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
@@ -51,8 +54,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How to track AI assistant traffic in GA4", "description": "AI assistant traffic from ChatGPT, Perplexity and Gemini lands in GA4 as referral noise. How to build a channel group that separates it, and what it then shows.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-15", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/track-ai-traffic-ga4/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How to track AI assistant traffic in GA4", "description": "AI assistant traffic from ChatGPT, Perplexity and Gemini lands in GA4 as referral noise. How to build a channel group that separates it, and what it then shows.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/track-ai-traffic-ga4/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-10-15", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/track-ai-traffic-ga4/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediapuppies.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mediapuppies.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "How to track AI assistant traffic in GA4", "item": "https://mediapuppies.com/blog/track-ai-traffic-ga4/"}]}
@@ -85,8 +112,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -102,19 +129,20 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96" decoding="async">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-15">15 October 2026</time></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/track-ai-traffic-ga4/cover.webp" type="image/webp"><img src="/blog/track-ai-traffic-ga4/cover.jpg" alt="How to track AI assistant traffic in GA4: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#why-ga4-does-not-separate-ai-assistant-traffic">Why GA4 does not separate AI assistant traffic</a></li><li><a href="#build-a-custom-channel-group">Build a custom channel group</a></li><li><a href="#catch-the-sessions-that-arrive-without-a-referrer">Catch the sessions that arrive without a referrer</a></li><li><a href="#what-to-look-at-once-it-is-separated">What to look at once it is separated</a></li><li><a href="#what-not-to-do-with-the-number">What not to do with the number</a></li><li><a href="#questions-people-ask-before-hiring">FAQs</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>AI assistant traffic is real now, and GA4 does not tell you so. Chat referrals arrive with hostnames like chatgpt.com, perplexity.ai and gemini.google.com, get filed under Referral next to a forum link from 2024, and disappear into the aggregate.</p>
 <p>Separating them takes about twenty minutes and changes what you can argue about internally. Here is the setup.</p>
-<h2>Why GA4 does not separate AI assistant traffic</h2>
+<h2 id="why-ga4-does-not-separate-ai-assistant-traffic">Why GA4 does not separate AI assistant traffic</h2>
 <p>GA4 assigns traffic to a default channel group using rules Google maintains. Assistants are not in those rules in any dependable way, and several of them pass no referrer at all when the user opens a link from a native app, which lands the session in Direct.</p>
 <p>So you need two things: a custom channel group that catches the referrals you can see, and a tagging habit that catches the ones you cannot.</p>
-<h2>Build a custom channel group</h2>
+<h2 id="build-a-custom-channel-group">Build a custom channel group</h2>
 <p>In GA4, go to Admin, then Data display, then Channel groups, and create a new group based on the default one. Add a channel above Referral — order matters, because the first matching rule wins — and call it something like AI Assistants.</p>
 <p>Set the condition to match the source against a list of hostnames. The ones worth including today:</p>
 <ul>
@@ -126,22 +154,26 @@ article tr:last-child td{border-bottom:none}
 <li>you.com and phind.com, if your category attracts technical searches</li>
 </ul>
 <p>Use a "contains" or regex match rather than exact, because subdomains and country variants appear. Save it, and note that custom channel groups apply to data going forward and, in most reports, retroactively for the retained period — but they do not change the default group, so your existing dashboards will not move.</p>
-<h2>Catch the sessions that arrive without a referrer</h2>
+<h2 id="catch-the-sessions-that-arrive-without-a-referrer">Catch the sessions that arrive without a referrer</h2>
 <p>A meaningful share of assistant clicks arrive as Direct, because the link opened in an in-app browser that stripped the referrer. You cannot recover those after the fact, but you can stop adding to the problem: wherever you control a link that an assistant might surface — your own documentation, partner listings, syndicated content — add a UTM so the source survives.</p>
 <p>It will never be complete. Treat the number as a floor rather than a measurement.</p>
-<h2>What to look at once it is separated</h2>
+<h2 id="what-to-look-at-once-it-is-separated">What to look at once it is separated</h2>
 <p>Three things are worth watching, and none of them is volume.</p>
 <p><strong>Which pages assistants send people to.</strong> Usually not your homepage. It tends to be the page that answered a specific question cleanly, which tells you what kind of writing gets quoted.</p>
 <p><strong>Engagement compared with organic search.</strong> Assistant visitors have usually read a summary before clicking, so they arrive further along. Whether that shows up as better or worse engagement on your site is genuinely informative.</p>
 <p><strong>Conversion rate, with a long enough window.</strong> Volumes are small, so monthly comparisons will be noisy. Look at quarters.</p>
 <p>We dug into what those sessions actually look like in <a href="/blog/does-chatgpt-traffic-convert/">does ChatGPT traffic convert</a>, and the five-minute version of the check without any setup is in <a href="/blog/chatgpt-traffic-website/">is ChatGPT sending you traffic</a>.</p>
-<h2>What not to do with the number</h2>
+<h2 id="what-not-to-do-with-the-number">What not to do with the number</h2>
 <p>Do not build a strategy on a channel that is currently a rounding error for most Indian businesses. The useful move is the opposite: the structural work that makes a page quotable by an assistant — a direct answer under a question heading, real specifics, clean markup — is the same work that wins <a href="/blog/featured-snippets-india/">featured snippets</a>. You are not choosing between the two surfaces. Tracking the channel simply tells you whether the work is landing.</p>
 <p>If you are setting GA4 up from scratch rather than adding to it, the eight things worth configuring first are in <a href="/blog/ga4-setup-essentials/">GA4 without the overwhelm</a>.</p>
-<h2>Questions people ask before hiring</h2>
+<h2 id="questions-people-ask-before-hiring">Questions people ask before hiring</h2>
 <div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Does GA4 track ChatGPT traffic by default?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Not as its own channel. Referrals from assistant hostnames land under Referral alongside everything else, and sessions opened from a native app often arrive with no referrer at all and are filed as Direct.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How do I separate AI traffic in GA4?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Create a custom channel group in Admin, Data display, Channel groups. Add a channel above Referral that matches the source against assistant hostnames — chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com, claude.ai — using contains or regex rather than exact match.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why do some assistant visits show as Direct?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Because the link opened in an in-app browser that passed no referrer. Those sessions cannot be recovered afterwards, so treat any assistant number as a floor rather than a complete count.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What should I measure once it is separated?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Which pages assistants send people to, how engagement compares with organic search, and conversion rate over quarters rather than months. Volume is the least useful of the four because it is small and noisy for most businesses.</p></details></div>
 
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -167,8 +199,9 @@ article tr:last-child td{border-bottom:none}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">Hiring an Indian marketing agency from the UK: how it actually works</h3>
       </a>
     </div>
-  </div>
 </section>
+
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

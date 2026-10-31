@@ -19,12 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="CAC payback period and why it caps your growth">
 <meta property="og:description" content="CAC payback period tells you how fast acquisition spend comes back, and so how fast you can grow. How to calculate it without flattering yourself.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/cac-payback-period/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="CAC Payback Period: The Number That Caps Growth: cover illustration">
 <meta property="og:url" content="https://mediapuppies.com/blog/cac-payback-period/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CAC payback period and why it caps your growth">
 <meta name="twitter:description" content="CAC payback period tells you how fast acquisition spend comes back, and so how fast you can grow. How to calculate it without flattering yourself.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/cac-payback-period/cover.jpg">
 <link rel="canonical" href="https://mediapuppies.com/blog/cac-payback-period/">
 <style>
 html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
@@ -51,8 +54,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "CAC payback period and why it caps your growth", "description": "CAC payback period tells you how fast acquisition spend comes back, and so how fast you can grow. How to calculate it without flattering yourself.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-11", "dateModified": "2026-10-11", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/cac-payback-period/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "CAC payback period and why it caps your growth", "description": "CAC payback period tells you how fast acquisition spend comes back, and so how fast you can grow. How to calculate it without flattering yourself.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/cac-payback-period/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-10-11", "dateModified": "2026-10-11", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/cac-payback-period/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediapuppies.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mediapuppies.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "CAC payback period and why it caps your growth", "item": "https://mediapuppies.com/blog/cac-payback-period/"}]}
@@ -85,8 +112,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -102,28 +129,29 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96" decoding="async">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-11">11 October 2026</time></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/cac-payback-period/cover.webp" type="image/webp"><img src="/blog/cac-payback-period/cover.jpg" alt="CAC Payback Period: The Number That Caps Growth: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#how-to-calculate-cac-payback-period">How to calculate CAC payback period</a></li><li><a href="#why-it-caps-growth-even-when-the-unit-economics-are-fine">Why it caps growth even when the unit economics are fine</a></li><li><a href="#what-it-means-for-your-ad-budget">What it means for your ad budget</a></li><li><a href="#shortening-it">Shortening it</a></li><li><a href="#where-it-fits-with-ltv">Where it fits with LTV</a></li><li><a href="#questions-people-ask-before-hiring">FAQs</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>Most marketing conversations stop at cost of acquisition. CAC payback period is the number that comes next, and it is the one that actually limits growth. Acquisition cost tells you whether a customer is profitable. It does not tell you whether you can afford to buy another one this month, and that second question is the one that actually limits growth.</p>
 <p>Payback period is the answer to it: how long after acquiring a customer you have recovered what you spent acquiring them.</p>
-<h2>How to calculate CAC payback period</h2>
+<h2 id="how-to-calculate-cac-payback-period">How to calculate CAC payback period</h2>
 <p>Take your fully loaded acquisition cost — media, plus the agency or team running it, plus any sales cost attributable to winning the customer. Divide by the gross profit that customer generates per month. The result is the number of months before you break even on them.</p>
 <p>Two things are commonly got wrong. People use revenue rather than gross profit, which flatters the answer by whatever their cost of delivery is. And people use media spend alone as the acquisition cost, which understates it by the entire cost of the function. The <a href="/tools/cac-payback-calculator/">CAC payback calculator</a> keeps both honest.</p>
-<h2>Why it caps growth even when the unit economics are fine</h2>
+<h2 id="why-it-caps-growth-even-when-the-unit-economics-are-fine">Why it caps growth even when the unit economics are fine</h2>
 <p>Imagine two businesses, both acquiring customers profitably at the same cost. One recovers that cost in the first month; the other recovers it over a year. The first can reinvest almost immediately and compound. The second must fund twelve months of acquisition out of capital before the first cohort pays for the next.</p>
 <p>This is why a business can be profitable on paper and still unable to grow. Every new customer consumes cash before producing it, so growing faster makes the cash position worse before it makes it better. Payback period is the mechanism, and it is why finance teams care about it more than they care about ROAS.</p>
 <blockquote><p>Profitability tells you whether to acquire a customer. Payback period tells you how many you can acquire before you run out of money.</p></blockquote>
-<h2>What it means for your ad budget</h2>
+<h2 id="what-it-means-for-your-ad-budget">What it means for your ad budget</h2>
 <p>Three practical consequences.</p>
 <p><strong>It sets your real budget ceiling.</strong> Not what you can justify, but what you can float. A long payback with limited working capital means a lower monthly spend than the economics alone would suggest — and spending past it is how well-run businesses get into trouble in a good quarter.</p>
 <p><strong>It decides how aggressively you can bid.</strong> Short payback allows you to bid up and take volume from competitors who cannot. This is a genuine strategic advantage and most businesses do not realise they have it.</p>
 <p><strong>It changes which channels are worth the money.</strong> Channels that produce immediate purchase look better under a payback lens than channels that produce slow, considered conversions, even when the second group has better lifetime value. Both views are true; you need to hold them at once.</p>
-<h2>Shortening it</h2>
+<h2 id="shortening-it">Shortening it</h2>
 <p>Four levers, roughly in order of how fast they work.</p>
 <ul>
 <li><strong>Charge more up front.</strong> Annual plans, deposits, setup fees, larger first orders. The single fastest lever and the most commonly ignored one.</li>
@@ -131,13 +159,17 @@ article tr:last-child td{border-bottom:none}
 <li><strong>Improve conversion rate.</strong> A better <a href="/blog/landing-page-checklist/">landing page</a> lowers acquisition cost directly, which shortens payback proportionally.</li>
 <li><strong>Lower media cost.</strong> The lever everyone reaches for first and usually the slowest of the four.</li>
 </ul>
-<h2>Where it fits with LTV</h2>
+<h2 id="where-it-fits-with-ltv">Where it fits with LTV</h2>
 <p>Lifetime value says how much a customer is ultimately worth; payback says how long you wait. A business with excellent lifetime value and a long payback is a financing problem rather than a marketing one, and the fix is often capital or pricing rather than better media buying. <a href="/blog/ltv-cac-ratio-explained/">The LTV to CAC ratio</a> and payback period answer different questions and you need both — a healthy ratio with a twenty-month payback still cannot be scaled from cash flow.</p>
 <p>This is the arithmetic we ask for before quoting on any account, because it decides what the media is allowed to cost. <a href="/blog/marketing-metrics-founders-track/">The short list of metrics worth tracking</a> covers the rest of it, and the <a href="/free-ad-account-audit/">audit</a> starts from the same place.</p>
-<h2>Questions people ask before hiring</h2>
+<h2 id="questions-people-ask-before-hiring">Questions people ask before hiring</h2>
 <div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is a good CAC payback period?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">It depends on how the business is funded. A company growing from cash flow needs a short payback, often a few months; one with capital behind it can tolerate a year or more. The right target is the one your working capital can actually fund.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Should I use revenue or gross profit in the calculation?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Gross profit. Using revenue ignores the cost of delivering the product and produces a payback period shorter than the one your bank account experiences.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Does acquisition cost include agency fees?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">It should. Fully loaded acquisition cost includes media, the cost of the people or agency running it, and any sales cost attributable to winning the customer. Media alone understates it.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How is payback different from the LTV to CAC ratio?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">The ratio tells you whether a customer is worth acquiring at all. Payback tells you how long your money is tied up doing it. A healthy ratio with a long payback is still a cash constraint on growth.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is the fastest way to shorten payback?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Charge more earlier. Annual plans, deposits and higher first-order values shift cash forward immediately, whereas lowering media costs is slower and bounded by the auction.</p></details></div>
 
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -163,8 +195,9 @@ article tr:last-child td{border-bottom:none}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">Ten places wasted ad spend hides</h3>
       </a>
     </div>
-  </div>
 </section>
+
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

@@ -20,11 +20,14 @@
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="Schema markup: the five types worth adding">
 <meta property="og:description" content="A practical guide to structured data for Indian business websites — which schema types change how your result looks, and which are a waste of time.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/schema-markup-guide-india/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Schema markup: the five types worth adding: cover illustration">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Schema markup: the five types worth adding">
 <meta name="twitter:description" content="A practical guide to structured data for Indian business websites — which schema types change how your result looks, and which are a waste of time.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/schema-markup-guide-india/cover.jpg">
 <meta property="og:url" content="https://mediapuppies.com/blog/schema-markup-guide-india/">
 <link rel="canonical" href="https://mediapuppies.com/blog/schema-markup-guide-india/">
 <style>
@@ -52,8 +55,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Schema markup: the five types worth adding","description":"A practical guide to structured data for Indian business websites \u2014 which schema types change how your result looks, and which are a waste of time.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-09-13","dateModified":"2026-09-13","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/author/media-puppies/","sameAs":["https://www.linkedin.com/company/mediapuppies/"]},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/schema-markup-guide-india/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Schema markup: the five types worth adding", "description": "A practical guide to structured data for Indian business websites — which schema types change how your result looks, and which are a waste of time.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/schema-markup-guide-india/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-09-13", "dateModified": "2026-09-13", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/schema-markup-guide-india/"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -86,8 +113,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(40px,6vw,64px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(40px,6vw,64px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -103,14 +130,15 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96" decoding="async">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> · <time datetime="2026-09-13">13 September 2026</time></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/schema-markup-guide-india/cover.webp" type="image/webp"><img src="/blog/schema-markup-guide-india/cover.jpg" alt="Schema markup: the five types worth adding: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#the-five-worth-having">The five worth having</a></li><li><a href="#not-worth-your-time">Not worth your time</a></li><li><a href="#how-to-check">How to check</a></li><li><a href="#the-mistake-that-makes-schema-useless">The mistake that makes schema useless</a></li><li><a href="#how-to-wire-the-types-together">How to wire the types together</a></li><li><a href="#what-it-does-and-does-not-do">What it does and does not do</a></li><li><a href="#validating-properly">Validating properly</a></li><li><a href="#common-questions">Common questions</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 <p>Structured data tells search engines what a page <em>is</em> rather than making them infer it. Its value is mostly in appearance — richer results, more space, more clicks — plus, increasingly, helping AI assistants describe you accurately.</p>
-<h2>The five worth having</h2>
+<h2 id="the-five-worth-having">The five worth having</h2>
 <h3>1. Organization (or LocalBusiness)</h3>
 <p>On your homepage, once, with a stable <code>@id</code> other pages reference. Include name, logo, phone, address, areaServed, and <code>sameAs</code> links to your social profiles. This is the entity signal everything else hangs off.</p>
 <h3>2. FAQPage</h3>
@@ -122,33 +150,37 @@ article tr:last-child td{border-bottom:none}
 <h3>5. BreadcrumbList</h3>
 <p>Turns your URL into a readable path in results. Cheap to add, small consistent gain.</p>
 <blockquote><p>Broken schema is worse than no schema. Validate everything you add.</p></blockquote>
-<h2>Not worth your time</h2>
+<h2 id="not-worth-your-time">Not worth your time</h2>
 <ul><li><strong>Review markup you generate yourself.</strong> Self-serving review snippets are against guidelines.</li>
 <li><strong>Marking up things that aren't there.</strong> Schema must describe visible page content.</li>
 <li><strong>Exotic types</strong> nobody's search engine renders.</li></ul>
-<h2>How to check</h2>
+<h2 id="how-to-check">How to check</h2>
 <p>Use the Rich Results Test on a few pages, then watch the Enhancements reports in Search Console. Errors there are usually one wrong field repeated across a template — fix once, fixes everywhere.</p>
 <p><a href="/seo-services/">Want your markup audited?</a></p>
-    <h2>The mistake that makes schema useless</h2>
+    <h2 id="the-mistake-that-makes-schema-useless">The mistake that makes schema useless</h2>
 <p>Structured data has to describe what is actually on the page. Markup claiming a four-point-eight star rating on a page with no visible reviews, or an offer price the page never states, is not an optimisation — it is a mismatch, and Google's systems treat repeated mismatches as a reason to stop trusting your markup entirely.</p>
 <p>This sounds obvious and is violated constantly, usually by plugins that auto-generate ratings. Before adding any type, ask: could a person reading this page verify every claim in the JSON-LD? If not, remove the claim rather than the page content.</p>
-<h2>How to wire the types together</h2>
+<h2 id="how-to-wire-the-types-together">How to wire the types together</h2>
 <p>Most sites bolt each type onto its page in isolation, which produces a set of disconnected facts. The better pattern is a graph: declare your organisation once, give it a stable identifier, and have everything else point at it.</p>
 <ul><li>Homepage carries the <code>Organization</code> (or <code>LocalBusiness</code>) with an <code>@id</code> such as <code>https://example.com/#organization</code>.</li>
 <li>Every service page declares a <code>Service</code> whose <code>provider</code> is <em>a reference to that @id</em>, not a second copy of the organisation.</li>
 <li>Every article's <code>publisher</code> points at the same <code>@id</code>.</li>
 <li><code>BreadcrumbList</code> on each page shows where it sits.</li></ul>
 <p>The result is one entity with many pages attached, rather than forty pages each asserting a slightly different version of who you are. That consistency is what answer engines need in order to describe you without guessing.</p>
-<h2>What it does and does not do</h2>
+<h2 id="what-it-does-and-does-not-do">What it does and does not do</h2>
 <p>Schema is not a ranking factor in the way a link is. It will not move a page from position nine to position three. What it does is change how your result <em>appears</em> once you are already ranking, and increasingly, whether a machine can summarise you correctly.</p>
 <p>Expect it to help with: breadcrumb paths in results, product prices and availability in shopping surfaces, job postings appearing in Google's jobs widget, and AI assistants stating your service area and contact details accurately. Do not expect it to rescue a page nobody links to.</p>
-<h2>Validating properly</h2>
+<h2 id="validating-properly">Validating properly</h2>
 <p>Use Google's Rich Results Test for the types that produce rich results, and the Schema.org validator for everything else — they check different things and the second is stricter. Then check Search Console's Enhancements reports a fortnight later, because that is the only place you see errors at scale across the site rather than one URL at a time.</p>
-<h2>Common questions</h2>
+<h2 id="common-questions">Common questions</h2>
 <p><strong>JSON-LD or microdata?</strong> JSON-LD. Google prefers it, it sits in one block in the head, and it does not entangle your markup with your content.</p>
 <p><strong>Do I need schema on every page?</strong> Every page benefits from breadcrumbs. Beyond that, add a type only where the page genuinely is that thing.</p>
 <p><strong>Can I add FAQ schema to get more space in results?</strong> Google restricted FAQ rich results to a narrow set of authoritative sites, so most businesses will not see the expanded listing any more. The markup still helps machines parse your answers, which is now the better reason to add it.</p>
 </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -166,12 +198,9 @@ article tr:last-child td{border-bottom:none}
     <p style="margin:0;font-size:.97rem;color:rgba(24,28,79,.72)">We do this work for clients — technical fixes, content built around what people actually search, and local visibility. <a href="/seo-services/" style="font-weight:700;color:#3038D8">See how it works →</a></p>
   </div>
 </aside>
-
-  </div>
 </section>
-
-<section style="padding:64px 0 84px">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<section class="post-more" style="padding:64px 0 84px">
+  <div>
     <div data-rev="zoom" data-reveal="0" style="background:linear-gradient(160deg,#3A43E8 0%,#3038D8 60%,#232A9E 100%);border-radius:28px;color:#FFFFFF;box-shadow:0 30px 70px rgba(48,56,216,.3);text-align:center;padding:clamp(40px,6vw,58px) 24px">
       <h2 style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:-.02em;margin:0;color:#FFFFFF">Want this run on your account?</h2>
       <p style="margin:12px auto 0;color:rgba(255,255,255,.78);font-size:1.02rem;max-width:40ch">Two minutes. We'll tell you what's realistic — including if the answer is no.</p>
@@ -199,6 +228,7 @@ article tr:last-child td{border-bottom:none}
     </div>
   </div>
 </section>
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

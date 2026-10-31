@@ -19,12 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Why your US conversions fell and nobody changed anything">
 <meta property="og:description" content="US state privacy laws, Global Privacy Control and consent mode quietly cut the conversion data reaching Meta and Google. How to tell if it is you.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/us-state-privacy-consent-conversions/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Why your US conversions fell and nobody changed anything: cover illustration">
 <meta property="og:url" content="https://mediapuppies.com/blog/us-state-privacy-consent-conversions/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Why your US conversions fell and nobody changed anything">
 <meta name="twitter:description" content="US state privacy laws, Global Privacy Control and consent mode quietly cut the conversion data reaching Meta and Google. How to tell if it is you.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/us-state-privacy-consent-conversions/cover.jpg">
 <link rel="canonical" href="https://mediapuppies.com/blog/us-state-privacy-consent-conversions/">
 <style>
 html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
@@ -51,8 +54,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Why your US conversions fell and nobody changed anything", "description": "State privacy laws, the Global Privacy Control signal and consent mode quietly cut the conversion data reaching Meta and Google. How to tell if that is your problem.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-09", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/us-state-privacy-consent-conversions/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Why your US conversions fell and nobody changed anything", "description": "State privacy laws, the Global Privacy Control signal and consent mode quietly cut the conversion data reaching Meta and Google. How to tell if that is your problem.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/us-state-privacy-consent-conversions/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-10-09", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/us-state-privacy-consent-conversions/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why did my US conversions fall with nothing changed?", "acceptedAnswer": {"@type": "Answer", "text": "Something did change, just not in the ad account. A privacy banner, an opt-out signal being honoured, or a tag now waiting for consent will all cut reported conversions while actual revenue stays flat."}}, {"@type": "Question", "name": "What is Global Privacy Control?", "acceptedAnswer": {"@type": "Answer", "text": "A browser signal that tells a site the visitor opts out of the sale or sharing of their data. Several US state laws require it to be honoured, and browsers and extensions send it by default for a growing share of visitors."}}, {"@type": "Question", "name": "How do I tell if this is my problem?", "acceptedAnswer": {"@type": "Answer", "text": "Compare your own order or CRM records with platform-reported conversions over the same weeks. Flat revenue against falling reported conversions is a measurement problem; if both fell, it is a performance problem."}}, {"@type": "Question", "name": "What helps?", "acceptedAnswer": {"@type": "Answer", "text": "Server-side tagging with good match data, consent mode wired so modelling can operate, and moving your judgement to blended figures — total revenue against total spend — rather than platform-reported return on ad spend."}}]}
@@ -85,8 +112,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -102,45 +129,50 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96" decoding="async">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-09">9 October 2026</time> &middot; <span style="color:rgba(24,28,79,.64)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/us-state-privacy-consent-conversions/cover.webp" type="image/webp"><img src="/blog/us-state-privacy-consent-conversions/cover.jpg" alt="Why your US conversions fell and nobody changed anything: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#what-state-privacy-laws-changed-in-the-us">What state privacy laws changed in the US</a></li><li><a href="#how-that-shows-up-in-your-dashboards">How that shows up in your dashboards</a></li><li><a href="#how-to-tell-if-this-is-your-problem">How to tell if this is your problem</a></li><li><a href="#what-actually-helps">What actually helps</a></li><li><a href="#the-structural-answer">The structural answer</a></li><li><a href="#questions-people-ask">FAQs</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>State privacy laws produce a pattern we see repeatedly in US accounts: reported conversions fall by a third over a fortnight. Spend is flat, creative is unchanged, rankings are unchanged, and the business says revenue has not actually moved. Everybody starts blaming the platform.</p>
 <p>It is almost always measurement, and the usual culprit is consent.</p>
-<h2>What state privacy laws changed in the US</h2>
+<h2 id="what-state-privacy-laws-changed-in-the-us">What state privacy laws changed in the US</h2>
 <p>California gave people the right to opt out of the sale or sharing of personal information, and requires businesses to honour the Global Privacy Control — a signal the browser sends automatically, with no banner interaction at all. A growing list of other states has followed with their own laws.</p>
 <p>The practical effect for advertisers is simple: a meaningful share of your US visitors now arrive with tracking restricted before they have clicked anything.</p>
-<h2>How that shows up in your dashboards</h2>
+<h2 id="how-that-shows-up-in-your-dashboards">How that shows up in your dashboards</h2>
 <ul><li><strong>Fewer conversions reported</strong>, while the business sees the same number of orders.</li>
 <li><strong>Audience sizes shrinking</strong> as fewer people are added to retargeting pools.</li>
 <li><strong>Attribution shifting toward direct and organic</strong>, because paid channels can no longer claim what they used to.</li>
 <li><strong>Bidding getting worse</strong>, which is the expensive part — smart bidding optimises on the signal it receives, and a thinner signal produces worse decisions.</li></ul>
-<h2>How to tell if this is your problem</h2>
+<h2 id="how-to-tell-if-this-is-your-problem">How to tell if this is your problem</h2>
 <p>Three checks, in order:</p>
 <ol><li><strong>Compare platform conversions against your own back end</strong> over the same window. If the business recorded the same revenue and the platform recorded less, it is measurement, not performance.</li>
 <li><strong>Ask who touched the consent banner.</strong> Legal and web teams update these without considering the analytics consequences, because from their side nothing broke.</li>
 <li><strong>Check event match quality</strong> in Meta’s events manager and the diagnostics in Google Ads. A sharp fall there dates the change for you.</li></ol>
-<h2>What actually helps</h2>
+<h2 id="what-actually-helps">What actually helps</h2>
 <p><strong>Configure consent mode properly, not just install it.</strong> Google’s consent mode and Meta’s consent signal both need to receive the real state from your consent platform. An installed-but-unwired setup is common and does nothing.</p>
 <p><strong>Server-side events, with real matching.</strong> A Conversions API recovers events the browser loses — but only where consent allows, and only if enough customer information is attached for the platform to match the person. A CAPI sending events with nothing to match on is doing very little.</p>
 <p><strong>Deduplicate.</strong> Browser and server events must share an event ID or you count the same purchase twice, which produces the opposite problem: a flattering ROAS and a scaling decision built on a fiction.</p>
 <p><strong>Design the banner honestly and test it.</strong> A banner that makes rejecting hard may be a compliance exposure. One that makes rejecting the default costs you data you were entitled to. Get it right once with your own counsel rather than tuning it quarterly.</p>
 <blockquote><p>Measure the business, not the platform. If revenue is flat and reported conversions fell, nothing is wrong with your advertising.</p></blockquote>
-<h2>The structural answer</h2>
+<h2 id="the-structural-answer">The structural answer</h2>
 <p>Accept that platform-reported conversions will keep drifting downward and stop treating them as truth. Hold a blended view at business level — total revenue against total ad spend — which cannot be affected by any of this. Our <a href="/tools/blended-roas-calculator/">blended ROAS and MER calculator</a> does that in one screen, and it is the number worth putting in front of a board.</p>
 <p>Use platform numbers for decisions inside a channel, where the bias is at least consistent. Use blended numbers for decisions about money.</p>
 <p>And when a consent banner changes, annotate it in your reporting. Six months later, nobody remembers — and that annotation saves a fortnight of investigating the wrong thing.</p>
-<h2>Questions people ask</h2>
+<h2 id="questions-people-ask">Questions people ask</h2>
 <div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why did my US conversions fall with nothing changed?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Something did change, just not in the ad account. A privacy banner, an opt-out signal being honoured, or a tag now waiting for consent will all cut reported conversions while actual revenue stays flat.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is Global Privacy Control?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">A browser signal that tells a site the visitor opts out of the sale or sharing of their data. Several US state laws require it to be honoured, and browsers and extensions send it by default for a growing share of visitors.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How do I tell if this is my problem?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Compare your own order or CRM records with platform-reported conversions over the same weeks. Flat revenue against falling reported conversions is a measurement problem; if both fell, it is a performance problem.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What helps?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Server-side tagging with good match data, consent mode wired so modelling can operate, and moving your judgement to blended figures — total revenue against total spend — rather than platform-reported return on ad spend.</p></details></div>
 
 
 <p style="margin:28px 0 0;padding:16px 18px;background:#F6F5EF;border-radius:14px;font-size:.95rem;line-height:1.6"><strong>Working with US brands:</strong> <a href="/performance-marketing-agency-usa/" style="color:#3038D8;font-weight:700">Performance marketing for US brands</a></p>
 
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -166,8 +198,9 @@ article tr:last-child td{border-bottom:none}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">The CAP Code and your ad account: what the ASA actually polices</h3>
       </a>
     </div>
-  </div>
 </section>
+
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

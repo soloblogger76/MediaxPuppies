@@ -19,12 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Learning limited: what it means and why splitting budgets causes it">
 <meta property="og:description" content="The Meta learning phase explained: why an ad set needs about fifty conversions a week, what &quot;learning limited&quot; costs you, and the free fix most accounts miss.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/meta-learning-phase-explained/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Meta Learning Limited: What It Means and How to Fix: cover illustration">
 <meta property="og:url" content="https://mediapuppies.com/blog/meta-learning-phase-explained/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Learning limited: what it means and why splitting budgets causes it">
 <meta name="twitter:description" content="The Meta learning phase explained: why an ad set needs about fifty conversions a week, what &quot;learning limited&quot; costs you, and the free fix most accounts miss.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/meta-learning-phase-explained/cover.jpg">
 <link rel="canonical" href="https://mediapuppies.com/blog/meta-learning-phase-explained/">
 <style>
 html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
@@ -51,8 +54,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Learning limited: what it means and why splitting budgets causes it", "description": "The Meta learning phase explained: why an ad set needs about fifty conversions a week, what &quot;learning limited&quot; costs you, and the free fix most accounts miss.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-09", "dateModified": "2026-10-11", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/meta-learning-phase-explained/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Learning limited: what it means and why splitting budgets causes it", "description": "The Meta learning phase explained: why an ad set needs about fifty conversions a week, what &quot;learning limited&quot; costs you, and the free fix most accounts miss.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/meta-learning-phase-explained/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-10-09", "dateModified": "2026-10-11", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/meta-learning-phase-explained/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the Meta learning phase?", "acceptedAnswer": {"@type": "Answer", "text": "The period in which Meta’s delivery system is still working out who to show an ad set to. Until it has gathered enough conversion events, performance swings widely and no reading from the account is reliable. Meta marks an ad set \"learning limited\" when it is not getting enough of those events to leave."}}, {"@type": "Question", "name": "How many conversions does an ad set need?", "acceptedAnswer": {"@type": "Answer", "text": "Around fifty per week per ad set is the figure Meta publishes. It is a threshold on events, not on spend, so a business with a low conversion rate needs more budget to reach it than one with a high conversion rate at the same click cost."}}, {"@type": "Question", "name": "What resets the learning phase?", "acceptedAnswer": {"@type": "Answer", "text": "Significant edits to an ad set: budget changes beyond a modest step, targeting changes, a new optimisation event, or swapping the creative set. Small edits usually do not. Making several changes at once restarts learning and also makes the result impossible to attribute."}}, {"@type": "Question", "name": "How do I get out of learning limited without more budget?", "acceptedAnswer": {"@type": "Answer", "text": "Consolidate. Fewer ad sets sharing the same conversions clears the threshold faster than several thin ones, and merging is free. Optimising for an earlier, more frequent event also works, at the cost of weaker signal."}}]}
@@ -85,8 +112,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -102,45 +129,50 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96" decoding="async">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-09">9 October 2026</time> &middot; <span style="color:rgba(24,28,79,.64)">Updated <time datetime="2026-10-11">11 October 2026</time></span></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/meta-learning-phase-explained/cover.webp" type="image/webp"><img src="/blog/meta-learning-phase-explained/cover.jpg" alt="Meta Learning Limited: What It Means and How to Fix: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#what-the-learning-phase-is">What the learning phase is</a></li><li><a href="#the-meta-learning-phase-arithmetic-almost-nobody-does">The Meta learning phase arithmetic almost nobody does</a></li><li><a href="#the-fix-in-order-of-cost">The fix, in order of cost</a></li><li><a href="#what-resets-it">What resets it</a></li><li><a href="#does-this-apply-to-advantage">Does this apply to Advantage+?</a></li><li><a href="#the-honest-limit">The honest limit</a></li><li><a href="#questions-people-ask">FAQs</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>The Meta learning phase shows up as one word in the delivery column, and "learning limited" is the most ignored warning in Ads Manager. It is telling you something specific and expensive: this ad set is not gathering enough conversions to stabilise, so it will keep spending part of your budget exploring rather than exploiting.</p>
-<h2>What the learning phase is</h2>
+<h2 id="what-the-learning-phase-is">What the learning phase is</h2>
 <p>When an ad set is new, or meaningfully changed, Meta does not yet know who responds to it. It spends some of the budget finding out. Delivery is volatile, cost per result is higher than it will settle at, and the numbers are not a fair read on your creative.</p>
 <p>Meta exits that phase once the ad set has gathered enough recent conversions. The published guide figure is around fifty in a week. Below that, it stays in exploration indefinitely.</p>
-<h2>The Meta learning phase arithmetic almost nobody does</h2>
+<h2 id="the-meta-learning-phase-arithmetic-almost-nobody-does">The Meta learning phase arithmetic almost nobody does</h2>
 <p>Monthly budget divided by cost per conversion, converted to a week, divided by the number of ad sets. That is conversions per ad set per week.</p>
 <p>Three hundred thousand a month at nine hundred per conversion is about seventy-seven conversions a week across the campaign. Split across four ad sets, that is nineteen each — well under the threshold, so all four sit in learning permanently.</p>
 <p>The <a href="/tools/learning-phase-calculator/">learning phase calculator</a> does this and tells you how many ad sets the budget can actually support.</p>
 <blockquote><p>Every ad set is a separate learner. Four ad sets at a quarter of the budget is four permanent learners, not one campaign.</p></blockquote>
-<h2>The fix, in order of cost</h2>
+<h2 id="the-fix-in-order-of-cost">The fix, in order of cost</h2>
 <p><strong>Consolidate.</strong> Free, and usually the single biggest improvement available in a small or mid-sized account. Fewer ad sets, same money, more conversions each. It is uncomfortable because you lose granular control, which is exactly why people resist it.</p>
 <p><strong>Optimise to an earlier event.</strong> If purchases are too rare, optimise to add-to-cart or a qualified lead. You trade precision for enough volume to learn from, and a stable ad set optimising to a decent proxy beats a permanently exploring one optimising to the perfect event.</p>
 <p><strong>Then raise budget.</strong> Last, not first. And in steps of roughly twenty percent — a larger jump restarts learning and costs you the days you were trying to buy.</p>
-<h2>What resets it</h2>
+<h2 id="what-resets-it">What resets it</h2>
 <ul><li>Significant budget changes</li>
 <li>New creative in the ad set</li>
 <li>Audience edits</li>
 <li>Changing the optimisation event</li>
 <li>Pausing and restarting</li></ul>
 <p>Accounts managed by nervous hands never leave learning, because something is adjusted every day. Batch changes to a schedule, write down what you expect each one to do, and leave it alone long enough to be judged.</p>
-<h2>Does this apply to Advantage+?</h2>
+<h2 id="does-this-apply-to-advantage">Does this apply to Advantage+?</h2>
 <p>The same principle holds — automated campaigns still need conversion volume. They tend to cope slightly better with thin volume because there are fewer separate learners, which is itself an argument for consolidation rather than an exception to it.</p>
-<h2>The honest limit</h2>
+<h2 id="the-honest-limit">The honest limit</h2>
 <p>Sometimes the answer is that the budget cannot support the conversion event at all. A single ad set needing fifty purchases a week at a high cost per purchase may require more money than the business has.</p>
 <p>That is a finding, not a failure. Optimise to an earlier event, or accept that paid social is not the right channel at this budget. Both are better than paying exploration prices for a year.</p>
 <p>More on how we build Meta accounts on the <a href="/meta-ads-agency/">Meta page</a>.</p>
 <p>The learning phase is also the main reason paid media takes as long as it does to judge &mdash; <a href="/blog/how-long-until-paid-ads-work/">the full timeline</a> follows from the same arithmetic.</p>
-<h2>Questions people ask</h2>
+<h2 id="questions-people-ask">Questions people ask</h2>
 <div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is the Meta learning phase?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">The period in which Meta’s delivery system is still working out who to show an ad set to. Until it has gathered enough conversion events, performance swings widely and no reading from the account is reliable. Meta marks an ad set "learning limited" when it is not getting enough of those events to leave.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How many conversions does an ad set need?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Around fifty per week per ad set is the figure Meta publishes. It is a threshold on events, not on spend, so a business with a low conversion rate needs more budget to reach it than one with a high conversion rate at the same click cost.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What resets the learning phase?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Significant edits to an ad set: budget changes beyond a modest step, targeting changes, a new optimisation event, or swapping the creative set. Small edits usually do not. Making several changes at once restarts learning and also makes the result impossible to attribute.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How do I get out of learning limited without more budget?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Consolidate. Fewer ad sets sharing the same conversions clears the threshold faster than several thin ones, and merging is free. Optimising for an earlier, more frequent event also works, at the cost of weaker signal.</p></details></div>
 
 
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -166,8 +198,9 @@ article tr:last-child td{border-bottom:none}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">Special Ad Categories: why your US targeting disappeared</h3>
       </a>
     </div>
-  </div>
 </section>
+
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

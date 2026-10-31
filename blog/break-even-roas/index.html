@@ -19,12 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Break-even ROAS: the number to work out before you launch">
 <meta property="og:description" content="Break-even ROAS tells you the return below which every sale loses money. How to calculate it properly, why most people get it wrong, and what to target instead.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/break-even-roas/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Break-even ROAS: the number before you launch: cover illustration">
 <meta property="og:url" content="https://mediapuppies.com/blog/break-even-roas/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Break-even ROAS: the number to work out before you launch">
 <meta name="twitter:description" content="Break-even ROAS tells you the return below which every sale loses money. How to calculate it properly, why most people get it wrong, and what to target instead.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/break-even-roas/cover.jpg">
 <link rel="canonical" href="https://mediapuppies.com/blog/break-even-roas/">
 <style>
 html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
@@ -51,8 +54,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Break-even ROAS: the number to work out before you launch", "description": "Break-even ROAS tells you the return below which every sale loses money. How to calculate it properly, why most people get it wrong, and what to target instead.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-15", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/break-even-roas/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Break-even ROAS: the number to work out before you launch", "description": "Break-even ROAS tells you the return below which every sale loses money. How to calculate it properly, why most people get it wrong, and what to target instead.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/break-even-roas/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-10-15", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/break-even-roas/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediapuppies.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mediapuppies.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Break-even ROAS: the number to work out before you launch", "item": "https://mediapuppies.com/blog/break-even-roas/"}]}
@@ -85,8 +112,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -102,36 +129,41 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96" decoding="async">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-15">15 October 2026</time></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/break-even-roas/cover.webp" type="image/webp"><img src="/blog/break-even-roas/cover.jpg" alt="Break-even ROAS: the number before you launch: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#the-break-even-roas-calculation">The break-even ROAS calculation</a></li><li><a href="#why-most-people-get-it-wrong">Why most people get it wrong</a></li><li><a href="#break-even-is-a-floor-not-a-target">Break-even is a floor, not a target</a></li><li><a href="#and-then-stop-judging-on-platform-roas">And then stop judging on platform ROAS</a></li><li><a href="#questions-people-ask-before-hiring">FAQs</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>Break-even ROAS is the return on ad spend at which a sale contributes exactly nothing. Above it you make money, below it you pay for the privilege of shipping. It is a short calculation, and a surprising number of accounts run for years against a target that was chosen because it sounded about right.</p>
-<h2>The break-even ROAS calculation</h2>
+<h2 id="the-break-even-roas-calculation">The break-even ROAS calculation</h2>
 <p>Break-even ROAS is <strong>1 divided by your contribution margin</strong>, expressed as a decimal.</p>
 <p>Contribution margin is what is left from one sale after every cost that varies with that sale. For a D2C business that means the product cost, packaging, shipping, payment gateway charges, the cost of returns spread across all orders, and any per-order platform or marketplace fee.</p>
 <p>If 40 paise of every rupee survives those costs, your contribution margin is 0.4 and your break-even ROAS is 1 ÷ 0.4 = 2.5. Every rupee of ad spend has to return at least ₹2.50 in revenue before the sale pays for itself.</p>
 <p>If your margin is thinner — say 0.25 — break-even is 4.0, and a campaign returning 3.5 is losing money while looking respectable on a dashboard.</p>
 <p>The <a href="/tools/break-even-roas-calculator/">break-even ROAS calculator</a> does this with your own cost lines if you would rather not assemble it by hand. To check what a live campaign is returning against that line, use the <a href="/tools/roas-calculator/">ROAS calculator</a>.</p>
-<h2>Why most people get it wrong</h2>
+<h2 id="why-most-people-get-it-wrong">Why most people get it wrong</h2>
 <p><strong>They use gross margin instead of contribution margin.</strong> Gross margin usually stops at cost of goods. Shipping, payment fees and returns are real per-order costs and they are often the difference between a workable target and an impossible one.</p>
 <p><strong>They forget returns.</strong> On cash on delivery in particular, the return rate is a material cost. Spread the full cost of returns — refunded revenue, outbound and inbound shipping, handling, any unsellable stock — across all orders before calculating the margin.</p>
 <p><strong>They use platform-reported revenue.</strong> Platform ROAS counts attributed revenue, which typically exceeds the revenue your own system records. Calculating break-even against your real numbers and then judging performance against a platform number compares two different things.</p>
 <p><strong>They apply one number to everything.</strong> A business with a ₹400 product and a ₹4,000 product has two different break-even points, and an account optimising to a blended target will happily scale the one that loses money.</p>
-<h2>Break-even is a floor, not a target</h2>
+<h2 id="break-even-is-a-floor-not-a-target">Break-even is a floor, not a target</h2>
 <p>At break-even you have covered the variable costs of that sale and contributed nothing to rent, salaries, software or profit. The real target sits above it, and how far above depends on two things.</p>
 <p><strong>Your fixed costs.</strong> Work out what monthly contribution the business needs to cover overheads, and how much of that has to come from paid.</p>
 <p><strong>Whether customers come back.</strong> If a meaningful share buy again, the first sale can be acquisition rather than profit, and you can run closer to break-even deliberately. That is only true if you know the repeat rate rather than hoping for it — <a href="/blog/ltv-cac-ratio-explained/">the LTV to CAC ratio</a> is the honest version of that calculation, and <a href="/blog/cac-payback-period/">payback period</a> is what tells you whether you can afford to wait.</p>
-<h2>And then stop judging on platform ROAS</h2>
+<h2 id="and-then-stop-judging-on-platform-roas">And then stop judging on platform ROAS</h2>
 <p>Once you have the number, the last step is to stop reading it in the ad platform. Attributed ROAS inside Meta or Google counts conversions each platform believes it caused, which double counts across platforms and shifts whenever an attribution window or a consent setting changes.</p>
 <p>Compare your actual revenue against your total ad spend instead — the blended figure — and use break-even as the line that tells you whether the business is paying for the advertising or the other way round. The distinction is set out in <a href="/blog/platform-roas-vs-blended-mer/">blended ROAS versus platform ROAS</a>.</p>
-<h2>Questions people ask before hiring</h2>
+<h2 id="questions-people-ask-before-hiring">Questions people ask before hiring</h2>
 <div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How do you calculate break-even ROAS?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Divide 1 by your contribution margin expressed as a decimal. If 40 paise of every rupee of revenue survives product cost, shipping, payment fees and returns, the margin is 0.4 and break-even ROAS is 2.5.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What costs belong in the margin?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Everything that varies with the sale: cost of goods, packaging, shipping both ways, payment gateway charges, per-order marketplace fees, and the full cost of returns spread across all orders. Gross margin alone usually overstates it.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Should I target break-even ROAS?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">No. Break-even covers the variable costs of that sale and contributes nothing to overheads or profit, so it is a floor. The target sits above it, by an amount set by your fixed costs and by whether customers buy again.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Why does platform ROAS differ from my real numbers?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Platforms report attributed revenue, counting conversions each believes it caused, which double counts across platforms and moves whenever attribution windows or consent settings change. Judge the business on blended revenue against total spend instead.</p></details></div>
 
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -157,8 +189,9 @@ article tr:last-child td{border-bottom:none}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">Why two agencies quote five times apart for the same brief</h3>
       </a>
     </div>
-  </div>
 </section>
+
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

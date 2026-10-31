@@ -19,12 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Customer lifetime value: the formula, a worked example, and how not to fool yourself">
 <meta property="og:description" content="Customer lifetime value (CLV) formula with a worked example, the three ways it gets inflated, and how to turn it into what you can pay for a customer.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/customer-lifetime-value/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Customer lifetime value (CLV): formula and example: cover illustration">
 <meta property="og:url" content="https://mediapuppies.com/blog/customer-lifetime-value/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Customer lifetime value: the formula, a worked example, and how not to fool yourself">
 <meta name="twitter:description" content="Customer lifetime value (CLV) formula with a worked example, the three ways it gets inflated, and how to turn it into what you can pay for a customer.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/customer-lifetime-value/cover.jpg">
 <link rel="canonical" href="https://mediapuppies.com/blog/customer-lifetime-value/">
 <style>
 html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
@@ -51,8 +54,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Customer lifetime value: the formula, a worked example, and how not to fool yourself", "description": "Customer lifetime value (CLV) formula with a worked example, the three ways it gets inflated, and how to turn it into what you can pay for a customer.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-17", "dateModified": "2026-10-20", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/customer-lifetime-value/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Customer lifetime value: the formula, a worked example, and how not to fool yourself", "description": "Customer lifetime value (CLV) formula with a worked example, the three ways it gets inflated, and how to turn it into what you can pay for a customer.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/customer-lifetime-value/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-10-17", "dateModified": "2026-10-20", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/customer-lifetime-value/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediapuppies.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mediapuppies.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Customer lifetime value: the formula, a worked example, and how not to fool yourself", "item": "https://mediapuppies.com/blog/customer-lifetime-value/"}]}
@@ -85,8 +112,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -102,18 +129,19 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-17">17 October 2026</time></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/customer-lifetime-value/cover.webp" type="image/webp"><img src="/blog/customer-lifetime-value/cover.jpg" alt="Customer lifetime value (CLV): formula and example: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#what-customer-lifetime-value-is-in-one-line">What customer lifetime value is, in one line</a></li><li><a href="#a-calculation-that-survives-finance">A calculation that survives finance</a></li><li><a href="#customer-lifetime-value-formula-a-worked-example">Customer lifetime value formula: a worked example</a></li><li><a href="#the-three-ways-customer-lifetime-value-gets-inflated">The three ways customer lifetime value gets inflated</a></li><li><a href="#using-it-to-set-what-you-pay-for-a-customer">Using it to set what you pay for a customer</a></li><li><a href="#recalculate-it-every-quarter">Recalculate it every quarter</a></li><li><a href="#questions-people-ask-before-hiring">FAQs</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>Customer lifetime value is the number that sets the ceiling on what you can pay to acquire a customer. If it is right, your ad budget has a floor and a logic. If it is inflated, every campaign looks profitable until the bank account disagrees. Most businesses we audit have a lifetime value figure, and most of those figures were produced to justify a decision rather than to inform one.</p>
 <p>Here is a calculation that holds up, and the three places it usually goes wrong.</p>
-<h2>What customer lifetime value is, in one line</h2>
+<h2 id="what-customer-lifetime-value-is-in-one-line">What customer lifetime value is, in one line</h2>
 <p>The gross profit a typical customer generates over the whole period they keep buying, after the cost of serving them. Not revenue. Not the best customer. Not forever.</p>
-<h2>A calculation that survives finance</h2>
+<h2 id="a-calculation-that-survives-finance">A calculation that survives finance</h2>
 <p>You need four inputs, all from your own records rather than from a benchmark.</p>
 <ol>
 <li><strong>Average order value</strong>, after discounts and returns.</li>
@@ -123,7 +151,7 @@ article tr:last-child td{border-bottom:none}
 </ol>
 <p>Then: margin per order, times orders per year, times the number of years a customer typically stays. The years figure comes from retention; if roughly half of customers are gone after a year, the average customer lasts about two years, and most of the value lands in the first one. Discount anything beyond year two heavily, because you will not see it for a long time and you are spending the ad money now.</p>
 <p>For a service business the same logic applies with contract length and renewal rate in place of orders and retention.</p>
-<h2>Customer lifetime value formula: a worked example</h2>
+<h2 id="customer-lifetime-value-formula-a-worked-example">Customer lifetime value formula: a worked example</h2>
 <p><code>CLV = gross margin per order × orders per year × years a customer stays</code></p>
 <p>Say a tea brand's average order is 900 after discounts and returns, and 40% of that survives product cost, shipping and fees, so margin per order is 360. Customers who have been around for a year order three times a year. About half are still buying after twelve months, which puts the average lifespan near two years.</p>
 <table>
@@ -134,20 +162,24 @@ article tr:last-child td{border-bottom:none}
 <tr><td>Revenue "LTV", for contrast</td><td>900 × 3 × 2</td><td>5,400</td></tr>
 </table>
 <p>The honest customer lifetime value is 2,160. A brand that plans acquisition spend off the 5,400 revenue figure will overpay for every customer it buys. The <a href="/tools/ltv-calculator/">lifetime value calculator</a> runs the same steps with your own numbers, and <a href="/blog/churn-rate/">churn rate</a> explains how to get the years figure right.</p>
-<h2>The three ways customer lifetime value gets inflated</h2>
+<h2 id="the-three-ways-customer-lifetime-value-gets-inflated">The three ways customer lifetime value gets inflated</h2>
 <p><strong>Revenue instead of margin.</strong> The most common one. A customer who spends a large sum over three years on a product with thin margins and high return rates is worth a fraction of the headline number.</p>
 <p><strong>The average pulled up by a few whales.</strong> If a handful of customers reorder monthly and most never return, the mean lifetime value describes nobody. Use the median, or segment by first-order product and calculate separately.</p>
 <p><strong>Infinite horizons.</strong> "Average customer stays five years" from a two-year-old business is a guess dressed as data. Cap the horizon at what you have actually observed. We went through the related problem of an inflated ratio in <a href="/blog/ltv-cac-ratio-explained/">LTV to CAC, calculated honestly</a>.</p>
-<h2>Using it to set what you pay for a customer</h2>
+<h2 id="using-it-to-set-what-you-pay-for-a-customer">Using it to set what you pay for a customer</h2>
 <p>Decide what share of first-year gross margin you are willing to spend to acquire a customer. Businesses with cash constraints keep it well under half; businesses with strong repeat rates and patient capital can go higher because the later years pay it back. That share becomes your target cost per customer, and the target drives everything in the ad account: bids, budgets, which campaigns live and which die.</p>
 <p>The payback period matters as much as the ratio. A customer who is profitable in month eighteen is a problem if you need the cash in month three. Our <a href="/tools/cac-payback-calculator/">CAC payback calculator</a> runs that arithmetic, and <a href="/blog/break-even-roas/">break-even ROAS</a> turns it into the number a media buyer actually uses day to day.</p>
-<h2>Recalculate it every quarter</h2>
+<h2 id="recalculate-it-every-quarter">Recalculate it every quarter</h2>
 <p>Lifetime value drifts. A product mix shifts, a return rate climbs, a competitor launches and retention dips. A figure calculated once and used for a year steers the ad account into a wall slowly enough that nobody notices. Put it on the quarterly calendar next to the margin review, and tell your agency when it changes, because the target cost per customer should change with it.</p>
 <p>If you would like us to sanity-check your number against what the ad account is actually producing, that is the first thing we do in the <a href="/free-ad-account-audit/">free audit</a>.</p>
-<h2>Questions people ask before hiring</h2>
+<h2 id="questions-people-ask-before-hiring">Questions people ask before hiring</h2>
 <div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is a simple formula for customer lifetime value?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Gross margin per order, multiplied by orders per customer per year, multiplied by the number of years a typical customer keeps buying. Use margin rather than revenue, and cap the years at what your retention data actually shows.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Should customer lifetime value use revenue or profit?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Profit. Revenue-based lifetime value is the most common reason ad budgets look profitable on paper and lose money in the bank. Use gross margin after product cost, shipping, payment fees and returns.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How is customer lifetime value used in advertising?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">It sets the ceiling on what you can pay for a customer. A share of first-year margin becomes the target cost per customer, and that target decides bids, budgets and which campaigns survive.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How often should I recalculate it?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Quarterly, alongside the margin review. Product mix, return rates and retention all drift, and a lifetime value figure more than a few months old is steering the ad account with stale numbers.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is the customer lifetime value formula?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Gross margin per order × orders per year × years a customer stays. Use margin, not revenue, and cap the years at what you have actually observed.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is a good customer lifetime value?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">One comfortably higher than what it costs to acquire a customer. A common rule of thumb is lifetime value of about three times acquisition cost, but how fast the cost is paid back matters as much as the ratio.</p></details></div>
 
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -173,8 +205,9 @@ article tr:last-child td{border-bottom:none}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">Searching for a marketing agency near me: does location actually matter?</h3>
       </a>
     </div>
-  </div>
 </section>
+
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

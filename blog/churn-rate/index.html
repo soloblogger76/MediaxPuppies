@@ -19,12 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Churn rate: the formula, worked examples, and what marketing can do about it">
 <meta property="og:description" content="Churn rate formula with worked examples for subscription and D2C businesses, the cohort view that shows the real picture, and what reduces churn.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/churn-rate/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Churn rate: formula, examples and how to reduce it: cover illustration">
 <meta property="og:url" content="https://mediapuppies.com/blog/churn-rate/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Churn rate: the formula, worked examples, and what marketing can do about it">
 <meta name="twitter:description" content="Churn rate formula with worked examples for subscription and D2C businesses, the cohort view that shows the real picture, and what reduces churn.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/churn-rate/cover.jpg">
 <link rel="canonical" href="https://mediapuppies.com/blog/churn-rate/">
 <style>
 html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
@@ -51,8 +54,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Churn rate: the formula, worked examples, and what marketing can do about it", "description": "Churn rate formula with worked examples for subscription and D2C businesses, the cohort view that shows the real picture, and what reduces churn.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-18", "dateModified": "2026-10-20", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/churn-rate/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Churn rate: the formula, worked examples, and what marketing can do about it", "description": "Churn rate formula with worked examples for subscription and D2C businesses, the cohort view that shows the real picture, and what reduces churn.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/churn-rate/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-10-18", "dateModified": "2026-10-20", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/churn-rate/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mediapuppies.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mediapuppies.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Churn rate: the formula, worked examples, and what marketing can do about it", "item": "https://mediapuppies.com/blog/churn-rate/"}]}
@@ -85,8 +112,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -102,15 +129,16 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-18">18 October 2026</time></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/churn-rate/cover.webp" type="image/webp"><img src="/blog/churn-rate/cover.jpg" alt="Churn rate: formula, examples and how to reduce it: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#how-to-calculate-churn-rate">How to calculate churn rate</a></li><li><a href="#churn-for-businesses-without-subscriptions">Churn for businesses without subscriptions</a></li><li><a href="#use-cohorts-not-a-single-number">Use cohorts, not a single number</a></li><li><a href="#what-marketing-can-do-about-churn">What marketing can do about churn</a></li><li><a href="#connect-churn-to-acquisition-spend">Connect churn to acquisition spend</a></li><li><a href="#questions-people-ask-before-hiring">FAQs</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>Churn is the share of customers who stop buying in a given period. For a subscription business it is the most important number in the company. For a D2C brand or a service business it is usually unmeasured, which is a problem, because churn rate decides how much a customer is really worth and therefore how much you can afford to pay to acquire one.</p>
-<h2>How to calculate churn rate</h2>
+<h2 id="how-to-calculate-churn-rate">How to calculate churn rate</h2>
 <p><strong>Customer churn rate</strong> = customers lost during the period &divide; customers at the start of the period.</p>
 <p>Count only customers who were active at the start. New customers acquired during the month are excluded from both sides, or the figure is diluted by fresh sign-ups and looks better than it is.</p>
 <p><strong>Revenue churn</strong> measures the same thing in money: recurring revenue lost from existing customers, divided by recurring revenue at the start. It can be very different from customer churn if your largest customers behave differently from your smallest.</p>
@@ -118,10 +146,10 @@ article tr:last-child td{border-bottom:none}
 <p>Say a subscription business starts October with 2,000 active customers. During the month 140 cancel and 300 new customers sign up. Churn rate is 140 ÷ 2,000 = 7%. The 300 new sign-ups stay out of the sum; counting them would give 140 ÷ 2,300, about 6.1%, which flatters the business.</p>
 <p>At 7% a month, about 93% of customers remain after each month, so roughly 42% are left after a year (0.93 multiplied by itself twelve times). The average customer lasts around 1 ÷ 0.07, about 14 months, and that figure feeds straight into <a href="/blog/customer-lifetime-value/">customer lifetime value</a>.</p>
 
-<h2>Churn for businesses without subscriptions</h2>
+<h2 id="churn-for-businesses-without-subscriptions">Churn for businesses without subscriptions</h2>
 <p>A D2C brand has no cancellation event, so define churn by repurchase window. Look at how long your repeat customers typically take between orders. A customer who has gone well past that window without buying is, for practical purposes, churned.</p>
 <p>A service business defines it by contract: the renewal that did not happen, the client who did not book again.</p>
-<h2>Use cohorts, not a single number</h2>
+<h2 id="use-cohorts-not-a-single-number">Use cohorts, not a single number</h2>
 <p>A blended monthly churn rate hides what matters. Group customers by the month they were acquired and track what share is still active one, three, six and twelve months later. The cohort table shows whether retention is improving, whether customers from a particular campaign leave faster, and how long a customer really lasts, which feeds directly into <a href="/blog/customer-lifetime-value/">customer lifetime value</a>.</p>
 <table>
 <tr><th>Cohort</th><th>Month 1</th><th>Month 3</th><th>Month 6</th></tr>
@@ -130,18 +158,22 @@ article tr:last-child td{border-bottom:none}
 </table>
 <p>The percentages are the share of each cohort still active. In this hypothetical table the discounted August cohort was cheaper to acquire and leaves far faster: after six months it has kept 34% of its customers against July's 58%.</p>
 <p>The campaign view is the one marketers usually miss. Customers acquired with a deep discount often churn faster than customers acquired at full price. A campaign with a low cost per customer and high churn can be worse than a pricier one whose customers stay.</p>
-<h2>What marketing can do about churn</h2>
+<h2 id="what-marketing-can-do-about-churn">What marketing can do about churn</h2>
 <p><strong>Acquire the right people.</strong> Optimise campaigns for customers who come back, not just first orders. Feeding repeat purchases back to the ad platform as a conversion signal shifts who it finds.</p>
 <p><strong>Onboarding and the second order.</strong> The biggest drop happens between first and second purchase. A sequence of useful messages on WhatsApp and email in the first weeks does more for retention than any later campaign; our <a href="/blog/whatsapp-followup-sequence/">WhatsApp follow-up sequence</a> adapts well to it.</p>
 <p><strong>Win-back before it is too late.</strong> Trigger a message when a customer passes their usual repurchase window, not months later.</p>
 <p><strong>Stop paying to reacquire existing customers.</strong> Exclude current customers from acquisition campaigns and give them their own retention budget, measured separately.</p>
-<h2>Connect churn to acquisition spend</h2>
+<h2 id="connect-churn-to-acquisition-spend">Connect churn to acquisition spend</h2>
 <p>If churn rises, lifetime value falls, and the cost per customer you can afford falls with it. Review the two together each quarter. The <a href="/tools/cac-payback-calculator/">CAC payback calculator</a> shows how quickly a change in churn changes the month in which a customer pays back.</p>
 <p>To see how a change in monthly churn changes how many customers you keep, use the <a href="/tools/churn-retention-calculator/">churn and retention calculator</a>. If you want acquisition campaigns optimised for customers who stay, that is how our <a href="/performance-marketing/">performance marketing</a> team sets up D2C and subscription accounts.</p>
-<h2>Questions people ask before hiring</h2>
+<h2 id="questions-people-ask-before-hiring">Questions people ask before hiring</h2>
 <div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is a simple formula for churn rate?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Customers lost during the period divided by customers active at the start of the period. Exclude customers acquired during the period from both numbers.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is the difference between customer churn and revenue churn?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Customer churn counts people; revenue churn counts money. If large customers leave less often than small ones, revenue churn will be lower than customer churn, and the reverse is also possible.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">How do I measure churn without subscriptions?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Define it by repurchase window. Work out how long repeat customers usually take between orders, and treat a customer who has gone well past that window as churned.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Can advertising reduce churn?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Indirectly. Optimising for customers who repurchase, excluding existing customers from acquisition campaigns, and running onboarding and win-back messages all reduce churn more than discount-led campaigns do.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is the churn rate formula?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Customers lost during a period divided by customers at the start of that period. Leave out customers acquired during the period.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is a good churn rate?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">It depends on the business model and price point, so compare against your own earlier cohorts rather than an industry figure. The trend matters more than the level.</p></details></div>
 
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -167,8 +199,9 @@ article tr:last-child td{border-bottom:none}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">Property SEO in India: how developers and brokers rank for project searches</h3>
       </a>
     </div>
-  </div>
 </section>
+
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

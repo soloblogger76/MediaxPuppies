@@ -19,12 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Teaching the ad platforms what a real customer looks like">
 <meta property="og:description" content="A SaaS sale closes weeks after the click, inside a CRM the ad platform cannot see. Offline conversion import closes that gap, and most accounts skip it.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/saas-offline-conversion-import/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Teaching the ad platforms what a real customer looks like: cover illustration">
 <meta property="og:url" content="https://mediapuppies.com/blog/saas-offline-conversion-import/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Teaching the ad platforms what a real customer looks like">
 <meta name="twitter:description" content="A SaaS sale closes weeks after the click, inside a CRM the ad platform cannot see. Offline conversion import closes that gap, and most accounts skip it.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/saas-offline-conversion-import/cover.jpg">
 <link rel="canonical" href="https://mediapuppies.com/blog/saas-offline-conversion-import/">
 <style>
 html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;width:100%;max-width:100%}
@@ -51,8 +54,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Teaching the ad platforms what a real customer looks like", "description": "A SaaS sale closes weeks after the click, inside a CRM the ad platform cannot see. Offline conversion import closes that gap, and most accounts skip it.", "image": "https://mediapuppies.com/assets/img/og-image.png", "datePublished": "2026-10-09", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/saas-offline-conversion-import/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Teaching the ad platforms what a real customer looks like", "description": "A SaaS sale closes weeks after the click, inside a CRM the ad platform cannot see. Offline conversion import closes that gap, and most accounts skip it.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/saas-offline-conversion-import/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-10-09", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/saas-offline-conversion-import/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is offline conversion import?", "acceptedAnswer": {"@type": "Answer", "text": "Sending events that happened outside the website — a qualified lead, a demo attended, a closed deal — back to the ad platform, matched to the original click or user. The platform then optimises towards those outcomes instead of towards form fills."}}, {"@type": "Question", "name": "Which event should I send back?", "acceptedAnswer": {"@type": "Answer", "text": "The earliest one that correlates with revenue and occurs often enough to train delivery. For most SaaS accounts that is a qualified opportunity rather than a closed deal, because closed deals are too rare and arrive too late."}}, {"@type": "Question", "name": "What has to be in place first?", "acceptedAnswer": {"@type": "Answer", "text": "A CRM that records the lead source and a click identifier or hashed email, a definition of qualified that the sales team applies consistently, and a reliable way to push the data back daily or weekly. The data discipline is the hard part, not the integration."}}, {"@type": "Question", "name": "Does the sales cycle length break this?", "acceptedAnswer": {"@type": "Answer", "text": "It slows it. If deals close in ninety days, the platform learns from decisions made three months ago. That is why most accounts optimise towards a mid-funnel event that happens within the attribution window rather than towards revenue itself."}}]}
@@ -85,8 +112,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(34px,6vw,58px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(34px,6vw,58px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -102,44 +129,49 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96" decoding="async">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> &middot; <time datetime="2026-10-09">9 October 2026</time> &middot; <span style="color:rgba(24,28,79,.64)">Updated <time datetime="2026-10-15">15 October 2026</time></span></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/saas-offline-conversion-import/cover.webp" type="image/webp"><img src="/blog/saas-offline-conversion-import/cover.jpg" alt="Teaching the ad platforms what a real customer looks like: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#the-gap">The gap</a></li><li><a href="#closing-it-with-offline-conversion-import">Closing it with offline conversion import</a></li><li><a href="#choosing-the-event-to-optimise-against">Choosing the event to optimise against</a></li><li><a href="#send-values-not-just-events">Send values, not just events</a></li><li><a href="#what-has-to-be-true-first">What has to be true first</a></li><li><a href="#set-the-expectation-before-you-start">Set the expectation before you start</a></li><li><a href="#and-the-sales-cycle-problem">And the sales cycle problem</a></li><li><a href="#questions-people-ask">FAQs</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 
 <p>Offline conversion import exists because of this. Tell Meta to find you leads and it will do exactly that: find the people most likely to complete a form. Within a fortnight your cost per lead is down, your sales team is furious, and the pipeline has not moved.</p>
 <p>The algorithm did its job. It was given the wrong job.</p>
-<h2>The gap</h2>
+<h2 id="the-gap">The gap</h2>
 <p>A B2B software sale happens in stages: form fill, qualification call, demo, proposal, close. Weeks or months apart. The ad platform sees the first event and nothing after it, because everything after it happens in a CRM the platform has never heard of.</p>
 <p>So it optimises for the only outcome it can measure, which is the one that correlates least with revenue.</p>
-<h2>Closing it with offline conversion import</h2>
+<h2 id="closing-it-with-offline-conversion-import">Closing it with offline conversion import</h2>
 <p>Both Google and Meta accept conversions uploaded from your systems. You send back the stages that matter — qualified, opportunity created, closed won — matched to the original click or lead.</p>
 <p>Once that is running, bidding learns from outcomes instead of intentions. The sources and audiences that produce qualified pipeline get more budget; the ones that produce form-filling enthusiasts get less.</p>
 <blockquote><p>This is the single highest-leverage piece of work in most B2B paid accounts, and it is routinely skipped because it needs a CRM integration rather than a campaign change.</p></blockquote>
-<h2>Choosing the event to optimise against</h2>
+<h2 id="choosing-the-event-to-optimise-against">Choosing the event to optimise against</h2>
 <p>Closed won is the truth. It is also often too rare to optimise against — forty deals a quarter gives an algorithm almost nothing to learn from.</p>
 <p>The craft is picking the earliest event that correlates strongly with revenue and happens often enough to be useful. Frequently that is "qualified by sales" or "demo attended" rather than "demo booked". Work it out from your own funnel rather than copying someone else’s.</p>
 <p>A rough rule: you want at least a few dozen of the chosen event a month. Below that, go one stage earlier.</p>
-<h2>Send values, not just events</h2>
+<h2 id="send-values-not-just-events">Send values, not just events</h2>
 <p>A meeting with a five-person company and one with a five-thousand-person company are not the same conversion. If you can attach expected deal value by segment, value-based bidding pulls toward the accounts your sales team actually wants.</p>
 <p>Without values, you optimise toward whoever books most easily, which is almost always the smallest.</p>
-<h2>What has to be true first</h2>
+<h2 id="what-has-to-be-true-first">What has to be true first</h2>
 <ul><li><strong>Stages get updated reliably.</strong> If your sales team does not keep the CRM current, none of this works. Fix that before anything else.</li>
 <li><strong>Qualification is defined in writing.</strong> Marketing and sales must agree what qualified means, and it must be a field somebody fills in.</li>
 <li><strong>Click identifiers are captured and stored</strong> with the lead so the upload can be matched back.</li></ul>
-<h2>Set the expectation before you start</h2>
+<h2 id="set-the-expectation-before-you-start">Set the expectation before you start</h2>
 <p>Cost per lead will rise. That is the point — you are buying fewer, better ones. The number that should fall is cost per qualified opportunity.</p>
 <p>If nobody has prepared the people who read the weekly report, the first fortnight looks like a failure. Put it in writing before the change, not after.</p>
-<h2>And the sales cycle problem</h2>
+<h2 id="and-the-sales-cycle-problem">And the sales cycle problem</h2>
 <p>With a ninety-day cycle, a default seven-day attribution window is meaningless — the ad that started the deal gets no credit. Set windows to your real cycle, and keep a free-text "how did you hear about us" field on the form. For considered purchases it is frequently more honest than any model.</p>
 <p>More on how we run these accounts on the <a href="/saas-performance-marketing-agency/">SaaS page</a>. To check whether the economics support the spend at all, the <a href="/tools/cac-payback-calculator/">CAC payback calculator</a> is the place to start.</p>
-<h2>Questions people ask</h2>
+<h2 id="questions-people-ask">Questions people ask</h2>
 <div style="display:grid;gap:12px;margin:22px 0 0"><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What is offline conversion import?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">Sending events that happened outside the website — a qualified lead, a demo attended, a closed deal — back to the ad platform, matched to the original click or user. The platform then optimises towards those outcomes instead of towards form fills.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Which event should I send back?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">The earliest one that correlates with revenue and occurs often enough to train delivery. For most SaaS accounts that is a qualified opportunity rather than a closed deal, because closed deals are too rare and arrive too late.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">What has to be in place first?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">A CRM that records the lead source and a click identifier or hashed email, a definition of qualified that the sales team applies consistently, and a reliable way to push the data back daily or weekly. The data discipline is the hard part, not the integration.</p></details><details style="background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.07);padding:22px 24px"><summary style="cursor:pointer;font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.06rem;list-style:none">Does the sales cycle length break this?</summary><p style="margin:12px 0 0;color:rgba(24,28,79,.72);font-size:.99rem">It slows it. If deals close in ninety days, the platform learns from decisions made three months ago. That is why most accounts optimise towards a mid-funnel event that happens within the attribution window rather than towards revenue itself.</p></details></div>
 
 
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -165,8 +197,9 @@ article tr:last-child td{border-bottom:none}
         <h3 style="font-family:'Clash Display',sans-serif;font-weight:600;font-size:1.12rem;line-height:1.25;margin:0">Learning limited: what it means and why splitting budgets causes it</h3>
       </a>
     </div>
-  </div>
 </section>
+
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">

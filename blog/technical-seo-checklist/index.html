@@ -20,11 +20,14 @@
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:title" content="A technical SEO checklist you can actually work through">
 <meta property="og:description" content="The technical SEO checks that matter for small and mid-sized Indian sites — indexing, speed, structure and schema — in the order worth doing them.">
-<meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta property="og:image" content="https://mediapuppies.com/blog/technical-seo-checklist/cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="A technical SEO checklist you can actually work through: cover illustration">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="A technical SEO checklist you can actually work through">
 <meta name="twitter:description" content="The technical SEO checks that matter for small and mid-sized Indian sites — indexing, speed, structure and schema — in the order worth doing them.">
-<meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
+<meta name="twitter:image" content="https://mediapuppies.com/blog/technical-seo-checklist/cover.jpg">
 <meta property="og:url" content="https://mediapuppies.com/blog/technical-seo-checklist/">
 <link rel="canonical" href="https://mediapuppies.com/blog/technical-seo-checklist/">
 <style>
@@ -52,8 +55,32 @@ article td{padding:14px 18px;border-bottom:1px solid rgba(24,28,79,.08);color:rg
 article tr:last-child td{border-bottom:none}
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=20261016a">
+<style>
+.post-wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+.post-main{min-width:0}
+article h2{scroll-margin-top:92px}
+.post-hero{margin:28px 0 0}
+.post-hero img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 12px 32px rgba(24,28,79,.08)}
+.post-toc{margin:20px 0 0}
+.post-toc details{background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;padding:16px 20px;box-shadow:0 12px 32px rgba(24,28,79,.06)}
+.post-toc summary{list-style:none;cursor:pointer;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3038D8}
+.post-toc ol{list-style:none;margin:12px 0 0;padding:0}
+.post-toc li{margin:0;border-left:2px solid rgba(24,28,79,.1)}
+.post-toc a{display:block;padding:6px 0 6px 12px;font-size:.92rem;line-height:1.35;color:rgba(24,28,79,.72)}
+.post-toc a:hover,.post-toc a.on{color:#3038D8}
+.post-toc li:has(a.on){border-left-color:#3038D8}
+@media (min-width:1100px){
+.post-wrap{max-width:1140px;display:grid;grid-template-columns:minmax(0,760px) 270px;justify-content:center;column-gap:56px;align-items:start}
+.post-head{grid-column:1;grid-row:1}
+.post-main{grid-column:1;grid-row:2}
+.post-more{grid-column:1}
+.post-toc{grid-column:2;grid-row:1/span 2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+.post-toc summary{pointer-events:none;padding-right:0}
+.post-toc summary::after{display:none}
+}
+</style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"A technical SEO checklist you can actually work through","description":"The technical SEO checks that matter for small and mid-sized Indian sites \u2014 indexing, speed, structure and schema \u2014 in the order worth doing them.","image":"https://mediapuppies.com/assets/img/og-image.png","datePublished":"2026-08-12","dateModified":"2026-08-12","author":{"@type":"Organization","name":"Media Puppies","url":"https://mediapuppies.com/author/media-puppies/","sameAs":["https://www.linkedin.com/company/mediapuppies/"]},"publisher":{"@type":"Organization","name":"Media Puppies","logo":{"@type":"ImageObject","url":"https://mediapuppies.com/assets/img/logo-full.png"}},"mainEntityOfPage":"https://mediapuppies.com/blog/technical-seo-checklist/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "A technical SEO checklist you can actually work through", "description": "The technical SEO checks that matter for small and mid-sized Indian sites — indexing, speed, structure and schema — in the order worth doing them.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/technical-seo-checklist/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-08-12", "dateModified": "2026-08-12", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/technical-seo-checklist/"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -86,8 +113,8 @@ article tr:last-child td{border-bottom:none}
   </div>
 </nav>
 
-<header style="padding:calc(68px + clamp(40px,6vw,64px)) 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<div class="post-wrap" style="padding-top:calc(68px + clamp(40px,6vw,64px))">
+<header class="post-head">
     <a data-reveal="0" href="/blog/" style="display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:700;color:#3038D8;margin-bottom:22px">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
       All articles
@@ -103,16 +130,17 @@ article tr:last-child td{border-bottom:none}
       <img src="/assets/img/icon-96.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:contain" width="96" height="96" decoding="async">
       <span style="font-size:.92rem;color:rgba(24,28,79,.78)"><a href="/author/media-puppies/" rel="author" style="color:#181C4F;font-weight:700">Media Puppies team</a> <a href="https://www.linkedin.com/company/mediapuppies/" target="_blank" rel="noopener" aria-label="Media Puppies on LinkedIn" style="display:inline-flex;vertical-align:-2px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="display:block"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.1 9.4h-2.6V19h2.6V9.4zM5.8 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM19.5 13.6c0-2.6-1.4-4.4-3.9-4.4-1.2 0-2.1.6-2.5 1.3V9.4h-2.5V19h2.6v-5c0-1.3.6-2.2 1.8-2.2 1.1 0 1.6.8 1.6 2.2v5h2.7v-5.4z"/></svg></a> · <time datetime="2026-08-12">12 August 2026</time></span>
     </div>
-  </div>
+    <figure class="post-hero"><picture><source srcset="/blog/technical-seo-checklist/cover.webp" type="image/webp"><img src="/blog/technical-seo-checklist/cover.jpg" alt="A technical SEO checklist you can actually work through: cover illustration" width="1200" height="675" fetchpriority="high" decoding="async"></picture></figure>
 </header>
 
-<section style="padding:20px 0 0">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<nav class="post-toc" aria-label="Table of contents"><details open><summary>On this page</summary><ol><li><a href="#first-can-google-see-your-pages-at-all">First: can Google see your pages at all?</a></li><li><a href="#second-does-each-page-have-one-address">Second: does each page have one address?</a></li><li><a href="#third-speed-on-the-device-people-use">Third: speed, on the device people use</a></li><li><a href="#fourth-structure-google-can-follow">Fourth: structure Google can follow</a></li><li><a href="#fifth-schema-that-earns-something">Fifth: schema that earns something</a></li><li><a href="#what-to-ignore">What to ignore</a></li><li><a href="#how-often">How often</a></li></ol></details></nav>
+<script>(function(){var d=document.currentScript.previousElementSibling.firstChild;if(!window.matchMedia("(min-width:1100px)").matches)d.removeAttribute("open")})()</script>
+<section class="post-main" style="padding:20px 0 0">
     <article>
 <p>Technical SEO audits routinely arrive as a 200-row spreadsheet in which everything is red and nothing is prioritised. Most of it does not matter for a 40-page business site.</p>
 <p>Here is what does, in the order worth doing it.</p>
 
-<h2>First: can Google see your pages at all?</h2>
+<h2 id="first-can-google-see-your-pages-at-all">First: can Google see your pages at all?</h2>
 <ol>
 <li><strong>Check the index count.</strong> In Search Console, Pages report. If you have 40 pages and 6 are indexed, nothing else on this list matters yet.</li>
 <li><strong>Read the exclusion reasons.</strong> <em>Discovered – currently not indexed</em> usually means thin or duplicate content. <em>Crawled – currently not indexed</em> means Google looked and was not impressed.</li>
@@ -121,7 +149,7 @@ article tr:last-child td{border-bottom:none}
 <li><strong>Submit a sitemap</strong> and make sure every URL in it returns 200. A sitemap full of redirects and 404s wastes crawl budget and trust.</li>
 </ol>
 
-<h2>Second: does each page have one address?</h2>
+<h2 id="second-does-each-page-have-one-address">Second: does each page have one address?</h2>
 <ul>
 <li><strong>One canonical version</strong> — http or https, www or not, trailing slash or not. Pick one, redirect the rest.</li>
 <li><strong>Self-referencing canonical tags</strong> on every page.</li>
@@ -129,10 +157,10 @@ article tr:last-child td{border-bottom:none}
 <li><strong>Case consistency.</strong> On case-sensitive hosting, <code>/seo-services/</code> and <code>/seo/</code> are different URLs, and one of them is a 404.</li>
 </ul>
 
-<h2>Third: speed, on the device people use</h2>
+<h2 id="third-speed-on-the-device-people-use">Third: speed, on the device people use</h2>
 <p>Test on a mid-range Android on 4G, not a laptop on office wifi. The usual offenders are unoptimised hero images, too many font families and a head full of analytics tags. Detail in <a href="/blog/core-web-vitals-india/">Core Web Vitals on Indian networks</a>.</p>
 
-<h2>Fourth: structure Google can follow</h2>
+<h2 id="fourth-structure-google-can-follow">Fourth: structure Google can follow</h2>
 <ul>
 <li><strong>Every important page reachable in three clicks</strong> from the homepage.</li>
 <li><strong>Internal links with descriptive anchor text.</strong> Not <em>click here</em>. This is free and consistently under-used.</li>
@@ -143,7 +171,7 @@ article tr:last-child td{border-bottom:none}
 
 <blockquote><p>Most technical SEO problems are not exotic. They are a noindex tag, a blocked folder, or a page nothing links to.</p></blockquote>
 
-<h2>Fifth: schema that earns something</h2>
+<h2 id="fifth-schema-that-earns-something">Fifth: schema that earns something</h2>
 <p>Add the types that can change how your result looks:</p>
 <ul>
 <li><strong>LocalBusiness</strong> if you have a catchment area, with details matching your <a href="/blog/google-business-profile-tips/">Business Profile</a> exactly.</li>
@@ -154,7 +182,7 @@ article tr:last-child td{border-bottom:none}
 </ul>
 <p>Validate it. Broken schema is worse than no schema.</p>
 
-<h2>What to ignore</h2>
+<h2 id="what-to-ignore">What to ignore</h2>
 <ul>
 <li><strong>Keyword density.</strong> Not a thing.</li>
 <li><strong>Meta keywords tag.</strong> Unused for over a decade.</li>
@@ -162,10 +190,14 @@ article tr:last-child td{border-bottom:none}
 <li><strong>Minor heading hierarchy warnings</strong> on pages that read fine to a human.</li>
 </ul>
 
-<h2>How often</h2>
+<h2 id="how-often">How often</h2>
 <p>Full pass twice a year. Index coverage monthly. Check after every site change, because that is when noindex tags and broken redirects appear.</p>
 <p>Want us to run this on your site? <a href="/seo-services/">Get a free audit.</a></p>
     </article>
+<script>(function(){var l=document.querySelectorAll('.post-toc a');if(!l.length||!('IntersectionObserver' in window))return;
+var m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){l.forEach(function(a){a.classList.remove('on')});var a=m[e.target.id];if(a)a.classList.add('on')}})},{rootMargin:'-90px 0px -70% 0px'});
+document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})})()</script>
     <aside aria-label="About the author" style="margin:40px 0 0;padding:22px 24px;background:#FFFFFF;border:1px solid rgba(24,28,79,.12);border-radius:18px;box-shadow:0 12px 32px rgba(24,28,79,.06);display:flex;gap:16px;align-items:flex-start">
       <img src="/assets/img/icon-96.png" alt="Media Puppies" width="56" height="56" loading="lazy" decoding="async" style="width:56px;height:56px;border-radius:50%;flex:none;object-fit:contain;background:#F6F5EF">
       <div>
@@ -183,12 +215,9 @@ article tr:last-child td{border-bottom:none}
     <p style="margin:0;font-size:.97rem;color:rgba(24,28,79,.72)">We do this work for clients — technical fixes, content built around what people actually search, and local visibility. <a href="/seo-services/" style="font-weight:700;color:#3038D8">See how it works →</a></p>
   </div>
 </aside>
-
-  </div>
 </section>
-
-<section style="padding:64px 0 84px">
-  <div style="max-width:760px;margin:0 auto;padding:0 24px">
+<section class="post-more" style="padding:64px 0 84px">
+  <div>
     <div data-rev="zoom" data-reveal="0" style="background:linear-gradient(160deg,#3A43E8 0%,#3038D8 60%,#232A9E 100%);border-radius:28px;color:#FFFFFF;box-shadow:0 30px 70px rgba(48,56,216,.3);text-align:center;padding:clamp(40px,6vw,58px) 24px">
       <h2 style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:-.02em;margin:0;color:#FFFFFF">Want this run on your account?</h2>
       <p style="margin:12px auto 0;color:rgba(255,255,255,.78);font-size:1.02rem;max-width:40ch">Two minutes. We'll tell you what's realistic — including if the answer is no.</p>
@@ -216,6 +245,7 @@ article tr:last-child td{border-bottom:none}
     </div>
   </div>
 </section>
+</div>
 
 <footer style="padding:8px 0 100px;font-size:.88rem;color:rgba(24,28,79,.66)">
   <div style="max-width:1140px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center">
