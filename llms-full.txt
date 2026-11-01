@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-10-31.
+Updated 2026-11-02.
 
 ## Service, market and company pages
 
@@ -101,9 +101,11 @@ Updated 2026-10-31.
 - [How to run a marketing agency RFP without wasting six weeks](https://mediapuppies.com/blog/marketing-agency-rfp/): A marketing agency RFP usually tests presentation skill rather than media skill. A shorter brief, a paid audit task and three questions do a better job.
 - [What a marketing agency SLA should cover, beyond "we will reply within 24 hours"](https://mediapuppies.com/blog/marketing-agency-sla/): An agency SLA turns vague promises into commitments you can check: response times, reporting, account access, change approval, escalation and exit.
 - [What belongs in a Meta ads agency proposal](https://mediapuppies.com/blog/meta-ads-agency-proposal/): A Meta ads agency proposal should answer eight things before you sign. What to look for, what the vague answers mean, and what is missing most often.
+- [Offshore digital marketing services: what to send offshore, how to vet it, what to put in the SLA](https://mediapuppies.com/blog/offshore-digital-marketing-services/): Offshore digital marketing services for US, UK and Australian companies: which services offshore well, how to vet a provider, and what belongs in the SLA.
 - [Building an offshore marketing team: agency, dedicated hire or staff augmentation](https://mediapuppies.com/blog/offshore-marketing-team/): An offshore marketing team adds senior skills at a different cost base. The three ways to build one, roles to start with, and managing across time zones.
 - [How to outsource digital marketing without losing control of it](https://mediapuppies.com/blog/outsource-digital-marketing/): How to outsource digital marketing: which parts to hand over, which to keep in-house, how to choose a partner, and how to run it so results stay visible.
 - [Outsource PPC management: when it makes sense and how to do it safely](https://mediapuppies.com/blog/outsource-ppc-management/): When to outsource PPC, what an outsourced PPC team should handle, how to compare agencies, freelancers and offshore teams, and how to keep control.
+- [Outsource PPC to India: how it works, time zones, contracts and red flags](https://mediapuppies.com/blog/outsource-ppc-to-india/): Outsource PPC to India safely: engagement models, time zone overlap with the US, UK and Australia, access, contracts, data protection, payments and red flags.
 - [Paid media agency or performance agency: which one are you actually hiring?](https://mediapuppies.com/blog/paid-media-agency/): A paid media agency buys placements; a performance agency is judged on cost per customer. How to tell which you are talking to, and which fits you.
 - [What a paid social agency does, and how to pick one](https://mediapuppies.com/blog/paid-social-agency/): A paid social agency runs ads on Meta, LinkedIn and TikTok to a business result. How it differs from social media management, and how to choose.
 - [Pay for performance marketing agencies: what the model actually means](https://mediapuppies.com/blog/pay-for-performance-agency/): A pay for performance agency sounds risk-free. How the model works, where it shifts risk back to you, and the version that is fair to both sides.
@@ -112,6 +114,7 @@ Updated 2026-10-31.
 - [Fifteen questions to ask a performance marketing agency](https://mediapuppies.com/blog/questions-to-ask-a-performance-marketing-agency/): The questions to ask a performance marketing agency before you sign: fifteen of them, what a good answer sounds like, and which hesitations should worry you.
 - [What does an advertising agency do? The four types, how they charge and which you need](https://mediapuppies.com/blog/what-an-advertising-agency-does/): What does an advertising agency do? The four types of advertising agency, what a media agency is, how each charges, and how to choose the right one.
 - [White label Facebook ads: how agencies resell Meta ads without the headaches](https://mediapuppies.com/blog/white-label-facebook-ads/): White label Facebook ads let an agency sell Meta advertising under its own brand while a partner runs the accounts. How it works, pricing models and the risks.
+- [White label Google Ads management: access, scope and reporting under your brand](https://mediapuppies.com/blog/white-label-google-ads/): White label Google Ads management for agencies: MCC access, Search, Performance Max and Shopping scope, tracking, and Looker Studio reports under your brand.
 - [Who works on your account when you hire an agency](https://mediapuppies.com/blog/who-actually-works-on-your-account/): Who works on your account is rarely who pitched it. How agency teams are really staffed, and the two questions that reveal what your fee actually buys.
 - [Who owns your ad account, really](https://mediapuppies.com/blog/who-owns-your-ad-account/): Who owns your ad account decides what you keep when you change agency: pixel history, conversion data, audiences. How to check it in five minutes.
 
@@ -246,6 +249,7 @@ Updated 2026-10-31.
 - [How to choose a lead generation agency that sends leads you can close](https://mediapuppies.com/blog/how-to-choose-lead-generation-agency/): A lead generation agency can send hundreds of leads nobody can close. How to choose one that sends buyers, with the questions and red flags.
 - [HVAC PPC: how to run Google Ads and Local Services Ads for an HVAC company](https://mediapuppies.com/blog/hvac-ppc/): HVAC PPC for US contractors: Google Ads and Local Services Ads, seasonal budgets, emergency vs replacement keywords, call tracking and cost per booked job.
 - [Local business marketing: the order that actually works](https://mediapuppies.com/blog/local-business-marketing/): Local business marketing fails when it starts with ads. The order that works for clinics, showrooms and service businesses, and what to do first.
+- [Med spa marketing: a plan that books consultations without cheapening the brand](https://mediapuppies.com/blog/med-spa-marketing/): Med spa marketing that books consultations: Meta and Google ad rules, creative that works, offers that protect the brand, booking flow, reviews and tracking.
 - [NMC advertising guidelines 2026: what doctors and hospitals can still advertise](https://mediapuppies.com/blog/nmc-advertising-guidelines-doctors/): The NMC advertising guidelines of October 2026 for doctors and hospitals: what is banned, what is still allowed, and what changes for Google and Meta ads.
 - [Plumbing PPC: how to run Google Ads and Local Services Ads for plumbers](https://mediapuppies.com/blog/plumbing-ppc/): Plumbing PPC for plumbers in the US, UK and Australia: emergency keywords, call assets, Local Services Ads, negative keywords for DIY searches and booked jobs.
 - [Property portal vs real estate broker in Dubai: where developers should spend](https://mediapuppies.com/blog/property-portal-vs-broker-dubai/): Property portal or broker network? How Dubai developers should split spend between portals, brokers and their own ads, and what each channel is good and bad at.
