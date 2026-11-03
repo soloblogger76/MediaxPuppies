@@ -1,0 +1,694 @@
+country,industry,query_type,keyword,cpc_usd_us,monthly_searches_us,ai_overview,ai_overview_capture,ai_overview_words,ai_overview_sources,source_domains,people_also_ask,collected
+US,Legal,Near me,attorney near me,9.51,18100,yes,full,271,2,bestlawyers.com attorneys.superlawyers.com,yes,2026-11-03
+US,Legal,Service or topic,business lawyer,6.63,673000,yes,full,54,0,,yes,2026-11-03
+US,Legal,Service or topic,car accident attorney,184.89,201000,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,car accident lawyer,186.31,1000000,no,,0,0,,yes,2026-11-03
+US,Legal,Near me,car accident lawyer near me,179.94,49500,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,child custody lawyer,10.02,22200,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,criminal defense lawyer,19.56,1220000,no,,0,0,,yes,2026-11-03
+US,Legal,Near me,criminal lawyer near me,17.21,18100,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,divorce lawyer,10.88,1000000,yes,may be cut off,86,0,,yes,2026-11-03
+US,Legal,Near me,divorce lawyer near me,9.35,27100,yes,full,155,3,matthewkellyassociates.com nycourts.gov karplawfirm.com,yes,2026-11-03
+US,Legal,Service or topic,dog bite lawyer,133.15,49500,yes,full,261,3,forthepeople.com azinjurylaw.com karnaslaw.com,yes,2026-11-03
+US,Legal,Service or topic,dui lawyer,40.45,450000,no,,0,0,,yes,2026-11-03
+US,Legal,Near me,dui lawyer near me,24.60,18100,yes,full,228,2,georgiacriminaldefense.com dui.info,yes,2026-11-03
+US,Legal,Service or topic,employment lawyer,5.89,450000,yes,full,246,3,omegalaw.com andersonhunterlaw.com mooreandassociates.net,yes,2026-11-03
+US,Legal,Service or topic,estate planning attorney,6.11,33100,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,family lawyer,9.09,823000,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,green card lawyer,9.03,2400,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,immigration lawyer,11.36,673000,no,,0,0,,yes,2026-11-03
+US,Legal,Near me,immigration lawyer near me,9.50,18100,no,,0,0,,yes,2026-11-03
+US,Legal,Near me,lawyer near me,11.56,22200,yes,full,45,0,,yes,2026-11-03
+US,Legal,Service or topic,medical malpractice lawyer,9.05,1220000,yes,may be cut off,95,3,lubinandmeyer.com forthepeople.com knafo.com,yes,2026-11-03
+US,Legal,Service or topic,mesothelioma lawyer,222.28,14800,yes,full,205,3,samndan.com simmonsfirm.com lanierlawfirm.com,yes,2026-11-03
+US,Legal,Service or topic,motorcycle accident lawyer,156.00,110000,yes,full,62,0,,yes,2026-11-03
+US,Legal,Service or topic,personal injury attorney,119.22,246000,yes,full,64,0,,yes,2026-11-03
+US,Legal,Service or topic,personal injury lawyer,112.69,1000000,no,,0,0,,yes,2026-11-03
+US,Legal,Near me,personal injury lawyer near me,128.80,90500,yes,full,192,0,,yes,2026-11-03
+US,Legal,Service or topic,probate lawyer,9.90,27100,yes,full,294,3,metlife.com peckritchey.com sdfnvlaw.com,yes,2026-11-03
+US,Legal,Service or topic,real estate lawyer,3.95,1220000,yes,full,174,3,stonesalluslaw.com gomezlawla.com lernerweisslaw.com,yes,2026-11-03
+US,Legal,Service or topic,slip and fall lawyer,160.00,110000,yes,full,60,0,,yes,2026-11-03
+US,Legal,Service or topic,social security disability lawyer,3.94,27100,yes,full,282,3,ssa.gov reddit.com forthepeople.com,yes,2026-11-03
+US,Legal,Service or topic,tax attorney,22.71,823000,yes,full,284,3,accounting.com mclane.com law.cornell.edu,yes,2026-11-03
+US,Legal,Service or topic,trademark lawyer,13.68,8100,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,truck accident lawyer,252.78,165000,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,will lawyer,4.74,3600,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,workers comp lawyer,41.35,33100,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,wrongful death lawyer,92.60,135000,no,,0,0,,yes,2026-11-03
+US,Legal,Service or topic,wrongful termination lawyer,5.20,27100,no,,0,0,,yes,2026-11-03
+US,Insurance,Quote request,auto insurance quotes,84.02,301000,yes,may be cut off,88,3,allstate.com libertymutual.com mwg.aaa.com,yes,2026-11-03
+US,Insurance,Service or topic,business insurance,39.38,165000,yes,full,230,3,thehartford.com nextinsurance.com progressivecommercial.com,yes,2026-11-03
+US,Insurance,Quote request,car insurance quotes,75.60,1830000,yes,may be cut off,77,3,allstate.com libertymutual.com thezebra.com,yes,2026-11-03
+US,Insurance,Service or topic,cheap car insurance,46.80,301000,yes,full,244,3,libertymutual.com nerdwallet.com insurify.com,yes,2026-11-03
+US,Insurance,Service or topic,health insurance plans,6.67,74000,yes,full,426,3,maine.gov khbe.ky.gov finder.healthcare.gov,yes,2026-11-03
+US,Insurance,Quote request,home insurance quotes,66.47,135000,yes,may be cut off,88,2,nerdwallet.com progressive.com,yes,2026-11-03
+US,Insurance,Near me,insurance agent near me,17.24,40500,no,,0,0,,yes,2026-11-03
+US,Insurance,Quote request,life insurance quotes,31.50,40500,yes,may be cut off,123,3,policygenius.com libertymutual.com statefarm.com,yes,2026-11-03
+US,Insurance,Service or topic,renters insurance,18.21,1830000,yes,full,374,3,progressive.com geico.com tdi.texas.gov,yes,2026-11-03
+US,Insurance,Service or topic,term life insurance,20.06,1500000,yes,may be cut off,122,3,fidelity.com guardianlife.com statefarm.com,yes,2026-11-03
+US,Software,Service or topic,accounting software,32.08,110000,yes,may be cut off,109,3,sage.com oracle.com forbes.com,yes,2026-11-03
+US,Software,Service or topic,crm software,16.62,90500,yes,may be cut off,76,3,salesforce.com ibm.com oracle.com,yes,2026-11-03
+US,Software,Service or topic,email marketing software,37.59,12100,yes,may be cut off,85,3,reddit.com mailchimp.com activecampaign.com,no,2026-11-03
+US,Software,Service or topic,erp software,11.96,40500,yes,may be cut off,86,3,oracle.com youtube.com en.wikipedia.org,yes,2026-11-03
+US,Software,Service or topic,help desk software,47.52,5400,yes,may be cut off,85,3,pcmag.com helpdesk.com en.wikipedia.org,yes,2026-11-03
+US,Software,Service or topic,hr software,32.35,14800,yes,may be cut off,91,3,forbes.com reddit.com bamboohr.com,yes,2026-11-03
+US,Software,Service or topic,inventory management software,25.65,9900,yes,may be cut off,81,3,reddit.com forbes.com inflowinventory.com,yes,2026-11-03
+US,Software,Service or topic,payroll software,50.14,27100,yes,may be cut off,75,3,paycom.com patriotsoftware.com quickbooks.intuit.com,yes,2026-11-03
+US,Software,Service or topic,pos system,14.00,33100,yes,may be cut off,83,3,squareup.com investopedia.com,yes,2026-11-03
+US,Software,Service or topic,project management software,19.40,90500,yes,may be cut off,75,5,en.wikipedia.org icagile.com zapier.com youtube.com,yes,2026-11-03
+US,Marketing services,Service or topic,dental marketing agency,27.65,3600,yes,full,342,3,wonderistagency.com identitydental.com crimsonmediagroup.com,yes,2026-11-03
+US,Marketing services,Service or topic,digital marketing agency,8.15,74000,yes,full,200,3,armanino.com wisitech.com careerfoundry.com,yes,2026-11-03
+US,Marketing services,Service or topic,facebook ads agency,67.73,5400,yes,full,360,0,,no,2026-11-03
+US,Marketing services,Service or topic,google ads agency,45.44,9900,yes,may be cut off,79,3,coalitiontechnologies.com youtube.com,yes,2026-11-03
+US,Marketing services,Service or topic,google ads management,228.10,4400,yes,may be cut off,107,2,reddit.com clicksgeek.com,yes,2026-11-03
+US,Marketing services,Service or topic,law firm marketing agency,46.67,3600,yes,full,365,3,hennessey.com milemarkmedia.com lexreception.com,no,2026-11-03
+US,Marketing services,Service or topic,lead generation companies,22.49,4400,no,,0,0,,yes,2026-11-03
+US,Marketing services,Service or topic,lead generation services,17.88,6600,yes,may be cut off,102,2,reddit.com upwork.com,yes,2026-11-03
+US,Marketing services,Service or topic,marketing agency,7.47,40500,yes,full,271,3,darkroomagency.com yesandagency.com teamlewis.com,yes,2026-11-03
+US,Marketing services,Service or topic,ppc agency,46.56,14800,yes,may be cut off,109,3,ppc.co metadata.io agencies.semrush.com,yes,2026-11-03
+US,Marketing services,Service or topic,ppc management,95.27,9900,yes,may be cut off,92,3,bigcommerce.com reddit.com searchbloom.com,yes,2026-11-03
+US,Marketing services,Service or topic,real estate marketing agency,9.06,1600,yes,full,260,3,blinkmarketingagency.com housingwire.com morrismarketinggroup.com,yes,2026-11-03
+US,Marketing services,Service or topic,white label marketing,10.11,1300,yes,full,374,3,hubxpert.com salespype.com wordoutmediaagency.com,yes,2026-11-03
+US,Marketing services,Service or topic,white label ppc,14.28,1900,yes,may be cut off,112,3,reddit.com clicksgeek.com ppc.co,yes,2026-11-03
+US,Marketing services,Service or topic,white label seo,18.94,8100,yes,may be cut off,116,3,reddit.com seoreseller.com fatjoe.com,yes,2026-11-03
+US,Home services,Urgent,24 hour ac repair,38.11,8100,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,24 hour electrician,20.02,12100,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,24 hour garage door repair,41.72,1600,no,,0,0,,no,2026-11-03
+US,Home services,Urgent,24 hour locksmith,6.02,6600,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,24 hour plumber,38.30,22200,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,ac company,36.66,8100,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,ac installation,14.56,74000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,ac repair,27.85,201000,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,ac repair near me,29.67,201000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,ac replacement,15.08,49500,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,ac replacement cost,6.29,5400,yes,may be cut off,84,3,trane.com carrier.com bryant.com,yes,2026-11-03
+US,Home services,Service or topic,air conditioner repair,31.18,60500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,ant exterminator,12.32,18100,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,bed bug treatment,6.30,27100,yes,may be cut off,105,3,mayoclinic.org epa.gov aad.org,yes,2026-11-03
+US,Home services,Cost question,bed bug treatment cost,6.34,2900,yes,full,345,3,convectex.com perfect-pest.com ratexterminatornyc.com,yes,2026-11-03
+US,Home services,Service or topic,broken garage door spring,20.99,3600,yes,may be cut off,122,2,youtube.com,yes,2026-11-03
+US,Home services,Urgent,burst pipe repair,26.50,4400,yes,full,193,2,greenwellservice.com facebook.com,yes,2026-11-03
+US,Home services,Urgent,burst pipe water damage,17.42,320,yes,full,330,3,holycityhvac.com abacusplumbing.com facebook.com,yes,2026-11-03
+US,Home services,Urgent,car lockout,5.01,1900,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,car locksmith near me,4.61,14800,yes,full,183,2,yelp.com valuesignaturelocksmith.com,yes,2026-11-03
+US,Home services,Service or topic,ceiling fan installation,5.75,49500,yes,may be cut off,101,3,youtube.com hunterfan.com,yes,2026-11-03
+US,Home services,Service or topic,circuit breaker replacement,3.80,27100,yes,may be cut off,111,3,youtube.com,yes,2026-11-03
+US,Home services,Service or topic,clogged drain,23.73,110000,yes,may be cut off,136,3,youtube.com,yes,2026-11-03
+US,Home services,Service or topic,commercial roofing,26.63,60500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,drain cleaning,15.70,201000,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,drain cleaning near me,24.70,201000,yes,full,190,3,rotorooter.com angi.com familyfirstplumbingnc.com,yes,2026-11-03
+US,Home services,Service or topic,electrical company,20.68,3600,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,electrical contractor,12.18,14800,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,electrical contractor near me,12.07,8100,yes,full,315,2,networx.com homeguide.com,yes,2026-11-03
+US,Home services,Urgent,electrical emergency,17.94,2400,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,electrical panel replacement,8.12,9900,yes,full,261,3,caudills.com nerdwallet.com tradesmanelectric.com,yes,2026-11-03
+US,Home services,Cost question,electrical panel upgrade cost,6.76,1300,yes,may be cut off,87,3,homes.rewiringamerica.org facebook.com caudills.com,yes,2026-11-03
+US,Home services,Service or topic,electrical repair,15.64,27100,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,electrical repair near me,17.35,14800,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,electrical troubleshooting,6.47,2900,yes,may be cut off,85,3,highland-electric.com skillcatapp.com youtube.com,yes,2026-11-03
+US,Home services,Service or topic,electrician,18.45,450000,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,electrician cost,4.55,720,yes,full,243,3,reddit.com fuseservice.com tablemountainelectric.com,yes,2026-11-03
+US,Home services,Near me,electrician near me,16.25,301000,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,emergency ac repair,41.45,33100,yes,full,36,0,,yes,2026-11-03
+US,Home services,Urgent,emergency electrician,21.57,33100,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,emergency furnace repair,18.20,6600,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,emergency garage door repair,47.82,90500,yes,full,271,3,overheadonline.com clopaydoor.com garagedoorservicesokc.com,yes,2026-11-03
+US,Home services,Urgent,emergency hvac repair,33.30,14800,yes,full,371,3,anthonyphc.com aireserv.com onehourheatandair.com,yes,2026-11-03
+US,Home services,Urgent,emergency locksmith,6.62,6600,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,emergency pest control,20.91,3600,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,emergency plumber,43.65,246000,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,emergency plumbing,43.65,165000,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,emergency roof repair,32.45,14800,yes,full,345,3,rooftoprelief.com championroofing.com tulsaprotech.com,yes,2026-11-03
+US,Home services,Urgent,emergency water damage restoration,66.23,3600,yes,full,314,3,atirestoration.com restoration1.com affordablewaterrestoration.com,yes,2026-11-03
+US,Home services,Service or topic,ev charger installation,11.16,40500,yes,full,324,3,unityservices.team allstar-electric.org octopusev.com,yes,2026-11-03
+US,Home services,Cost question,ev charger installation cost,4.27,2400,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,exterminator,16.92,165000,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,exterminator cost,5.91,4400,yes,full,250,3,reddit.com orkin.com thumbtack.com,yes,2026-11-03
+US,Home services,Near me,exterminator near me,18.49,135000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,flat roof repair,20.14,9900,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,flat roof replacement,18.81,5400,yes,may be cut off,109,3,youtube.com reddit.com,yes,2026-11-03
+US,Home services,Service or topic,flood cleanup,33.14,3600,yes,full,344,3,youtube.com angi.com lonestarproservices.com,yes,2026-11-03
+US,Home services,Service or topic,furnace repair,20.76,165000,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,furnace repair near me,19.69,165000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,furnace replacement,10.09,110000,yes,full,324,3,carrier.com youtube.com trane.com,yes,2026-11-03
+US,Home services,Cost question,furnace replacement cost,5.16,9900,yes,full,241,3,bryant.com youtube.com angi.com,yes,2026-11-03
+US,Home services,Service or topic,garage door company,26.29,135000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,garage door installation,16.32,246000,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,garage door installation near me,15.30,135000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,garage door opener installation,15.34,22200,yes,full,271,3,youtube.com homedepot.com,yes,2026-11-03
+US,Home services,Service or topic,garage door opener repair,23.11,18100,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,garage door repair,32.34,165000,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,garage door repair near me,28.34,110000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,garage door replacement,13.88,27100,yes,full,65,0,,yes,2026-11-03
+US,Home services,Cost question,garage door replacement cost,6.29,8100,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,garage door service,25.41,22200,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,garage door spring repair,26.15,14800,yes,may be cut off,127,3,youtube.com,yes,2026-11-03
+US,Home services,Cost question,garage door spring replacement cost,11.99,14800,yes,may be cut off,97,3,youtube.com facebook.com,yes,2026-11-03
+US,Home services,Service or topic,generator installation,9.81,60500,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,generator installation cost,5.63,1000,yes,may be cut off,182,3,reddit.com homedepot.com generac.com,yes,2026-11-03
+US,Home services,Service or topic,hail damage roof repair,35.99,3600,yes,full,299,0,,yes,2026-11-03
+US,Home services,Cost question,heat pump cost,2.94,4400,yes,full,255,3,homes.rewiringamerica.org bryant.com energysage.com,yes,2026-11-03
+US,Home services,Service or topic,heat pump installation,14.03,40500,yes,full,542,3,youtube.com,yes,2026-11-03
+US,Home services,Service or topic,heat pump repair,22.24,49500,yes,full,14,0,,yes,2026-11-03
+US,Home services,Service or topic,heating and cooling,21.69,90500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,hvac company,19.50,60500,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,hvac company near me,26.87,49500,yes,full,148,2,bbb.org reliableair.com,yes,2026-11-03
+US,Home services,Service or topic,hvac contractor,17.69,33100,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,hvac installation,18.28,135000,yes,full,326,3,youtube.com georgiahvac.com,yes,2026-11-03
+US,Home services,Cost question,hvac installation cost,6.64,2900,yes,full,240,3,reddit.com lowes.com americanstandardair.com,yes,2026-11-03
+US,Home services,Near me,hvac near me,21.12,110000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,hvac repair,30.91,135000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,leak repair,22.06,3600,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,lock change,7.98,1000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,lock installation,5.96,880,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,lock repair,5.70,1600,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,locked out of house,5.66,2400,yes,may be cut off,131,3,youtube.com adt.com,yes,2026-11-03
+US,Home services,Service or topic,locksmith,5.87,246000,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,locksmith cost,2.98,2400,yes,full,269,3,thumbtack.com 702-locksmith.com eufy.com,yes,2026-11-03
+US,Home services,Near me,locksmith near me,5.76,301000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,locksmith services,5.80,8100,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,metal roof cost,5.22,9900,yes,full,296,3,reddit.com nerdwallet.com youtube.com,yes,2026-11-03
+US,Home services,Service or topic,metal roof installation,11.05,14800,yes,may be cut off,112,3,youtube.com,yes,2026-11-03
+US,Home services,Service or topic,mold remediation,16.48,165000,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,mold remediation cost,7.73,6600,yes,full,334,3,bullfrogwaterproofing.com youtube.com homeguide.com,yes,2026-11-03
+US,Home services,Near me,mold removal near me,14.97,74000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,mosquito control,6.20,49500,yes,full,302,3,entomology.ces.ncsu.edu solutionsstores.com mmcd.org,yes,2026-11-03
+US,Home services,Service or topic,new ac unit,4.54,5400,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,new ac unit cost,3.73,4400,yes,full,287,3,lowes.com carrier.com bryant.com,yes,2026-11-03
+US,Home services,Service or topic,new garage door,7.20,6600,yes,full,46,0,,yes,2026-11-03
+US,Home services,Cost question,new garage door cost,4.34,4400,yes,full,240,3,homedepot.com alansfactoryoutlet.com appledoor.com,yes,2026-11-03
+US,Home services,Service or topic,new roof,20.27,9900,yes,full,455,3,consumerreports.org homedepot.com roofingcalculator.com,yes,2026-11-03
+US,Home services,Cost question,new roof cost,6.37,9900,yes,full,256,3,youtube.com roofmedic.com,yes,2026-11-03
+US,Home services,Service or topic,outlet repair,10.51,1900,yes,full,313,3,angi.com hometips.com reliableair.com,yes,2026-11-03
+US,Home services,Service or topic,panel upgrade,9.65,3600,yes,full,283,3,reddit.com homes.rewiringamerica.org youtube.com,yes,2026-11-03
+US,Home services,Service or topic,pest control company,15.54,22200,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,pest control cost,5.91,5400,yes,full,290,3,reddit.com orkin.com defenderpest.com,yes,2026-11-03
+US,Home services,Near me,pest control near me,18.49,201000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,pest control services,14.84,60500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,plumber,29.50,673000,yes,full,45,0,,yes,2026-11-03
+US,Home services,Cost question,plumber cost,7.88,1600,yes,full,239,3,ruccioil.com cpiservice.com calltripleplay.com,yes,2026-11-03
+US,Home services,Near me,plumber near me,23.72,550000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,plumbing company,27.94,135000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,plumbing contractor,22.33,8100,yes,full,54,0,,yes,2026-11-03
+US,Home services,Near me,plumbing near me,23.72,40500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,plumbing repair,22.01,90500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,plumbing services,25.63,110000,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,rekey cost,5.87,110,yes,full,247,3,reddit.com youtube.com yelp.com,yes,2026-11-03
+US,Home services,Service or topic,rekey locks,5.22,2900,yes,may be cut off,108,3,homedepot.com frontrangelocksmith.com bobvila.com,yes,2026-11-03
+US,Home services,Cost question,repipe cost,32.42,480,yes,full,248,3,fuseservice.com birminghambenjaminfranklin.com actioncraftexperts.com,yes,2026-11-03
+US,Home services,Service or topic,repipe house,33.01,320,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,residential electrician,14.55,18100,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,restoration company,24.38,27100,yes,full,215,0,,yes,2026-11-03
+US,Home services,Cost question,rewiring a house cost,3.82,210,yes,may be cut off,118,3,fuseservice.com amerisave.com superfastelectric.com,yes,2026-11-03
+US,Home services,Service or topic,rodent control,15.38,49500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,roof leak,18.86,4400,yes,full,355,3,blog.nationwide.com nrcia.org brothersservices.com,yes,2026-11-03
+US,Home services,Service or topic,roof leak repair,22.70,22200,yes,full,112,3,youtube.com lowes.com,yes,2026-11-03
+US,Home services,Service or topic,roof repair,24.38,110000,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,roof repair cost,9.15,8100,yes,full,207,3,squaredash.com angi.com roofmaxx.com,yes,2026-11-03
+US,Home services,Near me,roof repair near me,26.47,90500,yes,full,210,3,m.yelp.com coutoconstruction.com capitalroofcompany.com,yes,2026-11-03
+US,Home services,Service or topic,roof replacement,26.92,74000,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,roof replacement cost,8.58,27100,yes,full,280,3,roofingcalculator.com nerdwallet.com youtube.com,yes,2026-11-03
+US,Home services,Near me,roof replacement near me,29.29,22200,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,roofers,17.57,27100,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,roofers near me,26.83,74000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,roofing company,29.52,74000,no,,0,0,,no,2026-11-03
+US,Home services,Near me,roofing company near me,29.73,49500,yes,full,221,0,,yes,2026-11-03
+US,Home services,Service or topic,roofing contractor,20.09,90500,no,,0,0,,yes,2026-11-03
+US,Home services,Urgent,same day pest control,27.91,1900,yes,full,63,0,,yes,2026-11-03
+US,Home services,Service or topic,sewer line repair,20.93,90500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,sewer line replacement,19.61,12100,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,sewer line replacement cost,10.33,2900,yes,full,383,3,youtube.com fourseasonsheatingcooling.com,yes,2026-11-03
+US,Home services,Service or topic,shingle repair,16.26,4400,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,shingle roof replacement,11.85,4400,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,smart lock installation,6.64,1300,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,storm damage roof repair,20.86,9900,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,tankless water heater cost,1.71,22200,yes,may be cut off,76,3,reddit.com noble-plumbing.com homedepot.com,yes,2026-11-03
+US,Home services,Service or topic,tankless water heater installation,12.21,60500,yes,may be cut off,120,3,youtube.com,yes,2026-11-03
+US,Home services,Near me,termite inspection near me,21.45,12100,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,termite treatment,10.82,60500,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,termite treatment cost,6.13,6600,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,water damage cleanup,34.53,22200,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,water damage repair,35.98,60500,no,,0,0,,yes,2026-11-03
+US,Home services,Near me,water damage repair near me,42.91,60500,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,water damage restoration,46.30,165000,yes,full,72,0,,yes,2026-11-03
+US,Home services,Service or topic,water damage restoration company,56.00,27100,no,,0,0,,yes,2026-11-03
+US,Home services,Cost question,water damage restoration cost,21.61,1000,yes,full,312,3,servpro.com angi.com palmbld.com,yes,2026-11-03
+US,Home services,Near me,water damage restoration near me,42.36,165000,no,,0,0,,yes,2026-11-03
+US,Home services,Service or topic,water heater installation,17.21,165000,yes,full,301,3,youtube.com,yes,2026-11-03
+US,Home services,Service or topic,water heater repair,33.11,201000,yes,full,48,0,,yes,2026-11-03
+US,Home services,Near me,water heater repair near me,22.86,135000,yes,full,159,2,rotorooter.com stedmansplumbing.com,yes,2026-11-03
+US,Home services,Service or topic,water heater replacement,17.62,301000,yes,full,319,3,homedepot.com holycityhvac.com,yes,2026-11-03
+US,Home services,Cost question,water heater replacement cost,6.44,27100,yes,full,282,3,youtube.com lowes.com fuseservice.com,yes,2026-11-03
+US,Home services,Service or topic,whole house generator,2.57,22200,yes,may be cut off,103,3,reddit.com homedepot.com consumerreports.org,yes,2026-11-03
+US,Finance,Service or topic,best credit cards,6.55,673000,yes,may be cut off,108,3,reddit.com nerdwallet.com youtube.com,yes,2026-11-03
+US,Finance,Service or topic,credit repair,8.01,27100,no,,0,0,,yes,2026-11-03
+US,Finance,Service or topic,debt consolidation loans,32.37,22200,yes,may be cut off,111,3,experian.com discover.com wellsfargo.com,yes,2026-11-03
+US,Finance,Near me,financial advisor near me,12.06,110000,no,,0,0,,yes,2026-11-03
+US,Finance,Service or topic,home equity loan,22.33,135000,yes,may be cut off,116,3,consumerfinance.gov usbank.com cusocal.org,yes,2026-11-03
+US,Finance,Service or topic,mortgage rates,1.97,550000,yes,full,146,2,wsj.com housingwire.com,yes,2026-11-03
+US,Finance,Service or topic,personal loans,10.93,673000,yes,full,310,3,onemainfinancial.com sofi.com discover.com,yes,2026-11-03
+US,Finance,Service or topic,refinance rates,5.73,1220000,yes,may be cut off,62,2,bankrate.com navyfederal.org,yes,2026-11-03
+US,Finance,Service or topic,small business loans,20.57,1220000,yes,full,274,0,,yes,2026-11-03
+US,Finance,Near me,tax preparation near me,4.84,49500,no,,0,0,,yes,2026-11-03
+US,Education,Service or topic,cdl training,2.06,33100,no,,0,0,,yes,2026-11-03
+US,Education,Service or topic,coding bootcamp,5.45,368000,yes,may be cut off,82,3,reddit.com careerkarma.com computerscience.org,yes,2026-11-03
+US,Education,Service or topic,data science course,6.50,5400,yes,may be cut off,66,3,reddit.com coursera.org pll.harvard.edu,yes,2026-11-03
+US,Education,Service or topic,nursing programs,15.91,14800,yes,full,274,3,goodwin.edu allnurses.com,yes,2026-11-03
+US,Education,Service or topic,online degree programs,19.77,27100,yes,full,238,3,baker.edu rowan.edu usnews.com,yes,2026-11-03
+US,Education,Service or topic,online high school,9.81,9900,yes,full,225,3,excelhighschool.com onlinehighschool.stanford.edu acellusacademy.com,yes,2026-11-03
+US,Education,Service or topic,online mba,19.84,22200,yes,may be cut off,104,3,mba.utdallas.edu mba.wsu.edu biz.colostate.edu,yes,2026-11-03
+US,Education,Service or topic,real estate license,1.96,40500,yes,full,237,3,youtube.com colibrirealestate.com,yes,2026-11-03
+US,Education,Service or topic,truck driving school,2.12,18100,no,,0,0,,yes,2026-11-03
+US,Dental,Near me,affordable dentist near me,7.09,8100,no,,0,0,,yes,2026-11-03
+US,Dental,Service or topic,all on 4 dental implants,10.72,90500,yes,full,314,3,aspendental.com carecredit.com en.wikipedia.org,yes,2026-11-03
+US,Dental,Service or topic,braces,5.83,301000,yes,full,231,3,my.clevelandclinic.org aaoinfo.org carecredit.com,yes,2026-11-03
+US,Dental,Near me,braces near me,7.86,33100,yes,full,248,2,naplesmoderndentistry.com freemanortho.com,yes,2026-11-03
+US,Dental,Near me,cosmetic dentist near me,6.26,60500,no,,0,0,,yes,2026-11-03
+US,Dental,Service or topic,dental cleaning,6.67,22200,no,,0,0,,yes,2026-11-03
+US,Dental,Near me,dental cleaning near me,7.33,74000,yes,full,185,0,,yes,2026-11-03
+US,Dental,Service or topic,dental crown,6.39,246000,yes,may be cut off,100,3,my.clevelandclinic.org healthline.com medlineplus.gov,yes,2026-11-03
+US,Dental,Cost question,dental crown cost,3.98,8100,yes,full,220,3,deltadental.com goodrx.com carecredit.com,yes,2026-11-03
+US,Dental,Service or topic,dental implants,9.80,450000,no,,0,0,,yes,2026-11-03
+US,Dental,Cost question,dental implants cost,6.14,90500,yes,full,338,3,thedentalexpress.com clearchoice.com bluediamondental.com,yes,2026-11-03
+US,Dental,Near me,dental implants near me,17.88,135000,yes,full,254,0,,yes,2026-11-03
+US,Dental,Service or topic,dentist,8.06,368000,no,,0,0,,yes,2026-11-03
+US,Dental,Near me,dentist near me,8.30,1000000,no,,0,0,,yes,2026-11-03
+US,Dental,Service or topic,dentures,4.62,201000,yes,may be cut off,112,3,my.clevelandclinic.org webmd.com mouthhealthy.org,yes,2026-11-03
+US,Dental,Near me,dentures near me,6.76,90500,no,,0,0,,yes,2026-11-03
+US,Dental,Urgent,emergency dentist,6.86,135000,no,,0,0,,yes,2026-11-03
+US,Dental,Near me,emergency dentist near me,6.52,165000,yes,full,162,2,aspendental.com baystate-dental.com,yes,2026-11-03
+US,Dental,Service or topic,full mouth dental implants,11.60,110000,yes,full,412,3,perio.org aspendental.com clearchoice.com,yes,2026-11-03
+US,Dental,Service or topic,gum disease treatment,1.53,90500,yes,full,370,3,jama.jamanetwork.com ncbi.nlm.nih.gov perio.org,yes,2026-11-03
+US,Dental,Service or topic,invisalign,4.68,450000,yes,may be cut off,90,0,,yes,2026-11-03
+US,Dental,Cost question,invisalign cost,3.23,74000,yes,full,226,3,invisalign.com freemanortho.com,yes,2026-11-03
+US,Dental,Near me,invisalign near me,10.78,135000,yes,full,447,0,,yes,2026-11-03
+US,Dental,Near me,orthodontist near me,8.95,110000,no,,0,0,,yes,2026-11-03
+US,Dental,Service or topic,pediatric dentist,6.59,90500,no,,0,0,,yes,2026-11-03
+US,Dental,Near me,pediatric dentist near me,6.52,110000,no,,0,0,,yes,2026-11-03
+US,Dental,Service or topic,porcelain veneers,4.40,27100,yes,full,281,5,myocdentist.com timothyelderdds.com gotoapro.org app.nexhealth.com zocdoc.com,yes,2026-11-03
+US,Dental,Service or topic,root canal,5.64,246000,yes,may be cut off,102,3,aae.org mayoclinic.org deltadental.com,yes,2026-11-03
+US,Dental,Cost question,root canal cost,4.36,74000,yes,full,223,3,deltadental.com carecredit.com aspendental.com,yes,2026-11-03
+US,Dental,Urgent,same day dental implants,19.34,8100,yes,full,382,3,blog.ddslab.com dentalassociates.com premierdentalcenter.com,yes,2026-11-03
+US,Dental,Service or topic,sedation dentistry,5.06,14800,yes,full,285,3,finedentistryorlando.com mykidsdds.com germantownadvanceddentistry.com,yes,2026-11-03
+US,Dental,Service or topic,teeth whitening,2.95,368000,yes,may be cut off,92,3,hopkinsmedicine.org rejuv-health.com colgate.com,yes,2026-11-03
+US,Dental,Near me,teeth whitening near me,4.27,90500,no,,0,0,,yes,2026-11-03
+US,Dental,Service or topic,tooth extraction,6.25,165000,yes,full,485,3,my.clevelandclinic.org webmd.com medlineplus.gov,yes,2026-11-03
+US,Dental,Service or topic,veneers,4.28,301000,yes,full,277,3,my.clevelandclinic.org webmd.com en.wikipedia.org,yes,2026-11-03
+US,Dental,Cost question,veneers cost,2.60,74000,yes,full,210,3,briggsfamilydental.com smilegeneration.com rankmydentist.com,yes,2026-11-03
+US,Dental,Service or topic,wisdom teeth removal,5.61,201000,yes,full,328,3,www1.deltadentalins.com progrin.com venturaoralsurgery.com,yes,2026-11-03
+US,Med spa,Near me,botox near me,4.11,90500,no,,0,0,,yes,2026-11-03
+US,Med spa,Near me,chemical peel near me,2.59,12100,no,,0,0,,yes,2026-11-03
+US,Med spa,Service or topic,coolsculpting,3.76,40500,yes,full,378,3,coolsculpting.com goodrx.com dermatouchrn.com,yes,2026-11-03
+US,Med spa,Service or topic,dermal fillers,2.57,27100,yes,full,295,3,my.clevelandclinic.org fda.gov americanboardcosmeticsurgery.org,yes,2026-11-03
+US,Med spa,Near me,hydrafacial near me,3.08,27100,no,,0,0,,yes,2026-11-03
+US,Med spa,Near me,laser hair removal near me,15.06,60500,no,,0,0,,yes,2026-11-03
+US,Med spa,Near me,lip filler near me,3.76,22200,no,,0,0,,yes,2026-11-03
+US,Med spa,Near me,med spa near me,4.07,40500,no,,0,0,,yes,2026-11-03
+US,Med spa,Near me,microneedling near me,2.93,27100,yes,full,204,3,mystiquemedicalspa.com arlingtonvaderm.com radiance-well.com,yes,2026-11-03
+US,Med spa,Near me,semaglutide near me,23.45,6600,no,,0,0,,no,2026-11-03
+US,Real estate,Service or topic,apartments for rent,0.85,673000,yes,full,169,0,,yes,2026-11-03
+US,Real estate,Near me,best realtor near me,11.72,5400,no,,0,0,,yes,2026-11-03
+US,Real estate,Service or topic,buyers agent,9.67,1900,yes,full,224,3,youtube.com,yes,2026-11-03
+US,Real estate,Service or topic,commercial real estate,0.96,90500,yes,full,206,3,investopedia.com globalrealassets.georgetown.edu har.com,yes,2026-11-03
+US,Real estate,Service or topic,condos for sale,0.34,90500,yes,full,171,3,zillow.com realtor.com redfin.com,yes,2026-11-03
+US,Real estate,Service or topic,first time home buyer,3.34,22200,yes,full,211,3,usa.gov nerdwallet.com newamericanfunding.com,yes,2026-11-03
+US,Real estate,Service or topic,home value estimator,2.27,40500,yes,full,228,0,,yes,2026-11-03
+US,Real estate,Service or topic,homes for sale,0.48,450000,yes,full,171,2,redfin.com zillow.com,no,2026-11-03
+US,Real estate,Near me,houses for rent near me,0.46,368000,yes,full,202,3,trulia.com zillow.com homes.com,yes,2026-11-03
+US,Real estate,Near me,houses for sale near me,0.35,550000,yes,full,121,2,redfin.com homes.com,no,2026-11-03
+US,Real estate,Cost question,how much is my house worth,2.81,18100,yes,full,155,0,,yes,2026-11-03
+US,Real estate,Service or topic,investment property,3.75,4400,yes,full,209,3,investopedia.com usbank.com freedommortgage.com,yes,2026-11-03
+US,Real estate,Service or topic,listing agent,13.21,2900,yes,full,265,3,usrealtytraining.com youtube.com,yes,2026-11-03
+US,Real estate,Service or topic,new construction homes,2.73,33100,yes,full,239,3,reddit.com rocketmortgage.com akhomeshow.com,no,2026-11-03
+US,Real estate,Service or topic,property management companies,5.62,14800,no,,0,0,,yes,2026-11-03
+US,Real estate,Service or topic,real estate agent,8.00,135000,no,,0,0,,yes,2026-11-03
+US,Real estate,Near me,real estate agent near me,9.44,49500,yes,full,71,0,,yes,2026-11-03
+US,Real estate,Service or topic,real estate company,3.43,5400,yes,full,187,3,sunyocc.edu m.yelp.com nexford.edu,yes,2026-11-03
+US,Real estate,Near me,realtor near me,7.30,27100,no,,0,0,,yes,2026-11-03
+US,Real estate,Service or topic,sell my house,69.29,18100,yes,full,228,3,veteransunited.com storespace.com okcpropertybuyers.com,yes,2026-11-03
+US,Real estate,Service or topic,sell my house fast,37.60,40500,yes,full,307,3,reddit.com sellmyhousefast.com youtube.com,no,2026-11-03
+US,Real estate,Service or topic,we buy houses,40.68,33100,no,,0,0,,yes,2026-11-03
+US,Ecommerce,Product,dog food,7.89,301000,yes,may be cut off,109,3,chewy.com lifesabundance.com petmd.com,yes,2026-11-03
+US,Ecommerce,Product,engagement rings,2.47,368000,no,,0,0,,yes,2026-11-03
+US,Ecommerce,Product,mattress,4.68,201000,yes,full,237,3,walmart.com costco.com homedepot.com,yes,2026-11-03
+US,Ecommerce,Product,office chair,1.87,135000,no,,0,0,,no,2026-11-03
+US,Ecommerce,Product,protein powder,1.14,1500000,no,,0,0,,yes,2026-11-03
+US,Ecommerce,Product,running shoes,0.76,246000,yes,may be cut off,88,3,runnersneed.com on.com runningwarehouse.com,no,2026-11-03
+US,Ecommerce,Product,skincare products,2.69,14800,yes,may be cut off,102,3,ulta.com dermstore.com target.com,yes,2026-11-03
+US,Ecommerce,Product,sofa,1.02,135000,yes,may be cut off,101,3,modani.com abbyson.com youtube.com,no,2026-11-03
+US,Ecommerce,Product,standing desk,2.28,110000,yes,may be cut off,111,0,,no,2026-11-03
+US,Ecommerce,Product,wireless earbuds,0.90,90500,yes,may be cut off,79,3,amazon.com bestbuy.com nbcnews.com,yes,2026-11-03
+UK,Legal,Service or topic,business lawyer,6.63,673000,yes,full,192,3,lawsociety.org.uk law.ac.uk irwinmitchell.com,yes,2026-11-03
+UK,Legal,Service or topic,car accident lawyer,186.31,1000000,yes,full,193,3,national-accident-helpline.co.uk sillslegal.co.uk irwinmitchell.com,yes,2026-11-03
+UK,Legal,Service or topic,criminal defense lawyer,19.56,1220000,yes,full,151,2,eventumlegal.co.uk lexvindicogroup.com,yes,2026-11-03
+UK,Legal,Service or topic,divorce lawyer,10.88,1000000,yes,full,202,3,co-oplegalservices.co.uk lawsociety.org.uk stowefamilylaw.co.uk,yes,2026-11-03
+UK,Legal,Service or topic,employment lawyer,5.89,450000,no,,0,0,,yes,2026-11-03
+UK,Legal,Service or topic,family lawyer,9.09,823000,yes,full,75,0,,yes,2026-11-03
+UK,Legal,Service or topic,immigration lawyer,11.36,673000,no,,0,0,,yes,2026-11-03
+UK,Legal,Service or topic,medical malpractice lawyer,9.05,1220000,yes,full,36,0,,yes,2026-11-03
+UK,Legal,Service or topic,personal injury lawyer,112.69,1000000,yes,full,233,4,lawsociety.org.uk osborneslaw.com citizensadvice.org.uk anthonycollins.com,yes,2026-11-03
+UK,Legal,Service or topic,real estate lawyer,3.95,1220000,no,,0,0,,yes,2026-11-03
+UK,Insurance,Quote request,auto insurance quotes,84.02,301000,yes,may be cut off,117,3,comparethemarket.com lv.com moneysupermarket.com,no,2026-11-03
+UK,Insurance,Service or topic,business insurance,39.38,165000,yes,may be cut off,118,3,axa.co.uk companieshouse.blog.gov.uk comparethemarket.com,yes,2026-11-03
+UK,Insurance,Quote request,car insurance quotes,75.60,1830000,yes,may be cut off,76,3,comparethemarket.com gocompare.com moneysupermarket.com,yes,2026-11-03
+UK,Insurance,Service or topic,cheap car insurance,46.80,301000,yes,may be cut off,137,3,moneysupermarket.com gocompare.com confused.com,no,2026-11-03
+UK,Insurance,Service or topic,health insurance plans,6.67,74000,yes,may be cut off,100,3,comparethemarket.com bupa.co.uk axahealth.co.uk,yes,2026-11-03
+UK,Insurance,Quote request,home insurance quotes,66.47,135000,yes,may be cut off,84,3,comparethemarket.com moneysupermarket.com aviva.co.uk,yes,2026-11-03
+UK,Insurance,Near me,insurance agent near me,17.24,40500,yes,full,202,0,,yes,2026-11-03
+UK,Insurance,Quote request,life insurance quotes,31.50,40500,yes,may be cut off,83,3,comparethemarket.com aviva.co.uk moneysupermarket.com,yes,2026-11-03
+UK,Insurance,Service or topic,term life insurance,20.06,1500000,yes,may be cut off,106,2,moneysupermarket.com aviva.co.uk,yes,2026-11-03
+UK,Software,Service or topic,accounting software,32.08,110000,yes,may be cut off,71,3,sage.com accountingreviews.co.uk xero.com,yes,2026-11-03
+UK,Software,Service or topic,crm software,16.62,90500,yes,may be cut off,90,2,salesforce.com hubspot.com,yes,2026-11-03
+UK,Software,Service or topic,email marketing software,37.59,12100,yes,may be cut off,115,3,hubspot.com mailchimp.com youtube.com,yes,2026-11-03
+UK,Software,Service or topic,erp software,11.96,40500,yes,may be cut off,72,3,en.wikipedia.org oracle.com sage.com,yes,2026-11-03
+UK,Software,Service or topic,help desk software,47.52,5400,yes,may be cut off,91,3,pcmag.com spiceworks.com helpdesk.com,yes,2026-11-03
+UK,Software,Service or topic,hr software,32.35,14800,yes,full,225,3,sage.com breathehr.com capterra.co.uk,yes,2026-11-03
+UK,Software,Service or topic,inventory management software,25.65,9900,yes,may be cut off,85,3,reddit.com xero.com sage.com,yes,2026-11-03
+UK,Software,Service or topic,payroll software,50.14,27100,yes,may be cut off,103,3,gov.uk sage.com moneysoft.co.uk,yes,2026-11-03
+UK,Software,Service or topic,pos system,14.00,33100,yes,may be cut off,92,3,squareup.com eposnow.com sumup.com,yes,2026-11-03
+UK,Software,Service or topic,project management software,19.40,90500,yes,may be cut off,90,5,microsoft.com zapier.com en.wikipedia.org youtube.com,yes,2026-11-03
+UK,Marketing services,Service or topic,digital marketing agency,8.15,74000,yes,full,318,3,clutch.co careerfoundry.com wisitech.com,yes,2026-11-03
+UK,Marketing services,Service or topic,facebook ads agency,67.73,5400,yes,may be cut off,91,3,avidpanda.com disturbdigital.com telsamedia.com,no,2026-11-03
+UK,Marketing services,Service or topic,google ads agency,45.44,9900,yes,may be cut off,90,3,helloseed.co.uk trio-media.co.uk bunkerdigital.co.uk,yes,2026-11-03
+UK,Marketing services,Service or topic,google ads management,228.10,4400,yes,may be cut off,112,1,dpom.co.uk,yes,2026-11-03
+UK,Marketing services,Service or topic,lead generation companies,22.49,4400,yes,full,257,3,theleadgenerationcompany.co.uk leadgenspecialists.co.uk fatrank.com,yes,2026-11-03
+UK,Marketing services,Service or topic,lead generation services,17.88,6600,yes,may be cut off,92,3,leadgenspecialists.co.uk fatrank.com theleadgenerationcompany.co.uk,yes,2026-11-03
+UK,Marketing services,Service or topic,marketing agency,7.47,40500,yes,full,47,0,,yes,2026-11-03
+UK,Marketing services,Service or topic,ppc agency,46.56,14800,yes,full,280,3,colabmarketing.co.nz bolser.co.uk oxedent.co.uk,yes,2026-11-03
+UK,Marketing services,Service or topic,ppc management,95.27,9900,yes,may be cut off,109,3,ppcgeeks.co.uk uk.indeed.com bigcommerce.com,yes,2026-11-03
+UK,Marketing services,Service or topic,white label seo,18.94,8100,yes,may be cut off,107,3,fatjoe.com jamestaylorseo.co.uk whitelabelseo.com,yes,2026-11-03
+UK,Home services,Service or topic,clogged drain,23.73,110000,yes,may be cut off,136,3,youtube.com watersafe.org.uk wickes.co.uk,yes,2026-11-03
+UK,Home services,Service or topic,drain cleaning,15.70,201000,yes,full,320,3,jamesdrainssolutions.co.uk youtube.com checkatrade.com,yes,2026-11-03
+UK,Home services,Near me,drain cleaning near me,24.70,201000,yes,full,281,2,dasa.co.uk inspectadrain.co.uk,yes,2026-11-03
+UK,Home services,Service or topic,electrician,18.45,450000,no,,0,0,,yes,2026-11-03
+UK,Home services,Near me,electrician near me,16.25,301000,no,,0,0,,yes,2026-11-03
+UK,Home services,Urgent,emergency garage door repair,47.82,90500,yes,full,292,3,checkatrade.com youtube.com,yes,2026-11-03
+UK,Home services,Urgent,emergency plumber,43.65,246000,no,,0,0,,yes,2026-11-03
+UK,Home services,Urgent,emergency plumbing,43.65,165000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,exterminator,16.92,165000,yes,may be cut off,110,3,dictionary.cambridge.org fantasticpestcontrol.co.uk fantasticservices.com,yes,2026-11-03
+UK,Home services,Near me,exterminator near me,18.49,135000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,garage door company,26.29,135000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,garage door installation,16.32,246000,yes,full,292,3,garagedoorrescue.co.uk checkatrade.com twf-rollergaragedoors.co.uk,yes,2026-11-03
+UK,Home services,Near me,garage door installation near me,15.30,135000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,garage door repair,32.34,165000,no,,0,0,,no,2026-11-03
+UK,Home services,Near me,garage door repair near me,28.34,110000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,locksmith,5.87,246000,no,,0,0,,yes,2026-11-03
+UK,Home services,Near me,locksmith near me,5.76,301000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,mold remediation,16.48,165000,no,,0,0,,yes,2026-11-03
+UK,Home services,Near me,pest control near me,18.49,201000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,plumber,29.50,673000,yes,full,190,3,totalskills.co.uk emergencyplumber.london plumbcraft.net,yes,2026-11-03
+UK,Home services,Near me,plumber near me,23.72,550000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,plumbing company,27.94,135000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,plumbing services,25.63,110000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,roof repair,24.38,110000,no,,0,0,,yes,2026-11-03
+UK,Home services,Service or topic,water damage restoration,46.30,165000,yes,full,242,3,polygongroup.com waterdamage-repairs.co.uk mitti.com,yes,2026-11-03
+UK,Home services,Near me,water damage restoration near me,42.36,165000,yes,full,261,3,checkatrade.com waterdamage-repairs.co.uk rainbowrestoration.co.uk,yes,2026-11-03
+UK,Home services,Service or topic,water heater installation,17.21,165000,yes,may be cut off,131,3,youtube.com,yes,2026-11-03
+UK,Home services,Service or topic,water heater repair,33.11,201000,no,,0,0,,yes,2026-11-03
+UK,Home services,Near me,water heater repair near me,22.86,135000,yes,full,200,0,,yes,2026-11-03
+UK,Home services,Service or topic,water heater replacement,17.62,301000,no,,0,0,,yes,2026-11-03
+UK,Finance,Service or topic,best credit cards,6.55,673000,yes,may be cut off,119,3,moneysavingexpert.com reddit.com moneysupermarket.com,yes,2026-11-03
+UK,Finance,Service or topic,credit repair,8.01,27100,yes,may be cut off,128,3,experian.com reddit.com moneyboat.co.uk,yes,2026-11-03
+UK,Finance,Service or topic,debt consolidation loans,32.37,22200,yes,may be cut off,90,3,lendable.co.uk stepchange.org moneysupermarket.com,yes,2026-11-03
+UK,Finance,Near me,financial advisor near me,12.06,110000,no,,0,0,,yes,2026-11-03
+UK,Finance,Service or topic,personal loans,10.93,673000,yes,full,412,3,bank.marksandspencer.com nationwide.co.uk moneysupermarket.com,yes,2026-11-03
+UK,Finance,Service or topic,small business loans,20.57,1220000,yes,may be cut off,142,3,gov.uk lloydsbank.com natwest.com,yes,2026-11-03
+UK,Education,Service or topic,coding bootcamp,5.45,368000,yes,full,218,3,codeworks.me freecodecamp.org,no,2026-11-03
+UK,Education,Service or topic,data science course,6.50,5400,yes,full,196,3,reddit.com coursera.org lifelong-learning.ox.ac.uk,yes,2026-11-03
+UK,Education,Service or topic,online degree programs,19.77,27100,yes,full,196,3,london.ac.uk lse.ac.uk open.ac.uk,yes,2026-11-03
+UK,Education,Service or topic,online mba,19.84,22200,yes,full,213,3,durham.ac.uk business-school.ed.ac.uk birmingham.ac.uk,yes,2026-11-03
+UK,Dental,Service or topic,braces,5.83,301000,yes,full,281,3,nhs.uk my.clevelandclinic.org en.wikipedia.org,yes,2026-11-03
+UK,Dental,Service or topic,dental crown,6.39,246000,yes,may be cut off,93,3,my.clevelandclinic.org bupa.co.uk leedsth.nhs.uk,yes,2026-11-03
+UK,Dental,Service or topic,dental implants,9.80,450000,yes,full,319,3,en.wikipedia.org dentalhealth.org guysandstthomas.nhs.uk,yes,2026-11-03
+UK,Dental,Service or topic,dentist,8.06,368000,no,,0,0,,yes,2026-11-03
+UK,Dental,Near me,dentist near me,8.30,1000000,no,,0,0,,yes,2026-11-03
+UK,Dental,Service or topic,invisalign,4.68,450000,no,,0,0,,yes,2026-11-03
+UK,Dental,Service or topic,root canal,5.64,246000,yes,may be cut off,105,3,nhs.uk my.clevelandclinic.org healthline.com,yes,2026-11-03
+UK,Dental,Service or topic,teeth whitening,2.95,368000,yes,may be cut off,124,3,nhs.uk webmd.com bupa.co.uk,yes,2026-11-03
+UK,Dental,Service or topic,veneers,4.28,301000,no,,0,0,,yes,2026-11-03
+UK,Dental,Service or topic,wisdom teeth removal,5.61,201000,yes,may be cut off,97,3,nhs.uk nhsinform.scot bupa.co.uk,yes,2026-11-03
+UK,Med spa,Near me,botox near me,4.11,90500,no,,0,0,,yes,2026-11-03
+UK,Med spa,Near me,chemical peel near me,2.59,12100,yes,full,86,2,skinutrition.co.uk sknclinics.co.uk,yes,2026-11-03
+UK,Med spa,Service or topic,coolsculpting,3.76,40500,yes,full,323,3,coolsculpting.com webmd.com medicalnewstoday.com,yes,2026-11-03
+UK,Med spa,Service or topic,dermal fillers,2.57,27100,yes,full,282,3,my.clevelandclinic.org health.harvard.edu plasticsurgery.org,yes,2026-11-03
+UK,Med spa,Near me,hydrafacial near me,3.08,27100,yes,full,60,0,,yes,2026-11-03
+UK,Med spa,Near me,laser hair removal near me,15.06,60500,no,,0,0,,yes,2026-11-03
+UK,Med spa,Near me,lip filler near me,3.76,22200,no,,0,0,,yes,2026-11-03
+UK,Med spa,Near me,med spa near me,4.07,40500,no,,0,0,,no,2026-11-03
+UK,Med spa,Near me,microneedling near me,2.93,27100,no,,0,0,,yes,2026-11-03
+UK,Real estate,Service or topic,apartments for rent,0.85,673000,no,,0,0,,no,2026-11-03
+UK,Real estate,Service or topic,commercial real estate,0.96,90500,no,,0,0,,yes,2026-11-03
+UK,Real estate,Service or topic,home value estimator,2.27,40500,yes,may be cut off,99,0,,no,2026-11-03
+UK,Real estate,Service or topic,homes for sale,0.48,450000,yes,full,86,2,rightmove.co.uk savills.co.uk,no,2026-11-03
+UK,Real estate,Near me,houses for rent near me,0.46,368000,yes,full,144,0,,no,2026-11-03
+UK,Real estate,Near me,houses for sale near me,0.35,550000,yes,full,305,3,realtor.com zillow.com rubyhome.com,no,2026-11-03
+UK,Real estate,Service or topic,new construction homes,2.73,33100,yes,full,204,3,zoopla.co.uk berkeleygroup.co.uk taylorwimpey.co.uk,yes,2026-11-03
+UK,Real estate,Service or topic,real estate agent,8.00,135000,yes,full,184,3,realestateagent.co.uk savills.co.uk foxtons.co.uk,yes,2026-11-03
+UK,Real estate,Near me,real estate agent near me,9.44,49500,no,,0,0,,yes,2026-11-03
+UK,Real estate,Service or topic,sell my house fast,37.60,40500,no,,0,0,,yes,2026-11-03
+UK,Ecommerce,Product,dog food,7.89,301000,yes,may be cut off,107,3,pet-supermarket.co.uk allaboutdogfood.co.uk lilyskitchen.co.uk,yes,2026-11-03
+UK,Ecommerce,Product,engagement rings,2.47,368000,yes,may be cut off,92,3,beaverbrooks.co.uk warrenjames.co.uk ernestjones.co.uk,yes,2026-11-03
+UK,Ecommerce,Product,mattress,4.68,201000,yes,may be cut off,108,3,dreams.co.uk mattressonline.co.uk johnlewis.com,yes,2026-11-03
+UK,Ecommerce,Product,office chair,1.87,135000,no,,0,0,,no,2026-11-03
+UK,Ecommerce,Product,protein powder,1.14,1500000,yes,full,228,3,myprotein.com theproteinworks.com youtube.com,yes,2026-11-03
+UK,Ecommerce,Product,running shoes,0.76,246000,no,,0,0,,no,2026-11-03
+UK,Ecommerce,Product,skincare products,2.69,14800,yes,may be cut off,109,3,kiehls.co.uk theguardian.com no7beauty.co.uk,yes,2026-11-03
+UK,Ecommerce,Product,sofa,1.02,135000,no,,0,0,,no,2026-11-03
+UK,Ecommerce,Product,standing desk,2.28,110000,no,,0,0,,yes,2026-11-03
+UK,Ecommerce,Product,wireless earbuds,0.90,90500,yes,full,250,1,whatsthebest.co.uk,yes,2026-11-03
+Canada,Legal,Service or topic,business lawyer,6.63,673000,no,,0,0,,yes,2026-11-03
+Canada,Legal,Service or topic,car accident lawyer,186.31,1000000,no,,0,0,,yes,2026-11-03
+Canada,Legal,Service or topic,criminal defense lawyer,19.56,1220000,no,,0,0,,yes,2026-11-03
+Canada,Legal,Service or topic,divorce lawyer,10.88,1000000,no,,0,0,,yes,2026-11-03
+Canada,Legal,Service or topic,employment lawyer,5.89,450000,yes,full,181,3,monkhouselaw.com bowriveremploymentlaw.com stlawyers.ca,yes,2026-11-03
+Canada,Legal,Service or topic,family lawyer,9.09,823000,yes,full,211,3,northpointlegal.ca ranacharif.ca alglawyers.ca,yes,2026-11-03
+Canada,Legal,Service or topic,immigration lawyer,11.36,673000,no,,0,0,,yes,2026-11-03
+Canada,Legal,Service or topic,medical malpractice lawyer,9.05,1220000,yes,full,331,3,medicalmalpractice.ca mckenzielake.com mcleishorlando.com,yes,2026-11-03
+Canada,Legal,Service or topic,personal injury lawyer,112.69,1000000,no,,0,0,,yes,2026-11-03
+Canada,Legal,Service or topic,real estate lawyer,3.95,1220000,no,,0,0,,yes,2026-11-03
+Canada,Insurance,Quote request,auto insurance quotes,84.02,301000,yes,full,125,2,allstate.ca rates.ca,no,2026-11-03
+Canada,Insurance,Service or topic,business insurance,39.38,165000,yes,full,258,3,caaneo.ca acera.ca brokerlink.ca,yes,2026-11-03
+Canada,Insurance,Quote request,car insurance quotes,75.60,1830000,yes,full,177,2,lowestrates.ca rates.ca,yes,2026-11-03
+Canada,Insurance,Service or topic,cheap car insurance,46.80,301000,yes,full,255,3,lowestrates.ca rbcinsurance.com pcinsurance.ca,no,2026-11-03
+Canada,Insurance,Service or topic,health insurance plans,6.67,74000,yes,full,257,3,sunlife.ca canada.ca coverme.com,yes,2026-11-03
+Canada,Insurance,Quote request,home insurance quotes,66.47,135000,yes,full,198,3,rbcinsurance.com allstate.ca quoting.cooperators.ca,yes,2026-11-03
+Canada,Insurance,Near me,insurance agent near me,17.24,40500,no,,0,0,,yes,2026-11-03
+Canada,Insurance,Quote request,life insurance quotes,31.50,40500,yes,full,220,3,ratehub.ca sunlife.ca rbcinsurance.com,yes,2026-11-03
+Canada,Insurance,Service or topic,term life insurance,20.06,1500000,yes,may be cut off,128,3,canadalife.com sunlife.ca tdinsurance.com,yes,2026-11-03
+Canada,Software,Service or topic,accounting software,32.08,110000,yes,may be cut off,94,2,quickbooks.intuit.com pcmag.com,yes,2026-11-03
+Canada,Software,Service or topic,crm software,16.62,90500,yes,may be cut off,88,3,salesforce.com microsoft.com g2.com,yes,2026-11-03
+Canada,Software,Service or topic,email marketing software,37.59,12100,yes,may be cut off,86,2,mailchimp.com youtube.com,yes,2026-11-03
+Canada,Software,Service or topic,erp software,11.96,40500,yes,may be cut off,86,3,oracle.com zapier.com bdc.ca,yes,2026-11-03
+Canada,Software,Service or topic,help desk software,47.52,5400,yes,may be cut off,104,3,reddit.com spiceworks.com atlassian.com,yes,2026-11-03
+Canada,Software,Service or topic,hr software,32.35,14800,yes,may be cut off,87,3,forbes.com bamboohr.com collage.co,yes,2026-11-03
+Canada,Software,Service or topic,inventory management software,25.65,9900,yes,may be cut off,77,3,forbes.com reddit.com squareup.com,yes,2026-11-03
+Canada,Software,Service or topic,payroll software,50.14,27100,yes,may be cut off,87,3,wagepoint.com sage.com equalpaytoday.org,yes,2026-11-03
+Canada,Software,Service or topic,pos system,14.00,33100,yes,may be cut off,107,3,squareup.com investopedia.com,yes,2026-11-03
+Canada,Software,Service or topic,project management software,19.40,90500,yes,may be cut off,76,4,bdc.ca en.wikipedia.org zapier.com youtube.com,yes,2026-11-03
+Canada,Marketing services,Service or topic,digital marketing agency,8.15,74000,yes,full,251,3,skylarmedia.ca mediaforce.ca makeitbloom.com,yes,2026-11-03
+Canada,Marketing services,Service or topic,facebook ads agency,67.73,5400,yes,full,233,3,facebook.com mediaforce.ca metadata.io,no,2026-11-03
+Canada,Marketing services,Service or topic,google ads agency,45.44,9900,yes,may be cut off,96,3,reddit.com clutch.co coalitiontechnologies.com,yes,2026-11-03
+Canada,Marketing services,Service or topic,google ads management,228.10,4400,yes,may be cut off,115,0,,yes,2026-11-03
+Canada,Marketing services,Service or topic,lead generation companies,22.49,4400,yes,full,294,3,martal.ca agencies.semrush.com belkins.io,yes,2026-11-03
+Canada,Marketing services,Service or topic,lead generation services,17.88,6600,yes,full,215,3,reddit.com martal.ca callboxinc.com,yes,2026-11-03
+Canada,Marketing services,Service or topic,marketing agency,7.47,40500,yes,full,201,0,,yes,2026-11-03
+Canada,Marketing services,Service or topic,ppc agency,46.56,14800,yes,full,263,3,mediaforce.ca colabmarketing.co.nz,yes,2026-11-03
+Canada,Marketing services,Service or topic,ppc management,95.27,9900,yes,full,250,3,bigcommerce.com giantcreative.ca indeed.com,yes,2026-11-03
+Canada,Marketing services,Service or topic,white label seo,18.94,8100,yes,may be cut off,97,3,whitelabelseo.com seoresellerscanada.ca reddit.com,yes,2026-11-03
+Canada,Home services,Service or topic,clogged drain,23.73,110000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,drain cleaning,15.70,201000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Near me,drain cleaning near me,24.70,201000,yes,full,283,3,brewersewer.com mrrooter.ca lewplumbing.com,yes,2026-11-03
+Canada,Home services,Service or topic,electrician,18.45,450000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Near me,electrician near me,16.25,301000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Urgent,emergency garage door repair,47.82,90500,yes,full,219,3,calgaryoverhead.ca doormaster.ca oakviewgaragedoors.ca,yes,2026-11-03
+Canada,Home services,Urgent,emergency plumber,43.65,246000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Urgent,emergency plumbing,43.65,165000,yes,full,299,3,callcopperline.ca sabtechplumbing.ca plumberbrampton.ca,yes,2026-11-03
+Canada,Home services,Service or topic,exterminator,16.92,165000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Near me,exterminator near me,18.49,135000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,garage door company,26.29,135000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,garage door installation,16.32,246000,yes,full,214,3,home.howstuffworks.com stores.homedepot.ca manitobadoors.com,yes,2026-11-03
+Canada,Home services,Near me,garage door installation near me,15.30,135000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,garage door repair,32.34,165000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Near me,garage door repair near me,28.34,110000,yes,full,182,3,manitobadoors.com overheaddoorwinnipeg.ca mrgaragedoors.ca,yes,2026-11-03
+Canada,Home services,Service or topic,locksmith,5.87,246000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Near me,locksmith near me,5.76,301000,yes,full,54,0,,yes,2026-11-03
+Canada,Home services,Service or topic,mold remediation,16.48,165000,yes,full,241,3,epa.gov rivercityenvironmental.ca 4seasonsinsulation.ca,yes,2026-11-03
+Canada,Home services,Near me,pest control near me,18.49,201000,yes,full,194,3,orkincanada.ca rentokil.com tradesc.ca,yes,2026-11-03
+Canada,Home services,Service or topic,plumber,29.50,673000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Near me,plumber near me,23.72,550000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,plumbing company,27.94,135000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,plumbing services,25.63,110000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,roof repair,24.38,110000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,water damage restoration,46.30,165000,yes,full,295,3,homedepot.com belfor.com onside.ca,yes,2026-11-03
+Canada,Home services,Near me,water damage restoration near me,42.36,165000,yes,full,150,1,pauldavis.ca,yes,2026-11-03
+Canada,Home services,Service or topic,water heater installation,17.21,165000,yes,full,356,3,youtube.com homedepot.ca,yes,2026-11-03
+Canada,Home services,Service or topic,water heater repair,33.11,201000,yes,full,365,3,hoerner.ca youtube.com donerightredandwhite.com,yes,2026-11-03
+Canada,Home services,Near me,water heater repair near me,22.86,135000,no,,0,0,,yes,2026-11-03
+Canada,Home services,Service or topic,water heater replacement,17.62,301000,yes,full,321,3,homedepot.ca furnaceguys.com flowright.ca,yes,2026-11-03
+Canada,Finance,Service or topic,best credit cards,6.55,673000,yes,may be cut off,118,3,ratehub.ca rates.ca,no,2026-11-03
+Canada,Finance,Service or topic,credit repair,8.01,27100,yes,full,276,3,equifax.com experian.com stepstojustice.ca,yes,2026-11-03
+Canada,Finance,Service or topic,debt consolidation loans,32.37,22200,yes,may be cut off,97,3,rbcroyalbank.com canada.ca fairstone.ca,yes,2026-11-03
+Canada,Finance,Near me,financial advisor near me,12.06,110000,no,,0,0,,yes,2026-11-03
+Canada,Finance,Service or topic,personal loans,10.93,673000,yes,full,208,3,cnbc.com onemainfinancial.com experian.com,yes,2026-11-03
+Canada,Finance,Service or topic,small business loans,20.57,1220000,yes,full,356,3,driven.ca bankrate.com sba.gov,yes,2026-11-03
+Canada,Education,Service or topic,coding bootcamp,5.45,368000,yes,full,226,3,reddit.com forbes.com codeworks.me,no,2026-11-03
+Canada,Education,Service or topic,data science course,6.50,5400,yes,may be cut off,98,3,reddit.com learn.utoronto.ca watspeed.uwaterloo.ca,yes,2026-11-03
+Canada,Education,Service or topic,online degree programs,19.77,27100,yes,full,159,2,athabascau.ca bestdegreeprograms.org,yes,2026-11-03
+Canada,Education,Service or topic,online mba,19.84,22200,yes,full,286,3,online.unb.ca usnews.com youtube.com,yes,2026-11-03
+Canada,Dental,Service or topic,braces,5.83,301000,no,,0,0,,yes,2026-11-03
+Canada,Dental,Service or topic,dental crown,6.39,246000,yes,may be cut off,92,3,my.clevelandclinic.org healthline.com cda-adc.ca,yes,2026-11-03
+Canada,Dental,Service or topic,dental implants,9.80,450000,yes,full,177,3,queenstreetdental.ca winnipegperiodontalgroup.com coquitlamcentredental.com,yes,2026-11-03
+Canada,Dental,Service or topic,dentist,8.06,368000,yes,full,183,3,my.clevelandclinic.org uhc.com healthcareers.nhs.uk,yes,2026-11-03
+Canada,Dental,Near me,dentist near me,8.30,1000000,no,,0,0,,no,2026-11-03
+Canada,Dental,Service or topic,invisalign,4.68,450000,yes,may be cut off,103,2,invisalign.ca invisalign.com,yes,2026-11-03
+Canada,Dental,Service or topic,root canal,5.64,246000,yes,may be cut off,107,3,aae.org my.clevelandclinic.org health.harvard.edu,yes,2026-11-03
+Canada,Dental,Service or topic,teeth whitening,2.95,368000,yes,full,261,3,healthline.com cda-adc.ca webmd.com,yes,2026-11-03
+Canada,Dental,Service or topic,veneers,4.28,301000,yes,full,282,3,wortleyroaddental.com swishoralcare.ca oralvie.com,yes,2026-11-03
+Canada,Dental,Service or topic,wisdom teeth removal,5.61,201000,yes,full,324,3,my.clevelandclinic.org mayoclinic.org healthlinkbc.ca,yes,2026-11-03
+Canada,Med spa,Near me,botox near me,4.11,90500,yes,full,245,0,,yes,2026-11-03
+Canada,Med spa,Near me,chemical peel near me,2.59,12100,yes,full,374,1,thecliniccompass.com,yes,2026-11-03
+Canada,Med spa,Service or topic,coolsculpting,3.76,40500,yes,full,319,3,coolsculpting.com ca.coolsculpting.com mcpress.mayoclinic.org,yes,2026-11-03
+Canada,Med spa,Service or topic,dermal fillers,2.57,27100,yes,full,48,0,,yes,2026-11-03
+Canada,Med spa,Near me,hydrafacial near me,3.08,27100,no,,0,0,,yes,2026-11-03
+Canada,Med spa,Near me,laser hair removal near me,15.06,60500,no,,0,0,,yes,2026-11-03
+Canada,Med spa,Near me,lip filler near me,3.76,22200,no,,0,0,,yes,2026-11-03
+Canada,Med spa,Near me,med spa near me,4.07,40500,yes,full,182,2,medspafind.com,yes,2026-11-03
+Canada,Med spa,Near me,microneedling near me,2.93,27100,no,,0,0,,yes,2026-11-03
+Canada,Real estate,Service or topic,apartments for rent,0.85,673000,yes,full,133,2,rentfaster.ca rentcafe.com,no,2026-11-03
+Canada,Real estate,Service or topic,commercial real estate,0.96,90500,yes,full,177,0,,yes,2026-11-03
+Canada,Real estate,Service or topic,home value estimator,2.27,40500,yes,full,198,0,,no,2026-11-03
+Canada,Real estate,Service or topic,homes for sale,0.48,450000,yes,full,104,2,search.2realty.ca mb.cyrocero.ca,no,2026-11-03
+Canada,Real estate,Near me,houses for rent near me,0.46,368000,yes,full,174,3,realtor.ca zolo.ca rentfaster.ca,no,2026-11-03
+Canada,Real estate,Near me,houses for sale near me,0.35,550000,yes,full,168,0,,no,2026-11-03
+Canada,Real estate,Service or topic,new construction homes,2.73,33100,yes,full,252,0,,yes,2026-11-03
+Canada,Real estate,Service or topic,real estate agent,8.00,135000,yes,full,176,3,stjeanrealty.com agentinottawa.com zillow.com,yes,2026-11-03
+Canada,Real estate,Near me,real estate agent near me,9.44,49500,yes,full,47,0,,yes,2026-11-03
+Canada,Real estate,Service or topic,sell my house fast,37.60,40500,yes,full,192,2,youtube.com maverick-capital.ca,yes,2026-11-03
+Canada,Ecommerce,Product,dog food,7.89,301000,no,,0,0,,yes,2026-11-03
+Canada,Ecommerce,Product,engagement rings,2.47,368000,no,,0,0,,yes,2026-11-03
+Canada,Ecommerce,Product,mattress,4.68,201000,no,,0,0,,yes,2026-11-03
+Canada,Ecommerce,Product,office chair,1.87,135000,yes,full,207,0,,no,2026-11-03
+Canada,Ecommerce,Product,protein powder,1.14,1500000,yes,may be cut off,100,3,costco.ca canadianprotein.com premierprotein.ca,yes,2026-11-03
+Canada,Ecommerce,Product,running shoes,0.76,246000,yes,may be cut off,104,2,sportchek.ca runrepeat.com,yes,2026-11-03
+Canada,Ecommerce,Product,skincare products,2.69,14800,yes,may be cut off,109,3,walmart.ca kiehls.ca lancome.ca,yes,2026-11-03
+Canada,Ecommerce,Product,sofa,1.02,135000,yes,full,213,0,,no,2026-11-03
+Canada,Ecommerce,Product,standing desk,2.28,110000,yes,may be cut off,90,3,flexispot.ca reddit.com ikea.com,no,2026-11-03
+Canada,Ecommerce,Product,wireless earbuds,0.90,90500,no,,0,0,,yes,2026-11-03
+Australia,Legal,Service or topic,business lawyer,6.63,673000,yes,full,152,2,odvjetnica-kasum.hr tmip.hr,yes,2026-11-03
+Australia,Legal,Service or topic,car accident lawyer,186.31,1000000,no,,0,0,,yes,2026-11-03
+Australia,Legal,Service or topic,criminal defense lawyer,19.56,1220000,yes,full,245,3,sydneycriminallawyers.com.au criminaldefencelawyers.com.au,yes,2026-11-03
+Australia,Legal,Service or topic,divorce lawyer,10.88,1000000,yes,full,227,3,kellylawyers.com.au randletaylor.com.au legalaid.vic.gov.au,yes,2026-11-03
+Australia,Legal,Service or topic,employment lawyer,5.89,450000,yes,full,194,3,legalaid.nsw.gov.au gordonlegal.com.au mauriceblackburn.com.au,yes,2026-11-03
+Australia,Legal,Service or topic,family lawyer,9.09,823000,no,,0,0,,yes,2026-11-03
+Australia,Legal,Service or topic,immigration lawyer,11.36,673000,no,,0,0,,yes,2026-11-03
+Australia,Legal,Service or topic,medical malpractice lawyer,9.05,1220000,yes,full,43,0,,yes,2026-11-03
+Australia,Legal,Service or topic,personal injury lawyer,112.69,1000000,yes,full,239,3,slatergordon.com.au thepersonalinjurylawyers.com.au johnstonwithers.com.au,yes,2026-11-03
+Australia,Legal,Service or topic,real estate lawyer,3.95,1220000,yes,full,191,3,therealestatelawyer.com.au propertylawyersmelbourne.net.au pigott.com.au,yes,2026-11-03
+Australia,Insurance,Quote request,auto insurance quotes,84.02,301000,yes,full,264,3,canstar.com.au budgetdirect.com.au insurance.everyday.com.au,no,2026-11-03
+Australia,Insurance,Service or topic,business insurance,39.38,165000,yes,full,213,3,business.gov.au allianz.com.au comparethemarket.com.au,yes,2026-11-03
+Australia,Insurance,Quote request,car insurance quotes,75.60,1830000,yes,full,305,0,,yes,2026-11-03
+Australia,Insurance,Service or topic,cheap car insurance,46.80,301000,yes,full,291,3,bingle.com.au comparethemarket.com.au allianz.com.au,yes,2026-11-03
+Australia,Insurance,Service or topic,health insurance plans,6.67,74000,yes,full,298,3,canstar.com.au westfund.com.au health.gov.au,yes,2026-11-03
+Australia,Insurance,Quote request,home insurance quotes,66.47,135000,yes,full,197,3,seniors.com.au gio.com.au canstar.com.au,no,2026-11-03
+Australia,Insurance,Near me,insurance agent near me,17.24,40500,no,,0,0,,yes,2026-11-03
+Australia,Insurance,Quote request,life insurance quotes,31.50,40500,yes,may be cut off,93,3,tal.com.au comparethemarket.com.au aami.com.au,yes,2026-11-03
+Australia,Insurance,Service or topic,term life insurance,20.06,1500000,yes,may be cut off,134,3,canstar.com.au moneysmart.gov.au nobleoak.com.au,yes,2026-11-03
+Australia,Software,Service or topic,accounting software,32.08,110000,yes,may be cut off,95,3,reckon.com myob.com xero.com,yes,2026-11-03
+Australia,Software,Service or topic,crm software,16.62,90500,yes,may be cut off,80,3,salesforce.com hubspot.com capterra.com.au,yes,2026-11-03
+Australia,Software,Service or topic,email marketing software,37.59,12100,yes,may be cut off,90,3,hubspot.com salesforce.com mailchimp.com,yes,2026-11-03
+Australia,Software,Service or topic,erp software,11.96,40500,yes,may be cut off,87,3,en.wikipedia.org valueadders.com.au myob.com,yes,2026-11-03
+Australia,Software,Service or topic,help desk software,47.52,5400,yes,may be cut off,111,3,reddit.com spiceworks.com helpdesk.com,yes,2026-11-03
+Australia,Software,Service or topic,hr software,32.35,14800,yes,may be cut off,110,3,employmenthero.com workit.com.au elmosoftware.com.au,yes,2026-11-03
+Australia,Software,Service or topic,inventory management software,25.65,9900,yes,may be cut off,94,3,forbes.com xero.com unleashedsoftware.com,yes,2026-11-03
+Australia,Software,Service or topic,payroll software,50.14,27100,yes,may be cut off,86,3,myob.com reckon.com employmenthero.com,yes,2026-11-03
+Australia,Software,Service or topic,pos system,14.00,33100,yes,may be cut off,99,3,squareup.com jbhifi.com.au arielle.com.au,yes,2026-11-03
+Australia,Software,Service or topic,project management software,19.40,90500,yes,may be cut off,115,4,reddit.com zapier.com icagile.com youtube.com,yes,2026-11-03
+Australia,Marketing services,Service or topic,digital marketing agency,8.15,74000,yes,may be cut off,96,3,justdigitalmarketing.com.au e-digital.com.au sparro.com.au,no,2026-11-03
+Australia,Marketing services,Service or topic,facebook ads agency,67.73,5400,yes,may be cut off,116,3,soupagency.com.au onlinemarketinggurus.com.au mojodojo.io,no,2026-11-03
+Australia,Marketing services,Service or topic,google ads agency,45.44,9900,yes,may be cut off,102,0,,no,2026-11-03
+Australia,Marketing services,Service or topic,google ads management,228.10,4400,yes,may be cut off,96,2,dilate.com.au cliqmc.com.au,yes,2026-11-03
+Australia,Marketing services,Service or topic,lead generation companies,22.49,4400,no,,0,0,,yes,2026-11-03
+Australia,Marketing services,Service or topic,lead generation services,17.88,6600,yes,may be cut off,105,3,leadgeneration.com.au moneysmart.gov.au forrestcontact.com.au,yes,2026-11-03
+Australia,Marketing services,Service or topic,marketing agency,7.47,40500,no,,0,0,,yes,2026-11-03
+Australia,Marketing services,Service or topic,ppc agency,46.56,14800,yes,may be cut off,104,3,payperclick.net.au jbedigital.com.au clickclickmedia.com.au,yes,2026-11-03
+Australia,Marketing services,Service or topic,ppc management,95.27,9900,yes,may be cut off,100,3,impressive.com.au ardigitalsolutions.com.au dnmdigital.com.au,yes,2026-11-03
+Australia,Marketing services,Service or topic,white label seo,18.94,8100,yes,may be cut off,93,3,dnmdigital.com.au kiaoradigital.com.au youtube.com,yes,2026-11-03
+Australia,Home services,Service or topic,clogged drain,23.73,110000,yes,full,227,3,reddit.com youtube.com bunnings.com.au,yes,2026-11-03
+Australia,Home services,Service or topic,drain cleaning,15.70,201000,yes,full,326,3,bunnings.com.au plumbcoperth.com.au mitre10.com.au,yes,2026-11-03
+Australia,Home services,Near me,drain cleaning near me,24.70,201000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,electrician,18.45,450000,yes,full,207,3,jobsandskills.gov.au yourcareer.gov.au jimselectrical.com.au,yes,2026-11-03
+Australia,Home services,Near me,electrician near me,16.25,301000,yes,full,198,3,sarroselectrical.com.au jimselectrical.com.au hipages.com.au,yes,2026-11-03
+Australia,Home services,Urgent,emergency garage door repair,47.82,90500,yes,full,287,3,ptdoors.com.au youtube.com sydneygaragedoorrepair.com.au,yes,2026-11-03
+Australia,Home services,Urgent,emergency plumber,43.65,246000,yes,full,319,3,fallonsolutions.com.au bellplumbing.com.au metropolitanplumbing.com.au,yes,2026-11-03
+Australia,Home services,Urgent,emergency plumbing,43.65,165000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,exterminator,16.92,165000,yes,full,156,2,the99people.com.au cooperpest.com,yes,2026-11-03
+Australia,Home services,Near me,exterminator near me,18.49,135000,yes,full,107,2,byfordpestcontrol.com.au rentokil.com,yes,2026-11-03
+Australia,Home services,Service or topic,garage door company,26.29,135000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,garage door installation,16.32,246000,yes,full,211,3,youtube.com,yes,2026-11-03
+Australia,Home services,Near me,garage door installation near me,15.30,135000,yes,full,180,3,garagedoorbrisbane.au tradeheroes.com.au localsearch.com.au,yes,2026-11-03
+Australia,Home services,Service or topic,garage door repair,32.34,165000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Near me,garage door repair near me,28.34,110000,yes,full,274,3,bnd.com.au airtasker.com goodtogogarages.com.au,yes,2026-11-03
+Australia,Home services,Service or topic,locksmith,5.87,246000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Near me,locksmith near me,5.76,301000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,mold remediation,16.48,165000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Near me,pest control near me,18.49,201000,yes,full,193,3,flick.com.au berwickpestcontrol.com.au attackpestcontrol.com.au,yes,2026-11-03
+Australia,Home services,Service or topic,plumber,29.50,673000,yes,full,205,3,southeastwater.com.au bpc.vic.gov.au reddit.com,yes,2026-11-03
+Australia,Home services,Near me,plumber near me,23.72,550000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,plumbing company,27.94,135000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,plumbing services,25.63,110000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,roof repair,24.38,110000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,water damage restoration,46.30,165000,yes,full,236,3,mitti.com perthrestorationservices.com.au,yes,2026-11-03
+Australia,Home services,Near me,water damage restoration near me,42.36,165000,yes,full,118,0,,yes,2026-11-03
+Australia,Home services,Service or topic,water heater installation,17.21,165000,yes,full,443,3,youtube.com samedayhotwaterservice.com.au,yes,2026-11-03
+Australia,Home services,Service or topic,water heater repair,33.11,201000,yes,full,223,3,australianhotwater.com.au youtube.com,yes,2026-11-03
+Australia,Home services,Near me,water heater repair near me,22.86,135000,no,,0,0,,yes,2026-11-03
+Australia,Home services,Service or topic,water heater replacement,17.62,301000,yes,full,279,3,bunnings.com.au gasfriocalor.com servinec.com,yes,2026-11-03
+Australia,Finance,Service or topic,best credit cards,6.55,673000,yes,may be cut off,101,3,cardsandbanking.qantas.com canstar.com.au reddit.com,no,2026-11-03
+Australia,Finance,Service or topic,credit repair,8.01,27100,yes,full,44,0,,yes,2026-11-03
+Australia,Finance,Service or topic,debt consolidation loans,32.37,22200,yes,may be cut off,99,3,plenti.com.au commbank.com.au nab.com.au,yes,2026-11-03
+Australia,Finance,Near me,financial advisor near me,12.06,110000,yes,full,183,0,,yes,2026-11-03
+Australia,Finance,Service or topic,personal loans,10.93,673000,yes,may be cut off,97,3,moneysmart.gov.au canstar.com.au commbank.com.au,yes,2026-11-03
+Australia,Finance,Service or topic,small business loans,20.57,1220000,yes,full,207,3,business.gov.au bendigobank.com.au canstar.com.au,yes,2026-11-03
+Australia,Education,Service or topic,coding bootcamp,5.45,368000,no,,0,0,,yes,2026-11-03
+Australia,Education,Service or topic,data science course,6.50,5400,yes,may be cut off,117,3,reddit.com open.edu.au tafecourses.com.au,yes,2026-11-03
+Australia,Education,Service or topic,online degree programs,19.77,27100,yes,full,173,3,jcu.edu.au qut.edu.au online.qut.edu.au,no,2026-11-03
+Australia,Education,Service or topic,online mba,19.84,22200,yes,may be cut off,102,3,studyonline.uts.edu.au online.vu.edu.au aib.edu.au,yes,2026-11-03
+Australia,Dental,Service or topic,braces,5.83,301000,yes,may be cut off,105,3,my.clevelandclinic.org orthodonticsaustralia.org.au drclearaligners.au,yes,2026-11-03
+Australia,Dental,Service or topic,dental crown,6.39,246000,yes,full,298,3,extremedentistry.com.au dentistwestperth.com.au brightdentalgroup.com.au,yes,2026-11-03
+Australia,Dental,Service or topic,dental implants,9.80,450000,no,,0,0,,yes,2026-11-03
+Australia,Dental,Service or topic,dentist,8.06,368000,yes,full,264,2,uhc.com my.clevelandclinic.org,yes,2026-11-03
+Australia,Dental,Near me,dentist near me,8.30,1000000,yes,full,168,0,,yes,2026-11-03
+Australia,Dental,Service or topic,invisalign,4.68,450000,no,,0,0,,yes,2026-11-03
+Australia,Dental,Service or topic,root canal,5.64,246000,yes,may be cut off,117,3,healthdirect.gov.au my.clevelandclinic.org betterhealth.vic.gov.au,yes,2026-11-03
+Australia,Dental,Service or topic,teeth whitening,2.95,368000,yes,may be cut off,107,3,healthdirect.gov.au teeth.org.au hcf.com.au,yes,2026-11-03
+Australia,Dental,Service or topic,veneers,4.28,301000,yes,full,249,3,smileonperth.com.au thecaringbahdentists.com.au bexleydental.com.au,yes,2026-11-03
+Australia,Dental,Service or topic,wisdom teeth removal,5.61,201000,yes,full,261,3,healthdirect.gov.au mayoclinic.org bupadental.com.au,yes,2026-11-03
+Australia,Med spa,Near me,botox near me,4.11,90500,no,,0,0,,yes,2026-11-03
+Australia,Med spa,Near me,chemical peel near me,2.59,12100,no,,0,0,,yes,2026-11-03
+Australia,Med spa,Service or topic,coolsculpting,3.76,40500,no,,0,0,,yes,2026-11-03
+Australia,Med spa,Service or topic,dermal fillers,2.57,27100,no,,0,0,,yes,2026-11-03
+Australia,Med spa,Near me,hydrafacial near me,3.08,27100,no,,0,0,,yes,2026-11-03
+Australia,Med spa,Near me,laser hair removal near me,15.06,60500,no,,0,0,,yes,2026-11-03
+Australia,Med spa,Near me,lip filler near me,3.76,22200,no,,0,0,,yes,2026-11-03
+Australia,Med spa,Near me,med spa near me,4.07,40500,no,,0,0,,no,2026-11-03
+Australia,Med spa,Near me,microneedling near me,2.93,27100,no,,0,0,,yes,2026-11-03
+Australia,Real estate,Service or topic,apartments for rent,0.85,673000,no,,0,0,,no,2026-11-03
+Australia,Real estate,Service or topic,commercial real estate,0.96,90500,yes,full,198,0,,no,2026-11-03
+Australia,Real estate,Service or topic,home value estimator,2.27,40500,yes,full,167,0,,no,2026-11-03
+Australia,Real estate,Service or topic,homes for sale,0.48,450000,yes,full,100,2,onthehouse.com.au greengoldrealestate.com.au,no,2026-11-03
+Australia,Real estate,Near me,houses for rent near me,0.46,368000,yes,full,69,1,realestate.com.au,no,2026-11-03
+Australia,Real estate,Near me,houses for sale near me,0.35,550000,yes,full,89,0,,yes,2026-11-03
+Australia,Real estate,Service or topic,new construction homes,2.73,33100,yes,full,259,3,metricon.com.au coralhomes.com.au realestate.com.au,yes,2026-11-03
+Australia,Real estate,Service or topic,real estate agent,8.00,135000,yes,full,178,3,entryeducation.edu.au investopedia.com calibrerealestate.com.au,yes,2026-11-03
+Australia,Real estate,Near me,real estate agent near me,9.44,49500,no,,0,0,,no,2026-11-03
+Australia,Real estate,Service or topic,sell my house fast,37.60,40500,yes,full,324,3,propertynow.com.au youtube.com bombayre.com.au,no,2026-11-03
+Australia,Ecommerce,Product,dog food,7.89,301000,yes,may be cut off,111,3,en.wikipedia.org petcircle.com.au petbarn.com.au,yes,2026-11-03
+Australia,Ecommerce,Product,engagement rings,2.47,368000,yes,may be cut off,96,0,,yes,2026-11-03
+Australia,Ecommerce,Product,mattress,4.68,201000,yes,may be cut off,89,3,snooze.com.au eva.com.au au.koala.com,yes,2026-11-03
+Australia,Ecommerce,Product,office chair,1.87,135000,yes,may be cut off,124,3,kmart.com.au officeworks.com.au desky.com.au,no,2026-11-03
+Australia,Ecommerce,Product,protein powder,1.14,1500000,yes,may be cut off,97,2,trueprotein.com.au elitesupps.com.au,yes,2026-11-03
+Australia,Ecommerce,Product,running shoes,0.76,246000,yes,may be cut off,101,3,theathletesfoot.com.au au.hoka.com runningwarehouse.com.au,no,2026-11-03
+Australia,Ecommerce,Product,skincare products,2.69,14800,yes,may be cut off,82,3,dermalogica.com.au chemistwarehouse.com.au ocosmedics.com,yes,2026-11-03
+Australia,Ecommerce,Product,sofa,1.02,135000,yes,may be cut off,110,3,rjliving.com.au luxoliving.com.au plush.com.au,no,2026-11-03
+Australia,Ecommerce,Product,standing desk,2.28,110000,yes,may be cut off,92,3,theomnidesk.com.au ikea.com officeworks.com.au,yes,2026-11-03
+Australia,Ecommerce,Product,wireless earbuds,0.90,90500,yes,may be cut off,105,2,jbhifi.com.au harveynorman.com.au,yes,2026-11-03
