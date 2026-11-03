@@ -11,8 +11,11 @@
   gtag('js', new Date());
   gtag('config', ID);
 
+  /* gtag.js waits for the page to load (see mpLate in pixel.js); calls above queue in dataLayer. */
+  var src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
+  if (window.mpLate) { window.mpLate.load(src); return; }
   var s = document.createElement('script');
   s.async = true;
-  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
+  s.src = src;
   document.head.appendChild(s);
 })();

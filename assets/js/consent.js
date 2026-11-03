@@ -38,7 +38,16 @@
     window.MP_CONSENT = choice;
     try { localStorage.setItem(KEY, choice); } catch (e) {}
     gtag('consent', 'update', signals(choice));
-    if (typeof window.fbq === 'function') window.fbq('consent', choice === 'granted' ? 'grant' : 'revoke');
+    var fbq = window.fbq;
+    if (typeof fbq === 'function') {
+      if (choice === 'granted' && !fbq.callMethod && fbq.queue) {
+        /* fbevents.js has not loaded yet (it waits for page load). A queued grant would sit
+           behind the queued revoke and never be read, so drop the revoke instead. */
+        fbq.queue = fbq.queue.filter(function (a) { return !(a[0] === 'consent' && a[1] === 'revoke'); });
+      } else {
+        fbq('consent', choice === 'granted' ? 'grant' : 'revoke');
+      }
+    }
     var bar = document.getElementById('mp-consent');
     if (bar) bar.parentNode.removeChild(bar);
   }
