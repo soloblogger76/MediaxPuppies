@@ -1,0 +1,171 @@
+trade,intent_group,keyword,cpc_usd,monthly_searches_us,keyword_difficulty,competition,semrush_intent,collected
+HVAC,Emergency,emergency ac repair,41.45,33100,21,0.44,Comm,2026-11-03
+HVAC,Emergency,24 hour ac repair,38.11,8100,17,0.79,Comm,2026-11-03
+HVAC,Emergency,emergency hvac repair,33.30,14800,28,0.20,Comm,2026-11-03
+HVAC,Emergency,emergency furnace repair,18.20,6600,17,0.04,Comm,2026-11-03
+HVAC,Near me,ac repair near me,29.67,201000,50,0.71,Tran,2026-11-03
+HVAC,Near me,hvac company near me,26.87,49500,46,0.94,n,2026-11-03
+HVAC,Near me,hvac near me,21.12,110000,53,0.80,Tran,2026-11-03
+HVAC,Near me,furnace repair near me,19.69,165000,21,0.14,Tran,2026-11-03
+HVAC,Repair,air conditioner repair,31.18,60500,48,0.24,Comm,2026-11-03
+HVAC,Repair,hvac repair,30.91,135000,51,0.22,Comm,2026-11-03
+HVAC,Repair,ac repair,27.85,201000,45,0.19,Comm,2026-11-03
+HVAC,Repair,heat pump repair,22.24,49500,15,0.08,Comm,2026-11-03
+HVAC,Repair,furnace repair,20.76,165000,12,0.03,Comm,2026-11-03
+HVAC,Install or replace,hvac installation,18.28,135000,52,0.28,Comm,2026-11-03
+HVAC,Install or replace,ac replacement,15.08,49500,50,0.64,Comm,2026-11-03
+HVAC,Install or replace,ac installation,14.56,74000,47,0.26,n,2026-11-03
+HVAC,Install or replace,heat pump installation,14.03,40500,34,0.13,Info,2026-11-03
+HVAC,Install or replace,furnace replacement,10.09,110000,39,0.38,Comm,2026-11-03
+HVAC,Install or replace,new ac unit,4.54,5400,60,1.00,Navi,2026-11-03
+HVAC,Cost research,hvac installation cost,6.64,2900,30,0.32,Info,2026-11-03
+HVAC,Cost research,ac replacement cost,6.29,5400,29,0.75,n,2026-11-03
+HVAC,Cost research,furnace replacement cost,5.16,9900,41,0.54,Info,2026-11-03
+HVAC,Cost research,new ac unit cost,3.73,4400,37,0.97,Info,2026-11-03
+HVAC,Cost research,heat pump cost,2.94,4400,31,1.00,Info,2026-11-03
+HVAC,Company,ac company,36.66,8100,54,0.73,Comm,2026-11-03
+HVAC,Company,heating and cooling,21.69,90500,87,0.58,Comm,2026-11-03
+HVAC,Company,hvac company,19.50,60500,47,0.36,n,2026-11-03
+HVAC,Company,hvac contractor,17.69,33100,44,0.05,n,2026-11-03
+Plumbing,Emergency,emergency plumber,43.65,246000,16,0.21,Comm,2026-11-03
+Plumbing,Emergency,emergency plumbing,43.65,165000,16,0.21,Comm,2026-11-03
+Plumbing,Emergency,24 hour plumber,38.30,22200,15,0.37,Comm,2026-11-03
+Plumbing,Emergency,burst pipe repair,26.50,4400,15,0.15,Info,2026-11-03
+Plumbing,Near me,drain cleaning near me,24.70,201000,36,0.10,Tran,2026-11-03
+Plumbing,Near me,plumber near me,23.72,550000,52,0.62,n,2026-11-03
+Plumbing,Near me,plumbing near me,23.72,40500,53,0.62,Tran,2026-11-03
+Plumbing,Near me,water heater repair near me,22.86,135000,45,0.11,Tran,2026-11-03
+Plumbing,Repair,water heater repair,33.11,201000,35,0.17,Comm,2026-11-03
+Plumbing,Repair,clogged drain,23.73,110000,46,0.76,Comm,2026-11-03
+Plumbing,Repair,leak repair,22.06,3600,24,0.21,Info,2026-11-03
+Plumbing,Repair,plumbing repair,22.01,90500,26,0.26,Comm,2026-11-03
+Plumbing,Repair,sewer line repair,20.93,90500,26,0.15,Comm,2026-11-03
+Plumbing,Repair,drain cleaning,15.70,201000,30,0.74,Comm,2026-11-03
+Plumbing,Install or replace,repipe house,33.01,320,32,0.49,Info,2026-11-03
+Plumbing,Install or replace,sewer line replacement,19.61,12100,13,0.48,n,2026-11-03
+Plumbing,Install or replace,water heater replacement,17.62,301000,67,0.75,Comm,2026-11-03
+Plumbing,Install or replace,water heater installation,17.21,165000,54,0.11,Comm,2026-11-03
+Plumbing,Install or replace,tankless water heater installation,12.21,60500,30,0.24,Comm,2026-11-03
+Plumbing,Cost research,repipe cost,32.42,480,9,0.44,Info,2026-11-03
+Plumbing,Cost research,sewer line replacement cost,10.33,2900,18,0.30,Info,2026-11-03
+Plumbing,Cost research,plumber cost,7.88,1600,15,0.61,Info,2026-11-03
+Plumbing,Cost research,water heater replacement cost,6.44,27100,25,0.72,Info,2026-11-03
+Plumbing,Cost research,tankless water heater cost,1.71,22200,22,0.98,Info,2026-11-03
+Plumbing,Company,plumber,29.50,673000,69,0.16,Comm,2026-11-03
+Plumbing,Company,plumbing company,27.94,135000,41,0.36,Comm,2026-11-03
+Plumbing,Company,plumbing services,25.63,110000,30,0.13,Comm,2026-11-03
+Plumbing,Company,plumbing contractor,22.33,8100,22,0.29,Comm,2026-11-03
+Roofing,Emergency,hail damage roof repair,35.99,3600,24,0.04,Comm,2026-11-03
+Roofing,Emergency,emergency roof repair,32.45,14800,9,0.07,Comm,2026-11-03
+Roofing,Emergency,roof leak repair,22.70,22200,27,0.49,Comm,2026-11-03
+Roofing,Emergency,storm damage roof repair,20.86,9900,15,0.04,Info,2026-11-03
+Roofing,Near me,roofing company near me,29.73,49500,55,0.65,n,2026-11-03
+Roofing,Near me,roof replacement near me,29.29,22200,36,0.09,n,2026-11-03
+Roofing,Near me,roofers near me,26.83,74000,60,0.67,Tran,2026-11-03
+Roofing,Near me,roof repair near me,26.47,90500,22,0.47,Tran,2026-11-03
+Roofing,Repair,roof repair,24.38,110000,68,0.27,Comm,2026-11-03
+Roofing,Repair,flat roof repair,20.14,9900,13,0.31,Info,2026-11-03
+Roofing,Repair,roof leak,18.86,4400,38,0.54,Info,2026-11-03
+Roofing,Repair,shingle repair,16.26,4400,38,0.61,Info,2026-11-03
+Roofing,Install or replace,roof replacement,26.92,74000,78,0.22,Comm,2026-11-03
+Roofing,Install or replace,new roof,20.27,9900,73,0.34,Info,2026-11-03
+Roofing,Install or replace,flat roof replacement,18.81,5400,29,0.45,Comm,2026-11-03
+Roofing,Install or replace,shingle roof replacement,11.85,4400,60,0.48,n,2026-11-03
+Roofing,Install or replace,metal roof installation,11.05,14800,28,0.17,n,2026-11-03
+Roofing,Cost research,roof repair cost,9.15,8100,38,0.36,Info,2026-11-03
+Roofing,Cost research,roof replacement cost,8.58,27100,32,0.50,Info,2026-11-03
+Roofing,Cost research,new roof cost,6.37,9900,26,0.67,Info,2026-11-03
+Roofing,Cost research,metal roof cost,5.22,9900,25,0.85,Info,2026-11-03
+Roofing,Company,roofing company,29.52,74000,55,0.39,n,2026-11-03
+Roofing,Company,commercial roofing,26.63,60500,24,0.29,Comm,2026-11-03
+Roofing,Company,roofing contractor,20.09,90500,29,0.08,Comm,2026-11-03
+Roofing,Company,roofers,17.57,27100,66,0.23,Comm,2026-11-03
+Electrical,Emergency,emergency electrician,21.57,33100,23,0.28,Comm,2026-11-03
+Electrical,Emergency,24 hour electrician,20.02,12100,10,0.51,Comm,2026-11-03
+Electrical,Emergency,electrical emergency,17.94,2400,15,0.44,Info,2026-11-03
+Electrical,Near me,electrical repair near me,17.35,14800,5,0.32,n,2026-11-03
+Electrical,Near me,electrician near me,16.25,301000,30,0.77,Tran,2026-11-03
+Electrical,Near me,electrical contractor near me,12.07,8100,20,0.52,Tran,2026-11-03
+Electrical,Repair,electrical repair,15.64,27100,22,0.26,Comm,2026-11-03
+Electrical,Repair,outlet repair,10.51,1900,44,0.22,Info,2026-11-03
+Electrical,Repair,electrical troubleshooting,6.47,2900,25,0.13,n,2026-11-03
+Electrical,Repair,circuit breaker replacement,3.80,27100,34,0.44,Info,2026-11-03
+Electrical,Install or replace,ev charger installation,11.16,40500,46,0.38,Comm,2026-11-03
+Electrical,Install or replace,generator installation,9.81,60500,41,0.10,n,2026-11-03
+Electrical,Install or replace,panel upgrade,9.65,3600,37,0.17,Info,2026-11-03
+Electrical,Install or replace,electrical panel replacement,8.12,9900,40,0.62,Comm,2026-11-03
+Electrical,Install or replace,ceiling fan installation,5.75,49500,52,0.55,Info,2026-11-03
+Electrical,Install or replace,whole house generator,2.57,22200,34,1.00,n,2026-11-03
+Electrical,Cost research,electrical panel upgrade cost,6.76,1300,29,0.46,Info,2026-11-03
+Electrical,Cost research,generator installation cost,5.63,1000,34,0.30,Info,2026-11-03
+Electrical,Cost research,electrician cost,4.55,720,12,0.55,Info,2026-11-03
+Electrical,Cost research,ev charger installation cost,4.27,2400,32,0.40,Info,2026-11-03
+Electrical,Cost research,rewiring a house cost,3.82,210,32,0.42,Info,2026-11-03
+Electrical,Company,electrical company,20.68,3600,60,0.59,Comm,2026-11-03
+Electrical,Company,electrician,18.45,450000,50,0.31,Comm,2026-11-03
+Electrical,Company,residential electrician,14.55,18100,26,0.21,Comm,2026-11-03
+Electrical,Company,electrical contractor,12.18,14800,40,0.21,n,2026-11-03
+Garage door,Emergency,emergency garage door repair,47.82,90500,34,0.07,n,2026-11-03
+Garage door,Emergency,24 hour garage door repair,41.72,1600,21,0.81,Comm,2026-11-03
+Garage door,Near me,garage door repair near me,28.34,110000,42,0.42,Tran,2026-11-03
+Garage door,Near me,garage door installation near me,15.30,135000,50,0.13,Tran,2026-11-03
+Garage door,Repair,garage door repair,32.34,165000,49,0.34,Comm,2026-11-03
+Garage door,Repair,garage door spring repair,26.15,14800,47,0.23,Info,2026-11-03
+Garage door,Repair,garage door opener repair,23.11,18100,56,0.13,Comm,2026-11-03
+Garage door,Repair,broken garage door spring,20.99,3600,2,0.66,Info,2026-11-03
+Garage door,Install or replace,garage door installation,16.32,246000,41,0.43,Comm,2026-11-03
+Garage door,Install or replace,garage door opener installation,15.34,22200,54,0.47,n,2026-11-03
+Garage door,Install or replace,garage door replacement,13.88,27100,42,0.68,Comm,2026-11-03
+Garage door,Install or replace,new garage door,7.20,6600,40,1.00,Comm,2026-11-03
+Garage door,Cost research,garage door spring replacement cost,11.99,14800,42,0.45,Info,2026-11-03
+Garage door,Cost research,garage door replacement cost,6.29,8100,37,0.37,Info,2026-11-03
+Garage door,Cost research,new garage door cost,4.34,4400,34,0.88,Info,2026-11-03
+Garage door,Company,garage door company,26.29,135000,25,0.59,Comm,2026-11-03
+Garage door,Company,garage door service,25.41,22200,38,0.50,Comm,2026-11-03
+Pest control,Emergency,same day pest control,27.91,1900,32,0.90,Comm,2026-11-03
+Pest control,Emergency,emergency pest control,20.91,3600,20,0.25,Comm,2026-11-03
+Pest control,Near me,termite inspection near me,21.45,12100,41,0.79,Tran,2026-11-03
+Pest control,Near me,pest control near me,18.49,201000,53,0.84,Tran,2026-11-03
+Pest control,Near me,exterminator near me,18.49,135000,46,0.93,Tran,2026-11-03
+Pest control,Repair,rodent control,15.38,49500,51,0.24,Comm,2026-11-03
+Pest control,Repair,ant exterminator,12.32,18100,30,0.58,Comm,2026-11-03
+Pest control,Repair,termite treatment,10.82,60500,51,0.76,Comm,2026-11-03
+Pest control,Repair,bed bug treatment,6.30,27100,58,0.37,Info,2026-11-03
+Pest control,Repair,mosquito control,6.20,49500,56,0.52,Comm,2026-11-03
+Pest control,Cost research,bed bug treatment cost,6.34,2900,28,0.66,Info,2026-11-03
+Pest control,Cost research,termite treatment cost,6.13,6600,21,0.61,Info,2026-11-03
+Pest control,Cost research,pest control cost,5.91,5400,31,0.75,Info,2026-11-03
+Pest control,Cost research,exterminator cost,5.91,4400,36,0.75,n,2026-11-03
+Pest control,Company,exterminator,16.92,165000,70,0.65,Comm,2026-11-03
+Pest control,Company,pest control company,15.54,22200,89,0.45,Comm,2026-11-03
+Pest control,Company,pest control services,14.84,60500,91,0.13,n,2026-11-03
+Locksmith,Emergency,emergency locksmith,6.62,6600,28,0.30,Comm,2026-11-03
+Locksmith,Emergency,24 hour locksmith,6.02,6600,9,0.52,Comm,2026-11-03
+Locksmith,Emergency,locked out of house,5.66,2400,20,0.58,n,2026-11-03
+Locksmith,Emergency,car lockout,5.01,1900,8,0.58,Comm,2026-11-03
+Locksmith,Near me,locksmith near me,5.76,301000,50,0.66,Tran,2026-11-03
+Locksmith,Near me,car locksmith near me,4.61,14800,8,0.66,Tran,2026-11-03
+Locksmith,Repair,lock change,7.98,1000,39,0.53,Comm,2026-11-03
+Locksmith,Repair,lock repair,5.70,1600,3,0.24,Comm,2026-11-03
+Locksmith,Repair,rekey locks,5.22,2900,17,0.41,Comm,2026-11-03
+Locksmith,Install or replace,smart lock installation,6.64,1300,33,0.42,Info,2026-11-03
+Locksmith,Install or replace,lock installation,5.96,880,43,0.46,Info,2026-11-03
+Locksmith,Cost research,rekey cost,5.87,110,5,0.37,Info,2026-11-03
+Locksmith,Cost research,locksmith cost,2.98,2400,7,0.62,Info,2026-11-03
+Locksmith,Company,locksmith,5.87,246000,26,0.42,Comm,2026-11-03
+Locksmith,Company,locksmith services,5.80,8100,34,0.19,Comm,2026-11-03
+Water damage,Emergency,emergency water damage restoration,66.23,3600,38,0.03,Comm,2026-11-03
+Water damage,Emergency,water damage cleanup,34.53,22200,49,0.14,Comm,2026-11-03
+Water damage,Emergency,flood cleanup,33.14,3600,58,0.17,Comm,2026-11-03
+Water damage,Emergency,burst pipe water damage,17.42,320,23,0.11,Info,2026-11-03
+Water damage,Near me,water damage repair near me,42.91,60500,44,0.04,n,2026-11-03
+Water damage,Near me,water damage restoration near me,42.36,165000,52,0.06,n,2026-11-03
+Water damage,Near me,mold removal near me,14.97,74000,42,0.37,n,2026-11-03
+Water damage,Repair,water damage restoration,46.30,165000,55,0.28,Comm,2026-11-03
+Water damage,Repair,water damage repair,35.98,60500,41,0.12,Comm,2026-11-03
+Water damage,Repair,mold remediation,16.48,165000,39,0.36,Comm,2026-11-03
+Water damage,Repair,basement flooding,0.00,14800,49,0.00,n,2026-11-03
+Water damage,Cost research,water damage restoration cost,21.61,1000,18,0.18,Info,2026-11-03
+Water damage,Cost research,mold remediation cost,7.73,6600,30,0.50,Info,2026-11-03
+Water damage,Company,water damage restoration company,56.00,27100,51,0.30,Comm,2026-11-03
+Water damage,Company,restoration company,24.38,27100,68,0.59,Comm,2026-11-03
