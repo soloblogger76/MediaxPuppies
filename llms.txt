@@ -5,7 +5,7 @@
 > and as a dedicated media buyer for brands. The team is based in Noida, India, so account work and
 > reporting happen while US and UK clients sleep. Month to month, no lock-in, never a percentage of ad spend.
 
-Updated 2026-11-03. 233 articles, 28 free calculators, 72 service and market pages.
+Updated 2026-11-03. 234 articles, 28 free calculators, 72 service and market pages.
 
 ## Key facts
 
@@ -21,6 +21,7 @@ Updated 2026-11-03. 233 articles, 28 free calculators, 72 service and market pag
 
 Hub: https://mediapuppies.com/research/
 
+- [Facebook Ad Library study: what 673 live US ads from law firms, dentists, real estate and home services show](https://mediapuppies.com/blog/facebook-ad-library-study/): On 3 November 2026 the median active ad had already been live for 271 days, and 42.6% of the 673 ads had been running for a year or more. 79.6% of the 427 advertisers had exactly one active ad. In real estate the figure was 92%. Formats split by trade: 37% of law firm ads were video, against 11.1% for home services, where 52.1% were single images. 28.7% of law firm ads offered something free, usually a consultation, and 21.4% of home service ads offered a free estimate or inspection. Of 99 real estate ads aimed at buyers, sellers or renters, 88.9% carried Meta's Housing label. 11 did not.
 - [How much does Google Ads cost for home services? We priced 169 keywords in 8 trades.](https://mediapuppies.com/blog/google-ads-cost-home-services/): Across 169 US home service keywords, the median Google Ads cost per click was $17.62, and the middle half ran from $7.73 to $25.63. Water damage had the priciest clicks (median $33.84) and locksmith the cheapest ($5.80). The most expensive single keyword was emergency water damage restoration at $66.23. Emergency searches had a median CPC of $27.91: 1.36 times repair searches and 4.49 times price-research searches. Adding "near me" made no consistent difference. It raised the CPC in 9 of 17 keyword pairs, by a median of $0.21. Install and replacement keywords cost a median $13.05 a click, against $20.45 for repair keywords.
 - [We analysed 439 live US med spa ads in the Meta Ad Library. Here is what they run.](https://mediapuppies.com/blog/med-spa-meta-ads-study/): 80.1% of the 296 med spa advertisers we found had exactly one active ad. Only 2.7% were running five or more. The median med spa ad had been live for 160 days, and 69% had been running for 90 days or longer. 60.1% of ads mentioned a price or a discount, and 28.7% were built around a new-client special. Book now was the most common button, on 32.6% of ads. 53.3% sent people to the clinic's own website. Of 180 ads for Botox-type treatments, 83.9% named a brand such as Botox or Dysport in the copy.
 
