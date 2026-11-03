@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-02.
+Updated 2026-11-03.
 
 ## Service, market and company pages
 
@@ -48,6 +48,7 @@ Updated 2026-11-02.
 - [PPC Management Services: Google, Meta & LinkedIn Ads](https://mediapuppies.com/ppc-management/): PPC management services for US, UK and Australian businesses: Google Ads, Meta and LinkedIn managed daily and reported in cost per customer. Month to month.
 - [Media Puppies team: author profile](https://mediapuppies.com/author/media-puppies/): The Media Puppies team writes about Google Ads, Meta ads, LinkedIn ads and lead generation from what we see in live ad accounts. Profile and articles.
 - [Meta Ads Creative Designer (Remote, Full-time)](https://mediapuppies.com/meta-ads-creative-designer/): Join Media Puppies as a Meta Ads Creative Designer: make static, video and UGC-style ads for Facebook and Instagram, and see which ones sell. Remote, full-time.
+- [Original research](https://mediapuppies.com/research/): Original data on Meta and Google ads that you will not find elsewhere: what advertisers actually run, collected and analysed by the Media Puppies team. Free to reuse with a link.
 
 ## Free calculators
 
@@ -250,6 +251,7 @@ Updated 2026-11-02.
 - [HVAC PPC: how to run Google Ads and Local Services Ads for an HVAC company](https://mediapuppies.com/blog/hvac-ppc/): HVAC PPC for US contractors: Google Ads and Local Services Ads, seasonal budgets, emergency vs replacement keywords, call tracking and cost per booked job.
 - [Local business marketing: the order that actually works](https://mediapuppies.com/blog/local-business-marketing/): Local business marketing fails when it starts with ads. The order that works for clinics, showrooms and service businesses, and what to do first.
 - [Med spa marketing: a plan that books consultations without cheapening the brand](https://mediapuppies.com/blog/med-spa-marketing/): Med spa marketing that books consultations: Meta and Google ad rules, creative that works, offers that protect the brand, booking flow, reviews and tracking.
+- [We analysed 439 live US med spa ads in the Meta Ad Library. Here is what they run.](https://mediapuppies.com/blog/med-spa-meta-ads-study/): We analysed 439 active US med spa ads in the Meta Ad Library: formats, buttons, offers, Botox pricing and how long med spa ads run. Free data download.
 - [NMC advertising guidelines 2026: what doctors and hospitals can still advertise](https://mediapuppies.com/blog/nmc-advertising-guidelines-doctors/): The NMC advertising guidelines of October 2026 for doctors and hospitals: what is banned, what is still allowed, and what changes for Google and Meta ads.
 - [Plumbing PPC: how to run Google Ads and Local Services Ads for plumbers](https://mediapuppies.com/blog/plumbing-ppc/): Plumbing PPC for plumbers in the US, UK and Australia: emergency keywords, call assets, Local Services Ads, negative keywords for DIY searches and booked jobs.
 - [Property portal vs real estate broker in Dubai: where developers should spend](https://mediapuppies.com/blog/property-portal-vs-broker-dubai/): Property portal or broker network? How Dubai developers should split spend between portals, brokers and their own ads, and what each channel is good and bad at.

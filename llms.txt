@@ -5,7 +5,7 @@
 > and as a dedicated media buyer for brands. The team is based in Noida, India, so account work and
 > reporting happen while US and UK clients sleep. Month to month, no lock-in, never a percentage of ad spend.
 
-Updated 2026-11-02. 231 articles, 28 free calculators, 71 service and market pages.
+Updated 2026-11-03. 232 articles, 28 free calculators, 72 service and market pages.
 
 ## Key facts
 
@@ -16,6 +16,12 @@ Updated 2026-11-02. 231 articles, 28 free calculators, 71 service and market pag
 - White label terms: mutual NDA and non-solicit before access; the end client's ad accounts stay in the client's name; reporting in the agency's own template.
 - First step for a new account: a written audit within two working days of access.
 - Contact: info@mediapuppies.com
+
+## Original research (our own data, free to cite with a link)
+
+Hub: https://mediapuppies.com/research/
+
+- [We analysed 439 live US med spa ads in the Meta Ad Library. Here is what they run.](https://mediapuppies.com/blog/med-spa-meta-ads-study/): 80.1% of the 296 med spa advertisers we found had exactly one active ad. Only 2.7% were running five or more. The median med spa ad had been live for 160 days, and 69% had been running for 90 days or longer. 60.1% of ads mentioned a price or a discount, and 28.7% were built around a new-client special. Book now was the most common button, on 32.6% of ads. 53.3% sent people to the clinic's own website. Of 180 ads for Botox-type treatments, 83.9% named a brand such as Botox or Dysport in the copy.
 
 ## For agencies (white label)
 
