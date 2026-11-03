@@ -1,0 +1,340 @@
+industry,segment,keyword,cpc_usd,monthly_searches_us,keyword_difficulty,collected
+Legal,Personal injury,truck accident lawyer,252.78,165000,39,2026-11-03
+Legal,Personal injury,mesothelioma lawyer,222.28,14800,46,2026-11-03
+Legal,Personal injury,car accident lawyer,186.31,1000000,27,2026-11-03
+Legal,Personal injury,car accident attorney,184.89,201000,29,2026-11-03
+Legal,Personal injury,car accident lawyer near me,179.94,49500,36,2026-11-03
+Legal,Personal injury,slip and fall lawyer,160.00,110000,30,2026-11-03
+Legal,Personal injury,motorcycle accident lawyer,156.00,110000,45,2026-11-03
+Legal,Personal injury,dog bite lawyer,133.15,49500,24,2026-11-03
+Legal,Personal injury,personal injury lawyer near me,128.80,90500,41,2026-11-03
+Legal,Personal injury,personal injury attorney,119.22,246000,32,2026-11-03
+Legal,Personal injury,personal injury lawyer,112.69,1000000,87,2026-11-03
+Legal,Personal injury,wrongful death lawyer,92.60,135000,33,2026-11-03
+Legal,Workers comp and disability,workers comp lawyer,41.35,33100,44,2026-11-03
+Legal,Criminal,dui lawyer,40.45,450000,32,2026-11-03
+Legal,Criminal,dui lawyer near me,24.60,18100,40,2026-11-03
+Legal,Bankruptcy and tax,tax attorney,22.71,823000,33,2026-11-03
+Legal,Criminal,criminal defense lawyer,19.56,1220000,32,2026-11-03
+Legal,Criminal,criminal lawyer near me,17.21,18100,14,2026-11-03
+Legal,Business and property,trademark lawyer,13.68,8100,28,2026-11-03
+Legal,General,lawyer near me,11.56,22200,73,2026-11-03
+Legal,Immigration,immigration lawyer,11.36,673000,81,2026-11-03
+Legal,Family,divorce lawyer,10.88,1000000,34,2026-11-03
+Legal,Family,child custody lawyer,10.02,22200,22,2026-11-03
+Legal,Estate and probate,probate lawyer,9.90,27100,31,2026-11-03
+Legal,General,attorney near me,9.51,18100,69,2026-11-03
+Legal,Immigration,immigration lawyer near me,9.50,18100,65,2026-11-03
+Legal,Family,divorce lawyer near me,9.35,27100,50,2026-11-03
+Legal,Family,family lawyer,9.09,823000,42,2026-11-03
+Legal,Personal injury,medical malpractice lawyer,9.05,1220000,43,2026-11-03
+Legal,Immigration,green card lawyer,9.03,2400,13,2026-11-03
+Legal,Business and property,business lawyer,6.63,673000,18,2026-11-03
+Legal,Estate and probate,estate planning attorney,6.11,33100,30,2026-11-03
+Legal,Employment,employment lawyer,5.89,450000,55,2026-11-03
+Legal,Employment,wrongful termination lawyer,5.20,27100,20,2026-11-03
+Legal,Estate and probate,will lawyer,4.74,3600,7,2026-11-03
+Legal,Business and property,real estate lawyer,3.95,1220000,62,2026-11-03
+Legal,Workers comp and disability,social security disability lawyer,3.94,27100,41,2026-11-03
+Insurance,Insurance,auto insurance quotes,84.02,301000,99,2026-11-03
+Insurance,Insurance,car insurance quotes,75.60,1830000,15,2026-11-03
+Insurance,Insurance,home insurance quotes,66.47,135000,89,2026-11-03
+Insurance,Insurance,cheap car insurance,46.80,301000,79,2026-11-03
+Insurance,Insurance,business insurance,39.38,165000,23,2026-11-03
+Insurance,Insurance,life insurance quotes,31.50,40500,73,2026-11-03
+Insurance,Insurance,term life insurance,20.06,1500000,67,2026-11-03
+Insurance,Insurance,renters insurance,18.21,1830000,79,2026-11-03
+Insurance,Insurance,insurance agent near me,17.24,40500,44,2026-11-03
+Insurance,Insurance,health insurance plans,6.67,74000,91,2026-11-03
+Software,Software,payroll software,50.14,27100,61,2026-11-03
+Software,Software,help desk software,47.52,5400,57,2026-11-03
+Software,Software,email marketing software,37.59,12100,71,2026-11-03
+Software,Software,hr software,32.35,14800,65,2026-11-03
+Software,Software,accounting software,32.08,110000,85,2026-11-03
+Software,Software,inventory management software,25.65,9900,78,2026-11-03
+Software,Software,project management software,19.40,90500,85,2026-11-03
+Software,Software,crm software,16.62,90500,74,2026-11-03
+Software,Software,pos system,14.00,33100,67,2026-11-03
+Software,Software,erp software,11.96,40500,75,2026-11-03
+Marketing services,Agency searches,google ads management,228.10,4400,47,2026-11-03
+Marketing services,Agency searches,ppc management,95.27,9900,40,2026-11-03
+Marketing services,Agency searches,facebook ads agency,67.73,5400,28,2026-11-03
+Marketing services,Agency searches,law firm marketing agency,46.67,3600,46,2026-11-03
+Marketing services,Agency searches,ppc agency,46.56,14800,45,2026-11-03
+Marketing services,Agency searches,google ads agency,45.44,9900,32,2026-11-03
+Marketing services,Agency searches,dental marketing agency,27.65,3600,68,2026-11-03
+Marketing services,Agency searches,lead generation companies,22.49,4400,53,2026-11-03
+Marketing services,Agency searches,white label seo,18.94,8100,33,2026-11-03
+Marketing services,Agency searches,lead generation services,17.88,6600,54,2026-11-03
+Marketing services,Agency searches,white label ppc,14.28,1900,18,2026-11-03
+Marketing services,Agency searches,white label marketing,10.11,1300,44,2026-11-03
+Marketing services,Agency searches,real estate marketing agency,9.06,1600,37,2026-11-03
+Marketing services,Agency searches,digital marketing agency,8.15,74000,87,2026-11-03
+Marketing services,Agency searches,marketing agency,7.47,40500,82,2026-11-03
+Home services,Water damage,emergency water damage restoration,66.23,3600,38,2026-11-03
+Home services,Water damage,water damage restoration company,56.00,27100,51,2026-11-03
+Home services,Garage door,emergency garage door repair,47.82,90500,34,2026-11-03
+Home services,Water damage,water damage restoration,46.30,165000,55,2026-11-03
+Home services,Plumbing,emergency plumber,43.65,246000,16,2026-11-03
+Home services,Plumbing,emergency plumbing,43.65,165000,16,2026-11-03
+Home services,Water damage,water damage repair near me,42.91,60500,44,2026-11-03
+Home services,Water damage,water damage restoration near me,42.36,165000,52,2026-11-03
+Home services,Garage door,24 hour garage door repair,41.72,1600,21,2026-11-03
+Home services,HVAC,emergency ac repair,41.45,33100,21,2026-11-03
+Home services,Plumbing,24 hour plumber,38.30,22200,15,2026-11-03
+Home services,HVAC,24 hour ac repair,38.11,8100,17,2026-11-03
+Home services,HVAC,ac company,36.66,8100,54,2026-11-03
+Home services,Roofing,hail damage roof repair,35.99,3600,24,2026-11-03
+Home services,Water damage,water damage repair,35.98,60500,41,2026-11-03
+Home services,Water damage,water damage cleanup,34.53,22200,49,2026-11-03
+Home services,HVAC,emergency hvac repair,33.30,14800,28,2026-11-03
+Home services,Water damage,flood cleanup,33.14,3600,58,2026-11-03
+Home services,Plumbing,water heater repair,33.11,201000,35,2026-11-03
+Home services,Plumbing,repipe house,33.01,320,32,2026-11-03
+Home services,Roofing,emergency roof repair,32.45,14800,9,2026-11-03
+Home services,Plumbing,repipe cost,32.42,480,9,2026-11-03
+Home services,Garage door,garage door repair,32.34,165000,49,2026-11-03
+Home services,HVAC,air conditioner repair,31.18,60500,48,2026-11-03
+Home services,HVAC,hvac repair,30.91,135000,51,2026-11-03
+Home services,Roofing,roofing company near me,29.73,49500,55,2026-11-03
+Home services,HVAC,ac repair near me,29.67,201000,50,2026-11-03
+Home services,Roofing,roofing company,29.52,74000,55,2026-11-03
+Home services,Plumbing,plumber,29.50,673000,69,2026-11-03
+Home services,Roofing,roof replacement near me,29.29,22200,36,2026-11-03
+Home services,Garage door,garage door repair near me,28.34,110000,42,2026-11-03
+Home services,Plumbing,plumbing company,27.94,135000,41,2026-11-03
+Home services,Pest control,same day pest control,27.91,1900,32,2026-11-03
+Home services,HVAC,ac repair,27.85,201000,45,2026-11-03
+Home services,Roofing,roof replacement,26.92,74000,78,2026-11-03
+Home services,HVAC,hvac company near me,26.87,49500,46,2026-11-03
+Home services,Roofing,roofers near me,26.83,74000,60,2026-11-03
+Home services,Roofing,commercial roofing,26.63,60500,24,2026-11-03
+Home services,Plumbing,burst pipe repair,26.50,4400,15,2026-11-03
+Home services,Roofing,roof repair near me,26.47,90500,22,2026-11-03
+Home services,Garage door,garage door company,26.29,135000,25,2026-11-03
+Home services,Garage door,garage door spring repair,26.15,14800,47,2026-11-03
+Home services,Plumbing,plumbing services,25.63,110000,30,2026-11-03
+Home services,Garage door,garage door service,25.41,22200,38,2026-11-03
+Home services,Plumbing,drain cleaning near me,24.70,201000,36,2026-11-03
+Home services,Roofing,roof repair,24.38,110000,68,2026-11-03
+Home services,Water damage,restoration company,24.38,27100,68,2026-11-03
+Home services,Plumbing,clogged drain,23.73,110000,46,2026-11-03
+Home services,Plumbing,plumber near me,23.72,550000,52,2026-11-03
+Home services,Plumbing,plumbing near me,23.72,40500,53,2026-11-03
+Home services,Garage door,garage door opener repair,23.11,18100,56,2026-11-03
+Home services,Plumbing,water heater repair near me,22.86,135000,45,2026-11-03
+Home services,Roofing,roof leak repair,22.70,22200,27,2026-11-03
+Home services,Plumbing,plumbing contractor,22.33,8100,22,2026-11-03
+Home services,HVAC,heat pump repair,22.24,49500,15,2026-11-03
+Home services,Plumbing,leak repair,22.06,3600,24,2026-11-03
+Home services,Plumbing,plumbing repair,22.01,90500,26,2026-11-03
+Home services,HVAC,heating and cooling,21.69,90500,87,2026-11-03
+Home services,Water damage,water damage restoration cost,21.61,1000,18,2026-11-03
+Home services,Electrical,emergency electrician,21.57,33100,23,2026-11-03
+Home services,Pest control,termite inspection near me,21.45,12100,41,2026-11-03
+Home services,HVAC,hvac near me,21.12,110000,53,2026-11-03
+Home services,Garage door,broken garage door spring,20.99,3600,2,2026-11-03
+Home services,Plumbing,sewer line repair,20.93,90500,26,2026-11-03
+Home services,Pest control,emergency pest control,20.91,3600,20,2026-11-03
+Home services,Roofing,storm damage roof repair,20.86,9900,15,2026-11-03
+Home services,HVAC,furnace repair,20.76,165000,12,2026-11-03
+Home services,Electrical,electrical company,20.68,3600,60,2026-11-03
+Home services,Roofing,new roof,20.27,9900,73,2026-11-03
+Home services,Roofing,flat roof repair,20.14,9900,13,2026-11-03
+Home services,Roofing,roofing contractor,20.09,90500,29,2026-11-03
+Home services,Electrical,24 hour electrician,20.02,12100,10,2026-11-03
+Home services,HVAC,furnace repair near me,19.69,165000,21,2026-11-03
+Home services,Plumbing,sewer line replacement,19.61,12100,13,2026-11-03
+Home services,HVAC,hvac company,19.50,60500,47,2026-11-03
+Home services,Roofing,roof leak,18.86,4400,38,2026-11-03
+Home services,Roofing,flat roof replacement,18.81,5400,29,2026-11-03
+Home services,Pest control,pest control near me,18.49,201000,53,2026-11-03
+Home services,Pest control,exterminator near me,18.49,135000,46,2026-11-03
+Home services,Electrical,electrician,18.45,450000,50,2026-11-03
+Home services,HVAC,hvac installation,18.28,135000,52,2026-11-03
+Home services,HVAC,emergency furnace repair,18.20,6600,17,2026-11-03
+Home services,Electrical,electrical emergency,17.94,2400,15,2026-11-03
+Home services,HVAC,hvac contractor,17.69,33100,44,2026-11-03
+Home services,Plumbing,water heater replacement,17.62,301000,67,2026-11-03
+Home services,Roofing,roofers,17.57,27100,66,2026-11-03
+Home services,Water damage,burst pipe water damage,17.42,320,23,2026-11-03
+Home services,Electrical,electrical repair near me,17.35,14800,5,2026-11-03
+Home services,Plumbing,water heater installation,17.21,165000,54,2026-11-03
+Home services,Pest control,exterminator,16.92,165000,70,2026-11-03
+Home services,Water damage,mold remediation,16.48,165000,39,2026-11-03
+Home services,Garage door,garage door installation,16.32,246000,41,2026-11-03
+Home services,Roofing,shingle repair,16.26,4400,38,2026-11-03
+Home services,Electrical,electrician near me,16.25,301000,30,2026-11-03
+Home services,Plumbing,drain cleaning,15.70,201000,30,2026-11-03
+Home services,Electrical,electrical repair,15.64,27100,22,2026-11-03
+Home services,Pest control,pest control company,15.54,22200,89,2026-11-03
+Home services,Pest control,rodent control,15.38,49500,51,2026-11-03
+Home services,Garage door,garage door opener installation,15.34,22200,54,2026-11-03
+Home services,Garage door,garage door installation near me,15.30,135000,50,2026-11-03
+Home services,HVAC,ac replacement,15.08,49500,50,2026-11-03
+Home services,Water damage,mold removal near me,14.97,74000,42,2026-11-03
+Home services,Pest control,pest control services,14.84,60500,91,2026-11-03
+Home services,HVAC,ac installation,14.56,74000,47,2026-11-03
+Home services,Electrical,residential electrician,14.55,18100,26,2026-11-03
+Home services,HVAC,heat pump installation,14.03,40500,34,2026-11-03
+Home services,Garage door,garage door replacement,13.88,27100,42,2026-11-03
+Home services,Pest control,ant exterminator,12.32,18100,30,2026-11-03
+Home services,Plumbing,tankless water heater installation,12.21,60500,30,2026-11-03
+Home services,Electrical,electrical contractor,12.18,14800,40,2026-11-03
+Home services,Electrical,electrical contractor near me,12.07,8100,20,2026-11-03
+Home services,Garage door,garage door spring replacement cost,11.99,14800,42,2026-11-03
+Home services,Roofing,shingle roof replacement,11.85,4400,60,2026-11-03
+Home services,Electrical,ev charger installation,11.16,40500,46,2026-11-03
+Home services,Roofing,metal roof installation,11.05,14800,28,2026-11-03
+Home services,Pest control,termite treatment,10.82,60500,51,2026-11-03
+Home services,Electrical,outlet repair,10.51,1900,44,2026-11-03
+Home services,Plumbing,sewer line replacement cost,10.33,2900,18,2026-11-03
+Home services,HVAC,furnace replacement,10.09,110000,39,2026-11-03
+Home services,Electrical,generator installation,9.81,60500,41,2026-11-03
+Home services,Electrical,panel upgrade,9.65,3600,37,2026-11-03
+Home services,Roofing,roof repair cost,9.15,8100,38,2026-11-03
+Home services,Roofing,roof replacement cost,8.58,27100,32,2026-11-03
+Home services,Electrical,electrical panel replacement,8.12,9900,40,2026-11-03
+Home services,Locksmith,lock change,7.98,1000,39,2026-11-03
+Home services,Plumbing,plumber cost,7.88,1600,15,2026-11-03
+Home services,Water damage,mold remediation cost,7.73,6600,30,2026-11-03
+Home services,Garage door,new garage door,7.20,6600,40,2026-11-03
+Home services,Electrical,electrical panel upgrade cost,6.76,1300,29,2026-11-03
+Home services,HVAC,hvac installation cost,6.64,2900,30,2026-11-03
+Home services,Locksmith,smart lock installation,6.64,1300,33,2026-11-03
+Home services,Locksmith,emergency locksmith,6.62,6600,28,2026-11-03
+Home services,Electrical,electrical troubleshooting,6.47,2900,25,2026-11-03
+Home services,Plumbing,water heater replacement cost,6.44,27100,25,2026-11-03
+Home services,Roofing,new roof cost,6.37,9900,26,2026-11-03
+Home services,Pest control,bed bug treatment cost,6.34,2900,28,2026-11-03
+Home services,Pest control,bed bug treatment,6.30,27100,58,2026-11-03
+Home services,HVAC,ac replacement cost,6.29,5400,29,2026-11-03
+Home services,Garage door,garage door replacement cost,6.29,8100,37,2026-11-03
+Home services,Pest control,mosquito control,6.20,49500,56,2026-11-03
+Home services,Pest control,termite treatment cost,6.13,6600,21,2026-11-03
+Home services,Locksmith,24 hour locksmith,6.02,6600,9,2026-11-03
+Home services,Locksmith,lock installation,5.96,880,43,2026-11-03
+Home services,Pest control,pest control cost,5.91,5400,31,2026-11-03
+Home services,Pest control,exterminator cost,5.91,4400,36,2026-11-03
+Home services,Locksmith,rekey cost,5.87,110,5,2026-11-03
+Home services,Locksmith,locksmith,5.87,246000,26,2026-11-03
+Home services,Locksmith,locksmith services,5.80,8100,34,2026-11-03
+Home services,Locksmith,locksmith near me,5.76,301000,50,2026-11-03
+Home services,Electrical,ceiling fan installation,5.75,49500,52,2026-11-03
+Home services,Locksmith,lock repair,5.70,1600,3,2026-11-03
+Home services,Locksmith,locked out of house,5.66,2400,20,2026-11-03
+Home services,Electrical,generator installation cost,5.63,1000,34,2026-11-03
+Home services,Roofing,metal roof cost,5.22,9900,25,2026-11-03
+Home services,Locksmith,rekey locks,5.22,2900,17,2026-11-03
+Home services,HVAC,furnace replacement cost,5.16,9900,41,2026-11-03
+Home services,Locksmith,car lockout,5.01,1900,8,2026-11-03
+Home services,Locksmith,car locksmith near me,4.61,14800,8,2026-11-03
+Home services,Electrical,electrician cost,4.55,720,12,2026-11-03
+Home services,HVAC,new ac unit,4.54,5400,60,2026-11-03
+Home services,Garage door,new garage door cost,4.34,4400,34,2026-11-03
+Home services,Electrical,ev charger installation cost,4.27,2400,32,2026-11-03
+Home services,Electrical,rewiring a house cost,3.82,210,32,2026-11-03
+Home services,Electrical,circuit breaker replacement,3.80,27100,34,2026-11-03
+Home services,HVAC,new ac unit cost,3.73,4400,37,2026-11-03
+Home services,Locksmith,locksmith cost,2.98,2400,7,2026-11-03
+Home services,HVAC,heat pump cost,2.94,4400,31,2026-11-03
+Home services,Electrical,whole house generator,2.57,22200,34,2026-11-03
+Home services,Plumbing,tankless water heater cost,1.71,22200,22,2026-11-03
+Finance,Finance,debt consolidation loans,32.37,22200,79,2026-11-03
+Finance,Finance,home equity loan,22.33,135000,12,2026-11-03
+Finance,Finance,small business loans,20.57,1220000,84,2026-11-03
+Finance,Finance,financial advisor near me,12.06,110000,64,2026-11-03
+Finance,Finance,personal loans,10.93,673000,94,2026-11-03
+Finance,Finance,credit repair,8.01,27100,79,2026-11-03
+Finance,Finance,best credit cards,6.55,673000,76,2026-11-03
+Finance,Finance,refinance rates,5.73,1220000,89,2026-11-03
+Finance,Finance,tax preparation near me,4.84,49500,53,2026-11-03
+Finance,Finance,mortgage rates,1.97,550000,95,2026-11-03
+Education,Education,online mba,19.84,22200,70,2026-11-03
+Education,Education,online degree programs,19.77,27100,77,2026-11-03
+Education,Education,nursing programs,15.91,14800,65,2026-11-03
+Education,Education,online high school,9.81,9900,56,2026-11-03
+Education,Education,data science course,6.50,5400,84,2026-11-03
+Education,Education,coding bootcamp,5.45,368000,64,2026-11-03
+Education,Education,truck driving school,2.12,18100,67,2026-11-03
+Education,Education,cdl training,2.06,33100,71,2026-11-03
+Education,Education,real estate license,1.96,40500,45,2026-11-03
+Dental,Implants and dentures,same day dental implants,19.34,8100,9,2026-11-03
+Dental,Implants and dentures,dental implants near me,17.88,135000,14,2026-11-03
+Dental,Implants and dentures,full mouth dental implants,11.60,110000,57,2026-11-03
+Dental,Orthodontics,invisalign near me,10.78,135000,35,2026-11-03
+Dental,Implants and dentures,all on 4 dental implants,10.72,90500,15,2026-11-03
+Dental,Implants and dentures,dental implants,9.80,450000,100,2026-11-03
+Dental,Orthodontics,orthodontist near me,8.95,110000,64,2026-11-03
+Dental,General and emergency,dentist near me,8.30,1000000,76,2026-11-03
+Dental,General and emergency,dentist,8.06,368000,65,2026-11-03
+Dental,Orthodontics,braces near me,7.86,33100,46,2026-11-03
+Dental,General and emergency,dental cleaning near me,7.33,74000,20,2026-11-03
+Dental,General and emergency,affordable dentist near me,7.09,8100,10,2026-11-03
+Dental,General and emergency,emergency dentist,6.86,135000,30,2026-11-03
+Dental,Implants and dentures,dentures near me,6.76,90500,7,2026-11-03
+Dental,General and emergency,dental cleaning,6.67,22200,35,2026-11-03
+Dental,General and emergency,pediatric dentist,6.59,90500,59,2026-11-03
+Dental,General and emergency,emergency dentist near me,6.52,165000,12,2026-11-03
+Dental,General and emergency,pediatric dentist near me,6.52,110000,54,2026-11-03
+Dental,Treatment,dental crown,6.39,246000,65,2026-11-03
+Dental,Cosmetic,cosmetic dentist near me,6.26,60500,6,2026-11-03
+Dental,Treatment,tooth extraction,6.25,165000,60,2026-11-03
+Dental,Implants and dentures,dental implants cost,6.14,90500,47,2026-11-03
+Dental,Orthodontics,braces,5.83,301000,71,2026-11-03
+Dental,Treatment,root canal,5.64,246000,57,2026-11-03
+Dental,Treatment,wisdom teeth removal,5.61,201000,47,2026-11-03
+Dental,Treatment,sedation dentistry,5.06,14800,13,2026-11-03
+Dental,Orthodontics,invisalign,4.68,450000,82,2026-11-03
+Dental,Implants and dentures,dentures,4.62,201000,62,2026-11-03
+Dental,Cosmetic,porcelain veneers,4.40,27100,42,2026-11-03
+Dental,Treatment,root canal cost,4.36,74000,29,2026-11-03
+Dental,Cosmetic,veneers,4.28,301000,58,2026-11-03
+Dental,Cosmetic,teeth whitening near me,4.27,90500,8,2026-11-03
+Dental,Treatment,dental crown cost,3.98,8100,32,2026-11-03
+Dental,Orthodontics,invisalign cost,3.23,74000,6,2026-11-03
+Dental,Cosmetic,teeth whitening,2.95,368000,82,2026-11-03
+Dental,Cosmetic,veneers cost,2.60,74000,23,2026-11-03
+Dental,Treatment,gum disease treatment,1.53,90500,53,2026-11-03
+Med spa,Med spa,semaglutide near me,23.45,6600,26,2026-11-03
+Med spa,Med spa,laser hair removal near me,15.06,60500,16,2026-11-03
+Med spa,Med spa,botox near me,4.11,90500,19,2026-11-03
+Med spa,Med spa,med spa near me,4.07,40500,59,2026-11-03
+Med spa,Med spa,lip filler near me,3.76,22200,12,2026-11-03
+Med spa,Med spa,coolsculpting,3.76,40500,41,2026-11-03
+Med spa,Med spa,hydrafacial near me,3.08,27100,21,2026-11-03
+Med spa,Med spa,microneedling near me,2.93,27100,8,2026-11-03
+Med spa,Med spa,chemical peel near me,2.59,12100,8,2026-11-03
+Med spa,Med spa,dermal fillers,2.57,27100,86,2026-11-03
+Real estate,Sellers,sell my house,69.29,18100,52,2026-11-03
+Real estate,Sellers,we buy houses,40.68,33100,59,2026-11-03
+Real estate,Sellers,sell my house fast,37.60,40500,52,2026-11-03
+Real estate,Sellers,listing agent,13.21,2900,53,2026-11-03
+Real estate,Agents,best realtor near me,11.72,5400,51,2026-11-03
+Real estate,Buyers,buyers agent,9.67,1900,44,2026-11-03
+Real estate,Agents,real estate agent near me,9.44,49500,55,2026-11-03
+Real estate,Agents,real estate agent,8.00,135000,86,2026-11-03
+Real estate,Agents,realtor near me,7.30,27100,24,2026-11-03
+Real estate,Rentals and investing,property management companies,5.62,14800,66,2026-11-03
+Real estate,Rentals and investing,investment property,3.75,4400,41,2026-11-03
+Real estate,Agents,real estate company,3.43,5400,91,2026-11-03
+Real estate,Buyers,first time home buyer,3.34,22200,80,2026-11-03
+Real estate,Sellers,how much is my house worth,2.81,18100,69,2026-11-03
+Real estate,Buyers,new construction homes,2.73,33100,65,2026-11-03
+Real estate,Sellers,home value estimator,2.27,40500,82,2026-11-03
+Real estate,Commercial,commercial real estate,0.96,90500,16,2026-11-03
+Real estate,Rentals and investing,apartments for rent,0.85,673000,80,2026-11-03
+Real estate,Buyers,homes for sale,0.48,450000,81,2026-11-03
+Real estate,Rentals and investing,houses for rent near me,0.46,368000,53,2026-11-03
+Real estate,Buyers,houses for sale near me,0.35,550000,77,2026-11-03
+Real estate,Buyers,condos for sale,0.34,90500,25,2026-11-03
+Ecommerce,Ecommerce,dog food,7.89,301000,49,2026-11-03
+Ecommerce,Ecommerce,mattress,4.68,201000,67,2026-11-03
+Ecommerce,Ecommerce,skincare products,2.69,14800,71,2026-11-03
+Ecommerce,Ecommerce,engagement rings,2.47,368000,59,2026-11-03
+Ecommerce,Ecommerce,standing desk,2.28,110000,57,2026-11-03
+Ecommerce,Ecommerce,office chair,1.87,135000,63,2026-11-03
+Ecommerce,Ecommerce,protein powder,1.14,1500000,66,2026-11-03
+Ecommerce,Ecommerce,sofa,1.02,135000,22,2026-11-03
+Ecommerce,Ecommerce,wireless earbuds,0.90,90500,32,2026-11-03
+Ecommerce,Ecommerce,running shoes,0.76,246000,76,2026-11-03
