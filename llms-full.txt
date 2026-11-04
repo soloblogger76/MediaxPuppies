@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-04.
+Updated 2026-11-05.
 
 ## Service, market and company pages
 
@@ -129,6 +129,7 @@ Updated 2026-11-04.
 - [Retainer, percentage or performance: which fee model is against you](https://mediapuppies.com/blog/agency-fee-models-explained/): Agency fee models compared: retainer, percentage of ad spend and performance deals, and which of them point the same way as your own interests.
 - [Agency, in-house or freelancer: which one at which stage](https://mediapuppies.com/blog/agency-vs-inhouse-vs-freelancer/): Marketing agency vs in-house vs freelancer: an honest comparison of what each one costs, what each is good at, and how to make the decision this week.
 - [AI Overviews on the searches advertisers pay for: 339 US Google Ads keywords, 118 of them also checked in the UK, Canada and Australia](https://mediapuppies.com/blog/ai-overviews-ads-study/): How often do AI Overviews appear on searches advertisers pay for? We checked 339 US Google Ads keywords, and 118 of them in the UK, Canada and Australia.
+- [What do Angi leads cost in 2026? 214 numbers from 25 YouTube videos on Angi, Thumbtack and Google LSA](https://mediapuppies.com/blog/angi-leads-cost/): Angi leads in 2026: we logged 214 numbers from 25 YouTube videos by contractors and agencies on Angi, Thumbtack and Google LSA lead costs.
 - [App install campaigns in India: installs are not the goal](https://mediapuppies.com/blog/app-install-campaigns-india/): How to run app install campaigns in India without buying junk installs — event optimisation, attribution, and the metrics that predict revenue.
 - [The CAP Code and your ad account: what the ASA actually polices](https://mediapuppies.com/blog/asa-cap-code-paid-ads/): What the CAP Code means for a UK ad account: which claims draw ASA rulings, what substantiation requires, and how it changes the way you build.
 - [Attribution models explained: what each attribution model does and which to trust](https://mediapuppies.com/blog/attribution-models-explained/): An attribution model decides which ad gets credit for a sale. Each model compared with a worked example, why platforms over-claim, and what to use instead.
