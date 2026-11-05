@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-05.
+Updated 2026-11-06.
 
 ## Service, market and company pages
 
@@ -165,7 +165,7 @@ Updated 2026-11-05.
 - [Google Ads for small business: does it work, and how to start small](https://mediapuppies.com/blog/google-ads-for-small-business/): Google Ads for small business: when it works, how to set a starting budget, which campaign types to avoid first, and how to judge the first 90 days.
 - [Quality Score: what it actually rewards](https://mediapuppies.com/blog/google-ads-quality-score/): How Google Ads Quality Score works in practice, which of its three parts you can influence, and what a low score is really telling you about the account.
 - [Reading the Google Ads search terms report: a weekly routine that stops wasted spend](https://mediapuppies.com/blog/google-ads-search-terms-report/): The search terms report shows what people actually typed before clicking your ad. A weekly routine for what to add, what to exclude and what to leave alone.
-- [Local Services Ads: the US listing above your search ads](https://mediapuppies.com/blog/google-local-services-ads-us/): How Google Local Services Ads work for US home services firms, what verification involves, and why the lead dispute process is where the value sits.
+- [Local Services Ads: the US listing above your search ads](https://mediapuppies.com/blog/google-local-services-ads-us/): How Google Local Services Ads work for US home service firms in 2026: lead costs by trade, the move into Google Ads, missed-call charges and verification.
 - [Google or Meta first? The answer is usually obvious and usually ignored](https://mediapuppies.com/blog/google-or-meta-first/): Google or Meta ads first? The answer turns on whether demand for what you sell already exists, and on what budget each platform needs before it can work.
 - [How to structure a Google Search campaign that stays profitable](https://mediapuppies.com/blog/google-search-ads-structure/): A Google Search campaign structure that stays profitable: split by intent, separate brand, match types in practice, and the maintenance that keeps it so.
 - [Hiring your first media buyer: what the job ad should actually say](https://mediapuppies.com/blog/hiring-your-first-media-buyer/): Hiring a media buyer when you cannot evaluate the work yourself: what to test for, what to ignore on a CV, and the three months nobody budgets for.
@@ -210,6 +210,7 @@ Updated 2026-11-05.
 - [Reading an agency media plan line by line](https://mediapuppies.com/blog/reading-a-media-plan/): A media plan is easy to approve and hard to read. What each line commits you to, the assumptions buried in the forecast, and five questions to ask first.
 - [Real estate ad creative: what gets site visits, not just enquiries](https://mediapuppies.com/blog/real-estate-ad-creative/): Real estate ad creative in India mostly produces cheap, cold leads. The formats, hooks and offers that bring buyers who actually visit the site.
 - [Real estate lead generation in India: what actually produces site visits](https://mediapuppies.com/blog/real-estate-lead-generation-india/): Real estate lead generation in India, done properly: why cheap leads are the trap, the qualification that matters, and how to get from enquiry to site visit.
+- [What do real estate leads cost in 2026? Zillow's new fee, and the Facebook, Google and ChatGPT numbers agents showed on YouTube](https://mediapuppies.com/blog/real-estate-leads-cost/): Real estate leads in 2026: Zillow's 15% to 40% success fee, Facebook leads at $4 to $10, and 104 numbers from 14 agent and marketer videos on YouTube.
 - [Retargeting still works. You're probably just measuring it wrong](https://mediapuppies.com/blog/retargeting-measurement/): Why retargeting numbers look worse since the privacy changes, how to read them honestly, and the structure that still earns its place in the account.
 - [Why nobody can guarantee you a ROAS](https://mediapuppies.com/blog/roas-guarantees-red-flag/): A ROAS guarantee from an agency that has not seen your margins is either a guess or a future excuse. What they are really doing, and what to ask instead.
 - [Running ads in multiple countries without doubling the work](https://mediapuppies.com/blog/running-ads-in-multiple-countries/): Running ads in multiple countries means separate campaigns, separate learning budgets and separate rules. What to localise, what to share, what to launch first.
