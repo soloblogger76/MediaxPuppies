@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-06.
+Updated 2026-11-07.
 
 ## Service, market and company pages
 
@@ -181,6 +181,7 @@ Updated 2026-11-06.
 - [Interior design leads in India: the offer decides everything](https://mediapuppies.com/blog/interior-design-leads-india/): Why interior design leads come in expensive and unqualified, and the offer, pricing and follow-up changes that turn enquiries into site visits.
 - [Is your business actually ready for paid ads?](https://mediapuppies.com/blog/is-your-business-ready-for-paid-ads/): Six things that must be true before a business is ready for paid ads. If any are missing, spend exposes the problem rather than solving it.
 - [Lakh, crore, million: reading Indian ad budgets without a costly mistake](https://mediapuppies.com/blog/lakh-crore-million-budgets/): Budgets written in lakh and crore and others in millions cause real, expensive errors. The conversions, where the mistakes happen, and how to avoid them.
+- [Landing page statistics 2026: we opened the pages behind 420 US advertisers' Facebook ads on a phone](https://mediapuppies.com/blog/landing-page-statistics/): We opened the landing pages behind live Facebook ads from 420 US local businesses. Of the 368 that loaded, 42% were home pages and a third had no Meta pixel.
 - [Instant forms or a landing page? The honest comparison](https://mediapuppies.com/blog/lead-form-ads-vs-landing-page/): Lead form ads vs landing page: which produces better leads for Indian businesses, why instant forms look cheaper, and when each one actually fits.
 - ["Learning limited" on Meta: what it means and how to fix it](https://mediapuppies.com/blog/learning-limited-meta/): Learning limited on Meta means an ad set will not get enough optimisation events to settle. The usual causes, and fixes that do not reset learning again.
 - [How to leave a marketing agency without losing the account](https://mediapuppies.com/blog/leaving-an-agency-cleanly/): Leaving a marketing agency without losing three months of performance: what you already own, what to take before you give notice, and the handover list.
