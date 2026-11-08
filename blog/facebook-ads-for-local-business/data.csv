@@ -1,0 +1,356 @@
+industry,ads_in_sample,video_ad,newest_ad_days_live,landing_page_type,offer_in_copy,ask_in_copy,act_first_screen,meta_pixel,checks_passed
+Law firms,3,1,39,Separate landing page,1,1,1,1,4
+Law firms,2,1,235,Home page,1,1,1,1,4
+Law firms,2,0,111,Home page,1,1,1,1,4
+Law firms,2,0,517,Inner page on own site,1,1,1,1,4
+Law firms,1,0,743,Inner page on own site,1,1,1,1,4
+Law firms,1,0,284,Inner page on own site,1,1,1,1,4
+Law firms,1,0,428,Home page,1,1,1,1,4
+Law firms,1,0,158,Home page,1,1,1,1,4
+Law firms,1,0,1213,Home page,1,1,1,1,4
+Law firms,1,1,146,Inner page on own site,1,1,1,1,4
+Law firms,1,0,49,Separate landing page,1,1,1,1,4
+Law firms,1,0,158,Inner page on own site,1,1,1,1,4
+Law firms,1,0,75,Home page,1,1,1,1,4
+Law firms,1,0,81,Separate landing page,1,1,1,1,4
+Law firms,1,1,170,Separate landing page,1,1,1,1,4
+Law firms,15,1,56,Home page,0,1,1,1,3
+Law firms,13,1,22,Separate landing page,1,1,0,1,3
+Law firms,12,0,43,Separate landing page,1,1,0,1,3
+Law firms,12,1,175,Inner page on own site,0,1,1,1,3
+Law firms,6,1,551,Third-party page,1,1,1,0,3
+Law firms,3,1,1722,Inner page on own site,1,1,1,0,3
+Law firms,3,1,63,Separate landing page,1,1,0,1,3
+Law firms,3,0,322,Inner page on own site,1,1,1,0,3
+Law firms,3,1,124,Home page,0,1,1,1,3
+Law firms,3,1,243,Inner page on own site,1,0,1,1,3
+Law firms,2,1,63,Inner page on own site,1,1,0,1,3
+Law firms,2,0,141,Home page,1,0,1,1,3
+Law firms,2,0,1720,Home page,1,0,1,1,3
+Law firms,2,0,158,Home page,0,1,1,1,3
+Law firms,2,1,53,Inner page on own site,1,0,1,1,3
+Law firms,2,1,622,Inner page on own site,0,1,1,1,3
+Law firms,1,0,161,Home page,1,0,1,1,3
+Law firms,1,1,104,Home page,1,0,1,1,3
+Law firms,1,0,271,Home page,1,1,1,0,3
+Law firms,1,0,242,Inner page on own site,0,1,1,1,3
+Law firms,1,0,193,Inner page on own site,0,1,1,1,3
+Law firms,1,1,18,Home page,0,1,1,1,3
+Law firms,1,0,182,Separate landing page,1,0,1,1,3
+Law firms,1,0,117,Home page,0,1,1,1,3
+Law firms,1,1,1184,Inner page on own site,0,1,1,1,3
+Law firms,1,0,670,Home page,0,1,1,1,3
+Law firms,1,1,181,Separate landing page,1,0,1,1,3
+Law firms,1,0,134,Separate landing page,1,1,0,1,3
+Law firms,1,1,153,Inner page on own site,1,1,0,1,3
+Law firms,1,1,277,Home page,1,1,1,0,3
+Law firms,1,1,853,Home page,0,1,1,1,3
+Law firms,3,0,62,Inner page on own site,1,1,0,0,2
+Law firms,2,1,33,Inner page on own site,0,1,1,0,2
+Law firms,2,0,138,Home page,0,0,1,1,2
+Law firms,2,0,175,Home page,0,1,1,0,2
+Law firms,2,0,2113,Inner page on own site,0,0,1,1,2
+Law firms,1,1,980,Home page,0,0,1,1,2
+Law firms,1,1,160,Home page,0,0,1,1,2
+Law firms,1,0,113,Home page,0,0,1,1,2
+Law firms,1,1,88,Separate landing page,0,1,0,1,2
+Law firms,1,0,99,Home page,0,0,1,1,2
+Law firms,1,0,273,Inner page on own site,0,0,1,1,2
+Law firms,1,0,158,Inner page on own site,0,0,1,1,2
+Law firms,1,0,132,Home page,0,1,1,0,2
+Law firms,1,0,158,Inner page on own site,0,0,1,1,2
+Law firms,1,0,274,Home page,0,1,1,0,2
+Law firms,1,1,158,Home page,0,1,1,0,2
+Law firms,1,0,63,Inner page on own site,0,1,1,0,2
+Law firms,1,1,1009,Inner page on own site,0,0,1,1,2
+Law firms,1,0,255,Home page,0,1,1,0,2
+Law firms,1,0,537,Home page,0,1,1,0,2
+Law firms,1,0,158,Inner page on own site,1,0,1,0,2
+Law firms,1,0,244,Inner page on own site,1,1,0,0,2
+Law firms,1,1,293,Home page,0,0,1,1,2
+Law firms,1,0,1612,Inner page on own site,1,0,1,0,2
+Law firms,1,0,179,Inner page on own site,0,0,1,1,2
+Law firms,1,0,692,Home page,0,0,1,0,1
+Law firms,1,0,187,Separate landing page,0,0,0,1,1
+Law firms,1,0,154,Inner page on own site,1,0,0,0,1
+Dentists,2,1,406,Separate landing page,1,1,1,1,4
+Dentists,2,1,411,Separate landing page,1,1,1,1,4
+Dentists,2,0,431,Inner page on own site,1,1,1,1,4
+Dentists,1,0,1427,Inner page on own site,1,1,1,1,4
+Dentists,1,1,188,Separate landing page,1,1,1,1,4
+Dentists,1,1,411,Separate landing page,1,1,1,1,4
+Dentists,1,1,239,Separate landing page,1,1,1,1,4
+Dentists,1,1,344,Separate landing page,1,1,1,1,4
+Dentists,1,1,412,Separate landing page,1,1,1,1,4
+Dentists,1,0,394,Inner page on own site,1,1,1,1,4
+Dentists,1,1,1625,Inner page on own site,1,1,1,1,4
+Dentists,1,1,130,Separate landing page,1,1,1,1,4
+Dentists,1,0,650,Home page,1,1,1,1,4
+Dentists,1,0,172,Separate landing page,1,1,1,1,4
+Dentists,73,1,60,Separate landing page,1,1,0,1,3
+Dentists,3,0,403,Separate landing page,0,1,1,1,3
+Dentists,2,0,944,Inner page on own site,1,1,1,0,3
+Dentists,2,1,351,Separate landing page,1,1,0,1,3
+Dentists,1,0,376,Inner page on own site,1,1,1,0,3
+Dentists,1,1,526,Separate landing page,1,1,0,1,3
+Dentists,1,0,203,Separate landing page,0,1,1,1,3
+Dentists,1,0,480,Home page,1,0,1,1,3
+Dentists,1,0,397,Inner page on own site,0,1,1,1,3
+Dentists,1,0,410,Separate landing page,0,1,1,1,3
+Dentists,1,0,1084,Home page,0,1,1,1,3
+Dentists,1,0,2007,Home page,0,1,1,1,3
+Dentists,1,0,668,Home page,0,1,1,1,3
+Dentists,1,0,376,Separate landing page,0,1,1,1,3
+Dentists,1,0,694,Home page,1,0,1,1,3
+Dentists,1,0,216,Home page,1,1,1,0,3
+Dentists,1,0,887,Separate landing page,0,1,1,1,3
+Dentists,1,1,78,Third-party page,1,1,0,1,3
+Dentists,3,1,412,Separate landing page,1,0,0,1,2
+Dentists,2,0,154,Inner page on own site,0,1,1,0,2
+Dentists,1,0,479,Third-party page,1,1,0,0,2
+Dentists,1,0,187,Home page,0,1,1,0,2
+Dentists,1,0,630,Home page,0,1,1,0,2
+Dentists,1,0,1245,Inner page on own site,0,1,1,0,2
+Dentists,1,0,619,Home page,0,1,1,0,2
+Dentists,1,0,128,Home page,0,1,1,0,2
+Dentists,1,0,154,Home page,0,0,1,1,2
+Dentists,1,0,1357,Home page,0,1,1,0,2
+Dentists,1,0,1734,Home page,1,0,1,0,2
+Dentists,1,1,413,Home page,0,1,1,0,2
+Dentists,1,0,813,Home page,0,0,0,1,1
+Dentists,1,0,1710,Home page,0,0,1,0,1
+Dentists,1,0,1161,Home page,0,1,0,0,1
+Med spas,21,0,19,Separate landing page,1,1,1,1,4
+Med spas,19,0,160,Home page,1,1,1,1,4
+Med spas,5,1,28,Separate landing page,1,1,1,1,4
+Med spas,4,0,155,Inner page on own site,1,1,1,1,4
+Med spas,4,0,52,Home page,1,1,1,1,4
+Med spas,3,1,52,Separate landing page,1,1,1,1,4
+Med spas,2,1,7,Separate landing page,1,1,1,1,4
+Med spas,2,1,126,Separate landing page,1,1,1,1,4
+Med spas,2,1,53,Separate landing page,1,1,1,1,4
+Med spas,2,0,46,Home page,1,1,1,1,4
+Med spas,2,0,107,Separate landing page,1,1,1,1,4
+Med spas,2,0,12,Inner page on own site,1,1,1,1,4
+Med spas,2,0,181,Separate landing page,1,1,1,1,4
+Med spas,1,1,22,Separate landing page,1,1,1,1,4
+Med spas,1,0,111,Inner page on own site,1,1,1,1,4
+Med spas,1,0,79,Separate landing page,1,1,1,1,4
+Med spas,1,0,190,Separate landing page,1,1,1,1,4
+Med spas,1,1,326,Inner page on own site,1,1,1,1,4
+Med spas,1,0,56,Separate landing page,1,1,1,1,4
+Med spas,1,0,126,Inner page on own site,1,1,1,1,4
+Med spas,1,0,522,Inner page on own site,1,1,1,1,4
+Med spas,1,0,179,Separate landing page,1,1,1,1,4
+Med spas,1,1,62,Separate landing page,1,1,1,1,4
+Med spas,1,0,326,Inner page on own site,1,1,1,1,4
+Med spas,1,0,27,Inner page on own site,1,1,1,1,4
+Med spas,1,0,130,Separate landing page,1,1,1,1,4
+Med spas,1,0,46,Separate landing page,1,1,1,1,4
+Med spas,1,0,32,Separate landing page,1,1,1,1,4
+Med spas,1,0,15,Inner page on own site,1,1,1,1,4
+Med spas,1,1,68,Separate landing page,1,1,1,1,4
+Med spas,1,0,70,Inner page on own site,1,1,1,1,4
+Med spas,1,0,34,Separate landing page,1,1,1,1,4
+Med spas,1,0,38,Separate landing page,1,1,1,1,4
+Med spas,1,0,26,Separate landing page,1,1,1,1,4
+Med spas,1,0,53,Separate landing page,1,1,1,1,4
+Med spas,1,1,204,Home page,1,1,1,1,4
+Med spas,1,0,160,Inner page on own site,1,1,1,1,4
+Med spas,1,1,391,Separate landing page,1,1,1,1,4
+Med spas,1,0,167,Separate landing page,1,1,1,1,4
+Med spas,1,0,152,Separate landing page,1,1,1,1,4
+Med spas,1,0,24,Inner page on own site,1,1,1,1,4
+Med spas,1,1,104,Inner page on own site,1,1,1,1,4
+Med spas,1,0,434,Home page,1,1,1,1,4
+Med spas,1,0,72,Separate landing page,1,1,1,1,4
+Med spas,1,0,379,Inner page on own site,1,1,1,1,4
+Med spas,1,0,64,Third-party page,1,1,1,1,4
+Med spas,10,0,19,Inner page on own site,1,1,0,1,3
+Med spas,6,1,104,Separate landing page,1,1,1,0,3
+Med spas,3,1,191,Home page,1,1,1,0,3
+Med spas,3,0,12,Inner page on own site,0,1,1,1,3
+Med spas,2,1,250,Separate landing page,1,1,0,1,3
+Med spas,2,1,365,Home page,1,1,1,0,3
+Med spas,2,0,267,Inner page on own site,0,1,1,1,3
+Med spas,2,0,91,Home page,0,1,1,1,3
+Med spas,2,1,163,Separate landing page,1,1,0,1,3
+Med spas,2,1,32,Home page,0,1,1,1,3
+Med spas,2,0,5,Home page,1,1,1,0,3
+Med spas,2,0,1098,Inner page on own site,1,1,0,1,3
+Med spas,1,0,60,Separate landing page,1,1,0,1,3
+Med spas,1,1,158,Home page,1,1,1,0,3
+Med spas,1,0,154,Home page,0,1,1,1,3
+Med spas,1,0,200,Separate landing page,1,1,0,1,3
+Med spas,1,0,390,Home page,0,1,1,1,3
+Med spas,1,0,207,Inner page on own site,0,1,1,1,3
+Med spas,1,0,91,Home page,0,1,1,1,3
+Med spas,1,1,49,Inner page on own site,0,1,1,1,3
+Med spas,1,1,43,Separate landing page,1,1,0,1,3
+Med spas,1,0,21,Separate landing page,1,1,0,1,3
+Med spas,1,1,56,Inner page on own site,1,1,1,0,3
+Med spas,1,0,60,Separate landing page,1,1,1,0,3
+Med spas,1,0,56,Inner page on own site,0,1,1,1,3
+Med spas,1,0,26,Inner page on own site,0,1,1,1,3
+Med spas,1,0,200,Inner page on own site,1,1,1,0,3
+Med spas,1,0,58,Home page,1,1,1,0,3
+Med spas,1,1,67,Home page,0,1,1,1,3
+Med spas,1,0,656,Home page,1,1,1,0,3
+Med spas,1,1,112,Separate landing page,1,1,0,1,3
+Med spas,1,1,47,Inner page on own site,0,1,1,1,3
+Med spas,1,0,348,Home page,0,1,1,1,3
+Med spas,1,0,270,Inner page on own site,1,1,0,1,3
+Med spas,1,1,445,Separate landing page,1,1,0,1,3
+Med spas,1,1,138,Inner page on own site,0,1,1,1,3
+Med spas,1,1,118,Separate landing page,1,1,0,1,3
+Med spas,1,1,164,Separate landing page,1,1,0,1,3
+Med spas,1,0,417,Home page,0,1,1,1,3
+Med spas,1,1,75,Separate landing page,1,1,0,1,3
+Med spas,1,1,69,Separate landing page,1,1,0,1,3
+Med spas,1,0,203,Inner page on own site,0,1,1,1,3
+Med spas,1,1,431,Inner page on own site,0,1,1,1,3
+Med spas,1,1,272,Separate landing page,1,1,0,1,3
+Med spas,1,0,158,Home page,0,1,1,1,3
+Med spas,1,1,462,Home page,0,1,1,1,3
+Med spas,6,1,36,Separate landing page,1,1,0,0,2
+Med spas,3,0,43,Separate landing page,1,1,0,0,2
+Med spas,3,0,1670,Home page,0,1,1,0,2
+Med spas,3,1,46,Inner page on own site,1,0,0,1,2
+Med spas,3,0,140,Separate landing page,1,1,0,0,2
+Med spas,2,0,137,Home page,1,0,1,0,2
+Med spas,2,0,247,Home page,0,1,0,1,2
+Med spas,2,0,1736,Inner page on own site,0,0,1,1,2
+Med spas,2,1,174,Separate landing page,1,1,0,0,2
+Med spas,1,0,184,Home page,0,1,0,1,2
+Med spas,1,1,697,Third-party page,0,1,1,0,2
+Med spas,1,0,83,Inner page on own site,0,1,1,0,2
+Med spas,1,0,309,Home page,0,1,1,0,2
+Med spas,1,0,397,Inner page on own site,0,1,0,1,2
+Med spas,1,1,185,Third-party page,1,1,0,0,2
+Med spas,1,0,18,Third-party page,1,1,0,0,2
+Med spas,1,1,49,Inner page on own site,0,1,1,0,2
+Med spas,1,0,56,Inner page on own site,0,1,1,0,2
+Med spas,1,0,154,Inner page on own site,0,1,1,0,2
+Med spas,1,0,470,Home page,0,1,1,0,2
+Med spas,1,0,76,Home page,1,0,0,1,2
+Med spas,1,0,11,Inner page on own site,0,1,0,1,2
+Med spas,1,1,32,Home page,0,1,0,1,2
+Med spas,1,0,326,Home page,0,1,1,0,2
+Med spas,1,1,123,Separate landing page,1,0,1,0,2
+Med spas,1,1,54,Inner page on own site,0,1,1,0,2
+Med spas,1,1,397,Inner page on own site,0,1,1,0,2
+Med spas,1,1,158,Inner page on own site,1,1,0,0,2
+Med spas,1,0,966,Inner page on own site,0,0,1,1,2
+Med spas,1,0,579,Home page,0,1,1,0,2
+Med spas,1,1,917,Home page,0,0,1,1,2
+Med spas,1,0,247,Home page,0,1,1,0,2
+Med spas,1,0,719,Home page,0,1,1,0,2
+Med spas,1,0,776,Inner page on own site,0,1,1,0,2
+Med spas,1,0,1191,Home page,0,1,1,0,2
+Med spas,1,0,174,Home page,0,1,1,0,2
+Med spas,1,0,278,Home page,0,1,1,0,2
+Med spas,1,0,186,Inner page on own site,0,1,0,1,2
+Med spas,2,1,396,Inner page on own site,0,1,0,0,1
+Med spas,1,0,334,Home page,0,0,1,0,1
+Med spas,1,1,158,Inner page on own site,0,0,0,1,1
+Med spas,1,0,3037,Home page,0,0,1,0,1
+Med spas,1,1,18,Inner page on own site,0,0,0,1,1
+Med spas,1,0,272,Inner page on own site,0,0,1,0,1
+Med spas,1,1,221,Separate landing page,0,0,1,0,1
+Med spas,1,0,147,Separate landing page,0,1,0,0,1
+Med spas,1,0,642,Home page,0,0,0,0,0
+Home services,2,0,139,Inner page on own site,1,1,1,1,4
+Home services,2,0,496,Inner page on own site,1,1,1,1,4
+Home services,2,0,232,Home page,1,1,1,1,4
+Home services,1,0,1016,Separate landing page,1,1,1,1,4
+Home services,1,0,263,Home page,1,1,1,1,4
+Home services,1,0,209,Home page,1,1,1,1,4
+Home services,1,0,447,Inner page on own site,1,1,1,1,4
+Home services,1,0,281,Home page,1,1,1,1,4
+Home services,1,1,145,Separate landing page,1,1,1,1,4
+Home services,1,0,158,Separate landing page,1,1,1,1,4
+Home services,1,0,895,Home page,1,1,1,1,4
+Home services,1,0,522,Inner page on own site,1,1,1,1,4
+Home services,3,0,272,Home page,0,1,1,1,3
+Home services,2,0,507,Home page,1,1,1,0,3
+Home services,1,0,755,Home page,1,1,1,0,3
+Home services,1,0,531,Home page,1,1,1,0,3
+Home services,1,0,180,Home page,0,1,1,1,3
+Home services,1,0,1006,Home page,0,1,1,1,3
+Home services,1,0,490,Inner page on own site,1,1,1,0,3
+Home services,1,1,382,Inner page on own site,1,1,1,0,3
+Home services,1,0,99,Separate landing page,1,1,0,1,3
+Home services,1,0,425,Home page,1,1,1,0,3
+Home services,1,0,874,Separate landing page,1,1,0,1,3
+Home services,1,0,552,Home page,1,1,1,0,3
+Home services,1,0,333,Home page,0,1,1,1,3
+Home services,1,1,158,Separate landing page,1,1,0,1,3
+Home services,1,0,169,Home page,1,1,1,0,3
+Home services,1,0,140,Home page,0,1,1,1,3
+Home services,1,0,75,Inner page on own site,0,1,1,1,3
+Home services,1,1,83,Home page,0,1,1,1,3
+Home services,1,0,153,Separate landing page,1,1,0,1,3
+Home services,1,0,789,Home page,0,1,1,1,3
+Home services,1,0,952,Home page,0,1,1,1,3
+Home services,1,0,2155,Home page,1,1,1,0,3
+Home services,2,0,153,Separate landing page,1,0,0,1,2
+Home services,2,0,158,Home page,0,0,1,1,2
+Home services,1,0,761,Home page,0,1,1,0,2
+Home services,1,0,782,Inner page on own site,1,0,1,0,2
+Home services,1,0,446,Home page,0,1,1,0,2
+Home services,1,0,295,Inner page on own site,0,1,1,0,2
+Home services,1,0,853,Home page,0,1,1,0,2
+Home services,1,1,748,Home page,0,0,1,1,2
+Home services,1,0,846,Home page,1,0,1,0,2
+Home services,1,1,159,Home page,0,1,1,0,2
+Home services,1,0,126,Inner page on own site,0,1,1,0,2
+Home services,1,0,200,Inner page on own site,0,1,0,1,2
+Home services,1,0,407,Home page,0,1,1,0,2
+Home services,1,0,306,Inner page on own site,0,0,1,0,1
+Home services,1,1,158,Separate landing page,1,0,0,0,1
+Home services,1,0,54,Separate landing page,0,0,0,1,1
+Home services,1,1,218,Separate landing page,0,1,0,0,1
+Home services,1,0,89,Home page,0,0,1,0,1
+Real estate,2,0,258,Inner page on own site,1,1,1,1,4
+Real estate,1,0,223,Home page,1,1,1,1,4
+Real estate,1,0,551,Home page,1,1,1,1,4
+Real estate,1,0,96,Inner page on own site,1,1,1,1,4
+Real estate,1,0,1605,Inner page on own site,1,1,1,1,4
+Real estate,1,0,152,Home page,1,1,1,1,4
+Real estate,4,0,250,Inner page on own site,0,1,1,1,3
+Real estate,1,0,106,Separate landing page,1,1,0,1,3
+Real estate,1,0,462,Home page,1,1,1,0,3
+Real estate,1,0,62,Inner page on own site,0,1,1,1,3
+Real estate,1,0,1008,Inner page on own site,0,1,1,1,3
+Real estate,1,0,447,Separate landing page,1,1,0,1,3
+Real estate,1,0,134,Inner page on own site,0,1,1,1,3
+Real estate,1,0,62,Inner page on own site,1,0,1,1,3
+Real estate,1,0,644,Home page,1,1,1,0,3
+Real estate,1,0,155,Home page,1,0,1,1,3
+Real estate,1,0,191,Separate landing page,1,1,1,0,3
+Real estate,1,0,288,Home page,1,1,1,0,3
+Real estate,1,0,315,Home page,0,1,1,1,3
+Real estate,2,0,271,Inner page on own site,0,1,0,1,2
+Real estate,1,0,292,Inner page on own site,0,1,0,1,2
+Real estate,1,0,382,Home page,0,0,1,1,2
+Real estate,1,0,686,Inner page on own site,0,0,1,1,2
+Real estate,1,0,533,Home page,0,0,1,1,2
+Real estate,1,1,134,Separate landing page,0,0,1,1,2
+Real estate,1,0,85,Inner page on own site,1,1,0,0,2
+Real estate,1,0,106,Third-party page,0,0,0,1,1
+Real estate,1,0,1988,Home page,0,1,0,0,1
+Real estate,1,0,258,Home page,0,1,0,0,1
+Real estate,1,0,57,Third-party page,0,0,0,1,1
+Real estate,1,0,81,Inner page on own site,0,0,0,1,1
+Real estate,1,0,264,Home page,0,0,1,0,1
+Real estate,1,0,129,Inner page on own site,0,0,0,1,1
+Real estate,1,0,388,Inner page on own site,0,0,1,0,1
+Real estate,1,0,593,Home page,0,1,0,0,1
+Real estate,1,0,161,Home page,0,0,1,0,1
+Real estate,1,0,259,Home page,0,1,0,0,1
+Real estate,2,0,14,Third-party page,0,0,0,0,0
+Real estate,1,0,181,Home page,0,0,0,0,0
+Real estate,1,0,367,Home page,0,0,0,0,0
+Real estate,1,0,813,Home page,0,0,0,0,0
+Real estate,1,0,406,Home page,0,0,0,0,0
+Real estate,1,0,2059,Home page,0,0,0,0,0
