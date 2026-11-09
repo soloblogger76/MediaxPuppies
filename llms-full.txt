@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-09.
+Updated 2026-11-10.
 
 ## Service, market and company pages
 
@@ -137,6 +137,7 @@ Updated 2026-11-09.
 - [Why 30 June is Australia’s biggest month and your calendar missed it](https://mediapuppies.com/blog/australia-eofy-marketing/): EOFY marketing in Australia: why the run-up to 30 June is a real demand spike for anything a business can expense, and how to plan ads around it.
 - [B2B lead generation in India: fewer leads, bigger numbers](https://mediapuppies.com/blog/b2b-lead-generation-india/): B2B lead generation in India: how it differs from consumer lead gen, LinkedIn versus Google, and why volume metrics mislead on long sales cycles.
 - [Marketing says leads are up. Sales says they are rubbish. Both are right.](https://mediapuppies.com/blog/b2b-lead-quality-feedback-loop/): B2B lead quality is a feedback loop problem, not an argument. How to define qualified in writing, send it back to the platforms, and end the debate.
+- [Black Friday ads 2026: most of the top-listed ads in the Meta Ad Library started last year](https://mediapuppies.com/blog/black-friday-ads/): We read the first 100 live Black Friday ads listed in the Meta Ad Library for the US, UK, Canada and Australia. Most of them started last year.
 - [Break-even ROAS: the number to work out before you launch](https://mediapuppies.com/blog/break-even-roas/): Break-even ROAS tells you the return below which every sale loses money. How to calculate it properly, why most people get it wrong, and what to target instead.
 - [Budget pacing: the formula, a spreadsheet layout, and when to step in](https://mediapuppies.com/blog/budget-pacing-formula/): The budget pacing formula every media buyer uses, a five-column spreadsheet layout, and the rules for when overspend or underspend actually needs fixing.
 - [How to scale ad spend without blowing up the account](https://mediapuppies.com/blog/budget-scaling-rules/): Rules for increasing ad budgets without breaking a profitable campaign: how fast you can raise them, what goes wrong when you jump, and how to read the result.
