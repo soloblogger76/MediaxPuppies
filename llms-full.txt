@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-08.
+Updated 2026-11-09.
 
 ## Service, market and company pages
 
