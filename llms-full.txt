@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-12.
+Updated 2026-11-13.
 
 ## Service, market and company pages
 
@@ -160,6 +160,8 @@ Updated 2026-11-12.
 - [Facebook ad copy: what 1,098 live local-service ads shown in the US actually say](https://mediapuppies.com/blog/facebook-ad-copy/): We measured the Facebook ad copy in 1,098 live ads shown in the US by law firms, dentists, med spas, home services and realtors: length, offers, asks.
 - [Facebook Ad Library study: what 673 live US ads from law firms, dentists, real estate and home services show](https://mediapuppies.com/blog/facebook-ad-library-study/): We used the Facebook Ad Library (now Meta Ad Library) to study 673 live US ads from law firms, dentists, realtors and home services: run times, formats.
 - [How much do Facebook ads cost in 2026? 212 numbers from 29 YouTube videos by ad buyers and marketers](https://mediapuppies.com/blog/facebook-ads-cost/): Facebook ads cost in 2026: we logged 212 numbers from 29 YouTube videos by ad buyers and marketers, from real cost per lead to daily budgets.
+- [Facebook ads for dentists: what US dental practices run, write and link to, from five of our studies](https://mediapuppies.com/blog/facebook-ads-for-dentists/): Facebook ads for dentists, from our own data: what 99 US dental advertisers run on Facebook and Instagram, what the ads say and where clicks land.
+- [Facebook ads for lawyers: what US law firms run, write and link to, from five of our studies](https://mediapuppies.com/blog/facebook-ads-for-lawyers/): Facebook ads for lawyers, from our own data: what 146 US law firms run on Facebook and Instagram, what the ads say and where the clicks land.
 - [Facebook ads for local business: we scored 355 US advertisers on four basics, from the ad to the page](https://mediapuppies.com/blog/facebook-ads-for-local-business/): Facebook ads for local business, scored: we checked 355 US advertisers on four basics across the ad and its landing page. Only 26.2% passed all four.
 - [Financial promotions in the UK: the rule that stops campaigns dead](https://mediapuppies.com/blog/fca-financial-promotions-paid-media/): Promoting an investment, credit product or crypto to UK consumers means the financial promotions rules apply. What that does to a paid media plan.
 - [Festive season ads in India: what to do in the six weeks before](https://mediapuppies.com/blog/festive-season-ads-india/): A six-week plan for festive season ads in India — when to start, how budgets and auction costs move, and the preparation that decides the outcome.

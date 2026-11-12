@@ -1,0 +1,90 @@
+metric,value,source_study
+ads,265,Ad Library
+advertisers,146,Ad Library
+one_ad_share,69.9,Ad Library
+days_median,181,Ad Library
+days_90_plus,79.2,Ad Library
+days_365_plus,30.9,Ad Library
+video,37.0,Ad Library
+single_image,24.9,Ad Library
+dynamic_creative,32.5,Ad Library
+carousel,5.7,Ad Library
+cta_learn_more,38.9,Ad Library
+cta_book_now,0.4,Ad Library
+cta_contact_us,16.6,Ad Library
+cta_call_now,7.5,Ad Library
+cta_send_message,7.2,Ad Library
+cta_get_quote,0.4,Ad Library
+cta_no_button,9.1,Ad Library
+dest_website,64.2,Ad Library
+dest_call_message,18.9,Ad Library
+dest_instant_form,6.4,Ad Library
+dest_social,10.6,Ad Library
+free_offer,28.7,Ad Library
+price,5.3,Ad Library
+financing,0.8,Ad Library
+spanish,10.6,Ad Library
+social_proof,14.3,Ad Library
+phone_in_ad,20.0,Ad Library
+audience_network,58.5,Ad Library
+body_words_median,42,Ad Library
+top_advertiser_ads,15,Ad Library
+top_advertiser_share,5.7,Ad Library
+copy_units,224,Ad copy
+copy_words_median,42.0,Ad copy
+copy_chars_median,247.0,Ad copy
+copy_over_150,72.8,Ad copy
+copy_in_range,21.4,Ad copy
+copy_ask_en,48.0,Ad copy
+copy_offer_en,30.6,Ad copy
+copy_offer_first_line,11.6,Ad copy
+copy_opens_question,26.3,Ad copy
+copy_emoji_any,30.8,Ad copy
+copy_exclaim_any,30.8,Ad copy
+copy_local,35.7,Ad copy
+copy_phone,19.6,Ad copy
+copy_grade_median,7.7,Ad copy
+page_n,76,Landing pages
+page_home,43.4,Landing pages
+page_inner,39.5,Landing pages
+page_landing,15.8,Landing pages
+page_wordpress,56.6,Landing pages
+page_mb_median,2.0,Landing pages
+page_over_5mb,3.9,Landing pages
+page_tel,89.5,Landing pages
+page_tel_first_screen,78.9,Landing pages
+page_tel_sticky,53.9,Landing pages
+page_any_form,64.5,Landing pages
+page_form_first_screen,7.9,Landing pages
+page_meta_pixel,75.0,Landing pages
+page_meta_fired,67.1,Landing pages
+page_google_tag,96.1,Landing pages
+page_redirect_any,21.1,Landing pages
+page_chat,43.4,Landing pages
+score_n,74,Scorecard
+score_offer,52.7,Scorecard
+score_ask,66.2,Scorecard
+score_act,85.1,Scorecard
+score_pixel,74.3,Scorecard
+score_all_four,20.3,Scorecard
+score_all_four_n,15,Scorecard
+score_mean,2.78,Scorecard
+score_three_missing_offer,12,Scorecard
+score_three_n,31,Scorecard
+google_n,29,Google check
+google_30d,82.8,Google check
+google_30d_n,24,Google check
+google_ads_median,21.0,Google check
+google_ads_30d_median,13.0,Google check
+dentist_google_ads_median,10,Google check
+spanish_ads,28,Ad Library
+spanish_immigration,22,Ad Library
+credit_category_ads,30,Ad Library
+credit_category_injury,27,Ad Library
+five_plus_share,6.2,Ad Library
+facebook,96.2,Ad Library
+instagram,95.1,Ad Library
+meta_guide_primary_text_min_chars,50,Meta Ads Guide
+meta_guide_primary_text_max_chars,150,"Meta Ads Guide, read 7 Nov 2026 (ad copy study facts.md)"
+copy_offer_first_line_en,12.8,Ad copy
+copy_offer_early_en,40.0,Ad copy
