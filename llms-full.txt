@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-10.
+Updated 2026-11-12.
 
 ## Service, market and company pages
 
@@ -220,6 +220,7 @@ Updated 2026-11-10.
 - [What do real estate leads cost in 2026? Zillow's new fee, and the Facebook, Google and ChatGPT numbers agents showed on YouTube](https://mediapuppies.com/blog/real-estate-leads-cost/): Real estate leads in 2026: Zillow's 15% to 40% success fee, Facebook leads at $4 to $10, and 104 numbers from 14 agent and marketer videos on YouTube.
 - [Retargeting still works. You're probably just measuring it wrong](https://mediapuppies.com/blog/retargeting-measurement/): Why retargeting numbers look worse since the privacy changes, how to read them honestly, and the structure that still earns its place in the account.
 - [Why nobody can guarantee you a ROAS](https://mediapuppies.com/blog/roas-guarantees-red-flag/): A ROAS guarantee from an agency that has not seen your margins is either a guess or a future excuse. What they are really doing, and what to ask instead.
+- [Roof replacement ads: what 100 live US Facebook ads offer, and who runs them](https://mediapuppies.com/blog/roof-replacement-ads/): Roof replacement ads, studied: we read the first 100 live US Facebook and Instagram ads for the phrase. 27 came from lead sites and other sellers.
 - [Running ads in multiple countries without doubling the work](https://mediapuppies.com/blog/running-ads-in-multiple-countries/): Running ads in multiple countries means separate campaigns, separate learning budgets and separate rules. What to localise, what to share, what to launch first.
 - [Teaching the ad platforms what a real customer looks like](https://mediapuppies.com/blog/saas-offline-conversion-import/): A SaaS sale closes weeks after the click, inside a CRM the ad platform cannot see. Offline conversion import closes that gap, and most accounts skip it.
 - [Scaling ad spend without losing your return](https://mediapuppies.com/blog/scaling-ad-spend-without-losing-roas/): Scaling ad spend reliably lowers return. Which part of that drop is unavoidable, and the order of operations that gets you to a higher budget safely.
