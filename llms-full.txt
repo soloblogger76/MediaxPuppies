@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-13.
+Updated 2026-11-16.
 
 ## Service, market and company pages
 
@@ -161,6 +161,7 @@ Updated 2026-11-13.
 - [Facebook Ad Library study: what 673 live US ads from law firms, dentists, real estate and home services show](https://mediapuppies.com/blog/facebook-ad-library-study/): We used the Facebook Ad Library (now Meta Ad Library) to study 673 live US ads from law firms, dentists, realtors and home services: run times, formats.
 - [How much do Facebook ads cost in 2026? 212 numbers from 29 YouTube videos by ad buyers and marketers](https://mediapuppies.com/blog/facebook-ads-cost/): Facebook ads cost in 2026: we logged 212 numbers from 29 YouTube videos by ad buyers and marketers, from real cost per lead to daily budgets.
 - [Facebook ads for dentists: what US dental practices run, write and link to, from five of our studies](https://mediapuppies.com/blog/facebook-ads-for-dentists/): Facebook ads for dentists, from our own data: what 99 US dental advertisers run on Facebook and Instagram, what the ads say and where clicks land.
+- [Facebook ads for home services: what 95 US firms, mostly plumbers and roofers, run, from five of our studies](https://mediapuppies.com/blog/facebook-ads-for-home-services/): Facebook ads for home services, from our own data: what 95 US home services firms run on Facebook and Instagram, what ads say and where clicks land.
 - [Facebook ads for lawyers: what US law firms run, write and link to, from five of our studies](https://mediapuppies.com/blog/facebook-ads-for-lawyers/): Facebook ads for lawyers, from our own data: what 146 US law firms run on Facebook and Instagram, what the ads say and where the clicks land.
 - [Facebook ads for local business: we scored 355 US advertisers on four basics, from the ad to the page](https://mediapuppies.com/blog/facebook-ads-for-local-business/): Facebook ads for local business, scored: we checked 355 US advertisers on four basics across the ad and its landing page. Only 26.2% passed all four.
 - [Financial promotions in the UK: the rule that stops campaigns dead](https://mediapuppies.com/blog/fca-financial-promotions-paid-media/): Promoting an investment, credit product or crypto to UK consumers means the financial promotions rules apply. What that does to a paid media plan.
@@ -219,6 +220,7 @@ Updated 2026-11-13.
 - [Product photos that work in ads (not the ones from your shoot)](https://mediapuppies.com/blog/product-photography-for-ads/): Why catalogue shoots underperform in paid social, what product photography for ads looks like in Indian feeds, and how to produce it cheaply.
 - [Reading an agency media plan line by line](https://mediapuppies.com/blog/reading-a-media-plan/): A media plan is easy to approve and hard to read. What each line commits you to, the assumptions buried in the forecast, and five questions to ask first.
 - [Real estate ad creative: what gets site visits, not just enquiries](https://mediapuppies.com/blog/real-estate-ad-creative/): Real estate ad creative in India mostly produces cheap, cold leads. The formats, hooks and offers that bring buyers who actually visit the site.
+- [Real estate Facebook ads: what 87 US advertisers run, write and link to, from five of our studies](https://mediapuppies.com/blog/real-estate-facebook-ads/): Real estate Facebook ads, from our own data: what 87 US real estate advertisers run on Facebook and Instagram, what the ads say and where the clicks land.
 - [Real estate lead generation in India: what actually produces site visits](https://mediapuppies.com/blog/real-estate-lead-generation-india/): Real estate lead generation in India, done properly: why cheap leads are the trap, the qualification that matters, and how to get from enquiry to site visit.
 - [What do real estate leads cost in 2026? Zillow's new fee, and the Facebook, Google and ChatGPT numbers agents showed on YouTube](https://mediapuppies.com/blog/real-estate-leads-cost/): Real estate leads in 2026: Zillow's 15% to 40% success fee, Facebook leads at $4 to $10, and 104 numbers from 14 agent and marketer videos on YouTube.
 - [Retargeting still works. You're probably just measuring it wrong](https://mediapuppies.com/blog/retargeting-measurement/): Why retargeting numbers look worse since the privacy changes, how to read them honestly, and the structure that still earns its place in the account.
