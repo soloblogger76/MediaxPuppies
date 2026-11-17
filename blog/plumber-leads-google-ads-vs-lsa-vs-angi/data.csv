@@ -1,0 +1,161 @@
+metric,value,source_study,note
+cpc_source,"Semrush Keyword Overview, US database, USD",home-services-cpc,"keyword-tool estimate, national average, not an auction price"
+cpc_collected,2026-11-03,home-services-cpc,
+plumbing_keywords,28,home-services-cpc,hand-picked plumbing keywords with a CPC
+plumbing_median_cpc,23.29,home-services-cpc,median of 28 plumbing keywords
+plumbing_weighted_cpc,26.08,home-services-cpc,weighted by monthly US searches
+plumbing_trade_rank,2,home-services-cpc,rank by median CPC among 8 trades
+trades_compared,8,home-services-cpc,
+water_damage_median_cpc,33.84,home-services-cpc,only trade with a higher median than plumbing
+all_home_services_median_cpc,17.62,home-services-cpc,"all 169 priced keywords, 8 trades"
+plumbing_top_keyword_cpc,43.65,home-services-cpc,emergency plumber (emergency plumbing is the same)
+plumbing_low_keyword_cpc,1.71,home-services-cpc,tankless water heater cost
+plumbing_emergency_median,40.98,home-services-cpc,
+plumbing_repair_median,22.04,home-services-cpc,
+plumbing_emergency_vs_repair_ratio,1.86,home-services-cpc,
+plumbing_emergency_minus_repair,18.94,home-services-cpc,
+plumbing_install_median,17.62,home-services-cpc,
+plumbing_volume,3580000,home-services-cpc,"sum of monthly US searches, 28 keywords"
+cpc|emergency plumber,43.65,home-services-cpc,monthly US searches 246000
+searches|emergency plumber,246000,home-services-cpc,
+cpc|24 hour plumber,38.3,home-services-cpc,monthly US searches 22200
+searches|24 hour plumber,22200,home-services-cpc,
+cpc|plumber,29.5,home-services-cpc,monthly US searches 673000
+searches|plumber,673000,home-services-cpc,
+cpc|plumber near me,23.72,home-services-cpc,monthly US searches 550000
+searches|plumber near me,550000,home-services-cpc,
+cpc|water heater repair,33.11,home-services-cpc,monthly US searches 201000
+searches|water heater repair,201000,home-services-cpc,
+cpc|water heater repair near me,22.86,home-services-cpc,monthly US searches 135000
+searches|water heater repair near me,135000,home-services-cpc,
+cpc|drain cleaning,15.7,home-services-cpc,monthly US searches 201000
+searches|drain cleaning,201000,home-services-cpc,
+cpc|drain cleaning near me,24.7,home-services-cpc,monthly US searches 201000
+searches|drain cleaning near me,201000,home-services-cpc,
+cpc|plumber cost,7.88,home-services-cpc,monthly US searches 1600
+searches|plumber cost,1600,home-services-cpc,
+cpc|plumbing company,27.94,home-services-cpc,monthly US searches 135000
+searches|plumbing company,135000,home-services-cpc,
+cpc|repipe house,33.01,home-services-cpc,monthly US searches 320
+searches|repipe house,320,home-services-cpc,
+cpc|water heater replacement,17.62,home-services-cpc,monthly US searches 301000
+searches|water heater replacement,301000,home-services-cpc,
+cost_per_100_clicks|emergency plumber,4365.0,home-services-cpc,CPC x 100
+cost_per_100_clicks|plumber,2950.0,home-services-cpc,CPC x 100
+cost_per_100_clicks|plumber near me,2372.0,home-services-cpc,CPC x 100
+near_me_gap|plumber,5.78,home-services-cpc,near me below base keyword
+near_me_gap|water heater repair,10.25,home-services-cpc,near me below base keyword
+near_me_gap|drain cleaning,9.0,home-services-cpc,near me above base keyword
+plumbing_intent_median|Emergency,40.98,home-services-cpc,computed in compile.py: median of 4 plumbing keywords in data.csv
+plumbing_intent_n|Emergency,4,home-services-cpc,computed in compile.py from data.csv
+plumbing_intent_median|Company,26.79,home-services-cpc,computed in compile.py: median of 4 plumbing keywords in data.csv
+plumbing_intent_n|Company,4,home-services-cpc,computed in compile.py from data.csv
+plumbing_intent_median|Near me,23.72,home-services-cpc,computed in compile.py: median of 4 plumbing keywords in data.csv
+plumbing_intent_n|Near me,4,home-services-cpc,computed in compile.py from data.csv
+plumbing_intent_median|Repair,22.04,home-services-cpc,computed in compile.py: median of 6 plumbing keywords in data.csv
+plumbing_intent_n|Repair,6,home-services-cpc,computed in compile.py from data.csv
+plumbing_intent_median|Install or replace,17.62,home-services-cpc,computed in compile.py: median of 5 plumbing keywords in data.csv
+plumbing_intent_n|Install or replace,5,home-services-cpc,computed in compile.py from data.csv
+plumbing_intent_median|Cost research,7.88,home-services-cpc,computed in compile.py: median of 5 plumbing keywords in data.csv
+plumbing_intent_n|Cost research,5,home-services-cpc,computed in compile.py from data.csv
+lsa_cpl_plumbing_year_earlier,70,home-service-leads-youtube,"claimed by Sam Preston (Service Scalers) on John Wilson | Owned and Operated, video qs3oTRyk9js uploaded 2026-10-28, 24:19"
+lsa_cpl_plumbing_now,66,home-service-leads-youtube,"same video, 24:26; appears to be his agency client data"
+lsa_cpl_plumbing_change,4.0,home-service-leads-youtube,down; computed in source analyse.py
+lsa_cpl_plumbing_change_pct,5.7,home-service-leads-youtube,down; computed in source analyse.py
+lsa_cpl_now|roofing,107,home-service-leads-youtube,same claim; year earlier 74
+lsa_cpl_before|roofing,74,home-service-leads-youtube,same claim
+lsa_cpl_now|HVAC,60,home-service-leads-youtube,same claim; year earlier 51
+lsa_cpl_before|HVAC,51,home-service-leads-youtube,same claim
+lsa_cpl_now|electrical,43,home-service-leads-youtube,same claim; year earlier 29
+lsa_cpl_before|electrical,29,home-service-leads-youtube,same claim
+lsa_cpl_now|appliance repair,34,home-service-leads-youtube,same claim; year earlier 20
+lsa_cpl_before|appliance repair,20,home-service-leads-youtube,same claim
+lsa_trades_up,4,home-service-leads-youtube,"of 5 trades in the claim, the number that rose"
+lsa_trades_in_claim,5,home-service-leads-youtube,
+lsa_disputes_rejected_before_pct,90,home-service-leads-youtube,"claimed by Preston, same video 9:25"
+lsa_disputes_rejected_now_pct,70,home-service-leads-youtube,"claimed by Preston, 9:34"
+lsa_disputes_won_now_pct,30,home-service-leads-youtube,"claimed by Preston, 9:34"
+angi_cpl_plumbing_low,40,home-service-leads-youtube,"LeadTruffle video xNxneqp8Sao uploaded 2026-02-08, 1:51, rule of thumb from a software vendor"
+angi_cpl_plumbing_high,85,home-service-leads-youtube,same
+angi_cpl_roofing_low,50,home-service-leads-youtube,same list
+angi_cpl_roofing_high,120,home-service-leads-youtube,same list
+angi_cpl_hvac_low,45,home-service-leads-youtube,same list
+angi_cpl_hvac_high,100,home-service-leads-youtube,same list
+angi_metro_markup_low_pct,20,home-service-leads-youtube,LeadTruffle: add 20-25% in a major metro (budget_rules)
+angi_metro_markup_high_pct,25,home-service-leads-youtube,same
+angi_mix_low_pct,10,home-service-leads-youtube,LeadTruffle: Angi as 10-20% of the marketing mix (budget_rules)
+angi_mix_high_pct,20,home-service-leads-youtube,same
+thumbtack_plumber_lead,250.0,home-service-leads-youtube,"from data.csv: Imprint Digital reading an unnamed plumber's online post, 6:10 (secondhand)"
+thumbtack_plumber_pros,5.0,home-service-leads-youtube,"from data.csv: he was one of five pros sent the lead, 6:25"
+thumbtack_plumber_job_value,500.0,home-service-leads-youtube,"from data.csv: the homeowner wanted to pay this, 6:20"
+thumbtack_plumber_total_paid,1250.0,home-service-leads-youtube,"from data.csv: speaker's math, five x $250, 6:36"
+thumbtack_screen_prices_n,7,home-service-leads-youtube,"Thumbtack prices on one owner's screen (Affordable services 760), junk removal, cleaning, handyman; not plumbing"
+thumbtack_screen_min,8.22,home-service-leads-youtube,
+thumbtack_screen_max,29.44,home-service-leads-youtube,
+thumbtack_screen_median,12.55,home-service-leads-youtube,
+pushleads_marketplace_lead,50,home-service-leads-youtube,PushLeads 9m43LzBg3yA: average marketplace lead used in his math (Angi/HomeAdvisor/Thumbtack)
+pushleads_marketplace_close_one_in,8,home-service-leads-youtube,PushLeads: one in eight shared leads closes
+pushleads_marketplace_close_pct,12.5,home-service-leads-youtube,"same, as a percentage"
+pushleads_marketplace_cost_per_job,400,home-service-leads-youtube,PushLeads: $50 x 8 = about $400 per booked job
+pushleads_lsa_booking_floor_pct,40,home-service-leads-youtube,PushLeads bSD9BCP4x7I: booking under 40% of LSA leads means follow-up is the problem
+pushleads_answer_live_pct,75,home-service-leads-youtube,PushLeads: contractors who get LSA results answer live at least 75% of the time
+pushleads_reply_minutes,15,home-service-leads-youtube,PushLeads: successful LSA contractors reply to messages within 15 minutes
+pushleads_fast_minutes,5,home-service-leads-youtube,PushLeads: within 5 minutes converts far better than after 30
+pushleads_slow_minutes,30,home-service-leads-youtube,same claim
+pushleads_lost_hours,2,home-service-leads-youtube,PushLeads: after 2 hours (120 minutes) the lead is most likely lost
+momentum360_lost_minutes,60,home-service-leads-youtube,Momentum 360: wait an hour and you have probably lost the LSA form lead
+pushleads_weekly_budget_x_cpl,10,home-service-leads-youtube,"PushLeads: weekly LSA budget = 10 x cost per lead, run about 4 weeks"
+pushleads_test_weeks,4,home-service-leads-youtube,same
+bbd_min_revenue,250000,home-service-leads-youtube,Building Blocks Digital VoumtFXyy3k: LSA for plumbing/HVAC firms doing at least $250K a year
+bbd_min_budget_low,1000,home-service-leads-youtube,"Building Blocks Digital: at least $1,000-2,000 a month"
+bbd_min_budget_high,2000,home-service-leads-youtube,same
+bbd_message_lead_low_pct,50,home-service-leads-youtube,"Building Blocks Digital: message leads cost about half, sometimes 60%, of a phone lead"
+bbd_message_lead_high_pct,60,home-service-leads-youtube,same
+yt_videos_included,25,home-service-leads-youtube,
+yt_claims,214,home-service-leads-youtube,
+yt_real_share,24.8,home-service-leads-youtube,share of all claims that came from a real account
+yt_lsa_numbers,99,home-service-leads-youtube,
+yt_lsa_real_share,16.2,home-service-leads-youtube,
+yt_angi_numbers,50,home-service-leads-youtube,
+yt_angi_real_share,22.0,home-service-leads-youtube,
+yt_collected,2026-11-05,home-service-leads-youtube,
+angi_ceo_lead_price,50,home-service-leads-youtube,"Angi CEO on the Q1 2026 earnings call, 6 May 2026 (transcript on fool.com)"
+angi_ceo_win_one_in_low,7,home-service-leads-youtube,same
+angi_ceo_win_one_in_high,8,home-service-leads-youtube,same
+angi_ceo_cost_per_win_low,350,home-service-leads-youtube,"50 x 7, computed in the source study"
+angi_ceo_cost_per_win_high,400,home-service-leads-youtube,"50 x 8, computed in the source study"
+angi_max_pros_per_request,5,home-service-leads-youtube,Angi help centre
+angi_active_pros_k,105,home-service-leads-youtube,"Angi Q1 2026 release, US monthly active pros, thousands"
+angi_active_pros_k_prior,134,home-service-leads-youtube,Q1 2025
+angi_active_pros_down_pct,22,home-service-leads-youtube,
+thumbtack_max_pros_first_hours,5,home-service-leads-youtube,Thumbtack help centre
+thumbtack_first_hours,4,home-service-leads-youtube,
+thumbtack_refund_hours,72,home-service-leads-youtube,
+lsa_missed_call_seconds,20,home-service-leads-youtube,"Google LSA help page, answer 7195435"
+lsa_missed_call_billing_from,2026-10-01,home-service-leads-youtube,missed calls in business hours charged from this date
+lsa_repeat_contact_free_days,15,home-service-leads-youtube,
+lsa_migration_starts,2026-08,home-service-leads-youtube,Google Ads help answer 17213585: US LSA moves into Google Ads as Performance Max with pay-per-lead goals
+lsa_migration_non_us_year,2027,home-service-leads-youtube,
+aio_plumbing_checked,28,ai-overviews-high-cpc,computed in compile.py: US rows in data.csv matching the plumbing keywords
+aio_plumbing_with,15,ai-overviews-high-cpc,computed in compile.py
+aio_plumbing_rate,53.6,ai-overviews-high-cpc,"computed in compile.py, percent"
+aio_home_services_rate,46.7,ai-overviews-high-cpc,all 169 home services keywords
+aio_all_rate,57.8,ai-overviews-high-cpc,all 339 US keywords
+aio|emergency plumber,no,ai-overviews-high-cpc,
+aio|plumber near me,no,ai-overviews-high-cpc,
+aio|plumber,yes,ai-overviews-high-cpc,
+aio|plumber cost,yes,ai-overviews-high-cpc,
+aio_example|plumber cost,"Hiring a plumber typically costs between $180 and $450 for a standard service call, with a national average of $315.",ai-overviews-high-cpc,first sentence of the AI Overview
+clicks_per_lead|lsa_now,2.83,home-services-cpc + home-service-leads-youtube,computed in compile.py: lead price 66 / plumbing median CPC 23.29
+breakeven_click_to_lead_pct|lsa_now,35.3,home-services-cpc + home-service-leads-youtube,computed in compile.py: share of median-priced clicks that must become leads to match the lead price
+clicks_per_lead|lsa_year_earlier,3.01,home-services-cpc + home-service-leads-youtube,computed in compile.py: lead price 70 / plumbing median CPC 23.29
+breakeven_click_to_lead_pct|lsa_year_earlier,33.3,home-services-cpc + home-service-leads-youtube,computed in compile.py: share of median-priced clicks that must become leads to match the lead price
+clicks_per_lead|angi_low,1.72,home-services-cpc + home-service-leads-youtube,computed in compile.py: lead price 40 / plumbing median CPC 23.29
+breakeven_click_to_lead_pct|angi_low,58.2,home-services-cpc + home-service-leads-youtube,computed in compile.py: share of median-priced clicks that must become leads to match the lead price
+clicks_per_lead|angi_high,3.65,home-services-cpc + home-service-leads-youtube,computed in compile.py: lead price 85 / plumbing median CPC 23.29
+breakeven_click_to_lead_pct|angi_high,27.4,home-services-cpc + home-service-leads-youtube,computed in compile.py: share of median-priced clicks that must become leads to match the lead price
+clicks_per_lead|angi_ceo,2.15,home-services-cpc + home-service-leads-youtube,computed in compile.py: lead price 50 / plumbing median CPC 23.29
+breakeven_click_to_lead_pct|angi_ceo,46.6,home-services-cpc + home-service-leads-youtube,computed in compile.py: share of median-priced clicks that must become leads to match the lead price
+clicks_per_lead|lsa_now_vs_emergency,1.61,home-services-cpc + home-service-leads-youtube,computed in compile.py: 66 / plumbing emergency median CPC
+breakeven_click_to_lead_pct|lsa_now_vs_emergency,62.1,home-services-cpc + home-service-leads-youtube,computed in compile.py
+lsa_now_minus_angi_ceo,16,home-service-leads-youtube,computed in compile.py

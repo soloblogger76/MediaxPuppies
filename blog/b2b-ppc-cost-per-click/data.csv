@@ -1,0 +1,134 @@
+metric,value,source_study,note
+keywords_total,339,cpc-by-industry,"US keywords with a Semrush CPC, 3 Nov 2026"
+industries,11,cpc-by-industry,
+median_all,12.32,cpc-by-industry,median CPC in USD of all 339 keywords
+all_cost_100_clicks_at_median,1232.0,cpc-by-industry,"computed: median of all keywords x 100 clicks (arithmetic, not a measured spend)"
+aio_us_rate_all,57.8,ai-overviews-high-cpc,% of 339 US keywords with an AI Overview
+aio_us_n,196,ai-overviews-high-cpc,US keywords with an AI Overview
+aio_cpc30_plus_rate,60.0,ai-overviews-high-cpc,% of the 60 US keywords at $30+ CPC with an AI Overview
+aio_cpc30_plus_n,60,ai-overviews-high-cpc,
+aio_cpc_under30_rate,57.3,ai-overviews-high-cpc,% of the 279 US keywords under $30 CPC with an AI Overview
+rank_insurance,1,cpc-by-industry,rank of Insurance by median CPC among 11 industries (median 35.44)
+rank_software,2,cpc-by-industry,rank of Software by median CPC among 11 industries (median 28.87)
+rank_marketing_services,3,cpc-by-industry,rank of Marketing services by median CPC among 11 industries (median 22.49)
+rank_finance,6,cpc-by-industry,rank of Finance by median CPC among 11 industries (median 9.47)
+software_n,10,cpc-by-industry,
+software_median,28.87,cpc-by-industry,"median CPC, USD"
+software_mean,28.73,cpc-by-industry,
+software_p25,17.32,cpc-by-industry,
+software_p75,36.28,cpc-by-industry,
+software_top,50.14,cpc-by-industry,payroll software
+software_low,11.96,cpc-by-industry,erp software
+software_share_20_plus,60.0,cpc-by-industry,% of keywords at $20+ CPC
+software_over_30_n,5,cpc-by-industry,computed from data.csv: keywords at $30+ CPC
+software_ratio_to_all,2.3,cpc-by-industry,computed: industry median / median of all 339 keywords
+software_cost_100_clicks_at_median,2887.0,cpc-by-industry,"computed: median CPC x 100 clicks (arithmetic, not a measured spend)"
+software_aio_us_rate,100.0,ai-overviews-high-cpc,% of 10 US keywords with an AI Overview
+software cpc: payroll software,50.14,cpc-by-industry,from data.csv; 27100 US searches a month
+software cpc: help desk software,47.52,cpc-by-industry,from data.csv; 5400 US searches a month
+software cpc: email marketing software,37.59,cpc-by-industry,from data.csv; 12100 US searches a month
+software cpc: hr software,32.35,cpc-by-industry,from data.csv; 14800 US searches a month
+software cpc: accounting software,32.08,cpc-by-industry,from data.csv; 110000 US searches a month
+software cpc: inventory management software,25.65,cpc-by-industry,from data.csv; 9900 US searches a month
+software cpc: project management software,19.4,cpc-by-industry,from data.csv; 90500 US searches a month
+software cpc: crm software,16.62,cpc-by-industry,from data.csv; 90500 US searches a month
+software cpc: pos system,14.0,cpc-by-industry,from data.csv; 33100 US searches a month
+software cpc: erp software,11.96,cpc-by-industry,from data.csv; 40500 US searches a month
+insurance_n,10,cpc-by-industry,
+insurance_median,35.44,cpc-by-industry,"median CPC, USD"
+insurance_mean,40.6,cpc-by-industry,
+insurance_p25,18.67,cpc-by-industry,
+insurance_p75,61.55,cpc-by-industry,
+insurance_top,84.02,cpc-by-industry,auto insurance quotes
+insurance_low,6.67,cpc-by-industry,health insurance plans
+insurance_share_20_plus,70.0,cpc-by-industry,% of keywords at $20+ CPC
+insurance_over_30_n,6,cpc-by-industry,computed from data.csv: keywords at $30+ CPC
+insurance_ratio_to_all,2.9,cpc-by-industry,computed: industry median / median of all 339 keywords
+insurance_cost_100_clicks_at_median,3544.0,cpc-by-industry,"computed: median CPC x 100 clicks (arithmetic, not a measured spend)"
+insurance_aio_us_rate,90.0,ai-overviews-high-cpc,% of 10 US keywords with an AI Overview
+insurance cpc: auto insurance quotes,84.02,cpc-by-industry,from data.csv; 301000 US searches a month
+insurance cpc: car insurance quotes,75.6,cpc-by-industry,from data.csv; 1830000 US searches a month
+insurance cpc: home insurance quotes,66.47,cpc-by-industry,from data.csv; 135000 US searches a month
+insurance cpc: cheap car insurance,46.8,cpc-by-industry,from data.csv; 301000 US searches a month
+insurance cpc: business insurance,39.38,cpc-by-industry,from data.csv; 165000 US searches a month
+insurance cpc: life insurance quotes,31.5,cpc-by-industry,from data.csv; 40500 US searches a month
+insurance cpc: term life insurance,20.06,cpc-by-industry,from data.csv; 1500000 US searches a month
+insurance cpc: renters insurance,18.21,cpc-by-industry,from data.csv; 1830000 US searches a month
+insurance cpc: insurance agent near me,17.24,cpc-by-industry,from data.csv; 40500 US searches a month
+insurance cpc: health insurance plans,6.67,cpc-by-industry,from data.csv; 74000 US searches a month
+finance_n,10,cpc-by-industry,
+finance_median,9.47,cpc-by-industry,"median CPC, USD"
+finance_mean,12.54,cpc-by-industry,
+finance_p25,5.94,cpc-by-industry,
+finance_p75,18.44,cpc-by-industry,
+finance_top,32.37,cpc-by-industry,debt consolidation loans
+finance_low,1.97,cpc-by-industry,mortgage rates
+finance_share_20_plus,30.0,cpc-by-industry,% of keywords at $20+ CPC
+finance_over_30_n,1,cpc-by-industry,computed from data.csv: keywords at $30+ CPC
+finance_ratio_to_all,0.8,cpc-by-industry,computed: industry median / median of all 339 keywords
+finance_cost_100_clicks_at_median,947.0,cpc-by-industry,"computed: median CPC x 100 clicks (arithmetic, not a measured spend)"
+finance_aio_us_rate,70.0,ai-overviews-high-cpc,% of 10 US keywords with an AI Overview
+finance cpc: debt consolidation loans,32.37,cpc-by-industry,from data.csv; 22200 US searches a month
+finance cpc: home equity loan,22.33,cpc-by-industry,from data.csv; 135000 US searches a month
+finance cpc: small business loans,20.57,cpc-by-industry,from data.csv; 1220000 US searches a month
+finance cpc: financial advisor near me,12.06,cpc-by-industry,from data.csv; 110000 US searches a month
+finance cpc: personal loans,10.93,cpc-by-industry,from data.csv; 673000 US searches a month
+finance cpc: credit repair,8.01,cpc-by-industry,from data.csv; 27100 US searches a month
+finance cpc: best credit cards,6.55,cpc-by-industry,from data.csv; 673000 US searches a month
+finance cpc: refinance rates,5.73,cpc-by-industry,from data.csv; 1220000 US searches a month
+finance cpc: tax preparation near me,4.84,cpc-by-industry,from data.csv; 49500 US searches a month
+finance cpc: mortgage rates,1.97,cpc-by-industry,from data.csv; 550000 US searches a month
+marketing_services_n,15,cpc-by-industry,
+marketing_services_median,22.49,cpc-by-industry,"median CPC, USD"
+marketing_services_mean,44.39,cpc-by-industry,
+marketing_services_p25,12.2,cpc-by-industry,
+marketing_services_p75,46.62,cpc-by-industry,
+marketing_services_top,228.1,cpc-by-industry,google ads management
+marketing_services_low,7.47,cpc-by-industry,marketing agency
+marketing_services_share_20_plus,53.3,cpc-by-industry,% of keywords at $20+ CPC
+marketing_services_over_30_n,6,cpc-by-industry,computed from data.csv: keywords at $30+ CPC
+marketing_services_ratio_to_all,1.8,cpc-by-industry,computed: industry median / median of all 339 keywords
+marketing_services_cost_100_clicks_at_median,2249.0,cpc-by-industry,"computed: median CPC x 100 clicks (arithmetic, not a measured spend)"
+marketing_services_aio_us_rate,93.3,ai-overviews-high-cpc,% of 15 US keywords with an AI Overview
+marketing_services cpc: google ads management,228.1,cpc-by-industry,from data.csv; 4400 US searches a month
+marketing_services cpc: ppc management,95.27,cpc-by-industry,from data.csv; 9900 US searches a month
+marketing_services cpc: facebook ads agency,67.73,cpc-by-industry,from data.csv; 5400 US searches a month
+marketing_services cpc: law firm marketing agency,46.67,cpc-by-industry,from data.csv; 3600 US searches a month
+marketing_services cpc: ppc agency,46.56,cpc-by-industry,from data.csv; 14800 US searches a month
+marketing_services cpc: google ads agency,45.44,cpc-by-industry,from data.csv; 9900 US searches a month
+marketing_services cpc: dental marketing agency,27.65,cpc-by-industry,from data.csv; 3600 US searches a month
+marketing_services cpc: lead generation companies,22.49,cpc-by-industry,from data.csv; 4400 US searches a month
+marketing_services cpc: white label seo,18.94,cpc-by-industry,from data.csv; 8100 US searches a month
+marketing_services cpc: lead generation services,17.88,cpc-by-industry,from data.csv; 6600 US searches a month
+marketing_services cpc: white label ppc,14.28,cpc-by-industry,from data.csv; 1900 US searches a month
+marketing_services cpc: white label marketing,10.11,cpc-by-industry,from data.csv; 1300 US searches a month
+marketing_services cpc: real estate marketing agency,9.06,cpc-by-industry,from data.csv; 1600 US searches a month
+marketing_services cpc: digital marketing agency,8.15,cpc-by-industry,from data.csv; 74000 US searches a month
+marketing_services cpc: marketing agency,7.47,cpc-by-industry,from data.csv; 40500 US searches a month
+marketing services google ads management rank of all keywords,2,cpc-by-industry,from top12 in the CPC study: rank by CPC among all 339 keywords
+insurance_quotes_median,71.04,cpc-by-industry,median CPC of the 4 quote searches
+insurance_quotes_n,4,cpc-by-industry,
+insurance_other_median,19.14,cpc-by-industry,median CPC of the other insurance keywords
+b2b_group_n,12,cpc-by-industry,"computed from data.csv: our grouping, 10 software keywords + business insurance + small business loans"
+b2b_group_median,28.87,cpc-by-industry,"computed from data.csv: median CPC of that group, USD"
+aio software US,100.0,ai-overviews-high-cpc,computed from data.csv: 10 of 10 keywords had an AI Overview
+aio software UK,100.0,ai-overviews-high-cpc,computed from data.csv: 10 of 10 keywords had an AI Overview
+aio software Canada,100.0,ai-overviews-high-cpc,computed from data.csv: 10 of 10 keywords had an AI Overview
+aio software Australia,100.0,ai-overviews-high-cpc,computed from data.csv: 10 of 10 keywords had an AI Overview
+aio insurance US,90.0,ai-overviews-high-cpc,computed from data.csv: 9 of 10 keywords had an AI Overview
+aio insurance UK,100.0,ai-overviews-high-cpc,computed from data.csv: 9 of 9 keywords had an AI Overview
+aio insurance Canada,88.9,ai-overviews-high-cpc,computed from data.csv: 8 of 9 keywords had an AI Overview
+aio insurance Australia,88.9,ai-overviews-high-cpc,computed from data.csv: 8 of 9 keywords had an AI Overview
+aio finance US,70.0,ai-overviews-high-cpc,computed from data.csv: 7 of 10 keywords had an AI Overview
+aio finance UK,83.3,ai-overviews-high-cpc,computed from data.csv: 5 of 6 keywords had an AI Overview
+aio finance Canada,83.3,ai-overviews-high-cpc,computed from data.csv: 5 of 6 keywords had an AI Overview
+aio finance Australia,100.0,ai-overviews-high-cpc,computed from data.csv: 6 of 6 keywords had an AI Overview
+aio software all four countries,40,ai-overviews-high-cpc,"computed from data.csv: software searches with an AI Overview, of 40 across US, UK, Canada and Australia"
+aio intl keywords,118,ai-overviews-high-cpc,"keywords run in each of the UK, Canada and Australia"
+aio us insurance without,1,ai-overviews-high-cpc,computed: insurance agent near me
+aio us finance without,3,ai-overviews-high-cpc,computed: credit repair; financial advisor near me; tax preparation near me
+aio us software cites reddit.com,3,ai-overviews-high-cpc,computed from data.csv: of 10 US software AI Overviews
+aio us software cites forbes.com,3,ai-overviews-high-cpc,computed from data.csv: of 10 US software AI Overviews
+aio us software cites oracle.com,3,ai-overviews-high-cpc,computed from data.csv: of 10 US software AI Overviews
+aio us software cites en.wikipedia.org,3,ai-overviews-high-cpc,computed from data.csv: of 10 US software AI Overviews
+aio us software sources median,3.0,ai-overviews-high-cpc,"computed from data.csv: sources the scraper captured per software AI Overview; all 10 US software AI Overviews were flagged as possibly cut off, so this can undercount"

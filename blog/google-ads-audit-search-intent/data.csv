@@ -1,0 +1,113 @@
+metric,value,source_study,note
+hs_keywords_with_cpc,169,home-services-cpc,"Semrush US, 3 Nov 2026; 170 designed, basement flooding had no CPC"
+hs_trades,8,home-services-cpc,
+hs_median_cpc_all,17.62,home-services-cpc,"USD, median of 169 keywords"
+hs_emergency_median_cpc,27.91,home-services-cpc,"USD, median CPC of the Emergency intent group"
+hs_emergency_n,27,home-services-cpc,keywords in the Emergency intent group
+hs_emergency_volume,743120,home-services-cpc,"summed US monthly searches, Emergency group"
+hs_near_me_median_cpc,22.86,home-services-cpc,"USD, median CPC of the Near me intent group"
+hs_near_me_n,25,home-services-cpc,keywords in the Near me intent group
+hs_near_me_volume,3220500,home-services-cpc,"summed US monthly searches, Near me group"
+hs_company_median_cpc,20.68,home-services-cpc,"USD, median CPC of the Company intent group"
+hs_company_n,25,home-services-cpc,keywords in the Company intent group
+hs_company_volume,2570100,home-services-cpc,"summed US monthly searches, Company group"
+hs_repair_median_cpc,20.45,home-services-cpc,"USD, median CPC of the Repair intent group"
+hs_repair_n,34,home-services-cpc,keywords in the Repair intent group
+hs_repair_volume,2297500,home-services-cpc,"summed US monthly searches, Repair group"
+hs_install_median_cpc,13.05,home-services-cpc,"USD, median CPC of the Install or replace intent group"
+hs_install_n,28,home-services-cpc,keywords in the Install or replace intent group
+hs_install_volume,1552100,home-services-cpc,"summed US monthly searches, Install or replace group"
+hs_cost_research_median_cpc,6.21,home-services-cpc,"USD, median CPC of the Cost research intent group"
+hs_cost_research_n,30,home-services-cpc,keywords in the Cost research intent group
+hs_cost_research_volume,198620,home-services-cpc,"summed US monthly searches, Cost research group"
+hs_cost_research_top_keyword_cpc,32.42,home-services-cpc,"repipe cost, the dearest cost research keyword"
+hs_cost_research_low_keyword_cpc,1.71,home-services-cpc,tankless water heater cost
+hs_emergency_top_keyword_cpc,66.23,home-services-cpc,emergency water damage restoration
+hs_emergency_plumber_cpc,43.65,home-services-cpc,emergency plumber
+hs_emergency_vs_cost_ratio,4.49,home-services-cpc,emergency median / cost research median
+hs_emergency_vs_repair_ratio,1.36,home-services-cpc,
+hs_emergency_higher_trades,7,home-services-cpc,trades (of 8) where emergency median beat repair median
+hs_repair_vs_install_ratio,1.57,home-services-cpc,repair median / install or replace median
+hs_repair_higher_trades,4,home-services-cpc,of hs_repair_vs_install_trades
+hs_repair_vs_install_trades,6,home-services-cpc,
+hs_repair_hvac,27.85,home-services-cpc,"USD, HVAC repair median"
+hs_install_hvac,14.3,home-services-cpc,"USD, HVAC install or replace median"
+hs_repair_plumbing,22.04,home-services-cpc,"USD, Plumbing repair median"
+hs_install_plumbing,17.62,home-services-cpc,"USD, Plumbing install or replace median"
+hs_repair_roofing,19.5,home-services-cpc,"USD, Roofing repair median"
+hs_install_roofing,18.81,home-services-cpc,"USD, Roofing install or replace median"
+hs_repair_electrical,8.49,home-services-cpc,"USD, Electrical repair median"
+hs_install_electrical,8.89,home-services-cpc,"USD, Electrical install or replace median"
+hs_repair_garage_door,24.63,home-services-cpc,"USD, Garage door repair median"
+hs_install_garage_door,14.61,home-services-cpc,"USD, Garage door install or replace median"
+hs_repair_locksmith,5.7,home-services-cpc,"USD, Locksmith repair median"
+hs_install_locksmith,6.3,home-services-cpc,"USD, Locksmith install or replace median"
+hs_near_me_pairs_n,17,home-services-cpc,keyword pairs with and without near me
+hs_near_me_higher,9,home-services-cpc,pairs where the near me version cost more
+hs_near_me_median_diff,0.21,home-services-cpc,"USD, median of (near me CPC minus plain CPC)"
+hs_cost_research_under_10_n,26,home-services-cpc,computed here from home-services-cpc/data.csv: cost research keywords with CPC under $10
+hs_cost_research_10_plus_n,4,home-services-cpc,computed here from home-services-cpc/data.csv: repipe cost 32.42; water damage restoration cost 21.61; garage door spring replacement cost 11.99; sewer line replacement cost 10.33
+hs_cpc_repipe_cost,32.42,home-services-cpc,computed here: row from home-services-cpc/data.csv
+hs_cpc_sewer_line_replacement_cost,10.33,home-services-cpc,computed here: row from home-services-cpc/data.csv
+hs_cpc_garage_door_spring_replacement_cost,11.99,home-services-cpc,computed here: row from home-services-cpc/data.csv
+hs_cpc_water_damage_restoration_cost,21.61,home-services-cpc,computed here: row from home-services-cpc/data.csv
+law_practice_keywords_with_cpc,37,law-firm-marketing,"Semrush US, 3 Nov 2026"
+law_pi_median_cpc,156.0,law-firm-marketing,"USD, personal injury keywords"
+law_pi_n,13,law-firm-marketing,
+law_other_median_cpc,9.7,law-firm-marketing,"USD, every other practice keyword"
+law_other_n,22,law-firm-marketing,
+law_pi_vs_other_ratio,16.08,law-firm-marketing,
+law_top_keyword_cpc,252.78,law-firm-marketing,truck accident lawyer
+law_near_me_pairs_n,5,law-firm-marketing,
+law_near_me_higher,1,law-firm-marketing,pairs where the near me version cost more
+dental_treatment_keywords_with_cpc,37,dental-marketing,"Semrush US, 3 Nov 2026"
+dental_median_cpc,6.39,dental-marketing,
+dental_near_me_pairs_n,9,dental-marketing,
+dental_near_me_higher,7,dental-marketing,pairs where the near me version cost more
+dental_cost_pairs_n,5,dental-marketing,treatment keyword against its cost version
+dental_cost_lower,5,dental-marketing,pairs where the cost version was cheaper
+dental_implants_cpc,9.8,dental-marketing,
+dental_implants_near_me_cpc,17.88,dental-marketing,
+dental_implants_cost_cpc,6.14,dental-marketing,
+aio_keywords,339,ai-overviews-high-cpc,US keywords priced in Semrush; results pages fetched 3 Nov 2026 UTC
+aio_us_rate,57.8,ai-overviews-high-cpc,% of US results pages with an AI Overview
+aio_us_n,196,ai-overviews-high-cpc,
+aio_us_paa_rate,95.9,ai-overviews-high-cpc,% with a People also ask box
+aio_cost_question_n,36,ai-overviews-high-cpc,US keywords of type Cost question
+aio_cost_question_rate,91.7,ai-overviews-high-cpc,% of Cost question keywords with an AI Overview
+aio_service_or_topic_n,204,ai-overviews-high-cpc,US keywords of type Service or topic
+aio_service_or_topic_rate,59.3,ai-overviews-high-cpc,% of Service or topic keywords with an AI Overview
+aio_quote_request_n,4,ai-overviews-high-cpc,US keywords of type Quote request
+aio_quote_request_rate,100.0,ai-overviews-high-cpc,% of Quote request keywords with an AI Overview
+aio_product_n,10,ai-overviews-high-cpc,US keywords of type Product
+aio_product_rate,70.0,ai-overviews-high-cpc,% of Product keywords with an AI Overview
+aio_urgent_n,24,ai-overviews-high-cpc,US keywords of type Urgent
+aio_urgent_rate,41.7,ai-overviews-high-cpc,% of Urgent keywords with an AI Overview
+aio_near_me_n,61,ai-overviews-high-cpc,US keywords of type Near me
+aio_near_me_rate,34.4,ai-overviews-high-cpc,% of Near me keywords with an AI Overview
+aio_band_60_plus_n,20,ai-overviews-high-cpc,US keywords with a Semrush CPC estimate of $60 and up
+aio_band_60_plus_rate,70.0,ai-overviews-high-cpc,% of those with an AI Overview
+aio_cost_with_aio_n,33,ai-overviews-high-cpc,cost questions that showed an AI Overview
+aio_cost_with_price_n,33,ai-overviews-high-cpc,"of those, AI Overviews containing a dollar figure"
+aio_cost_with_price_rate,100.0,ai-overviews-high-cpc,
+aio_all_with_price_rate,51.0,ai-overviews-high-cpc,% of all US AI Overviews containing a dollar figure
+aio_near_me_business_named,14,ai-overviews-high-cpc,"Near me AI Overviews naming a business (rating, phone or address), out of aio_near_me_business_base"
+aio_near_me_business_base,21,ai-overviews-high-cpc,
+aio_urgent_business_named,2,ai-overviews-high-cpc,"Urgent AI Overviews naming a business (rating, phone or address), out of aio_urgent_business_base"
+aio_urgent_business_base,10,ai-overviews-high-cpc,
+aio_service_or_topic_business_named,10,ai-overviews-high-cpc,"Service or topic AI Overviews naming a business (rating, phone or address), out of aio_service_or_topic_business_base"
+aio_service_or_topic_business_base,121,ai-overviews-high-cpc,
+aio_cost_question_business_named,0,ai-overviews-high-cpc,"Cost question AI Overviews naming a business (rating, phone or address), out of aio_cost_question_business_base"
+aio_cost_question_business_base,33,ai-overviews-high-cpc,
+aio_hs_cost_cpc_median,6.21,ai-overviews-high-cpc,"USD, home services cost questions in the AI Overview set"
+aio_hs_service_cpc_median,17.99,ai-overviews-high-cpc,"USD, home services service or topic searches"
+aio_hs_cost_aio_n,27,ai-overviews-high-cpc,
+aio_hs_cost_n,30,ai-overviews-high-cpc,
+aio_hs_cost_rate,90.0,ai-overviews-high-cpc,
+aio_pi_non_near_me_n,11,ai-overviews-high-cpc,personal injury keywords without near me
+aio_pi_non_near_me_with_aio,6,ai-overviews-high-cpc,
+aio_us_rows_csv,339,ai-overviews-high-cpc,computed here: US rows in ai-overviews-high-cpc/data.csv
+aio_cpc_median_cost_question,5.91,ai-overviews-high-cpc,"computed here from ai-overviews-high-cpc/data.csv: median Semrush US CPC of 36 Cost question keywords, all industries"
+aio_cpc_median_urgent,24.04,ai-overviews-high-cpc,"computed here from ai-overviews-high-cpc/data.csv: median Semrush US CPC of 24 Urgent keywords, all industries"
+aio_cpc_median_near_me,12.07,ai-overviews-high-cpc,"computed here from ai-overviews-high-cpc/data.csv: median Semrush US CPC of 61 Near me keywords, all industries"
+aio_cpc_median_service_or_topic,15.46,ai-overviews-high-cpc,"computed here from ai-overviews-high-cpc/data.csv: median Semrush US CPC of 204 Service or topic keywords, all industries"

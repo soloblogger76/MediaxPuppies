@@ -1,0 +1,133 @@
+metric,value,source_study,note
+cpc_collected,2026-11-03,cpc-by-industry,"Semrush Keyword Overview (US database, USD)"
+cpc_keywords,339,cpc-by-industry,keywords with a CPC estimate
+cpc_industries,11,cpc-by-industry,
+cpc_google_ads_management,228.1,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_ppc_management,95.27,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_facebook_ads_agency,67.73,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_law_firm_marketing_agency,46.67,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_ppc_agency,46.56,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_google_ads_agency,45.44,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_dental_marketing_agency,27.65,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_lead_generation_companies,22.49,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_white_label_seo,18.94,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_lead_generation_services,17.88,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_white_label_ppc,14.28,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_white_label_marketing,10.11,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_real_estate_marketing_agency,9.06,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_digital_marketing_agency,8.15,cpc-by-industry,"Semrush US CPC estimate, USD"
+cpc_marketing_agency,7.47,cpc-by-industry,"Semrush US CPC estimate, USD"
+marketing_services_n,15,cpc-by-industry,
+marketing_services_mean,44.39,cpc-by-industry,
+marketing_services_median,22.49,cpc-by-industry,
+marketing_services_p25,12.2,cpc-by-industry,
+marketing_services_p75,46.62,cpc-by-industry,
+marketing_services_share_20_plus,53.3,cpc-by-industry,
+share_20_plus_threshold_usd,20,cpc-by-industry,marketing_services_share_20_plus counts keywords with a CPC estimate of $20 or more
+marketing_services_industry_rank,3,cpc-by-industry,"rank by median CPC, of 11 industries"
+industry_median_insurance,35.44,cpc-by-industry,median Semrush US CPC estimate
+industry_median_software,28.87,cpc-by-industry,median Semrush US CPC estimate
+industry_median_marketing_services,22.49,cpc-by-industry,median Semrush US CPC estimate
+industry_median_home_services,17.62,cpc-by-industry,median Semrush US CPC estimate
+industry_median_legal,13.68,cpc-by-industry,median Semrush US CPC estimate
+industry_median_finance,9.47,cpc-by-industry,median Semrush US CPC estimate
+industry_median_education,6.5,cpc-by-industry,median Semrush US CPC estimate
+industry_median_dental,6.39,cpc-by-industry,median Semrush US CPC estimate
+industry_median_med_spa,3.76,cpc-by-industry,median Semrush US CPC estimate
+industry_median_real_estate,3.59,cpc-by-industry,median Semrush US CPC estimate
+industry_median_ecommerce,2.08,cpc-by-industry,median Semrush US CPC estimate
+industry_n_legal,37,cpc-by-industry,keywords with a CPC estimate
+industry_mean_legal,60.92,cpc-by-industry,mean Semrush US CPC estimate
+industry_n_home_services,169,cpc-by-industry,keywords with a CPC estimate
+industry_mean_home_services,18.58,cpc-by-industry,mean Semrush US CPC estimate
+legal_100_plus,11,cpc-by-industry,legal keywords estimated at $100 or more a click
+cpc_median_all_keywords,12.32,cpc-by-industry,
+google_ads_management_rank_of_339,2,cpc-by-industry,from top12
+top_keyword_cpc,252.78,cpc-by-industry,truck accident lawyer
+volume_google_ads_management,4400,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush US monthly searches
+kd_google_ads_management,47,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush keyword difficulty
+volume_ppc_management,9900,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush US monthly searches
+kd_ppc_management,40,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush keyword difficulty
+volume_ppc_agency,14800,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush US monthly searches
+kd_ppc_agency,45,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush keyword difficulty
+volume_google_ads_agency,9900,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush US monthly searches
+kd_google_ads_agency,32,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush keyword difficulty
+volume_facebook_ads_agency,5400,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush US monthly searches
+kd_facebook_ads_agency,28,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush keyword difficulty
+volume_white_label_ppc,1900,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush US monthly searches
+kd_white_label_ppc,18,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush keyword difficulty
+volume_white_label_seo,8100,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush US monthly searches
+kd_white_label_seo,33,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush keyword difficulty
+volume_white_label_marketing,1300,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush US monthly searches
+kd_white_label_marketing,44,cpc-by-industry,computed from cpc-by-industry/data.csv: Semrush keyword difficulty
+data_csv_rows,339,cpc-by-industry,computed from cpc-by-industry/data.csv
+white_label_ppc_rank_of_339,164,cpc-by-industry,"computed from cpc-by-industry/data.csv: rank by CPC, highest first"
+white_label_ppc_rank_in_marketing,11,cpc-by-industry,computed from cpc-by-industry/data.csv: rank among the 15 marketing services keywords
+marketing_kd_min,18,cpc-by-industry,computed from cpc-by-industry/data.csv: lowest keyword difficulty of the 15 marketing services keywords
+ratio_google_ads_management_to_white_label_ppc,16.0,cpc-by-industry,"computed: Semrush CPC estimate divided by the white label ppc estimate, 1 decimal"
+ratio_ppc_management_to_white_label_ppc,6.7,cpc-by-industry,"computed: Semrush CPC estimate divided by the white label ppc estimate, 1 decimal"
+ratio_ppc_agency_to_white_label_ppc,3.3,cpc-by-industry,"computed: Semrush CPC estimate divided by the white label ppc estimate, 1 decimal"
+ratio_google_ads_agency_to_white_label_ppc,3.2,cpc-by-industry,"computed: Semrush CPC estimate divided by the white label ppc estimate, 1 decimal"
+ratio_facebook_ads_agency_to_white_label_ppc,4.7,cpc-by-industry,"computed: Semrush CPC estimate divided by the white label ppc estimate, 1 decimal"
+clicks_basis,100,cpc-by-industry,
+cost_100_clicks_google_ads_management,22810.0,cpc-by-industry,"computed: 100 clicks at the Semrush CPC estimate; arithmetic, not a measured spend"
+cost_100_clicks_ppc_management,9527.0,cpc-by-industry,"computed: 100 clicks at the Semrush CPC estimate; arithmetic, not a measured spend"
+cost_100_clicks_ppc_agency,4656.0,cpc-by-industry,"computed: 100 clicks at the Semrush CPC estimate; arithmetic, not a measured spend"
+cost_100_clicks_google_ads_agency,4544.0,cpc-by-industry,"computed: 100 clicks at the Semrush CPC estimate; arithmetic, not a measured spend"
+cost_100_clicks_white_label_ppc,1428.0,cpc-by-industry,"computed: 100 clicks at the Semrush CPC estimate; arithmetic, not a measured spend"
+aio_collected,2026-11-03,ai-overviews-high-cpc,"Google results pages fetched with Apify apify/google-search-scraper (desktop, English, no city set)"
+aio_us_keywords,339,ai-overviews-high-cpc,
+aio_us_rate,57.8,ai-overviews-high-cpc,share of the 339 US searches with an AI Overview
+aio_us_n,196,ai-overviews-high-cpc,
+aio_us_rate_software,100.0,ai-overviews-high-cpc,n=10
+aio_us_rate_marketing_services,93.3,ai-overviews-high-cpc,n=15
+aio_us_rate_insurance,90.0,ai-overviews-high-cpc,n=10
+aio_us_rate_education,77.8,ai-overviews-high-cpc,n=9
+aio_us_rate_real_estate,77.3,ai-overviews-high-cpc,n=22
+aio_us_rate_finance,70.0,ai-overviews-high-cpc,n=10
+aio_us_rate_ecommerce,70.0,ai-overviews-high-cpc,n=10
+aio_us_rate_dental,67.6,ai-overviews-high-cpc,n=37
+aio_us_rate_legal,48.6,ai-overviews-high-cpc,n=37
+aio_us_rate_home_services,46.7,ai-overviews-high-cpc,n=169
+aio_us_rate_med_spa,30.0,ai-overviews-high-cpc,n=10
+aio_us_marketing_n,15,ai-overviews-high-cpc,
+aio_us_marketing_with_aio,14,ai-overviews-high-cpc,computed: n x rate
+aio_top_cpc_with_aio,228.1,ai-overviews-high-cpc,google ads management (highest-CPC search with an AI Overview)
+aio_intl_keywords,118,ai-overviews-high-cpc,
+aio_us_marketing_without,1,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv: lead generation companies
+aio_white_label_ppc,yes,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv
+aio_white_label_ppc_sources,3,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv: reddit.com clicksgeek.com ppc.co
+aio_white_label_ppc_in_intl_subset,no,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv: whether it is in the UK/CA/AU subset
+aio_marketing_uk_n,10,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv
+aio_marketing_uk_with,10,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv
+aio_marketing_canada_n,10,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv
+aio_marketing_canada_with,10,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv
+aio_marketing_australia_n,10,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv
+aio_marketing_australia_with,8,ai-overviews-high-cpc,computed from ai-overviews-high-cpc/data.csv
+ads_read,2026-11-10 IST,agency-ads,"Meta Ad Library, ""marketing agency"" exact phrase, US, active, default order"
+ads_n,150,agency-ads,
+ads_pages,93,agency-ads,
+ads_library_results,5200,agency-ads,about
+ads_to_agency_owners_share,22.7,agency-ads,share of the 150 ads
+ads_to_agency_owners_n,34,agency-ads,
+pages_to_agency_owners_n,12,agency-ads,
+top_owner_page_ads,14,agency-ads,ads from the largest page selling to agency owners
+owners_ai,50.0,agency-ads,share of the 12 owner-facing pages
+owners_free_offer,25.0,agency-ads,share of the 12 owner-facing pages
+ads_agency_share,54.0,agency-ads,share of the 150 ads
+agency_pages,52,agency-ads,
+agency_ads,81,agency-ads,
+agency_video,69.2,agency-ads,share of the 52 agency pages; n=36
+agency_partner,0.0,agency-ads,share of the 52 agency pages; n=0
+agency_guarantee,3.8,agency-ads,share of the 52 agency pages; n=2
+agency_ai,21.2,agency-ads,share of the 52 agency pages; n=11
+agency_to_agency_owners,3.8,agency-ads,share of the 52 agency pages; n=2
+agency_named_trade,50.0,agency-ads,share of the 52 agency pages
+agency_any_proof,25.0,agency-ads,share of the 52 agency pages
+agency_risk_reversal,11.5,agency-ads,share of the 52 agency pages
+agency_free_or_audit,11.5,agency-ads,share of the 52 agency pages
+agency_none_of_offer_proof_risk,59.6,agency-ads,share of the 52 agency pages
+agency_general,38.5,agency-ads,share of the 52 agency pages
+agency_named_trade_n,26,agency-ads,
+agency_none_n,31,agency-ads,
+agency_video_n,36,agency-ads,
