@@ -62,8 +62,8 @@ Hub: https://mediapuppies.com/research/
 ## For businesses
 
 - [PPC Management Services: Google, Meta & LinkedIn Ads](https://mediapuppies.com/ppc-management/): PPC management services for US, UK and Australian businesses: Google Ads, Meta and LinkedIn managed daily and reported in cost per customer. Month to month.
-- [Hire a Dedicated Media Buyer](https://mediapuppies.com/hire-a-media-buyer/): A named, senior Meta and Google media buyer working inside your team and your Slack, on a monthly fee. No recruitment, no payroll, no notice period.
 - [Google Ads Management Services](https://mediapuppies.com/google-ads-agency/): Google Ads management services for US, UK and Australian businesses: Search, Shopping, Performance Max and YouTube, managed daily by a senior team.
+- [Hire a Dedicated Media Buyer](https://mediapuppies.com/hire-a-media-buyer/): A named, senior Meta and Google media buyer working inside your team and your Slack, on a monthly fee. No recruitment, no payroll, no notice period.
 - [Meta Ads Agency](https://mediapuppies.com/meta-ads-agency/): Facebook and Instagram advertising managed daily. Advantage+, Conversions API, creative testing and zero account bans in eight years.
 - [LinkedIn Ads Agency](https://mediapuppies.com/linkedin-ads-agency/): LinkedIn advertising for B2B brands with high contract values. Account-based targeting, Conversions API, and when LinkedIn is too expensive.
 - [Ecommerce PPC Agency](https://mediapuppies.com/ecommerce-ppc-agency/): Meta and Google Shopping management for ecommerce brands, reported on contribution margin and blended MER rather than platform-reported ROAS.
