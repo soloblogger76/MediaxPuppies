@@ -324,7 +324,10 @@ function geocode(text,limit){
     lastCall=Date.now();
     var p=new URLSearchParams({format:'jsonv2',q:text,limit:String(limit||5),'accept-language':hl.value});
     p.set('countrycodes',gl.value.toLowerCase());
-    return fetch('https://nominatim.openstreetmap.org/search?'+p.toString(),{headers:{'Accept':'application/json'}});
+    var ctl=window.AbortController?new AbortController():null;
+    var timer=setTimeout(function(){if(ctl)ctl.abort();},8000);
+    return fetch('https://nominatim.openstreetmap.org/search?'+p.toString(),ctl?{signal:ctl.signal}:{})
+      .then(function(res){clearTimeout(timer);return res;},function(e){clearTimeout(timer);throw e;});
   }).then(function(res){if(!res.ok)throw new Error('lookup '+res.status);return res.json();});
 }
 function parseLatLng(s){
@@ -383,6 +386,10 @@ function find(){
 $('find').addEventListener('click',find);
 place.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();find();}});
 q.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();if(picked&&q.value.trim()){render();$('go').click();}else if(!picked){place.focus();}}});
+try{
+  var fp=document.permissionsPolicy||document.featurePolicy;
+  if(!navigator.geolocation||(fp&&fp.allowsFeature&&!fp.allowsFeature('geolocation')))$('mine').hidden=true;
+}catch(e){}
 $('mine').addEventListener('click',function(){
   if(!navigator.geolocation){st.className='status err';st.textContent='Your browser does not share location.';return;}
   st.className='status';st.textContent='Asking your browser for your location…';
