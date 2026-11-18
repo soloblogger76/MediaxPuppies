@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#F6F5EF">
-<title>GST on Ad Spend Calculator — Meta, Google &amp; Agency Fees</title>
+<title>GST on Ad Spend Calculator, Meta, Google &amp; Agency Fees</title>
 <link rel="preconnect" href="https://api.fontshare.com">
 <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
 <link rel="preload" as="style" href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap&v=2">
@@ -86,7 +86,7 @@
      "name": "Can I claim input credit on advertising?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Generally yes where the spend is for business and you hold a valid invoice reflected in your returns. Eligibility depends on your circumstances — check with your CA."
+      "text": "Generally yes where the spend is for business and you hold a valid invoice reflected in your returns. Eligibility depends on your circumstances, check with your CA."
      }
     },
     {
@@ -102,7 +102,7 @@
      "name": "Should a small brand register just for this?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "That depends on far more than advertising — turnover thresholds, who your customers are, and whether they need a tax invoice. This shows what the advertising side of the decision is worth."
+      "text": "That depends on far more than advertising, turnover thresholds, who your customers are, and whether they need a tax invoice. This shows what the advertising side of the decision is worth."
      }
     }
    ]
@@ -186,20 +186,20 @@ details[open] .plus{transform:rotate(45deg)}
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Meta and Google invoice you without GST. That does not mean there is none. Here is what marketing actually costs once reverse charge and input credit are counted.</p>
 
   <div class="card" style="margin-top:26px">
-    <div class="row"><div class="field"><label for="spend">Monthly spend on Meta / Google (₹)</label><input id="spend" type="number" inputmode="decimal" step="any" min="0" value="200000"><p class="hint">Billed by a foreign entity, usually with no GST on the invoice.</p></div><div class="field"><label for="fee">Monthly agency or freelancer fee (₹)</label><input id="fee" type="number" inputmode="decimal" step="any" min="0" value="50000"><p class="hint">An Indian supplier adds GST on top.</p></div><div class="field"><label for="other">Other Indian marketing invoices (₹)</label><input id="other" type="number" inputmode="decimal" step="any" min="0" value="15000"><p class="hint">Tools, design, hosting billed from India.</p></div><div class="field"><label for="reg">Are you GST registered?</label><select id="reg"><option value="yes">Yes</option><option value="no">No</option></select></div><div class="field"><label for="itc">Can you use the input credit?</label><select id="itc"><option value="full">Yes, fully</option><option value="part">Partly</option><option value="none">No — output exempt</option></select><p class="hint">Credit is only worth something against output GST.</p></div><div class="field"><label for="rate">GST rate (%)</label><input id="rate" type="number" inputmode="decimal" step="any" min="0" value="18"><p class="hint">18% is standard on advertising and marketing services.</p></div></div>
+    <div class="row"><div class="field"><label for="spend">Monthly spend on Meta / Google (₹)</label><input id="spend" type="number" inputmode="decimal" step="any" min="0" value="200000"><p class="hint">Billed by a foreign entity, usually with no GST on the invoice.</p></div><div class="field"><label for="fee">Monthly agency or freelancer fee (₹)</label><input id="fee" type="number" inputmode="decimal" step="any" min="0" value="50000"><p class="hint">An Indian supplier adds GST on top.</p></div><div class="field"><label for="other">Other Indian marketing invoices (₹)</label><input id="other" type="number" inputmode="decimal" step="any" min="0" value="15000"><p class="hint">Tools, design, hosting billed from India.</p></div><div class="field"><label for="reg">Are you GST registered?</label><select id="reg"><option value="yes">Yes</option><option value="no">No</option></select></div><div class="field"><label for="itc">Can you use the input credit?</label><select id="itc"><option value="full">Yes, fully</option><option value="part">Partly</option><option value="none">No, output exempt</option></select><p class="hint">Credit is only worth something against output GST.</p></div><div class="field"><label for="rate">GST rate (%)</label><input id="rate" type="number" inputmode="decimal" step="any" min="0" value="18"><p class="hint">18% is standard on advertising and marketing services.</p></div></div>
     <div class="out">
       <div class="row"><div class="metric"><div class="k">Cash out</div><div class="v" id="o_gross">—</div><div class="s" id="o_gross-s">per month</div></div><div class="metric"><div class="k">Input credit</div><div class="v" id="o_credit">—</div><div class="s" id="o_credit-s"></div></div><div class="metric"><div class="k">True marketing cost</div><div class="v" id="o_net">—</div><div class="s" id="o_net-s">after credit</div></div></div><div class="row" style="margin-top:18px"><div class="metric"><div class="k">Reverse charge self-assessed</div><div class="v" id="o_rcm">—</div><div class="s" id="o_rcm-s"></div></div><div class="metric"><div class="k">Uplift on headline spend</div><div class="v" id="o_uplift">—</div><div class="s" id="o_uplift-s"></div></div><div class="metric"><div class="k">True cost per year</div><div class="v" id="o_year">—</div><div class="s" id="o_year-s"></div></div></div><div id="o_verdict" class="verdict"></div>
     </div>
-    <p class="note">Rupees only — this one is specific to India. Runs entirely in your browser. Nothing you type is sent to us or stored anywhere.</p>
+    <p class="note">Rupees only, this one is specific to India. Runs entirely in your browser. Nothing you type is sent to us or stored anywhere.</p>
   </div>
 
   
 <h2>The part most advertisers miss</h2>
-<p>Meta and Google bill Indian advertisers from a foreign entity and the invoice usually shows no GST. Many people read that as “no tax on ad spend”. It is not — it is an import of service, and a registered recipient is expected to self-assess IGST on it under the reverse charge mechanism, then claim the same amount back as input credit.</p>
+<p>Meta and Google bill Indian advertisers from a foreign entity and the invoice usually shows no GST. Many people read that as “no tax on ad spend”. It is not, it is an import of service, and a registered recipient is expected to self-assess IGST on it under the reverse charge mechanism, then claim the same amount back as input credit.</p>
 <p>For a registered business with taxable output that nets to zero and is purely cash flow and compliance. For a business that is unregistered, or whose output is exempt, it does not net to zero.</p>
 <h2>Where the cost actually lands</h2>
 <table><tr><th>Situation</th><th>What GST does to you</th></tr>
-<tr><td>Registered, fully taxable output</td><td>A timing difference — pay now, credit later.</td></tr>
+<tr><td>Registered, fully taxable output</td><td>A timing difference, pay now, credit later.</td></tr>
 <tr><td>Registered, partly exempt</td><td>Part of the credit is lost and becomes real cost.</td></tr>
 <tr><td>Registered, exempt output</td><td>The whole 18% sticks.</td></tr>
 <tr><td>Not registered</td><td>Suppliers’ GST is unrecoverable. No reverse-charge obligation, but no credit either.</td></tr></table>
@@ -208,20 +208,20 @@ details[open] .plus{transform:rotate(45deg)}
 <p class="note">This is a planning tool, not tax advice. Rates, reverse-charge treatment and credit eligibility depend on your registration, your state and what you supply. Confirm the specifics with your CA before filing anything.</p>
 
   <h2>Questions</h2>
-  <div><details><summary>Do Meta and Google charge GST on Indian ad accounts?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Typically the invoice comes from a foreign entity with no Indian GST, which makes it an import of service, and a registered recipient self-assesses IGST under reverse charge. Billing arrangements change, so check your own invoice rather than assuming.</p></details><details><summary>Can I claim input credit on advertising?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Generally yes where the spend is for business and you hold a valid invoice reflected in your returns. Eligibility depends on your circumstances — check with your CA.</p></details><details><summary>What is the GST rate on advertising?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">18% is the standard rate on advertising and marketing services in India.</p></details><details><summary>Should a small brand register just for this?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">That depends on far more than advertising — turnover thresholds, who your customers are, and whether they need a tax invoice. This shows what the advertising side of the decision is worth.</p></details></div>
+  <div><details><summary>Do Meta and Google charge GST on Indian ad accounts?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Typically the invoice comes from a foreign entity with no Indian GST, which makes it an import of service, and a registered recipient self-assesses IGST under reverse charge. Billing arrangements change, so check your own invoice rather than assuming.</p></details><details><summary>Can I claim input credit on advertising?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Generally yes where the spend is for business and you hold a valid invoice reflected in your returns. Eligibility depends on your circumstances, check with your CA.</p></details><details><summary>What is the GST rate on advertising?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">18% is the standard rate on advertising and marketing services in India.</p></details><details><summary>Should a small brand register just for this?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">That depends on far more than advertising, turnover thresholds, who your customers are, and whether they need a tax invoice. This shows what the advertising side of the decision is worth.</p></details></div>
 
   <h2>Embed this calculator</h2>
-  <p>Free to use on your own site. Copy this into your page — the attribution line is the only condition.</p>
+  <p>Free to use on your own site. Copy this into your page, the attribution line is the only condition.</p>
   <textarea readonly rows="7" onclick="this.select()" style="width:100%;box-sizing:border-box;padding:14px;border:1.5px solid rgba(24,28,79,.16);border-radius:12px;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55;color:#181C4F">&lt;iframe id="mp-gst-on-ads-calculator" src="https://mediapuppies.com/embed/gst-on-ads-calculator/" width="100%" height="700" style="border:1px solid #e5e5e5;border-radius:16px" loading="lazy" title="GST on ad spend calculator"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://mediapuppies.com/tools/gst-on-ads-calculator/"&gt;GST on ad spend calculator&lt;/a&gt; by &lt;a href="https://mediapuppies.com/"&gt;Media Puppies&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;addEventListener('message',function(e){if(e.origin==='https://mediapuppies.com'&&e.data&&e.data.mpSlug==='gst-on-ads-calculator')document.getElementById('mp-gst-on-ads-calculator').style.height=e.data.mpHeight+'px'})&lt;/script&gt;</textarea>
-  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column — drop it if you prefer, the fixed height still works.</p>
+  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column, drop it if you prefer, the fixed height still works.</p>
   <h2>Other free tools</h2>
   <ul style="padding-left:20px;line-height:2"><li><a href="/tools/break-even-roas-calculator/">Break-even ROAS calculator</a></li><li><a href="/tools/meta-ads-budget-calculator/">Meta ads budget calculator</a></li><li><a href="/tools/cod-vs-prepaid-calculator/">COD vs prepaid profit calculator</a></li></ul>
 
   <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
     <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
-    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you — including “not yet”.</p>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you, including “not yet”.</p>
     <a href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free account audit →</a>
   </div>
 </main>

@@ -161,7 +161,7 @@ Hub: https://mediapuppies.com/research/
 - [ROAS calculator](https://mediapuppies.com/tools/roas-calculator/)
 - [Break-even ROAS calculator](https://mediapuppies.com/tools/break-even-roas-calculator/)
 - [Blended ROAS and MER calculator](https://mediapuppies.com/tools/blended-roas-calculator/)
-- [Free CAC Calculator — What Can You Actually Pay for a Customer?](https://mediapuppies.com/cac-calculator/)
+- [Free CAC Calculator, What Can You Actually Pay for a Customer?](https://mediapuppies.com/cac-calculator/)
 - [Customer lifetime value calculator](https://mediapuppies.com/tools/ltv-calculator/)
 - [Agency vs in-house cost calculator](https://mediapuppies.com/tools/agency-vs-inhouse-calculator/)
 - [Time zone overlap calculator](https://mediapuppies.com/tools/timezone-overlap-calculator/)

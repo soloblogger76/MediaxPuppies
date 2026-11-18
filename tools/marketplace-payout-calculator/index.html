@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#F6F5EF">
-<title>Marketplace Payout Calculator — Amazon, Flipkart, Meesho</title>
+<title>Marketplace Payout Calculator, Amazon, Flipkart, Meesho</title>
 <link rel="preconnect" href="https://api.fontshare.com">
 <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
 <link rel="preload" as="style" href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap&v=2">
@@ -14,16 +14,16 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="Work out what actually reaches your bank from a marketplace order after commission, closing, shipping and returns — using your own category rates.">
+<meta name="description" content="Work out what actually reaches your bank from a marketplace order after commission, closing, shipping and returns, using your own category rates.">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Marketplace payout calculator">
-<meta property="og:description" content="Work out what actually reaches your bank from a marketplace order after commission, closing, shipping and returns — using your own category rates.">
+<meta property="og:description" content="Work out what actually reaches your bank from a marketplace order after commission, closing, shipping and returns, using your own category rates.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/tools/marketplace-payout-calculator/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Marketplace payout calculator">
-<meta name="twitter:description" content="Work out what actually reaches your bank from a marketplace order after commission, closing, shipping and returns — using your own category rates.">
+<meta name="twitter:description" content="Work out what actually reaches your bank from a marketplace order after commission, closing, shipping and returns, using your own category rates.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <link rel="canonical" href="https://mediapuppies.com/tools/marketplace-payout-calculator/">
 <script type="application/ld+json">
@@ -37,7 +37,7 @@
    "url": "https://mediapuppies.com/tools/marketplace-payout-calculator/",
    "applicationCategory": "BusinessApplication",
    "operatingSystem": "Any",
-   "description": "Work out what actually reaches your bank from a marketplace order after commission, closing, shipping and returns — using your own category rates.",
+   "description": "Work out what actually reaches your bank from a marketplace order after commission, closing, shipping and returns, using your own category rates.",
    "offers": {
     "@type": "Offer",
     "price": "0",
@@ -78,7 +78,7 @@
      "name": "Where do I find my commission rate?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "In the fee schedule inside your seller panel, under your specific category and price band. Do not use a blog post — the rates are revised."
+      "text": "In the fee schedule inside your seller panel, under your specific category and price band. Do not use a blog post, the rates are revised."
      }
     },
     {
@@ -94,7 +94,7 @@
      "name": "Does this cover FBA-style fulfilment?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes — put the marketplace’s fulfilment charge into the shipping field and set your own pick-and-pack to zero."
+      "text": "Yes, put the marketplace’s fulfilment charge into the shipping field and set your own pick-and-pack to zero."
      }
     },
     {
@@ -185,7 +185,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Indian ecommerce</span>
   <h1 style="margin:16px 0 0">Marketplace payout calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Marketplace fee schedules change by category and by month, so this asks for your rates rather than guessing them. Put your numbers in and see what is left.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency, only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="mrp">Selling price on the marketplace (₹)</label><input id="mrp" type="number" inputmode="decimal" step="any" min="0" value="1499"></div><div class="field"><label for="cogs">Your cost of goods (₹)</label><input id="cogs" type="number" inputmode="decimal" step="any" min="0" value="520"></div><div class="field"><label for="comm">Referral / commission (%)</label><input id="comm" type="number" inputmode="decimal" step="any" min="0" value="14"><p class="hint">Check your category’s current rate in the seller panel.</p></div></div><div class="row"><div class="field"><label for="close">Closing / fixed fee per order (₹)</label><input id="close" type="number" inputmode="decimal" step="any" min="0" value="40"></div><div class="field"><label for="shipfee">Shipping fee the marketplace charges you (₹)</label><input id="shipfee" type="number" inputmode="decimal" step="any" min="0" value="75"></div><div class="field"><label for="pickpack">Your own pick, pack and packaging (₹)</label><input id="pickpack" type="number" inputmode="decimal" step="any" min="0" value="25"></div></div><div class="row"><div class="field"><label for="ret">Return rate (%)</label><input id="ret" type="number" inputmode="decimal" step="any" min="0" value="14"><p class="hint">Marketplace returns run high in apparel and footwear.</p></div><div class="field"><label for="retcost">Cost when an order is returned (₹)</label><input id="retcost" type="number" inputmode="decimal" step="any" min="0" value="150"><p class="hint">Reverse logistics plus any fee the marketplace keeps.</p></div><div class="field"><label for="ads">Marketplace ads as % of revenue</label><input id="ads" type="number" inputmode="decimal" step="any" min="0" value="6"><p class="hint">Sponsored product spend, if you run it.</p></div></div>
@@ -197,34 +197,34 @@ details[open] .plus{transform:rotate(45deg)}
 
   
 <h2>Why this asks for your rates instead of supplying them</h2>
-<p>Referral fees on Indian marketplaces vary by category, by price band and by fulfilment method, and they get revised. Any calculator that hardcodes “Amazon charges X%” is wrong for most sellers and stale within a quarter. Your current rates are in your seller panel — use those.</p>
+<p>Referral fees on Indian marketplaces vary by category, by price band and by fulfilment method, and they get revised. Any calculator that hardcodes “Amazon charges X%” is wrong for most sellers and stale within a quarter. Your current rates are in your seller panel, use those.</p>
 <h2>The fees people forget</h2>
-<ul><li><strong>Closing fee</strong> — a flat per-order charge that hurts most on low-value items.</li>
+<ul><li><strong>Closing fee</strong>: a flat per-order charge that hurts most on low-value items.</li>
 <li><strong>Weight-band shipping.</strong> Going one gram over a slab can cost more than the packaging.</li>
 <li><strong>Returns.</strong> The single largest variable in apparel and footwear, and the one most sellers exclude from their spreadsheet.</li>
 <li><strong>Sponsored ads.</strong> If you run them to stay visible, they are a cost of the channel, not a separate marketing line.</li>
 <li><strong>Payment cycle.</strong> Not a fee, but money locked for a fortnight is working capital you are financing.</li></ul>
 <h2>The number that actually matters</h2>
-<p>Profit per <em>delivered</em> order flatters every marketplace. Profit per order <em>placed</em> — after returns — is what lands in your bank. The gap between those two is the whole argument for or against a channel.</p>
+<p>Profit per <em>delivered</em> order flatters every marketplace. Profit per order <em>placed</em>, after returns, is what lands in your bank. The gap between those two is the whole argument for or against a channel.</p>
 <p>The break-even return rate is the most useful output here. It tells you how much room you have before the channel stops paying, which is a far more practical thing to monitor than margin.</p>
 <h2>Comparing against your own site</h2>
 <p>Run the same product through the <a href="/tools/break-even-roas-calculator/">break-even ROAS calculator</a> for your own website. Marketplaces take a large, certain cut; your own site costs you advertising, which is variable. Whichever leaves more per order placed is where the next unit of effort belongs.</p>
 
   <h2>Questions</h2>
-  <div><details><summary>Where do I find my commission rate?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">In the fee schedule inside your seller panel, under your specific category and price band. Do not use a blog post — the rates are revised.</p></details><details><summary>Should I include GST here?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Work in the amounts you actually keep. If you are registered and claiming input credit, use ex-GST figures throughout so the comparison is consistent.</p></details><details><summary>Does this cover FBA-style fulfilment?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Yes — put the marketplace’s fulfilment charge into the shipping field and set your own pick-and-pack to zero.</p></details><details><summary>Why is my break-even return rate so low?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Because the profit on a delivered order is small relative to what a return costs. That is normal on thin-margin categories and it is exactly why return rate is the metric to watch.</p></details></div>
+  <div><details><summary>Where do I find my commission rate?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">In the fee schedule inside your seller panel, under your specific category and price band. Do not use a blog post, the rates are revised.</p></details><details><summary>Should I include GST here?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Work in the amounts you actually keep. If you are registered and claiming input credit, use ex-GST figures throughout so the comparison is consistent.</p></details><details><summary>Does this cover FBA-style fulfilment?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Yes, put the marketplace’s fulfilment charge into the shipping field and set your own pick-and-pack to zero.</p></details><details><summary>Why is my break-even return rate so low?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Because the profit on a delivered order is small relative to what a return costs. That is normal on thin-margin categories and it is exactly why return rate is the metric to watch.</p></details></div>
 
   <h2>Embed this calculator</h2>
-  <p>Free to use on your own site. Copy this into your page — the attribution line is the only condition.</p>
+  <p>Free to use on your own site. Copy this into your page, the attribution line is the only condition.</p>
   <textarea readonly rows="7" onclick="this.select()" style="width:100%;box-sizing:border-box;padding:14px;border:1.5px solid rgba(24,28,79,.16);border-radius:12px;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55;color:#181C4F">&lt;iframe id="mp-marketplace-payout-calculator" src="https://mediapuppies.com/embed/marketplace-payout-calculator/" width="100%" height="700" style="border:1px solid #e5e5e5;border-radius:16px" loading="lazy" title="Marketplace payout calculator"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://mediapuppies.com/tools/marketplace-payout-calculator/"&gt;Marketplace payout calculator&lt;/a&gt; by &lt;a href="https://mediapuppies.com/"&gt;Media Puppies&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;addEventListener('message',function(e){if(e.origin==='https://mediapuppies.com'&&e.data&&e.data.mpSlug==='marketplace-payout-calculator')document.getElementById('mp-marketplace-payout-calculator').style.height=e.data.mpHeight+'px'})&lt;/script&gt;</textarea>
-  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column — drop it if you prefer, the fixed height still works.</p>
+  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column, drop it if you prefer, the fixed height still works.</p>
   <h2>Other free tools</h2>
   <ul style="padding-left:20px;line-height:2"><li><a href="/tools/cod-vs-prepaid-calculator/">COD vs prepaid profit calculator</a></li><li><a href="/tools/break-even-roas-calculator/">Break-even ROAS calculator</a></li><li><a href="/tools/ltv-calculator/">Customer lifetime value calculator</a></li></ul>
 
   <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
     <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
-    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you — including “not yet”.</p>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you, including “not yet”.</p>
     <a href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free account audit →</a>
   </div>
 </main>

@@ -78,7 +78,7 @@
      "name": "Should LTV use gross or net margin?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Gross margin — revenue minus the variable costs of delivering the product. Net margin already subtracts marketing, which would double-count."
+      "text": "Gross margin, revenue minus the variable costs of delivering the product. Net margin already subtracts marketing, which would double-count."
      }
     },
     {
@@ -185,7 +185,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Unit economics</span>
   <h1 style="margin:16px 0 0">Customer lifetime value calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">LTV on revenue flatters you. This calculates it on gross profit, which is the only version that tells you what you can afford to spend.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency, only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="aov">Average order value (₹)</label><input id="aov" type="number" inputmode="decimal" step="any" min="0" value="2500"></div><div class="field"><label for="freq">Purchases per customer per year</label><input id="freq" type="number" inputmode="decimal" step="any" min="0" value="2.4"></div><div class="field"><label for="years">Average customer lifespan (years)</label><input id="years" type="number" inputmode="decimal" step="any" min="0" value="2"></div><div class="field"><label for="margin">Gross margin (%)</label><input id="margin" type="number" inputmode="decimal" step="any" min="0" value="45"><p class="hint">What is left after cost of goods and fulfilment.</p></div><div class="field"><label for="cac">What you pay to acquire a customer (₹)</label><input id="cac" type="number" inputmode="decimal" step="any" min="0" value="900"><p class="hint">Total marketing spend ÷ new customers.</p></div></div>
@@ -200,31 +200,31 @@ details[open] .plus{transform:rotate(45deg)}
 <p>Most LTV figures quoted in meetings are lifetime <em>revenue</em>, which is a vanity number. A customer who spends ₹12,000 over two years at a 20% margin is worth ₹2,400 to you, not ₹12,000. Spend against the second figure.</p>
 <h2>The 3:1 benchmark, and when to ignore it</h2>
 <p>LTV to CAC of 3:1 is a widely used rule of thumb: a third of the lifetime gross profit goes to acquiring the customer, and the rest covers overheads and profit. It is a guide, not physics.</p>
-<ul><li><strong>Below 1:1</strong> — you lose money on every customer. No volume fixes this.</li>
-<li><strong>1:1 to 3:1</strong> — viable but fragile. One bad month or a rise in CPMs erases the margin.</li>
-<li><strong>3:1 to 5:1</strong> — the healthy band for most businesses.</li>
-<li><strong>Above 5:1</strong> — usually means you are under-spending. A competitor willing to run at 3:1 can outbid you on every impression.</li></ul>
+<ul><li><strong>Below 1:1</strong>: you lose money on every customer. No volume fixes this.</li>
+<li><strong>1:1 to 3:1</strong>: viable but fragile. One bad month or a rise in CPMs erases the margin.</li>
+<li><strong>3:1 to 5:1</strong>: the healthy band for most businesses.</li>
+<li><strong>Above 5:1</strong>: usually means you are under-spending. A competitor willing to run at 3:1 can outbid you on every impression.</li></ul>
 <h2>Payback period matters as much as the ratio</h2>
 <p>A 6:1 ratio is no comfort if it takes eighteen months to recover the acquisition cost and you are funding that gap from working capital. The orders-to-payback figure above tells you how many purchases it takes to get your money back. For a cash-constrained business, getting that to one order matters more than a beautiful lifetime ratio.</p>
 <h2>Being honest about lifespan</h2>
-<p>Most businesses overestimate this badly. If you have been trading for eighteen months, you cannot claim a three-year customer lifespan — you have no evidence. Use the period you can actually observe, and revise it upward when the data earns it.</p>
+<p>Most businesses overestimate this badly. If you have been trading for eighteen months, you cannot claim a three-year customer lifespan, you have no evidence. Use the period you can actually observe, and revise it upward when the data earns it.</p>
 
 
   <h2>Questions</h2>
-  <div><details><summary>Should LTV use gross or net margin?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Gross margin — revenue minus the variable costs of delivering the product. Net margin already subtracts marketing, which would double-count.</p></details><details><summary>How do I calculate CAC?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Total sales and marketing spend for a period divided by the number of new customers acquired in it. Include agency fees and tools, not just ad spend.</p></details><details><summary>What if repeat purchase rate is unknown?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Assume one purchase and treat anything beyond it as upside. A model built on a guessed repeat rate produces a confident wrong answer.</p></details><details><summary>Does this work for services?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Yes. Use average contract value as order value and renewals per year as frequency.</p></details></div>
+  <div><details><summary>Should LTV use gross or net margin?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Gross margin, revenue minus the variable costs of delivering the product. Net margin already subtracts marketing, which would double-count.</p></details><details><summary>How do I calculate CAC?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Total sales and marketing spend for a period divided by the number of new customers acquired in it. Include agency fees and tools, not just ad spend.</p></details><details><summary>What if repeat purchase rate is unknown?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Assume one purchase and treat anything beyond it as upside. A model built on a guessed repeat rate produces a confident wrong answer.</p></details><details><summary>Does this work for services?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Yes. Use average contract value as order value and renewals per year as frequency.</p></details></div>
 
   <h2>Embed this calculator</h2>
-  <p>Free to use on your own site. Copy this into your page — the attribution line is the only condition.</p>
+  <p>Free to use on your own site. Copy this into your page, the attribution line is the only condition.</p>
   <textarea readonly rows="7" onclick="this.select()" style="width:100%;box-sizing:border-box;padding:14px;border:1.5px solid rgba(24,28,79,.16);border-radius:12px;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55;color:#181C4F">&lt;iframe id="mp-ltv-calculator" src="https://mediapuppies.com/embed/ltv-calculator/" width="100%" height="700" style="border:1px solid #e5e5e5;border-radius:16px" loading="lazy" title="Customer lifetime value calculator"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://mediapuppies.com/tools/ltv-calculator/"&gt;Customer lifetime value calculator&lt;/a&gt; by &lt;a href="https://mediapuppies.com/"&gt;Media Puppies&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;addEventListener('message',function(e){if(e.origin==='https://mediapuppies.com'&&e.data&&e.data.mpSlug==='ltv-calculator')document.getElementById('mp-ltv-calculator').style.height=e.data.mpHeight+'px'})&lt;/script&gt;</textarea>
-  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column — drop it if you prefer, the fixed height still works.</p>
+  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column, drop it if you prefer, the fixed height still works.</p>
   <h2>Other free tools</h2>
   <ul style="padding-left:20px;line-height:2"><li><a href="/cac-calculator/">CAC ceiling calculator</a></li><li><a href="/tools/break-even-roas-calculator/">Break-even ROAS calculator</a></li><li><a href="/tools/lead-funnel-calculator/">Lead funnel calculator</a></li></ul>
 
   <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
     <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
-    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you — including “not yet”.</p>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you, including “not yet”.</p>
     <a href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free account audit →</a>
   </div>
 </main>

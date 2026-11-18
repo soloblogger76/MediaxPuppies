@@ -186,7 +186,7 @@ details[open] .plus{transform:rotate(45deg)}
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Variant B is up 18% and you want to call it. This tells you whether that difference would survive being run again.</p>
 
   <div class="card" style="margin-top:26px">
-    <div class="row"><div><div class="field"><label for="na">Variant A — visitors</label><input id="na" type="number" inputmode="decimal" step="1" min="0" value="1200"></div><div class="field"><label for="ca">Variant A — conversions</label><input id="ca" type="number" inputmode="decimal" step="1" min="0" value="48"></div></div><div><div class="field"><label for="nb">Variant B — visitors</label><input id="nb" type="number" inputmode="decimal" step="1" min="0" value="1180"></div><div class="field"><label for="cb">Variant B — conversions</label><input id="cb" type="number" inputmode="decimal" step="1" min="0" value="67"></div></div></div>
+    <div class="row"><div><div class="field"><label for="na">Variant A, visitors</label><input id="na" type="number" inputmode="decimal" step="1" min="0" value="1200"></div><div class="field"><label for="ca">Variant A, conversions</label><input id="ca" type="number" inputmode="decimal" step="1" min="0" value="48"></div></div><div><div class="field"><label for="nb">Variant B, visitors</label><input id="nb" type="number" inputmode="decimal" step="1" min="0" value="1180"></div><div class="field"><label for="cb">Variant B, conversions</label><input id="cb" type="number" inputmode="decimal" step="1" min="0" value="67"></div></div></div>
     <div class="out">
       <div class="row"><div class="metric"><div class="k">Variant A rate</div><div class="v" id="o_ra">—</div><div class="s" id="o_ra-s"></div></div><div class="metric"><div class="k">Variant B rate</div><div class="v" id="o_rb">—</div><div class="s" id="o_rb-s"></div></div><div class="metric"><div class="k">Relative lift</div><div class="v" id="o_lift">—</div><div class="s" id="o_lift-s"></div></div></div><div class="row" style="margin-top:18px"><div class="metric"><div class="k">Confidence</div><div class="v" id="o_conf">—</div><div class="s" id="o_conf-s"></div></div><div class="metric"><div class="k">p-value</div><div class="v" id="o_p">—</div><div class="s" id="o_p-s"></div></div><div class="metric"><div class="k">z-score</div><div class="v" id="o_z">—</div><div class="s" id="o_z-s"></div></div></div><div id="o_verdict" class="verdict"></div>
     </div>
@@ -195,7 +195,7 @@ details[open] .plus{transform:rotate(45deg)}
 
   
 <h2>What this actually calculates</h2>
-<p>A two-proportion z-test. It asks one question: if the two variants were genuinely identical, how likely is it that you would see a gap this large purely by chance? That likelihood is the p-value. Below 0.05 — a one-in-twenty chance — is the usual threshold for calling a winner.</p>
+<p>A two-proportion z-test. It asks one question: if the two variants were genuinely identical, how likely is it that you would see a gap this large purely by chance? That likelihood is the p-value. Below 0.05, a one-in-twenty chance, is the usual threshold for calling a winner.</p>
 <p>The confidence figure is simply the other side of the same coin: a p-value of 0.03 is 97% confidence.</p>
 <h2>The mistakes that make tests lie</h2>
 <ul><li><strong>Stopping the moment it goes green.</strong> Significance fluctuates during a test. If you check daily and stop at the first green reading, you will declare winners that are not real. Decide the sample size before you start, or at minimum run full weeks.</li>
@@ -204,24 +204,24 @@ details[open] .plus{transform:rotate(45deg)}
 <li><strong>Running several tests at once on the same traffic.</strong> They contaminate each other and you cannot attribute the result.</li>
 <li><strong>Ignoring what happens after the conversion.</strong> A variant that doubles leads and halves lead quality is a loss. Measure the outcome that matters, not the one that is easy.</li></ul>
 <h2>When you simply do not have the traffic</h2>
-<p>Most small accounts cannot reach significance on a 10% difference in any reasonable timeframe. That is not a reason to skip testing — it is a reason to test bigger swings. A completely different angle can produce a difference large enough to detect in a fortnight; a reworded subheading cannot.</p>
+<p>Most small accounts cannot reach significance on a 10% difference in any reasonable timeframe. That is not a reason to skip testing, it is a reason to test bigger swings. A completely different angle can produce a difference large enough to detect in a fortnight; a reworded subheading cannot.</p>
 
 
   <h2>Questions</h2>
   <div><details><summary>Is 95% confidence the right threshold?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">It is the convention, not a law. For a low-risk change, 90% is a reasonable bar. For anything expensive or hard to reverse, wait for 95% or higher.</p></details><details><summary>How long should a test run?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">At least one full week, ideally two, and until you reach your pre-decided sample size. Full weeks matter because weekday and weekend behaviour differ.</p></details><details><summary>What if neither variant wins?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">That is a genuine result. It means the change was not big enough to matter. Keep the simpler version and test something more substantial.</p></details><details><summary>Can I use this for Meta ad tests?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Yes, for comparing two ads on impressions and conversions. Note that Meta does not split traffic evenly by default, so its own A/B test tool is cleaner for a formal test.</p></details></div>
 
   <h2>Embed this calculator</h2>
-  <p>Free to use on your own site. Copy this into your page — the attribution line is the only condition.</p>
+  <p>Free to use on your own site. Copy this into your page, the attribution line is the only condition.</p>
   <textarea readonly rows="7" onclick="this.select()" style="width:100%;box-sizing:border-box;padding:14px;border:1.5px solid rgba(24,28,79,.16);border-radius:12px;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55;color:#181C4F">&lt;iframe id="mp-ab-test-significance-calculator" src="https://mediapuppies.com/embed/ab-test-significance-calculator/" width="100%" height="700" style="border:1px solid #e5e5e5;border-radius:16px" loading="lazy" title="A/B test significance calculator"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://mediapuppies.com/tools/ab-test-significance-calculator/"&gt;A/B test significance calculator&lt;/a&gt; by &lt;a href="https://mediapuppies.com/"&gt;Media Puppies&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;addEventListener('message',function(e){if(e.origin==='https://mediapuppies.com'&&e.data&&e.data.mpSlug==='ab-test-significance-calculator')document.getElementById('mp-ab-test-significance-calculator').style.height=e.data.mpHeight+'px'})&lt;/script&gt;</textarea>
-  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column — drop it if you prefer, the fixed height still works.</p>
+  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column, drop it if you prefer, the fixed height still works.</p>
   <h2>Other free tools</h2>
   <ul style="padding-left:20px;line-height:2"><li><a href="/tools/media-math-calculator/">Media math calculator</a></li><li><a href="/tools/lead-funnel-calculator/">Lead funnel calculator</a></li><li><a href="/tools/serp-snippet-preview/">SERP snippet preview</a></li></ul>
 
   <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
     <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
-    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you — including “not yet”.</p>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you, including “not yet”.</p>
     <a href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free account audit →</a>
   </div>
 </main>

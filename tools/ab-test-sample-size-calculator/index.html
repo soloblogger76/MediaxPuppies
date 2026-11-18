@@ -78,7 +78,7 @@
      "name": "What is minimum detectable effect?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The smallest improvement you care about finding. Set it to what would actually change your decision — if a 5% lift would not change anything you do, do not size the test for it."
+      "text": "The smallest improvement you care about finding. Set it to what would actually change your decision, if a 5% lift would not change anything you do, do not size the test for it."
      }
     },
     {
@@ -185,7 +185,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Experimentation</span>
   <h1 style="margin:16px 0 0">A/B test sample size calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Decide the sample size before the test, not after. This tells you whether the difference you are hoping for is even detectable at your traffic.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency, only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="base">Current conversion rate (%)</label><input id="base" type="number" inputmode="decimal" step="any" min="0" value="3.2"></div><div class="field"><label for="mde">Smallest lift worth detecting (%)</label><input id="mde" type="number" inputmode="decimal" step="any" min="0" value="20"><p class="hint">Relative. A 20% lift on 3.2% means getting to 3.84%.</p></div><div class="field"><label for="traffic">Visitors per day (both variants combined)</label><input id="traffic" type="number" inputmode="decimal" step="1" min="0" value="800"></div><div class="field"><label for="conf">Confidence level (%)</label><input id="conf" type="number" inputmode="decimal" step="any" min="0" value="95"><p class="hint">95% is the convention. 90% is defensible for low-risk changes.</p></div><div class="field"><label for="power">Statistical power (%)</label><input id="power" type="number" inputmode="decimal" step="any" min="0" value="80"><p class="hint">The chance of spotting a real effect. 80% is standard.</p></div><div class="field"><label for="vars">Number of variants</label><input id="vars" type="number" inputmode="decimal" step="1" min="2" value="2"><p class="hint">Including the control.</p></div></div>
@@ -197,34 +197,34 @@ details[open] .plus{transform:rotate(45deg)}
 
   
 <h2>Why you decide this before starting</h2>
-<p>Significance fluctuates while a test runs. If you check it every morning and stop the moment it turns green, you will declare winners that are not real — the statistics assume you looked once, at a pre-decided sample size. Fixing the sample size in advance is what makes the p-value mean what it claims to mean.</p>
+<p>Significance fluctuates while a test runs. If you check it every morning and stop the moment it turns green, you will declare winners that are not real, the statistics assume you looked once, at a pre-decided sample size. Fixing the sample size in advance is what makes the p-value mean what it claims to mean.</p>
 <h2>The uncomfortable arithmetic</h2>
 <p>Sample size scales roughly with the inverse square of the effect you are trying to detect. Halving the lift you want to spot quadruples the traffic you need. That is why small sites cannot test small changes, and why “we tested the button colour and it was inconclusive” is the expected result rather than a surprise.</p>
 <ul><li><strong>Detecting a 5% lift</strong> needs roughly sixteen times the traffic of detecting a 20% lift.</li>
-<li><strong>Adding a third variant</strong> does not just split traffic — it extends the whole test.</li>
+<li><strong>Adding a third variant</strong> does not just split traffic, it extends the whole test.</li>
 <li><strong>A low base conversion rate</strong> needs far more traffic than a high one.</li></ul>
 <h2>What to do when the answer is “months”</h2>
 <ol><li><strong>Test something bigger.</strong> A different offer or headline, not a reworded subheading.</li>
-<li><strong>Move up the funnel.</strong> Testing on a higher-volume step — clicks rather than purchases — reaches significance sooner, provided the step genuinely predicts the outcome.</li>
+<li><strong>Move up the funnel.</strong> Testing on a higher-volume step, clicks rather than purchases, reaches significance sooner, provided the step genuinely predicts the outcome.</li>
 <li><strong>Accept 90% confidence</strong> for changes that are cheap to reverse.</li>
 <li><strong>Stop testing and decide.</strong> Below a certain traffic level, judgement plus a clear rationale beats a test that can never conclude.</li></ol>
 <p class="note">When the test finishes, put the numbers into the <a href="/tools/ab-test-significance-calculator/">significance calculator</a> to see whether the result holds.</p>
 
   <h2>Questions</h2>
-  <div><details><summary>What is minimum detectable effect?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">The smallest improvement you care about finding. Set it to what would actually change your decision — if a 5% lift would not change anything you do, do not size the test for it.</p></details><details><summary>Should I run for full weeks?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Yes. Traffic and intent differ across the week, so stopping mid-week biases the result even when the sample size is reached.</p></details><details><summary>Why does power matter?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Power is the chance of detecting a real effect if one exists. At 80% power you will miss one real winner in five. Raising it costs more traffic.</p></details><details><summary>Can I add variants mid-test?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">No. It resets the maths and invalidates the comparison. Start over.</p></details></div>
+  <div><details><summary>What is minimum detectable effect?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">The smallest improvement you care about finding. Set it to what would actually change your decision, if a 5% lift would not change anything you do, do not size the test for it.</p></details><details><summary>Should I run for full weeks?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Yes. Traffic and intent differ across the week, so stopping mid-week biases the result even when the sample size is reached.</p></details><details><summary>Why does power matter?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Power is the chance of detecting a real effect if one exists. At 80% power you will miss one real winner in five. Raising it costs more traffic.</p></details><details><summary>Can I add variants mid-test?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">No. It resets the maths and invalidates the comparison. Start over.</p></details></div>
 
   <h2>Embed this calculator</h2>
-  <p>Free to use on your own site. Copy this into your page — the attribution line is the only condition.</p>
+  <p>Free to use on your own site. Copy this into your page, the attribution line is the only condition.</p>
   <textarea readonly rows="7" onclick="this.select()" style="width:100%;box-sizing:border-box;padding:14px;border:1.5px solid rgba(24,28,79,.16);border-radius:12px;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55;color:#181C4F">&lt;iframe id="mp-ab-test-sample-size-calculator" src="https://mediapuppies.com/embed/ab-test-sample-size-calculator/" width="100%" height="700" style="border:1px solid #e5e5e5;border-radius:16px" loading="lazy" title="A/B test sample size calculator"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://mediapuppies.com/tools/ab-test-sample-size-calculator/"&gt;A/B test sample size calculator&lt;/a&gt; by &lt;a href="https://mediapuppies.com/"&gt;Media Puppies&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;addEventListener('message',function(e){if(e.origin==='https://mediapuppies.com'&&e.data&&e.data.mpSlug==='ab-test-sample-size-calculator')document.getElementById('mp-ab-test-sample-size-calculator').style.height=e.data.mpHeight+'px'})&lt;/script&gt;</textarea>
-  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column — drop it if you prefer, the fixed height still works.</p>
+  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column, drop it if you prefer, the fixed height still works.</p>
   <h2>Other free tools</h2>
   <ul style="padding-left:20px;line-height:2"><li><a href="/tools/ab-test-significance-calculator/">A/B test significance calculator</a></li><li><a href="/tools/lead-funnel-calculator/">Lead funnel calculator</a></li><li><a href="/tools/media-math-calculator/">Media math calculator</a></li></ul>
 
   <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
     <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
-    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you — including “not yet”.</p>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you, including “not yet”.</p>
     <a href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free account audit →</a>
   </div>
 </main>

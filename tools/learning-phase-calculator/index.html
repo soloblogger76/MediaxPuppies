@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#F6F5EF">
-<title>Meta Learning Phase Calculator — Exit Budget | Media Puppies</title>
+<title>Meta Learning Phase Calculator, Exit Budget | Media Puppies</title>
 <link rel="preconnect" href="https://api.fontshare.com">
 <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
 <link rel="preload" as="style" href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap&v=2">
@@ -86,7 +86,7 @@
      "name": "Does this apply to Advantage+ campaigns?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The same principle applies — automated campaign types still need conversion volume to learn from. They tend to handle thin volume slightly better because there are fewer separate learners."
+      "text": "The same principle applies, automated campaign types still need conversion volume to learn from. They tend to handle thin volume slightly better because there are fewer separate learners."
      }
     },
     {
@@ -193,7 +193,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Meta ads</span>
   <h1 style="margin:16px 0 0">Meta learning phase calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">An ad set stuck in learning pays exploration prices forever. This works out whether your budget can produce enough conversions to get out, and what splitting it across ad sets really costs you.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency, only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="budget">Monthly budget for this campaign (₹)</label><input id="budget" type="number" inputmode="decimal" step="any" min="0" value="300000"></div><div class="field"><label for="cpa">Current cost per conversion (₹)</label><input id="cpa" type="number" inputmode="decimal" step="any" min="0" value="900"><p class="hint">Cost per purchase, lead or whatever you optimise to.</p></div><div class="field"><label for="adsets">Number of ad sets sharing it</label><input id="adsets" type="number" inputmode="decimal" step="1" min="0" value="4"><p class="hint">Count ad sets, not campaigns. Each one learns separately.</p></div><div class="field"><label for="target">Conversions per ad set per week</label><input id="target" type="number" inputmode="decimal" step="1" min="0" value="50"><p class="hint">Meta’s stated threshold is about 50. Lower it only if you know your account behaves differently.</p></div></div>
@@ -207,21 +207,21 @@ details[open] .plus{transform:rotate(45deg)}
 
 <h2>Why the learning phase costs you money</h2>
 <p>When an ad set is new, or when you change it meaningfully, Meta does not yet know who responds. It spends part of your budget exploring. Delivery is volatile, cost per result is higher than it will settle at, and the numbers you see are not a fair read on the creative.</p>
-<p>Meta exits that phase once an ad set has gathered enough recent conversions — the figure quoted is around fifty in a week. Below that, it stays in exploration indefinitely. That is what &ldquo;learning limited&rdquo; means in the delivery column.</p>
+<p>Meta exits that phase once an ad set has gathered enough recent conversions, the figure quoted is around fifty in a week. Below that, it stays in exploration indefinitely. That is what &ldquo;learning limited&rdquo; means in the delivery column.</p>
 <h2>The arithmetic nobody does</h2>
-<p>Take the monthly budget, divide by cost per conversion, convert to a week, then divide by the number of ad sets. That is conversions per ad set per week. Compare it to fifty. Most accounts under pressure fail this test badly, and the cause is almost never budget — it is that the budget was split six ways for control.</p>
+<p>Take the monthly budget, divide by cost per conversion, convert to a week, then divide by the number of ad sets. That is conversions per ad set per week. Compare it to fifty. Most accounts under pressure fail this test badly, and the cause is almost never budget, it is that the budget was split six ways for control.</p>
 <blockquote><p>Six ad sets on a modest budget is not six tests. It is six things that never finish learning.</p></blockquote>
 <h2>What to do when the number is short</h2>
 <ul><li><strong>Consolidate first.</strong> It is free. Fewer ad sets, same money, more conversions each.</li>
 <li><strong>Optimise to an earlier event.</strong> If purchases are too rare, optimise to add-to-cart or a qualified lead instead. You trade some precision for enough volume to learn from.</li>
-<li><strong>Then, and only then, raise budget.</strong> And raise it in steps of roughly 20% — a larger jump restarts learning and costs you the days you were trying to save.</li></ul>
+<li><strong>Then, and only then, raise budget.</strong> And raise it in steps of roughly 20%, a larger jump restarts learning and costs you the days you were trying to save.</li></ul>
 <h2>What resets it</h2>
 <p>Significant budget changes, new creative, audience edits, changing the optimisation event, and turning an ad set off and on again. Batch your changes to a schedule rather than adjusting daily, and give each change long enough to be judged.</p>
-<p class="note">If the budget looks sufficient but spend is not keeping up, check the <a href="/tools/budget-pacing-calculator/">budget pacing calculator</a> — under-delivery and learning problems look identical in a weekly report.</p>
+<p class="note">If the budget looks sufficient but spend is not keeping up, check the <a href="/tools/budget-pacing-calculator/">budget pacing calculator</a>, under-delivery and learning problems look identical in a weekly report.</p>
 
 
   <h2>Questions</h2>
-  <div><details><summary>Is 50 conversions a week an official number?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">It is the figure Meta has published as a guide, not a hard switch. Accounts vary, and some stabilise below it. Treat it as the planning threshold rather than a law.</p></details><details><summary>Does this apply to Advantage+ campaigns?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">The same principle applies — automated campaign types still need conversion volume to learn from. They tend to handle thin volume slightly better because there are fewer separate learners.</p></details><details><summary>Should I count ad sets or ads?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Ad sets. Learning happens at ad set level. Several ads inside one ad set share its learning.</p></details><details><summary>What if my cost per conversion is unknown?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Use your best estimate from a similar campaign, or work backwards from what you can afford to pay for a customer. The output is a planning figure, not a forecast.</p></details><details><summary>Why does splitting budgets feel like it works?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Because it gives you control and clean comparisons. It also guarantees each ad set pays exploration prices. On a large budget you can afford that; on a small one you cannot.</p></details></div>
+  <div><details><summary>Is 50 conversions a week an official number?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">It is the figure Meta has published as a guide, not a hard switch. Accounts vary, and some stabilise below it. Treat it as the planning threshold rather than a law.</p></details><details><summary>Does this apply to Advantage+ campaigns?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">The same principle applies, automated campaign types still need conversion volume to learn from. They tend to handle thin volume slightly better because there are fewer separate learners.</p></details><details><summary>Should I count ad sets or ads?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Ad sets. Learning happens at ad set level. Several ads inside one ad set share its learning.</p></details><details><summary>What if my cost per conversion is unknown?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Use your best estimate from a similar campaign, or work backwards from what you can afford to pay for a customer. The output is a planning figure, not a forecast.</p></details><details><summary>Why does splitting budgets feel like it works?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Because it gives you control and clean comparisons. It also guarantees each ad set pays exploration prices. On a large budget you can afford that; on a small one you cannot.</p></details></div>
 
   <h2>Embed this calculator</h2>
   <p>Free to use on your own site. Copy this into your page &mdash; the attribution line is the only condition.</p>

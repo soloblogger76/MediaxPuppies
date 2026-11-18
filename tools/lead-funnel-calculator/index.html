@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#F6F5EF">
-<title>Lead Funnel Calculator — Work Backwards From Sales</title>
+<title>Lead Funnel Calculator, Work Backwards From Sales</title>
 <link rel="preconnect" href="https://api.fontshare.com">
 <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
 <link rel="preload" as="style" href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap&v=2">
@@ -185,7 +185,7 @@ details[open] .plus{transform:rotate(45deg)}
   <span class="pill">Planning</span>
   <h1 style="margin:16px 0 0">Lead funnel calculator</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Most budgets are set by guessing. This starts from how many customers you actually want and works backwards through every stage.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency, only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="sales">Customers you want per month</label><input id="sales" type="number" inputmode="decimal" step="1" min="0" value="12"></div><div class="field"><label for="close">Close rate on qualified leads (%)</label><input id="close" type="number" inputmode="decimal" step="any" min="0" value="25"></div><div class="field"><label for="qual">Leads that turn out qualified (%)</label><input id="qual" type="number" inputmode="decimal" step="any" min="0" value="40"><p class="hint">Be honest. This is usually far lower than people think.</p></div></div><div class="row"><div class="field"><label for="lpcr">Landing page conversion rate (%)</label><input id="lpcr" type="number" inputmode="decimal" step="any" min="0" value="8"><p class="hint">Visitors who become a lead.</p></div><div class="field"><label for="cpc">Cost per click (₹)</label><input id="cpc" type="number" inputmode="decimal" step="any" min="0" value="18"></div><div class="field"><label for="value">Average customer value (₹)</label><input id="value" type="number" inputmode="decimal" step="any" min="0" value="40000"><p class="hint">Gross profit per customer, not revenue.</p></div></div>
@@ -199,10 +199,10 @@ details[open] .plus{transform:rotate(45deg)}
 <h2>Why work backwards</h2>
 <p>“What budget should we set?” has no answer on its own. “We want twelve customers a month” does, once you know the rates in between. Working backwards also exposes which stage is actually the constraint, which is almost never the one people try to fix first.</p>
 <h2>The stage that matters most</h2>
-<p>Note what happens when you change the inputs. Cutting cost per click by 20% reduces the budget by 20%. Raising the <strong>qualified rate</strong> from 40% to 60% cuts it by a third — and costs nothing but better filtering in the ad and on the form.</p>
+<p>Note what happens when you change the inputs. Cutting cost per click by 20% reduces the budget by 20%. Raising the <strong>qualified rate</strong> from 40% to 60% cuts it by a third, and costs nothing but better filtering in the ad and on the form.</p>
 <p>This is why qualification questions belong before the form rather than in a sales call. Every unqualified lead you stop at the form is budget you did not spend and time your team did not lose.</p>
 <h2>Being honest about the qualified rate</h2>
-<p>Most businesses guess this far too high. Count it properly for one month: of every hundred enquiries, how many could genuinely buy — right budget, right need, decision-maker, reachable? In Indian lead generation, 30–50% is common and 70% is rare. If you have never measured it, assume the lower end and be pleasantly surprised.</p>
+<p>Most businesses guess this far too high. Count it properly for one month: of every hundred enquiries, how many could genuinely buy, right budget, right need, decision-maker, reachable? In Indian lead generation, 30–50% is common and 70% is rare. If you have never measured it, assume the lower end and be pleasantly surprised.</p>
 <h2>What this does not model</h2>
 <ul><li><strong>Time.</strong> A customer who closes in month four still costs budget in month one.</li>
 <li><strong>Repeat business.</strong> Use the <a href="/tools/ltv-calculator/">LTV calculator</a> if customers buy more than once.</li>
@@ -214,17 +214,17 @@ details[open] .plus{transform:rotate(45deg)}
   <div><details><summary>What is a realistic landing page conversion rate?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">It varies enormously by traffic source and offer. Cold paid social to a lead form commonly sits in low single digits; branded search to a strong page runs much higher. Use your own number once you have one.</p></details><details><summary>Should I use gross profit or revenue for customer value?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Gross profit. Revenue makes every campaign look affordable.</p></details><details><summary>My numbers say the budget is impossible. Now what?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">That is the calculator doing its job. Either the target is too high for the economics, or a rate upstream has to improve. Both are better to know before spending.</p></details><details><summary>Does this work for high-ticket B2B?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Yes, though close rates are lower and cycles longer. Model a quarter rather than a month.</p></details></div>
 
   <h2>Embed this calculator</h2>
-  <p>Free to use on your own site. Copy this into your page — the attribution line is the only condition.</p>
+  <p>Free to use on your own site. Copy this into your page, the attribution line is the only condition.</p>
   <textarea readonly rows="7" onclick="this.select()" style="width:100%;box-sizing:border-box;padding:14px;border:1.5px solid rgba(24,28,79,.16);border-radius:12px;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55;color:#181C4F">&lt;iframe id="mp-lead-funnel-calculator" src="https://mediapuppies.com/embed/lead-funnel-calculator/" width="100%" height="700" style="border:1px solid #e5e5e5;border-radius:16px" loading="lazy" title="Lead funnel calculator"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://mediapuppies.com/tools/lead-funnel-calculator/"&gt;Lead funnel calculator&lt;/a&gt; by &lt;a href="https://mediapuppies.com/"&gt;Media Puppies&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;addEventListener('message',function(e){if(e.origin==='https://mediapuppies.com'&&e.data&&e.data.mpSlug==='lead-funnel-calculator')document.getElementById('mp-lead-funnel-calculator').style.height=e.data.mpHeight+'px'})&lt;/script&gt;</textarea>
-  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column — drop it if you prefer, the fixed height still works.</p>
+  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column, drop it if you prefer, the fixed height still works.</p>
   <h2>Other free tools</h2>
   <ul style="padding-left:20px;line-height:2"><li><a href="/tools/meta-ads-budget-calculator/">Meta ads budget calculator</a></li><li><a href="/tools/ltv-calculator/">Customer lifetime value calculator</a></li><li><a href="/tools/media-math-calculator/">Media math calculator</a></li></ul>
 
   <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
     <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
-    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you — including “not yet”.</p>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you, including “not yet”.</p>
     <a href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free account audit →</a>
   </div>
 </main>

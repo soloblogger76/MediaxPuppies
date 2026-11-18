@@ -94,7 +94,7 @@
      "name": "Why is my target margin unreachable?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Because the margin you want is larger than the margin the product leaves you. The fix is pricing, product cost or RTO — not the ad account."
+      "text": "Because the margin you want is larger than the margin the product leaves you. The fix is pricing, product cost or RTO, not the ad account."
      }
     },
     {
@@ -184,8 +184,8 @@ details[open] .plus{transform:rotate(45deg)}
 <main class="wrap" style="padding:34px 20px 10px">
   <span class="pill">Ecommerce</span>
   <h1 style="margin:16px 0 0">Break-even ROAS calculator</h1>
-  <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">A 3x ROAS is meaningless without knowing your margin. This works out the ROAS that actually breaks you even — and the one you need to make money.</p>
-  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency — only the labels change.</span></p>
+  <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">A 3x ROAS is meaningless without knowing your margin. This works out the ROAS that actually breaks you even, and the one you need to make money.</p>
+  <p style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 0;font-size:.86rem;color:rgba(24,28,79,.7)"><label for="cur" style="margin:0;font-weight:700;font-size:.86rem">Currency</label><select id="cur" data-cur-switch aria-label="Currency used in this calculator" style="width:auto;padding:7px 10px;background:#fff;font-size:.86rem"></select><span style="color:rgba(24,28,79,.64)">Set from your location. The maths is the same in any currency, only the labels change.</span></p>
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="price">Average order value (₹)</label><input id="price" type="number" inputmode="decimal" step="any" min="0" value="2500"></div><div class="field"><label for="cogs">Cost of goods per order (₹)</label><input id="cogs" type="number" inputmode="decimal" step="any" min="0" value="900"><p class="hint">What the product actually costs you.</p></div><div class="field"><label for="ship">Shipping and packing per order (₹)</label><input id="ship" type="number" inputmode="decimal" step="any" min="0" value="120"></div><div class="field"><label for="fees">Payment gateway and platform fees (%)</label><input id="fees" type="number" inputmode="decimal" step="any" min="0" value="2.5"><p class="hint">Typically 2–3% in India.</p></div><div class="field"><label for="rto">Returns / RTO rate (%)</label><input id="rto" type="number" inputmode="decimal" step="any" min="0" value="12"><p class="hint">Prepaid orders are far lower than COD.</p></div><div class="field"><label for="target">Target net margin (%)</label><input id="target" type="number" inputmode="decimal" step="any" min="0" value="15"><p class="hint">What you want left after ads.</p></div></div>
@@ -199,31 +199,31 @@ details[open] .plus{transform:rotate(45deg)}
 <h2>Why the headline ROAS lies</h2>
 <p>“We're doing 3x” means nothing on its own. A brand with a 60% contribution margin is profitable at 1.7x. A brand at 22% is still losing money at 4x. The same number is a triumph for one and a slow death for the other.</p>
 <h3>What this calculator accounts for</h3>
-<ul><li><strong>Cost of goods</strong> — what the product actually costs you landed.</li>
+<ul><li><strong>Cost of goods</strong>: what the product actually costs you landed.</li>
 <li><strong>Shipping and packing</strong> on every delivered order.</li>
 <li><strong>Payment and platform fees</strong>, typically 2–3% in India.</li>
-<li><strong>Returns and RTO</strong> — the big one. A returned order earns nothing <em>and</em> costs shipping in both directions, so it is charged at twice the shipping cost here.</li></ul>
+<li><strong>Returns and RTO</strong>: the big one. A returned order earns nothing <em>and</em> costs shipping in both directions, so it is charged at twice the shipping cost here.</li></ul>
 <h3>The RTO problem</h3>
 <p>Cash on delivery makes RTO the single largest hidden cost for Indian D2C. A brand running 30% RTO on COD and 4% on prepaid has two completely different businesses inside one dashboard. Work out this calculation separately for each payment method before you decide the ads are failing.</p>
 <h3>Blended, not platform-reported</h3>
-<p>Ad platforms count conversions they believe they influenced, so the numbers in Meta and Google together usually exceed your actual revenue. Judge the business on blended ROAS — total revenue divided by total ad spend — and use platform ROAS only to compare campaigns against each other.</p>
+<p>Ad platforms count conversions they believe they influenced, so the numbers in Meta and Google together usually exceed your actual revenue. Judge the business on blended ROAS, total revenue divided by total ad spend, and use platform ROAS only to compare campaigns against each other.</p>
 
 
   <h2>Questions</h2>
-  <div><details><summary>What is contribution margin?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">What is left from an order after every variable cost of fulfilling it, but before fixed costs and advertising. It is the money available to pay for ads and overheads.</p></details><details><summary>Should I include GST?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Work in the figures you actually keep. If your price includes GST that you remit, use the ex-GST amount as order value.</p></details><details><summary>Why is my target margin unreachable?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Because the margin you want is larger than the margin the product leaves you. The fix is pricing, product cost or RTO — not the ad account.</p></details><details><summary>Does this work for services?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Roughly. Set cost of goods to your delivery cost, shipping and RTO to zero, and the break-even figure is still correct.</p></details></div>
+  <div><details><summary>What is contribution margin?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">What is left from an order after every variable cost of fulfilling it, but before fixed costs and advertising. It is the money available to pay for ads and overheads.</p></details><details><summary>Should I include GST?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Work in the figures you actually keep. If your price includes GST that you remit, use the ex-GST amount as order value.</p></details><details><summary>Why is my target margin unreachable?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Because the margin you want is larger than the margin the product leaves you. The fix is pricing, product cost or RTO, not the ad account.</p></details><details><summary>Does this work for services?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Roughly. Set cost of goods to your delivery cost, shipping and RTO to zero, and the break-even figure is still correct.</p></details></div>
 
   <h2>Embed this calculator</h2>
-  <p>Free to use on your own site. Copy this into your page — the attribution line is the only condition.</p>
+  <p>Free to use on your own site. Copy this into your page, the attribution line is the only condition.</p>
   <textarea readonly rows="7" onclick="this.select()" style="width:100%;box-sizing:border-box;padding:14px;border:1.5px solid rgba(24,28,79,.16);border-radius:12px;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55;color:#181C4F">&lt;iframe id="mp-break-even-roas-calculator" src="https://mediapuppies.com/embed/break-even-roas-calculator/" width="100%" height="700" style="border:1px solid #e5e5e5;border-radius:16px" loading="lazy" title="Break-even ROAS calculator"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://mediapuppies.com/tools/break-even-roas-calculator/"&gt;Break-even ROAS calculator&lt;/a&gt; by &lt;a href="https://mediapuppies.com/"&gt;Media Puppies&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;addEventListener('message',function(e){if(e.origin==='https://mediapuppies.com'&&e.data&&e.data.mpSlug==='break-even-roas-calculator')document.getElementById('mp-break-even-roas-calculator').style.height=e.data.mpHeight+'px'})&lt;/script&gt;</textarea>
-  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column — drop it if you prefer, the fixed height still works.</p>
+  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column, drop it if you prefer, the fixed height still works.</p>
   <h2>Other free tools</h2>
   <ul style="padding-left:20px;line-height:2"><li><a href="/tools/roas-calculator/">ROAS calculator</a></li><li><a href="/tools/meta-ads-budget-calculator/">Meta ads budget calculator</a></li><li><a href="/tools/ltv-calculator/">Customer lifetime value calculator</a></li><li><a href="/tools/media-math-calculator/">Media math calculator</a></li></ul>
 
   <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
     <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
-    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you — including “not yet”.</p>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for Indian businesses where one customer is worth real money. You will get a straight answer on whether paid works for you, including “not yet”.</p>
     <a href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free account audit →</a>
   </div>
 </main>
