@@ -5,7 +5,7 @@
 > and as a dedicated media buyer for brands. The team is based in Noida, India, so account work and
 > reporting happen while US and UK clients sleep. Month to month, no lock-in, never a percentage of ad spend.
 
-Updated 2026-11-18. 264 articles, 28 free calculators, 72 service and market pages.
+Updated 2026-11-18. 264 articles, 29 free calculators, 73 service and market pages.
 
 ## Key facts
 
@@ -151,7 +151,7 @@ Hub: https://mediapuppies.com/research/
 
 ## Free calculators
 
-28 browser-only tools. The arithmetic runs in the page; nothing typed into them is sent or stored.
+29 browser-only tools. The arithmetic runs in the page; nothing typed into them is sent or stored.
 
 - All tools: https://mediapuppies.com/tools/
 - [ROAS calculator](https://mediapuppies.com/tools/roas-calculator/)
