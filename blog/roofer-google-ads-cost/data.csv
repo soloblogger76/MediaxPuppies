@@ -1,0 +1,201 @@
+country,keyword,cpc_usd_ahrefs,monthly_volume,keyword_difficulty,buyer_intent_regex,buyer_intent_used,override_reason,group,near_me,emergency,collected
+us,roofer near me,1.5,40000,26,yes,yes,,"Near me, general",yes,no,2026-11-17
+us,roofer,1.4,32000,63,yes,yes,,Generic,no,no,2026-11-17
+us,commercial roofer,3.5,7700,30,yes,yes,,Commercial,no,no,2026-11-17
+us,roofer seo,18.0,2000,31,yes,no,sold to roofers (marketing or training),City or suburb,no,no,2026-11-17
+us,roofer common office park,,2000,,yes,yes,,City or suburb,no,no,2026-11-17
+us,best local roofer near me,,1900,,yes,yes,,"Best, licensed or insured",yes,no,2026-11-17
+us,roofer hillsborough county,,1700,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer port jefferson station,,1600,,yes,yes,,City or suburb,no,no,2026-11-17
+us,commercial roofer near me,0.9,1500,54,yes,yes,,Commercial,yes,no,2026-11-17
+us,roofer roslyn heights,,1500,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer wellington ks,,1400,,yes,yes,,City or suburb,no,no,2026-11-17
+us,emergency roofer,20.0,1400,0,yes,yes,,Emergency,no,yes,2026-11-17
+us,roofer huntington station,,1400,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer west newbury,,1300,,yes,yes,,City or suburb,no,no,2026-11-17
+us,local roofer,0.5,1300,12,yes,yes,,Generic,no,no,2026-11-17
+us,roofer huntington bay,,1300,,yes,yes,,City or suburb,no,no,2026-11-17
+us,licensed roofer dapto,,1200,,yes,no,place outside this country,"Best, licensed or insured",no,no,2026-11-17
+us,roofer ridgely,,1200,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer campbell village,,1200,,yes,yes,,City or suburb,no,no,2026-11-17
+us,shamrock roofer owner,,1200,,yes,no,named business,City or suburb,no,no,2026-11-17
+us,roofer torch down jobs,,1200,,no,no,,City or suburb,no,no,2026-11-17
+us,roofer barclay,,1100,,yes,yes,,City or suburb,no,no,2026-11-17
+us,licensed roofer shellharbour,,1100,,yes,no,place outside this country,"Best, licensed or insured",no,no,2026-11-17
+us,roofer portola at gale ranch,,1100,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer millsboro,,1100,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer bayport,,1100,42,yes,yes,,City or suburb,no,no,2026-11-17
+us,infinity roofer ceo owner,,1100,,yes,no,named business,City or suburb,no,no,2026-11-17
+us,roofer twin creeks view homes,,1000,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer east pepperell,,1000,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer newfields,,1000,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer foothill square,,1000,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer circle e - the orchards,,1000,,yes,yes,,City or suburb,no,no,2026-11-17
+us,best roofer near me,0.5,1000,0,yes,yes,,"Best, licensed or insured",yes,no,2026-11-17
+us,roofer sequoyah heights,,1000,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer kenilworth,,900,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer highland terrace,,900,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer east merrimack,,900,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer locust grove,,900,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer east hauppauge,,900,,yes,yes,,City or suburb,no,no,2026-11-17
+us,residential roofer,7.0,800,12,yes,yes,,Residential,no,no,2026-11-17
+us,roofer lincoln highlands,,800,,no,no,,City or suburb,no,no,2026-11-17
+us,roofer oak city center,,800,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer freeport,,800,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer leona heights,,800,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer bollinger hills,,800,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer bancroft business/ havenscourt,,800,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer castle douglas,,700,,yes,no,place outside this country,City or suburb,no,no,2026-11-17
+us,roofer twin creeks south poolside,,700,,yes,yes,,City or suburb,no,no,2026-11-17
+us,roofer bennington,,700,,yes,yes,,City or suburb,no,no,2026-11-17
+us,shamrock roofer about us,,700,,yes,no,named business,City or suburb,no,no,2026-11-17
+gb,roofer,4.0,5500,12,yes,yes,,Generic,no,no,2026-11-17
+gb,roofer near me,4.0,4400,19,yes,yes,,"Near me, general",yes,no,2026-11-17
+gb,roofer manchester,1.9,800,58,yes,yes,,City or suburb,no,no,2026-11-17
+gb,local roofer,3.0,800,36,yes,yes,,Generic,no,no,2026-11-17
+gb,roofer london,3.5,700,46,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer northampton,2.5,600,3,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer glasgow,3.5,500,26,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer in london,4.5,450,48,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer leeds,4.5,450,0,yes,yes,,City or suburb,no,no,2026-11-17
+gb,emergency roofer near me,3.0,400,0,yes,yes,,Emergency,yes,yes,2026-11-17
+gb,roofer sheffield,3.0,400,42,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer edinburgh,5.0,400,31,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer southampton,5.0,400,32,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer seo,3.5,350,15,yes,no,sold to roofers (marketing or training),City or suburb,no,no,2026-11-17
+gb,roofer swindon,3.0,350,42,yes,yes,,City or suburb,no,no,2026-11-17
+gb,emergency roofer,4.0,350,0,yes,yes,,Emergency,no,yes,2026-11-17
+gb,roofer bristol,5.0,350,61,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer birmingham,3.0,350,43,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer milton keynes,3.0,300,43,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer coventry,4.5,300,0,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer reading,7.0,300,0,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer portsmouth,4.0,300,27,yes,yes,,City or suburb,no,no,2026-11-17
+gb,flat roofer,1.7,300,55,yes,yes,,Material or roof type,no,no,2026-11-17
+gb,roofer portishead,,300,,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer wolverhampton,2.0,250,34,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer insurance,4.5,250,0,no,no,,City or suburb,no,no,2026-11-17
+gb,roofer brighton,2.5,250,0,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer clifton,,250,,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer st albans,3.5,250,33,yes,yes,,City or suburb,no,no,2026-11-17
+gb,local roofer near me,2.5,250,1,yes,yes,,"Near me, general",yes,no,2026-11-17
+gb,roofer croydon,4.5,250,45,yes,yes,,City or suburb,no,no,2026-11-17
+gb,commercial roofer,3.0,250,29,yes,yes,,Commercial,no,no,2026-11-17
+gb,roofer cardiff,3.0,250,39,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer nottingham,3.5,250,66,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer norwich,5.0,250,0,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer nailsea,,250,,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer blackpool,2.5,250,56,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer oldham,2.5,200,0,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer salary uk,0.25,200,0,no,no,,City or suburb,no,no,2026-11-17
+gb,roofer durham,1.6,200,0,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer kings lynn,3.0,200,,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer exeter,4.0,200,46,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer fareham,8.0,200,3,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer perth,1.7,200,15,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer in st albans,4.5,200,,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer cannock,2.0,200,,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer sutton,10.0,200,43,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer guildford,8.0,200,59,yes,yes,,City or suburb,no,no,2026-11-17
+gb,roofer meaning,1.7,200,,no,no,,City or suburb,no,no,2026-11-17
+gb,roofer lichfield,2.5,200,0,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer,4.5,1100,4,yes,yes,,Generic,no,no,2026-11-17
+au,roofer near me,5.0,800,26,yes,yes,,"Near me, general",yes,no,2026-11-17
+au,roofer brisbane,5.0,300,36,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer penrith,,250,0,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer melbourne,4.0,250,51,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer seo,,200,,yes,no,sold to roofers (marketing or training),City or suburb,no,no,2026-11-17
+au,roofer sydney,7.0,200,41,yes,yes,,City or suburb,no,no,2026-11-17
+au,commercial roofer,5.0,200,0,yes,yes,,Commercial,no,no,2026-11-17
+au,roofer adelaide,4.5,200,22,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer newcastle,6.0,200,43,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer gold coast,5.0,150,54,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer sunshine coast,5.0,150,0,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer port macquarie,1.6,150,43,yes,yes,,City or suburb,no,no,2026-11-17
+au,local roofer near me,3.0,150,,yes,yes,,"Near me, general",yes,no,2026-11-17
+au,best local roofer near me,,150,,yes,yes,,"Best, licensed or insured",yes,no,2026-11-17
+au,roofer insurance,9.0,150,,no,no,,City or suburb,no,no,2026-11-17
+au,local roofer,5.0,150,35,yes,yes,,Generic,no,no,2026-11-17
+au,metal roofer,1.4,100,0,yes,yes,,Material or roof type,no,no,2026-11-17
+au,metal roofer brisbane,,100,,yes,yes,,Material or roof type,no,no,2026-11-17
+au,roofer cairns,,100,44,yes,yes,,City or suburb,no,no,2026-11-17
+au,seo for roofer,,100,,yes,no,sold to roofers (marketing or training),City or suburb,no,no,2026-11-17
+au,roofer canberra,3.5,100,50,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer elizabeth,,100,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer repair near me,,90,,yes,yes,,Repair,yes,no,2026-11-17
+au,roofer jobs,0.1,90,0,no,no,,City or suburb,no,no,2026-11-17
+au,roofer in sydney,,90,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer south east melbourne,,90,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer perth,1.8,90,33,yes,yes,,City or suburb,no,no,2026-11-17
+au,metal roofer sydney,2.5,90,,yes,yes,,Material or roof type,no,no,2026-11-17
+au,sydney roofer,3.0,80,53,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer chatswood,,80,,yes,yes,,City or suburb,no,no,2026-11-17
+au,gold coast roofer,,80,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer inner city melbourne,,70,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer central coast,,70,59,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer mackay,,70,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer croydon,,70,,yes,yes,,City or suburb,no,no,2026-11-17
+au,insured roofer,,70,,yes,yes,,"Best, licensed or insured",no,no,2026-11-17
+au,certified roofer,,60,25,yes,yes,,"Best, licensed or insured",no,no,2026-11-17
+au,roofer certification,1.4,60,,yes,no,sold to roofers (marketing or training),City or suburb,no,no,2026-11-17
+au,roofer launceston,,60,,yes,yes,,City or suburb,no,no,2026-11-17
+au,best roofer gold coast,,60,,yes,yes,,"Best, licensed or insured",no,no,2026-11-17
+au,roofer meaning,,60,,no,no,,City or suburb,no,no,2026-11-17
+au,roofer toowoomba,2.5,60,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer contractor,2.5,60,58,yes,yes,,Generic,no,no,2026-11-17
+au,roofer ballina,,60,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer townsville,,60,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer service sydney,,60,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer insurance adelaide,,60,,no,no,,City or suburb,no,no,2026-11-17
+au,roofer inner west,4.0,50,,yes,yes,,City or suburb,no,no,2026-11-17
+au,roofer coffs harbour,,50,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer,3.0,1100,0,yes,yes,,Generic,no,no,2026-11-17
+ca,roofer pointe-claire,,600,0,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer near me,3.5,600,24,yes,yes,,"Near me, general",yes,no,2026-11-17
+ca,roofer mount pearl,,600,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer conception bay south,,600,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer pierrefonds,,400,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer dorval,,350,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer baie-d'urfé,,350,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer brossard,,350,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer goulds,,250,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer sainte-anne-de-bellevue,,250,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer meadowlands hamilton,,250,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer calgary,8.0,200,65,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer contractors,3.0,200,,yes,yes,,Generic,no,no,2026-11-17
+ca,roofer edmonton,3.0,200,47,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer ottawa,4.0,200,0,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer oakville,3.5,200,22,yes,yes,,City or suburb,no,no,2026-11-17
+ca,residential roofer,3.0,200,42,yes,yes,,Residential,no,no,2026-11-17
+ca,roofer saint-lambert,,200,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,best roofer & renovation,,200,,yes,no,named business,"Best, licensed or insured",no,no,2026-11-17
+ca,roofer lachine,,200,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,emergency roofer near me,4.0,200,,yes,yes,,Emergency,yes,yes,2026-11-17
+ca,roofer chateauguay,,200,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer l'île-bizard–sainte-geneviève,,200,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,emergency roofer,4.0,200,0,yes,yes,,Emergency,no,yes,2026-11-17
+ca,roofer hamilton,3.0,150,0,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer torbay,,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer st catharines,3.5,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer seo,,150,,yes,no,sold to roofers (marketing or training),City or suburb,no,no,2026-11-17
+ca,calgary roofer,6.0,150,63,yes,yes,,City or suburb,no,no,2026-11-17
+ca,st catharines roofer,4.0,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer dieppe,,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,local roofer,,150,20,yes,yes,,Generic,no,no,2026-11-17
+ca,roofer lethbridge,,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,hamilton roofer,5.0,150,34,yes,yes,,City or suburb,no,no,2026-11-17
+ca,toronto roofer,2.5,150,35,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer vaughan,6.0,150,1,yes,yes,,City or suburb,no,no,2026-11-17
+ca,st. catharines roofer,3.0,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer st.albert,,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,commercial roofer,,150,0,yes,yes,,Commercial,no,no,2026-11-17
+ca,roofer conception bay,,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer company near me,3.5,150,3,yes,yes,,"Near me, general",yes,no,2026-11-17
+ca,roofer company,3.5,150,56,yes,yes,,Generic,no,no,2026-11-17
+ca,roofer east gwillimbury,,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer kirkland,,150,0,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer moncton,,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer st john's,,150,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer roofing,,100,7,yes,yes,,Generic,no,no,2026-11-17
+ca,roofer coaldale,,100,,yes,yes,,City or suburb,no,no,2026-11-17
+ca,roofer riverview,,100,,yes,yes,,City or suburb,no,no,2026-11-17

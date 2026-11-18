@@ -1,0 +1,201 @@
+country,keyword,cpc_usd_ahrefs,monthly_volume,keyword_difficulty,buyer_intent_regex,buyer_intent_used,override_reason,group,cpc_usd_semrush_us,collected
+us,ppc agency,20.0,20000,11,yes,yes,,Head term,46.56,2026-11-17
+us,ppc marketing agency,0.3,4200,11,yes,yes,,Other wording,,2026-11-17
+us,ppc management agency,1.0,3200,7,yes,yes,,Management or services,,2026-11-17
+us,ppc agency near me,0.3,2100,0,yes,yes,,Near me,,2026-11-17
+us,ppc advertising agency,0.9,2000,39,yes,yes,,Other wording,,2026-11-17
+us,ecommerce ppc agency,1.0,1800,1,yes,yes,,Business model,,2026-11-17
+us,best ppc agency,0.8,1700,5,yes,yes,,Best or top,,2026-11-17
+us,b2b ppc agency,0.8,1200,8,yes,yes,,Business model,,2026-11-17
+us,google ppc agency,0.3,1200,5,yes,yes,,Other wording,,2026-11-17
+us,amazon ppc agency,20.0,1100,1,yes,no,other ad platform,Other ad platform,,2026-11-17
+us,ppc ad agency,1.1,1100,5,yes,yes,,Other wording,,2026-11-17
+us,dental ppc agency,25.0,900,0,yes,yes,,Industry niche,,2026-11-17
+us,seo and ppc agency,14.0,900,6,yes,yes,,Other wording,,2026-11-17
+us,ppc ads agency,1.1,900,31,yes,yes,,Other wording,,2026-11-17
+us,saas ppc agency,20.0,800,0,yes,yes,,Business model,,2026-11-17
+us,law firm ppc agency,0.2,800,1,yes,yes,,Industry niche,,2026-11-17
+us,seo ppc agency,0.35,800,9,yes,yes,,Other wording,,2026-11-17
+us,tampa ppc agency,8.0,700,0,yes,yes,,"City, region or country",,2026-11-17
+us,denver ppc agency,9.0,700,2,yes,yes,,"City, region or country",,2026-11-17
+us,ppc services agency,0.8,600,15,yes,yes,,Management or services,,2026-11-17
+us,ppc seo agency,0.35,500,11,yes,yes,,Other wording,,2026-11-17
+us,hvac ppc agency,11.0,500,1,yes,yes,,Industry niche,,2026-11-17
+us,ppc digital marketing agency,0.2,500,19,yes,yes,,Other wording,,2026-11-17
+us,dentist ppc agency,25.0,500,3,yes,yes,,Industry niche,,2026-11-17
+us,plumber ppc agency,11.0,500,0,yes,yes,,Industry niche,,2026-11-17
+us,white label ppc agency,17.0,450,9,yes,yes,,White label,,2026-11-17
+us,ppc agency houston,7.0,450,0,yes,yes,,"City, region or country",,2026-11-17
+us,international ppc agency,0.25,450,0,yes,yes,,Other wording,,2026-11-17
+us,ppc agency services,0.35,350,14,yes,yes,,Management or services,,2026-11-17
+us,shopify ppc agency,19.0,350,2,yes,yes,,Business model,,2026-11-17
+us,ppc service agency,0.35,350,12,yes,yes,,Management or services,,2026-11-17
+us,b2c ppc agency,,350,,yes,yes,,Business model,,2026-11-17
+us,ppc agency los angeles,4.0,300,0,yes,yes,,"City, region or country",,2026-11-17
+us,ppc agency new york,4.0,300,0,yes,yes,,"City, region or country",,2026-11-17
+us,tampa ppc marketing agency,,300,,yes,yes,,"City, region or country",,2026-11-17
+us,legal ppc agency los angeles,,300,,yes,yes,,Industry niche,,2026-11-17
+us,ai ppc agency,,300,,yes,yes,,Other wording,,2026-11-17
+us,lawyer ppc agency,75.0,300,4,yes,yes,,Industry niche,,2026-11-17
+us,atlanta ppc agency,16.0,300,0,yes,yes,,"City, region or country",,2026-11-17
+us,houston ppc agency,7.0,300,0,yes,yes,,"City, region or country",,2026-11-17
+us,ppc agency london,8.0,300,13,yes,no,off-market place,"City, region or country",,2026-11-17
+us,facebook ppc agency,16.0,250,10,yes,no,other ad platform,Other ad platform,,2026-11-17
+us,ppc agency miami,3.0,250,0,yes,yes,,"City, region or country",,2026-11-17
+us,multilingual ppc agency,90.0,250,0,yes,yes,,Other wording,,2026-11-17
+us,ppc agency for law firms,1.7,250,0,yes,yes,,Industry niche,,2026-11-17
+us,hotel ppc agency,7.0,250,0,yes,yes,,Industry niche,,2026-11-17
+us,miami ppc agency,6.0,250,0,yes,yes,,"City, region or country",,2026-11-17
+us,ppc agency atlanta,7.0,250,0,yes,yes,,"City, region or country",,2026-11-17
+us,landscaping ppc agency,,250,,yes,yes,,Industry niche,,2026-11-17
+us,digital marketing agency ppc,0.2,250,16,yes,yes,,Other wording,,2026-11-17
+gb,ppc agency,25.0,9900,33,yes,yes,,Head term,,2026-11-17
+gb,ppc marketing agency,0.3,2200,10,yes,yes,,Other wording,,2026-11-17
+gb,ppc management agency,0.3,2100,12,yes,yes,,Management or services,,2026-11-17
+gb,ppc agency bristol,20.0,1800,0,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc agency london,5.0,1300,7,yes,yes,,"City, region or country",,2026-11-17
+gb,ecommerce ppc agency,0.45,1300,0,yes,yes,,Business model,,2026-11-17
+gb,ppc agency uk,18.0,900,3,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc advertising agency,0.9,900,11,yes,yes,,Other wording,,2026-11-17
+gb,ppc agency manchester,18.0,900,3,yes,yes,,"City, region or country",,2026-11-17
+gb,google ppc agency,15.0,900,1,yes,yes,,Other wording,,2026-11-17
+gb,seo and ppc agency,6.0,900,3,yes,yes,,Other wording,,2026-11-17
+gb,ppc agency near me,14.0,800,8,yes,yes,,Near me,,2026-11-17
+gb,ppc ad agency,12.0,700,6,yes,yes,,Other wording,,2026-11-17
+gb,ppc agency liverpool,8.0,700,0,yes,yes,,"City, region or country",,2026-11-17
+gb,amazon ppc agency,17.0,600,3,yes,no,other ad platform,Other ad platform,,2026-11-17
+gb,b2b ppc agency,20.0,600,0,yes,yes,,Business model,,2026-11-17
+gb,ppc agency leeds,13.0,600,0,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc remarketing agency,10.0,500,0,yes,yes,,Other wording,,2026-11-17
+gb,best ppc agency,11.0,450,0,yes,yes,,Best or top,,2026-11-17
+gb,healthcare ppc agency,5.0,450,0,yes,yes,,Industry niche,,2026-11-17
+gb,london ppc agency,12.0,400,6,yes,yes,,"City, region or country",,2026-11-17
+gb,seo ppc agency,17.0,400,37,yes,yes,,Other wording,,2026-11-17
+gb,finance ppc agency,,400,,yes,yes,,Industry niche,,2026-11-17
+gb,ppc agency yorkshire,11.0,350,0,yes,yes,,"City, region or country",,2026-11-17
+gb,best ppc agency london,19.0,350,5,yes,yes,,"City, region or country",,2026-11-17
+gb,lawyer ppc agency,13.0,350,,yes,yes,,Industry niche,,2026-11-17
+gb,ppc agency nottingham,16.0,300,1,yes,yes,,"City, region or country",,2026-11-17
+gb,best lead gen ppc agency,,300,,yes,yes,,Best or top,,2026-11-17
+gb,ppc agency sheffield,18.0,300,0,yes,yes,,"City, region or country",,2026-11-17
+gb,law firm ppc agency,0.8,300,2,yes,yes,,Industry niche,,2026-11-17
+gb,bing ppc agency,17.0,300,0,yes,no,other ad platform,Other ad platform,,2026-11-17
+gb,uk ppc agency,14.0,300,1,yes,yes,,"City, region or country",,2026-11-17
+gb,edinburgh ppc agency,14.0,300,,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc management agency london,12.0,300,14,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc agency newcastle,6.0,300,0,yes,yes,,"City, region or country",,2026-11-17
+gb,saas ppc agency,25.0,250,0,yes,yes,,Business model,,2026-11-17
+gb,ppc agency rotherham,,250,,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc agency glasgow,6.0,250,5,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc agency lancashire,7.0,250,0,yes,yes,,"City, region or country",,2026-11-17
+gb,b2c ppc agency,,250,,yes,yes,,Business model,,2026-11-17
+gb,ppc agency derby,7.0,250,0,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc ecommerce agency,20.0,250,1,yes,yes,,Business model,,2026-11-17
+gb,ppc agency south yorkshire,,250,,yes,yes,,"City, region or country",,2026-11-17
+gb,fashion ppc agency,,250,,yes,yes,,Industry niche,,2026-11-17
+gb,ppc agency milton keynes,25.0,250,0,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc agency services,0.3,200,2,yes,yes,,Management or services,,2026-11-17
+gb,ppc agency leicester,12.0,200,0,yes,yes,,"City, region or country",,2026-11-17
+gb,ppc agency birmingham,6.0,200,1,yes,yes,,"City, region or country",,2026-11-17
+gb,top ppc agency,0.7,200,0,yes,yes,,Best or top,,2026-11-17
+gb,woocommerce ppc agency,,200,,yes,yes,,Business model,,2026-11-17
+au,ppc agency,8.0,1900,2,yes,yes,,Head term,,2026-11-17
+au,ppc marketing agency,4.0,900,0,yes,yes,,Other wording,,2026-11-17
+au,ppc management agency,1.6,900,0,yes,yes,,Management or services,,2026-11-17
+au,ppc advertising agency,0.6,700,0,yes,yes,,Other wording,,2026-11-17
+au,ppc agency sydney,13.0,450,0,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency perth,6.0,350,0,yes,yes,,"City, region or country",,2026-11-17
+au,ppc ad agency,14.0,300,3,yes,yes,,Other wording,,2026-11-17
+au,ppc agency melbourne,8.0,250,0,yes,yes,,"City, region or country",,2026-11-17
+au,google ppc agency,16.0,250,9,yes,yes,,Other wording,,2026-11-17
+au,best ppc agency,4.5,250,3,yes,yes,,Best or top,,2026-11-17
+au,ppc advertising agency adelaide,,250,,yes,yes,,"City, region or country",,2026-11-17
+au,white label ppc agency,,200,0,yes,yes,,White label,,2026-11-17
+au,ppc management agency sydney,,200,0,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency brisbane,10.0,200,0,yes,yes,,"City, region or country",,2026-11-17
+au,ppc ads agency,2.5,200,,yes,yes,,Other wording,,2026-11-17
+au,ppc advertising agency perth,,150,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency penrith,,150,,yes,yes,,"City, region or country",,2026-11-17
+au,search engine marketing ppc agency,,150,,yes,yes,,Other wording,,2026-11-17
+au,ppc management agency adelaide,,150,,yes,yes,,"City, region or country",,2026-11-17
+au,sydney ppc agency,12.0,150,,yes,yes,,"City, region or country",,2026-11-17
+au,search engine optimisation and ppc agency,,150,0,yes,yes,,Other wording,,2026-11-17
+au,seo ppc agency,6.0,150,2,yes,yes,,Other wording,,2026-11-17
+au,adwords ppc agency,,150,2,yes,yes,,Other wording,,2026-11-17
+au,brisbane ppc agency,,150,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc management agency australia,,150,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency adelaide,,150,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency canberra,,150,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc advertising agency sydney,,150,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency australia,9.0,100,3,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency in melbourne,,100,,yes,yes,,"City, region or country",,2026-11-17
+au,white label agency for ppc,,100,,yes,yes,,White label,,2026-11-17
+au,search engine optimization and ppc agency,,100,0,yes,yes,,Other wording,,2026-11-17
+au,ppc management agency perth,,100,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency liverpool,,100,,yes,yes,,"City, region or country",,2026-11-17
+au,amazon ppc agency,,100,0,yes,no,other ad platform,Other ad platform,,2026-11-17
+au,ppc management agency melbourne,,100,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency revesby,,100,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency baulkham hills,,90,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency guildford,,90,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency hobart,,90,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency ingleburn,,80,,yes,yes,,"City, region or country",,2026-11-17
+au,marketing agency ppc,,80,,yes,yes,,Other wording,,2026-11-17
+au,facebook ppc agency,,80,,yes,no,other ad platform,Other ad platform,,2026-11-17
+au,agency ppc,7.0,80,,yes,yes,,Other wording,,2026-11-17
+au,ppc agency campbelltown,,80,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency kingsgrove,,80,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency surry hills,,80,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency blacktown,,80,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc agency bondi,,80,,yes,yes,,"City, region or country",,2026-11-17
+au,ppc digital marketing agency,,80,,yes,yes,,Other wording,,2026-11-17
+ca,ppc agency,4.0,1100,5,yes,yes,,Head term,,2026-11-17
+ca,ppc agency toronto,4.5,500,0,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency calgary,7.0,450,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc management agency,8.0,350,1,yes,yes,,Management or services,,2026-11-17
+ca,ppc agency mississauga,,350,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc marketing agency,4.5,300,0,yes,yes,,Other wording,,2026-11-17
+ca,ppc advertising agency,1.1,300,1,yes,yes,,Other wording,,2026-11-17
+ca,ppc agency brampton,,300,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency edmonton,,250,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc ad agency,5.0,200,3,yes,yes,,Other wording,,2026-11-17
+ca,ppc agency ottawa,,200,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc digital marketing agency,0.25,200,,yes,yes,,Other wording,,2026-11-17
+ca,ppc agency near me,1.3,200,0,yes,yes,,Near me,,2026-11-17
+ca,toronto ppc agency,5.0,200,0,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency services,,150,,yes,yes,,Management or services,,2026-11-17
+ca,ppc ads agency,6.0,150,,yes,yes,,Other wording,,2026-11-17
+ca,ppc agency surrey,,150,,yes,yes,,"City, region or country",,2026-11-17
+ca,best ppc agency,5.0,150,0,yes,yes,,Best or top,,2026-11-17
+ca,ecommerce ppc agency,,150,0,yes,yes,,Business model,,2026-11-17
+ca,ppc agency victoria,,150,,yes,yes,,"City, region or country",,2026-11-17
+ca,white label ppc agency,9.0,150,0,yes,yes,,White label,,2026-11-17
+ca,ppc agency vaughan,,150,,yes,yes,,"City, region or country",,2026-11-17
+ca,b2b ppc agency,,150,1,yes,yes,,Business model,,2026-11-17
+ca,ppc agency montreal,,150,0,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency canada,6.0,150,3,yes,yes,,"City, region or country",,2026-11-17
+ca,agency ppc,5.0,150,,yes,yes,,Other wording,,2026-11-17
+ca,ppc digital agency,,150,,yes,yes,,Other wording,,2026-11-17
+ca,ppc marketing agency victoria,,150,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency in canada,,100,,yes,yes,,"City, region or country",,2026-11-17
+ca,google ads ppc agency,,100,,yes,yes,,Other wording,,2026-11-17
+ca,ppc agency oakville,,100,,yes,yes,,"City, region or country",,2026-11-17
+ca,surrey ppc agency,,100,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc advertising agency ottawa,,100,,yes,yes,,"City, region or country",,2026-11-17
+ca,global ppc agency,,100,,yes,yes,,Other wording,,2026-11-17
+ca,adwords ppc agency,,100,,yes,yes,,Other wording,,2026-11-17
+ca,google ppc agency,20.0,100,1,yes,yes,,Other wording,,2026-11-17
+ca,saas ppc agency,,100,0,yes,yes,,Business model,,2026-11-17
+ca,amazon ppc agency,4.5,100,3,yes,no,other ad platform,Other ad platform,,2026-11-17
+ca,ppc agency oshawa,,100,0,yes,yes,,"City, region or country",,2026-11-17
+ca,vancouver ppc agency,,100,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency hamilton,,90,,yes,yes,,"City, region or country",,2026-11-17
+ca,brampton ppc agency,,90,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency in toronto,,90,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency abbotsford,,90,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency markham,,90,,yes,yes,,"City, region or country",,2026-11-17
+ca,dental ppc agency,,90,,yes,yes,,Industry niche,,2026-11-17
+ca,ppc agency chilliwack,,80,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency north vancouver,,80,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency saskatoon,,80,,yes,yes,,"City, region or country",,2026-11-17
+ca,ppc agency kelowna,,80,,yes,yes,,"City, region or country",,2026-11-17

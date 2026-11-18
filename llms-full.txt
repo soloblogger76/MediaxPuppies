@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-18.
+Updated 2026-11-19.
 
 ## Service, market and company pages
 
@@ -189,6 +189,7 @@ Updated 2026-11-18.
 - [How to brief an agency so the first month is not wasted](https://mediapuppies.com/blog/how-to-brief-an-agency/): How to brief an agency so the first month is work rather than archaeology: what to decide internally, what to send over, and what to ask for in return.
 - [How to choose a marketing agency in India (and the 6 red flags)](https://mediapuppies.com/blog/how-to-choose-marketing-agency-india/): How to choose a marketing agency in India: what to ask before signing, the promises that should end the conversation, and how to compare quotes fairly.
 - [How to read an ads report your agency sends you](https://mediapuppies.com/blog/how-to-read-an-ads-report/): How to read an ads report your agency sends: the four numbers to check first, three questions to ask, and the signs the report is hiding something.
+- [HVAC Google Ads cost by country: click prices in the US, Canada, Australia and the UK](https://mediapuppies.com/blog/hvac-google-ads-cost/): HVAC Google Ads cost per click in the US, UK, Canada and Australia from 200 Ahrefs keywords, with emergency, city and repair searches and a Semrush check.
 - [HVAC Local Services Ads vs Google Ads: what a lead and a click cost in 2026, and what 196 HVAC ads on Facebook offer](https://mediapuppies.com/blog/hvac-lsa-vs-google-ads/): HVAC Local Services Ads vs Google Ads: US click prices, LSA lead prices with their sources, and what 196 live HVAC contractor ads on Facebook offer.
 - [Selling into the US from India: what breaks first](https://mediapuppies.com/blog/india-to-us-market-entry/): US market entry from India: the four things that break when you point an existing account at American buyers — costs, targeting, pricing and trust.
 - [Instagram ads for Indian D2C: 8 things that move the numbers](https://mediapuppies.com/blog/instagram-ads-tips-d2c/): Eight practical Instagram ads fixes for Indian D2C brands — placements, formats, creator content, landing experience and the budget mistakes.
@@ -224,7 +225,9 @@ Updated 2026-11-18.
 - [Performance Max for Indian businesses: how not to waste the budget](https://mediapuppies.com/blog/performance-max-india/): Where Performance Max earns its place for Indian advertisers, what control you still have over it, and the launch sequence that avoids the usual waste.
 - [Pest control Google Ads cost in 2026: what a click costs in the US, UK, Australia and Canada](https://mediapuppies.com/blog/pest-control-google-ads-cost/): What pest control Google Ads clicks cost in the US, UK, Australia and Canada: 200 Ahrefs keywords, medians by country and the searches that cost more.
 - [Platform ROAS is not profit, and it is not even revenue](https://mediapuppies.com/blog/platform-roas-vs-blended-mer/): Platform ROAS versus blended ROAS and MER: why the platforms always claim more than the business took, and which number belongs in which decision.
+- [Plumber Google Ads cost in 2026: click prices in the US, UK, Canada and Australia](https://mediapuppies.com/blog/plumber-google-ads-cost/): Plumber Google Ads click prices in the US, UK, Canada and Australia from 200 Ahrefs keywords: country medians, where the premium sits, top terms.
 - [Plumber leads in 2026: what a Google Ads click, a Local Services Ads lead and an Angi lead cost](https://mediapuppies.com/blog/plumber-leads-google-ads-vs-lsa-vs-angi/): Google LSA for plumbers vs Google Ads vs Angi: what a plumbing click, an LSA lead and an Angi lead cost in the US, from our studies.
+- [PPC agency CPC in 2026: what agencies pay per click for their own clients in the US, UK, Canada and Australia](https://mediapuppies.com/blog/ppc-agency-keywords-cpc/): PPC agency CPC from 200 Ahrefs keywords in the US, UK, Canada and Australia: what agencies pay per click to win clients, by country and search type.
 - [PPC campaign management: what it involves day to day, weekly and monthly](https://mediapuppies.com/blog/ppc-campaign-management/): What PPC campaign management involves: the daily, weekly and monthly tasks in Google and Meta ads, who should own them, and what a good report shows.
 - [Product photos that work in ads (not the ones from your shoot)](https://mediapuppies.com/blog/product-photography-for-ads/): Why catalogue shoots underperform in paid social, what product photography for ads looks like in Indian feeds, and how to produce it cheaply.
 - [Reading an agency media plan line by line](https://mediapuppies.com/blog/reading-a-media-plan/): A media plan is easy to approve and hard to read. What each line commits you to, the assumptions buried in the forecast, and five questions to ask first.
@@ -235,6 +238,7 @@ Updated 2026-11-18.
 - [Retargeting still works. You're probably just measuring it wrong](https://mediapuppies.com/blog/retargeting-measurement/): Why retargeting numbers look worse since the privacy changes, how to read them honestly, and the structure that still earns its place in the account.
 - [Why nobody can guarantee you a ROAS](https://mediapuppies.com/blog/roas-guarantees-red-flag/): A ROAS guarantee from an agency that has not seen your margins is either a guess or a future excuse. What they are really doing, and what to ask instead.
 - [Roof replacement ads: what 100 live US Facebook ads offer, and who runs them](https://mediapuppies.com/blog/roof-replacement-ads/): Roof replacement ads, studied: we read the first 100 live US Facebook and Instagram ads for the phrase. 27 came from lead sites and other sellers.
+- [Roofing Google Ads cost in 2026: what a roofer click costs in the US, UK, Canada and Australia](https://mediapuppies.com/blog/roofer-google-ads-cost/): Roofing Google Ads cost by country: Ahrefs click prices for roofer searches in the US, UK, Canada and Australia, next to Semrush US roofing job keywords.
 - [Running ads in multiple countries without doubling the work](https://mediapuppies.com/blog/running-ads-in-multiple-countries/): Running ads in multiple countries means separate campaigns, separate learning budgets and separate rules. What to localise, what to share, what to launch first.
 - [Teaching the ad platforms what a real customer looks like](https://mediapuppies.com/blog/saas-offline-conversion-import/): A SaaS sale closes weeks after the click, inside a CRM the ad platform cannot see. Offline conversion import closes that gap, and most accounts skip it.
 - [Scaling ad spend without losing your return](https://mediapuppies.com/blog/scaling-ad-spend-without-losing-roas/): Scaling ad spend reliably lowers return. Which part of that drop is unavoidable, and the order of operations that gets you to a higher budget safely.
