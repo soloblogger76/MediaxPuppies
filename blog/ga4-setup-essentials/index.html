@@ -80,7 +80,7 @@ article h2{scroll-margin-top:92px}
 }
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "GA4 without the overwhelm: the 8 things worth setting up", "description": "A minimal, practical GA4 setup for small businesses — the events, conversions and reports that matter, and the configuration everyone gets wrong.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/ga4-setup-essentials/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-07-17", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/ga4-setup-essentials/"}
+{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "GA4 without the overwhelm: the 8 things worth setting up", "description": "A minimal, practical GA4 setup for small businesses, the events, conversions and reports that matter, and the configuration everyone gets wrong.", "image": {"@type": "ImageObject", "url": "https://mediapuppies.com/blog/ga4-setup-essentials/cover.jpg", "width": 1200, "height": 675}, "datePublished": "2026-07-17", "dateModified": "2026-10-15", "author": {"@type": "Organization", "name": "Media Puppies", "url": "https://mediapuppies.com/author/media-puppies/", "sameAs": ["https://www.linkedin.com/company/mediapuppies/"]}, "publisher": {"@type": "Organization", "name": "Media Puppies", "logo": {"@type": "ImageObject", "url": "https://mediapuppies.com/assets/img/logo-full.png"}}, "mainEntityOfPage": "https://mediapuppies.com/blog/ga4-setup-essentials/"}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the minimum GA4 setup worth doing?", "acceptedAnswer": {"@type": "Answer", "text": "Mark the right events as key events, filter out your own traffic, set data retention to 14 months, link Google Ads and Search Console, and keep UTM tagging consistent. Those five take an afternoon and cover most of what a small business needs."}}, {"@type": "Question", "name": "Why does GA4 show different numbers from my ad platform?", "acceptedAnswer": {"@type": "Answer", "text": "They measure different events, at different moments, under different attribution rules, and GA4 samples large datasets. The gap is expected. Use each for what it is good at rather than trying to reconcile them."}}, {"@type": "Question", "name": "Does data retention really need changing?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. GA4 defaults to a short retention window, so year-on-year comparison quietly becomes impossible. Setting it to 14 months is a single toggle and it cannot be applied retrospectively, which is why it is worth doing on day one."}}, {"@type": "Question", "name": "Should I filter my own traffic?", "acceptedAnswer": {"@type": "Answer", "text": "Always. On a low-traffic site, the team’s own visits can be a noticeable share of sessions and will distort every conversion rate you look at."}}]}
@@ -148,7 +148,7 @@ article h2{scroll-margin-top:92px}
 <p>Do not mark page views or scroll depth. Once everything is a conversion, nothing is.</p>
 
 <h2 id="2-filter-out-your-own-traffic">2. Filter out your own traffic</h2>
-<p>Your team refreshing the site is a meaningful share of sessions on a small site. Set up internal traffic filters by IP and switch them to <em>active</em> — creating the filter isn't enough, and that's the step people miss.</p>
+<p>Your team refreshing the site is a meaningful share of sessions on a small site. Set up internal traffic filters by IP and switch them to <em>active</em>, creating the filter isn't enough, and that's the step people miss.</p>
 
 <h2 id="3-turn-on-cross-domain-tracking-if-you-need-it">3. Turn on cross-domain tracking if you need it</h2>
 <p>If your checkout, booking tool or payment page sits on a different domain, GA4 will treat the same person as two users and credit the sale to a referral from your own site. Configure the domains explicitly.</p>
@@ -160,13 +160,13 @@ article h2{scroll-margin-top:92px}
 <p>Without the Ads link, you can't see which campaigns produced which behaviour. Without Search Console, organic queries stay invisible inside GA4.</p>
 
 <h2 id="6-set-up-utm-discipline">6. Set up UTM discipline</h2>
-<p>GA4 can only report what your links tell it. Agree a convention — lowercase, consistent source and medium values — and use it everywhere. <em>facebook</em> and <em>Facebook</em> become two different sources and nobody notices for months.</p>
+<p>GA4 can only report what your links tell it. Agree a convention, lowercase, consistent source and medium values, and use it everywhere. <em>facebook</em> and <em>Facebook</em> become two different sources and nobody notices for months.</p>
 
 <h2 id="7-build-three-reports-and-ignore-the-rest">7. Build three reports and ignore the rest</h2>
 <ul>
-<li><strong>Key events by session source</strong> — what actually produces results.</li>
-<li><strong>Landing page performance</strong> — where paid traffic arrives and whether it converts.</li>
-<li><strong>Core Web Vitals</strong> via the Search Console link — <a href="/blog/core-web-vitals-india/">speed on real devices</a>.</li>
+<li><strong>Key events by session source</strong>: what actually produces results.</li>
+<li><strong>Landing page performance</strong>: where paid traffic arrives and whether it converts.</li>
+<li><strong>Core Web Vitals</strong> via the Search Console link, <a href="/blog/core-web-vitals-india/">speed on real devices</a>.</li>
 </ul>
 
 <h2 id="8-send-server-side-events-too">8. Send server-side events too</h2>
@@ -176,7 +176,7 @@ article h2{scroll-margin-top:92px}
 
 <h2 id="what-to-leave-out-of-a-ga4-setup">What to leave out of a GA4 setup</h2>
 <ul>
-<li><strong>GA4 not matching platform numbers.</strong> It never will — different windows, different models. <a href="/blog/attribution-models-explained/">Here's why.</a></li>
+<li><strong>GA4 not matching platform numbers.</strong> It never will, different windows, different models. <a href="/blog/attribution-models-explained/">Here's why.</a></li>
 <li><strong>Bounce rate.</strong> GA4 measures engagement instead, and it's more useful.</li>
 <li><strong>Exploring every report.</strong> Most exist for enterprises with dedicated analysts.</li>
 </ul>
@@ -212,7 +212,7 @@ document.querySelectorAll('article h2[id]').forEach(function(h){io.observe(h)})}
   <div>
     <div data-rev="zoom" data-reveal="0" style="background:linear-gradient(160deg,#3A43E8 0%,#3038D8 60%,#232A9E 100%);border-radius:28px;color:#FFFFFF;box-shadow:0 30px 70px rgba(48,56,216,.3);text-align:center;padding:clamp(40px,6vw,58px) 24px">
       <h2 style="font-family:'Clash Display',sans-serif;font-weight:700;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:-.02em;margin:0;color:#FFFFFF">Want this run on your account?</h2>
-      <p style="margin:12px auto 0;color:rgba(255,255,255,.78);font-size:1.02rem;max-width:40ch">Two minutes. We'll tell you what's realistic — including if the answer is no.</p>
+      <p style="margin:12px auto 0;color:rgba(255,255,255,.78);font-size:1.02rem;max-width:40ch">Two minutes. We'll tell you what's realistic, including if the answer is no.</p>
       <div style="margin-top:28px;display:flex;justify-content:center">
         <a data-magnet href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:1.02rem;white-space:nowrap;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:16px 32px;border-radius:999px;box-shadow:0 14px 34px rgba(0,0,0,.3)" style-hover="color:#181C4F">Start a project
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
