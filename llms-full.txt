@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-19.
+Updated 2026-11-20.
 
 ## Service, market and company pages
 
@@ -92,6 +92,7 @@ Updated 2026-11-19.
 - [Full service marketing agency or specialists: how to choose, and what each gets wrong](https://mediapuppies.com/blog/full-service-agency-vs-specialists/): Full service marketing agency or specialist agencies? What a full service agency does, where each option fails, what coordination costs and how to choose.
 - [Google Ads management cost: pricing models, fees and what you should pay for](https://mediapuppies.com/blog/google-ads-management-cost/): Google Ads management pricing explained: flat fee, percentage of spend and performance models, what pushes management fees up and how to judge a quote.
 - [Google Ads management fees: what 29 US, UK and Australian agencies publish](https://mediapuppies.com/blog/google-ads-management-fees-study/): Google Ads management fees as 29 US, UK and Australian agencies publish them: entry fees, percent of spend, setup fees, contracts and notice periods.
+- [Google Partner agency claims: what 43 US, UK and Australian PPC agencies show, and what we could check](https://mediapuppies.com/blog/google-partner-agencies-study/): How many PPC agencies claim to be a Google Partner agency or Premier Partner, how they show it, and what Google's public directory lets you check.
 - [Does a Google Partner badge mean anything](https://mediapuppies.com/blog/google-partner-badge-worth-it/): What the Google Partner badge requires, what it does not tell you about an agency, and the two checks worth more than any row of partner badges.
 - [How to choose a Google Ads agency: eight checks before you hand over the account](https://mediapuppies.com/blog/how-to-choose-google-ads-agency/): Choosing a Google Ads agency? Eight checks on account access, search terms, tracking and fees that separate careful managers from autopilot.
 - [How to evaluate agency case studies properly](https://mediapuppies.com/blog/how-to-evaluate-agency-case-studies/): Agency case studies are written by the people being judged. Four questions turn one into evidence, and show what the headline number is leaving out.
