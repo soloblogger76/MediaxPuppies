@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-20.
+Updated 2026-11-21.
 
 ## Service, market and company pages
 
@@ -275,6 +275,7 @@ Updated 2026-11-20.
 - [White label PPC pricing: how partners bill and where the margin goes](https://mediapuppies.com/blog/white-label-ppc-pricing/): White label PPC pricing comes as a per-account retainer, a percentage of ad spend or hourly billing. Who carries the risk in each and what is excluded.
 - [White label PPC providers compared: what 25 providers offer, and what their pages leave out](https://mediapuppies.com/blog/white-label-ppc-providers-compared/): White label PPC providers compared: we read the pages of 25 providers and coded platforms, reporting, pricing, contracts, NDAs and account ownership.
 - [White label reporting: how to build white label reports clients trust](https://mediapuppies.com/blog/white-label-reporting/): White label reporting explained: what goes in white label reports, a free PPC report template, a monthly workflow, tools, leaks and the questions to ask a partner.
+- [White label reporting tools compared: what 20 vendors promise, and where white label starts](https://mediapuppies.com/blog/white-label-reporting-tools-study/): White label reporting tools compared: we read the white label and pricing pages of 20 vendors and coded branding, plans, prices, trials and connectors.
 - [Why agencies lose clients (it is almost never the results)](https://mediapuppies.com/blog/why-agencies-lose-clients/): Why agencies lose clients, written by one: seven patterns from inherited accounts, and almost none of them are about the results themselves.
 - [7 reasons your cost per lead is high (that aren't the algorithm)](https://mediapuppies.com/blog/why-cost-per-lead-is-high/): Leads getting more expensive every month? The seven causes we find in almost every account audit, in the order worth fixing. Mostly it is not your targeting.
 - [YouTube ads for Indian businesses: where they actually fit](https://mediapuppies.com/blog/youtube-ads-india/): Where YouTube ads in India actually fit for D2C and lead generation, campaign types, creative for skippable formats, and what results to expect.
