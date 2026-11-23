@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#F6F5EF">
-<title>Time Zone Overlap Calculator for Remote Teams</title>
+<title>Time zone overlap calculator: working hours shared with PST</title>
 <link rel="preconnect" href="https://api.fontshare.com">
 <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
 <link rel="preload" as="style" href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap&v=2">
@@ -14,16 +14,16 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icon-96.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180.png">
-<meta name="description" content="How many hours your working day shares with a team or client in another country, and what shift pattern fixes it when the answer is none.">
+<meta name="description" content="See how many working hours your day shares with a team in PST, EST, GMT or AEST, whether you get 4 shared hours, and the shift that closes the gap.">
 <meta property="og:site_name" content="Media Puppies">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Time zone overlap calculator">
-<meta property="og:description" content="How many hours your working day shares with a team or client in another country, and what shift pattern fixes it when the answer is none.">
+<meta property="og:title" content="Time zone overlap calculator: working hours shared with PST, EST or GMT">
+<meta property="og:description" content="See how many working hours your day shares with a team in PST, EST, GMT or AEST, whether you get 4 shared hours, and the shift that closes the gap.">
 <meta property="og:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <meta property="og:url" content="https://mediapuppies.com/tools/timezone-overlap-calculator/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Time zone overlap calculator">
-<meta name="twitter:description" content="How many hours your working day shares with a team or client in another country, and what shift pattern fixes it when the answer is none.">
+<meta name="twitter:title" content="Time zone overlap calculator: working hours shared with PST, EST or GMT">
+<meta name="twitter:description" content="See how many working hours your day shares with a team in PST, EST, GMT or AEST, whether you get 4 shared hours, and the shift that closes the gap.">
 <meta name="twitter:image" content="https://mediapuppies.com/assets/img/og-image.png">
 <link rel="canonical" href="https://mediapuppies.com/tools/timezone-overlap-calculator/">
 <script type="application/ld+json">
@@ -33,11 +33,11 @@
   {
    "@type": "WebApplication",
    "@id": "https://mediapuppies.com/tools/timezone-overlap-calculator/#app",
-   "name": "Time zone overlap calculator",
+   "name": "Time zone overlap calculator: working hours shared with PST, EST or GMT",
    "url": "https://mediapuppies.com/tools/timezone-overlap-calculator/",
    "applicationCategory": "BusinessApplication",
    "operatingSystem": "Any",
-   "description": "How many hours your working day shares with a team or client in another country, and what shift pattern fixes it when the answer is none.",
+   "description": "See how many working hours your day shares with a team in PST, EST, GMT or AEST, whether you get 4 shared hours, and the shift that closes the gap.",
    "offers": {
     "@type": "Offer",
     "price": "0",
@@ -65,7 +65,7 @@
     {
      "@type": "ListItem",
      "position": 3,
-     "name": "Time zone overlap calculator",
+     "name": "Time zone overlap calculator: working hours shared with PST, EST or GMT",
      "item": "https://mediapuppies.com/tools/timezone-overlap-calculator/"
     }
    ]
@@ -182,14 +182,14 @@ details[open] .plus{transform:rotate(45deg)}
 
 <main class="wrap" style="padding:34px 20px 10px">
   <span class="pill">Working remotely</span>
-  <h1 style="margin:16px 0 0">Time zone overlap calculator</h1>
+  <h1 style="margin:16px 0 0">Time zone overlap calculator: working hours shared with PST, EST or GMT</h1>
   <p style="margin:14px 0 0;font-size:1.08rem;color:rgba(24,28,79,.72)">Before you hire or outsource across time zones, it is worth knowing exactly how many hours a day you can actually talk to each other. The answer is often smaller than people assume, and occasionally larger.</p>
   
 
   <div class="card" style="margin-top:26px">
     <div class="row"><div class="field"><label for="a_start">Your day starts (hour, 24h)</label><input id="a_start" type="number" inputmode="decimal" step="1" min="0" value="9"><p class="hint">Use your local clock.</p></div><div class="field"><label for="a_end">Your day ends (hour, 24h)</label><input id="a_end" type="number" inputmode="decimal" step="1" min="0" value="18"></div><div class="field"><label for="offset">Their offset from you (hours)</label><input id="offset" type="number" inputmode="decimal" step="any" min="0" value="-9.5"><p class="hint">Negative if they are behind you. India to New York is about -9.5.</p></div><div class="field"><label for="b_start">Their day starts (hour, 24h)</label><input id="b_start" type="number" inputmode="decimal" step="1" min="0" value="9"><p class="hint">Their local clock.</p></div><div class="field"><label for="b_end">Their day ends (hour, 24h)</label><input id="b_end" type="number" inputmode="decimal" step="1" min="0" value="17"></div></div>
     <div class="out">
-      <div class="row"><div class="metric"><div class="k">Overlap</div><div class="v" id="o_overlap">—</div><div class="s" id="o_overlap-s">hours a day</div></div><div class="metric"><div class="k">Shared window</div><div class="v" id="o_window">—</div><div class="s" id="o_window-s">in your time</div></div><div class="metric"><div class="k">Same window</div><div class="v" id="o_theirs">—</div><div class="s" id="o_theirs-s">in their time</div></div></div><div class="row" style="margin-top:18px"><div class="metric"><div class="k">Shift that gives 4 hours</div><div class="v" id="o_shift">—</div><div class="s" id="o_shift-s">your start time</div></div><div class="metric"><div class="k">Of your working day</div><div class="v" id="o_pct">—</div><div class="s" id="o_pct-s"></div></div><div class="metric"><div class="k">Their day, in your time</div><div class="v" id="o_verdictnum">—</div><div class="s" id="o_verdictnum-s"></div></div></div>
+      <div class="row"><div class="metric"><div class="k">Overlap</div><div class="v" id="o_overlap">-</div><div class="s" id="o_overlap-s">hours a day</div></div><div class="metric"><div class="k">Shared window</div><div class="v" id="o_window">-</div><div class="s" id="o_window-s">in your time</div></div><div class="metric"><div class="k">Same window</div><div class="v" id="o_theirs">-</div><div class="s" id="o_theirs-s">in their time</div></div></div><div class="row" style="margin-top:18px"><div class="metric"><div class="k">Shift that gives 4 hours</div><div class="v" id="o_shift">-</div><div class="s" id="o_shift-s">your start time</div></div><div class="metric"><div class="k">Of your working day</div><div class="v" id="o_pct">-</div><div class="s" id="o_pct-s"></div></div><div class="metric"><div class="k">Their day, in your time</div><div class="v" id="o_verdictnum">-</div><div class="s" id="o_verdictnum-s"></div></div></div>
       <div id="o_verdict" class="verdict"></div>
     </div>
     <p class="note">Runs entirely in your browser. Nothing you type is sent to us or stored anywhere.</p>
@@ -199,7 +199,7 @@ details[open] .plus{transform:rotate(45deg)}
 <h2>The number that decides whether remote work works</h2>
 <p>Distance is not the problem. Overlap is. A team eight thousand kilometres away with five shared hours is easier to work with than one three time zones away where both sides keep rigid local hours.</p>
 <h2>Rough offsets from India</h2>
-<table><thead><tr><th>Market</th><th>Offset from IST</th><th>Overlap with a 9&ndash;6 India day</th></tr></thead><tbody>
+<table><thead><tr><th>Market</th><th>Offset from IST</th><th>Overlap with a 9 to 6 India day</th></tr></thead><tbody>
 <tr><td>UAE</td><td>about &minus;1.5</td><td>Nearly the whole day</td></tr>
 <tr><td>United Kingdom</td><td>about &minus;4.5 to &minus;5.5</td><td>Most of the afternoon</td></tr>
 <tr><td>Germany, France</td><td>about &minus;3.5 to &minus;4.5</td><td>Most of the afternoon</td></tr>
@@ -221,18 +221,18 @@ details[open] .plus{transform:rotate(45deg)}
   <div><details><summary>Where do I find the offset?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Search for the current time in both cities and subtract. Enter a negative number if they are behind you. Half-hour offsets are fine, India is on a half-hour offset from almost everywhere.</p></details><details><summary>Does this account for daylight saving?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">No, and you should check it twice a year. India does not observe it, so the gap to Europe, North America and Australia shifts by an hour in spring and autumn.</p></details><details><summary>What is a workable minimum overlap?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Two hours is enough for a daily call and same-day answers. Four is comfortable. Below one hour, the relationship has to be designed around writing rather than talking.</p></details><details><summary>Should the overlap be in my morning or afternoon?<span class="plus">+</span></summary><p style="color:rgba(24,28,79,.74);font-size:.97rem;padding-bottom:16px">Whichever is the other side’s morning, if you can. People answer faster and decide faster at the start of their own day than at the end of it.</p></details></div>
 
   <h2>Embed this calculator</h2>
-  <p>Free to use on your own site. Copy this into your page &mdash; the attribution line is the only condition.</p>
+  <p>Free to use on your own site. Copy this into your page. The attribution line is the only condition.</p>
   <textarea readonly rows="7" onclick="this.select()" style="width:100%;box-sizing:border-box;padding:14px;border:1.5px solid rgba(24,28,79,.16);border-radius:12px;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55;color:#181C4F">&lt;iframe id="mp-timezone-overlap-calculator" src="https://mediapuppies.com/embed/timezone-overlap-calculator/" width="100%" height="700" style="border:1px solid #e5e5e5;border-radius:16px" loading="lazy" title="Time zone overlap calculator"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://mediapuppies.com/tools/timezone-overlap-calculator/"&gt;Time zone overlap calculator&lt;/a&gt; by &lt;a href="https://mediapuppies.com/"&gt;Media Puppies&lt;/a&gt;&lt;/p&gt;
 &lt;script&gt;addEventListener('message',function(e){if(e.origin==='https://mediapuppies.com'&amp;&amp;e.data&amp;&amp;e.data.mpSlug==='timezone-overlap-calculator')document.getElementById('mp-timezone-overlap-calculator').style.height=e.data.mpHeight+'px'})&lt;/script&gt;</textarea>
-  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column &mdash; drop it if you prefer, the fixed height still works.</p>
+  <p class="note">The paragraph below the iframe is the part that matters: an iframe's contents are served from our domain, so a link inside it is not a link from your page. The paragraph is. The small script just resizes the frame to fit your column; drop it if you prefer, the fixed height still works.</p>
 
   <h2>Other free tools</h2>
   <ul style="padding-left:20px;line-height:2"><li><a href="/tools/agency-vs-inhouse-calculator/">Agency vs in-house calculator</a></li><li><a href="/tools/utm-builder/">UTM builder</a></li><li><a href="/tools/budget-pacing-calculator/">Budget pacing calculator</a></li></ul>
 
   <div class="card" style="margin:34px 0 0;background:linear-gradient(160deg,#3A43E8,#3038D8);border:none;color:#fff">
     <h2 style="margin:0 0 8px;color:#fff;font-size:1.4rem">Want someone to run the campaigns behind these numbers?</h2>
-    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for businesses where one customer is worth real money. You will get a straight answer on whether paid works for you &mdash; including &ldquo;not yet&rdquo;.</p>
+    <p style="margin:0 0 18px;color:rgba(255,255,255,.82)">We run Meta and Google ads for businesses where one customer is worth real money. You will get a straight answer on whether paid works for you, including &ldquo;not yet&rdquo;.</p>
     <a href="/free-ad-account-audit/#enquire" style="display:inline-flex;align-items:center;gap:9px;font-weight:700;color:#181C4F;background:linear-gradient(180deg,#FFC65C,#FFAC1C);padding:14px 26px;border-radius:999px;text-decoration:none">Get a free account audit &rarr;</a>
   </div>
 </main>
