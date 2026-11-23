@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-22.
+Updated 2026-11-23.
 
 ## Service, market and company pages
 
@@ -276,6 +276,7 @@ Updated 2026-11-22.
 - [White label PPC vs winning clients yourself: what agencies pay per click (2026 data)](https://mediapuppies.com/blog/white-label-ppc-economics/): White label PPC economics from our 2026 data: estimated US costs per click for the searches that bring PPC clients, AI Overview rates and agency Facebook ads.
 - [White label PPC: how it works, what it costs agencies and where it goes wrong](https://mediapuppies.com/blog/white-label-ppc-how-it-works/): White label PPC explained: how a partner runs Google and Meta ads under your agency's brand, who owns the accounts, how billing works and where it goes wrong.
 - [White label PPC pricing: how partners bill and where the margin goes](https://mediapuppies.com/blog/white-label-ppc-pricing/): White label PPC pricing comes as a per-account retainer, a percentage of ad spend or hourly billing. Who carries the risk in each and what is excluded.
+- [What white label PPC providers show agencies before the first call: an audit of 25 provider websites](https://mediapuppies.com/blog/white-label-ppc-provider-websites-study/): We audited 25 white label PPC provider websites for proof, sample reports, NDAs, onboarding, pricing, location and tags. Few show what a partner needs.
 - [White label PPC providers compared: what 25 providers offer, and what their pages leave out](https://mediapuppies.com/blog/white-label-ppc-providers-compared/): White label PPC providers compared: we read the pages of 25 providers and coded platforms, reporting, pricing, contracts, NDAs and account ownership.
 - [White label reporting: how to build white label reports clients trust](https://mediapuppies.com/blog/white-label-reporting/): White label reporting explained: what goes in white label reports, a free PPC report template, a monthly workflow, tools, leaks and the questions to ask a partner.
 - [White label reporting tools compared: what 20 vendors promise, and where white label starts](https://mediapuppies.com/blog/white-label-reporting-tools-study/): White label reporting tools compared: we read the white label and pricing pages of 20 vendors and coded branding, plans, prices, trials and connectors.
