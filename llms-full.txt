@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-23.
+Updated 2026-11-24.
 
 ## Service, market and company pages
 
@@ -212,6 +212,7 @@ Updated 2026-11-23.
 - ["Learning limited" on Meta: what it means and how to fix it](https://mediapuppies.com/blog/learning-limited-meta/): Learning limited on Meta means an ad set will not get enough optimisation events to settle. The usual causes, and fixes that do not reset learning again.
 - [How to leave a marketing agency without losing the account](https://mediapuppies.com/blog/leaving-an-agency-cleanly/): Leaving a marketing agency without losing three months of performance: what you already own, what to take before you give notice, and the handover list.
 - [LinkedIn ads: do the arithmetic before you open the account](https://mediapuppies.com/blog/linkedin-ads-arithmetic/): LinkedIn ads cost a large multiple per click. Whether that is worth paying comes down to one calculation you can finish in about five minutes.
+- [Do LinkedIn Ads work for small business and B2B? We coded 37 owners' own reports](https://mediapuppies.com/blog/linkedin-ads-small-business-owners-study/): Do LinkedIn Ads work for small business? We coded 37 owner reports: 13 said yes, 15 said no, and most failures were clicks that never became leads.
 - [Locksmith Google Ads cost in 2026: what a click costs in the US, UK, Canada and Australia](https://mediapuppies.com/blog/locksmith-google-ads-cost/): Locksmith Google Ads click prices in the US, UK, Canada and Australia from 200 Ahrefs keywords: country medians, city and emergency searches, top terms.
 - [Do lookalike audiences still work? When they do and don't](https://mediapuppies.com/blog/lookalike-audiences-india/): Where lookalike audiences still earn their place, what source list quality does to results, and why broad targeting now beats them in many accounts.
 - [10 things that lower cost per lead this week](https://mediapuppies.com/blog/lower-cpl-quick-wins/): Ten ways to lower cost per lead this week: no new creative, no bigger budget, mostly changes you can finish in an afternoon. Ordered by how fast they show.
