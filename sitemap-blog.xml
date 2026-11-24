@@ -1987,4 +1987,11 @@
     <priority>0.6</priority>
     <image:image><image:loc>https://mediapuppies.com/blog/linkedin-ads-small-business-owners-study/cover.jpg</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://mediapuppies.com/blog/performance-max-advertiser-reports-study/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://mediapuppies.com/blog/performance-max-advertiser-reports-study/cover.jpg</image:loc></image:image>
+  </url>
 </urlset>
