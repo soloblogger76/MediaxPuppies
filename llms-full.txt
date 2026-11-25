@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-24.
+Updated 2026-11-25.
 
 ## Service, market and company pages
 
@@ -248,6 +248,7 @@ Updated 2026-11-24.
 - [Real estate Facebook ads: what 87 US advertisers run, write and link to, from five of our studies](https://mediapuppies.com/blog/real-estate-facebook-ads/): Real estate Facebook ads, from our own data: what 87 US real estate advertisers run on Facebook and Instagram, what the ads say and where the clicks land.
 - [Real estate lead generation in India: what actually produces site visits](https://mediapuppies.com/blog/real-estate-lead-generation-india/): Real estate lead generation in India, done properly: why cheap leads are the trap, the qualification that matters, and how to get from enquiry to site visit.
 - [What do real estate leads cost in 2026? Zillow's new fee, and the Facebook, Google and ChatGPT numbers agents showed on YouTube](https://mediapuppies.com/blog/real-estate-leads-cost/): Real estate leads in 2026: Zillow's 15% to 40% success fee, Facebook leads at $4 to $10, and 104 numbers from 14 agent and marketer videos on YouTube.
+- [Do Reddit Ads work? We coded 141 founders' and owners' own reports](https://mediapuppies.com/blog/reddit-ads-owners-study/): Do Reddit Ads work? We coded 141 founder and owner reports: 34 said yes, 67 said no, and the usual failure was cheap clicks that never bought anything.
 - [Retargeting still works. You're probably just measuring it wrong](https://mediapuppies.com/blog/retargeting-measurement/): Why retargeting numbers look worse since the privacy changes, how to read them honestly, and the structure that still earns its place in the account.
 - [Why nobody can guarantee you a ROAS](https://mediapuppies.com/blog/roas-guarantees-red-flag/): A ROAS guarantee from an agency that has not seen your margins is either a guess or a future excuse. What they are really doing, and what to ask instead.
 - [Roof replacement ads: what 100 live US Facebook ads offer, and who runs them](https://mediapuppies.com/blog/roof-replacement-ads/): Roof replacement ads, studied: we read the first 100 live US Facebook and Instagram ads for the phrase. 27 came from lead sites and other sellers.
