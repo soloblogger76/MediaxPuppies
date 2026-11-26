@@ -2,7 +2,7 @@
 
 > One line per page: title, URL and summary. Curated guide: https://mediapuppies.com/llms.txt
 
-Updated 2026-11-25.
+Updated 2026-11-26.
 
 ## Service, market and company pages
 
@@ -222,6 +222,7 @@ Updated 2026-11-25.
 - [The daily, weekly and monthly rhythm that keeps marketing working](https://mediapuppies.com/blog/marketing-operating-rhythm/): A marketing operating rhythm that survives contact with a busy week: what to check daily, review weekly and monthly, and what to deliberately leave alone.
 - [Media buyer, performance marketer, growth manager: the real differences](https://mediapuppies.com/blog/media-buyer-vs-performance-marketer/): Media buyer vs performance marketer vs growth manager: what each title actually owns, which one your business needs first, and why the wrong hire stalls.
 - [Ad account disabled? The recovery playbook](https://mediapuppies.com/blog/meta-ad-account-ban-recovery/): Meta ad account restricted? What to do in the first hour, how to write an appeal that works, and the habits that keep accounts alive afterwards.
+- [Facebook ad account disabled or restricted: what 98 advertisers report about the cause, the review and the outcome](https://mediapuppies.com/blog/meta-ad-account-restricted-reports-study/): Facebook ad account disabled? We coded 98 first-hand reports: what was restricted, the reason given, the review path, how long it took and who got access back.
 - [How much should you actually spend on Meta Ads in India?](https://mediapuppies.com/blog/meta-ads-budget-india/): How to set a Meta ads budget in India from your own margins rather than a figure someone quoted: what a customer is worth, backwards to a monthly number.
 - [The 14-point checklist we run before any Meta campaign goes live](https://mediapuppies.com/blog/meta-ads-pre-launch-checklist/): A Meta Ads checklist to work through before launch day, tracking, creative, audiences, budget and policy, so week one buys data and not mistakes.
 - [Advantage+ : when to let Meta drive, and when to take the wheel](https://mediapuppies.com/blog/meta-advantage-plus-guide/): Meta Advantage Plus in practice: when handing over control genuinely wins, when to keep manual targeting, and what to watch once it is running.
